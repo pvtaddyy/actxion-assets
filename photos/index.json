@@ -72,6 +72,18 @@
    }
   ]
  },
+ "bruno-fernandes": {
+  "name": "Bruno Fernandes",
+  "variants": [
+   {
+    "credit": "Photo: GiveMeSport",
+    "file": "photos/bruno-fernandes.jpg",
+    "source": "article",
+    "url": "https://www.givemesport.com/man-utd-fans-want-rid-diogo-dalot-disgraceful-vs-roma/",
+    "used": 1
+   }
+  ]
+ },
  "bukayo-saka": {
   "name": "Bukayo Saka",
   "variants": [
@@ -328,6 +340,18 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/martin-odegaard.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg/1920px-Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "matheus-cunha": {
+  "name": "Matheus Cunha",
+  "variants": [
+   {
+    "credit": "Photo: Sky Sports",
+    "file": "photos/matheus-cunha.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/video/13607630/manchester-united-vs-roma-michael-dawson-reacts-to-bruno-fernandes-penalty-drama",
     "used": 1
    }
   ]
