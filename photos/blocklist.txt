@@ -1,0 +1,8 @@
+# Wikimedia files that are the wrong person, not football, or likely unlicensed club/agency shots.
+# One filename fragment per line; find_photo.py skips any URL containing one.
+Unai_Emery_Manager
+Bradley_Barcola_at_Liverpool_Signing
+Via_G._Gattuso
+Via_Gigino_Gattuso
+Gennaro_Gattuso_Wandbild
+Emery_Valentine
