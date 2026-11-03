@@ -9,7 +9,7 @@ The account posts football controversy, rumours and debates. Its images should l
 
 ## The design language: Still Frame
 
-Read `DESIGN.md` before designing anything. In short: the real photo is the hero, in its own colours. One headline in Instrument Sans (sentence case), a small mono dateline in Geist Mono, the human line (quote, kicker, question) in Instrument Serif. The only colour added is one accent taken from the photo itself (the kit, a board), used as a small mark. Warm paper (`#F4F2EE`) and deep ink (`#0E0F11`) panels, generous margins, nothing crowded, nothing decorative. The older newsprint and red-card look is retired; `--style classic` still renders it if ever needed.
+Read `DESIGN.md` before designing anything. In short: every card is the real photo, full-bleed, in its own colours, with a soft vignette tinted from the photo's own tones behind the type. Headlines run in caps (Instrument Sans Bold). Wrap the one or two words that carry the story in asterisks, like `"Carrick leaves *Lisandro* on the bench"`; they get a marker block in the accent colour. The accent is taken from the photo itself (the kit, a board). Mono datelines (Geist Mono), the human line in Instrument Serif. The older newsprint and red-card look is retired; `--style classic` still renders it if ever needed.
 
 **Size: portrait 4:5 (1080x1350) by default.** On the X phone app a single 4:5 image shows uncropped and fills about twice the screen of a 16:9 one, which is what X's dwell-time ranking rewards. Use `--size x` (1600x900) only for a deliberate test; the weekly report compares the two.
 
@@ -19,11 +19,13 @@ Pick the object that matches the story. The story decides the template, not the 
 
 | Template | Look | Use for | Spec fields |
 |---|---|---|---|
-| `poster` / `backpage` | Full-bleed photo, headline and italic kicker on the lower third | The big story about one person: pressure, records, sackings, viral moments | `headline`, `kicker`, `label`, `date`, `photo`, `credit` |
-| `ballot` | Two photos side by side with "or" on the seam, question on top | Fan verdict A-or-B debates | `question`, `option_a`, `option_b`, `photo_a`, `photo_b`, `credit_a`, `credit_b`, `label`, `context` (text-only version) |
-| `scoreboard` | Ink panel with big score, photo below (portrait) or beside (wide) | Full time, half time, kick-off previews | `home`, `away`, `home_score`, `away_score`, `scorers`, `status`, `label`, `question`, `photo`, `photo_label`, `credit` |
-| `rumour` | Photo on top, a clean file of From / To / Fee / Source, reliability squares | Transfer and manager rumours with the source tier | `player`, `from_club`, `to_club`, `fee`, `source`, `tier` (1-3), `photo`, `credit` |
-| `redcard` | Photo on top, the quote large in serif on paper | A quote, an outburst, a press-conference line | `quote`, `speaker`, `context`, `label`, `photo`, `credit` |
+| `poster` / `backpage` | Full photo, caps headline and italic kicker on the lower third | The big story about one person: pressure, records, sackings, viral moments | `headline`, `kicker`, `label`, `date`, `photo`, `credit` |
+| `ballot` | Two full-height photos side by side, "or" on the seam, question on top | Fan verdict A-or-B debates | `question`, `option_a`, `option_b`, `photo_a`, `photo_b`, `credit_a`, `credit_b`, `label` |
+| `scoreboard` | Full photo with the score table and club badges over the top | Full time, half time, kick-off previews | `home`, `away`, `home_score`, `away_score`, `scorers`, `status`, `label`, `question`, `photo`, `photo_label`, `credit`; optional `home_crest_name` / `away_crest_name` when the short name is ambiguous (e.g. "Man Utd" -> "Manchester United") |
+| `rumour` | Full photo, player name, badge FROM -> badge TO, fee, source, reliability squares | Transfer and manager rumours with the source tier | `player`, `from_club`, `to_club`, `fee`, `source`, `tier` (1-3), `photo`, `credit` |
+| `redcard` | Full photo, the quote large in serif over the lower half | A quote, an outburst, a press-conference line | `quote`, `speaker`, `context`, `label`, `photo`, `credit` |
+
+Club badges are looked up automatically from each club's Wikipedia page and cached in `photos/crests/`. Use full club names (or the `*_crest_name` fields) so the lookup finds the right club. Highlighting with `*asterisks*` works in `headline`, `question`, `quote`, `player` and `option_a`/`option_b`; use it on at most two words.
 
 **Use a photo of the person whenever the story is about a person.** Real faces stop the scroll and make the image make sense on its own. The photo variants switch on automatically when the photo fields are filled. A ballot about two players shows both; a scoreboard shows the manager under pressure or the match winner; a red card shows whoever said it. Fall back to the text-only version only when Commons has no free HD photo of that person, and never use a photo of someone else.
 
