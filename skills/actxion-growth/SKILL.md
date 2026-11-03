@@ -59,7 +59,7 @@ Rotate templates so no two consecutive posts use the same one.
 
 ## Volume and timing
 
-- **Volume:** each desk aims for 5 to 6 posts (owner's call, 4 Nov 2026), about 30 to 40 a day. Author diversity decay means each extra post reaches fewer people, so the daily review watches reach per post; if it falls steadily for a week, recommend going back to 3 to 4. On big match nights, put the extra posts in the 90 minutes after full time.
+- **Volume (owner's call, 4 Nov 2026):** heavy when UK and European fans are online, lighter when they're not. Peak desks (16:30, 20:30, 00:30 IST, covering 17:00 to 03:00 IST) post up to 8 each, at least 6, about one every 20 minutes. Off-peak desks (05:00 night owl, 07:30, 12:30 IST) post up to 5, at least 4, about one every 40 minutes. The full-time desk adds 3 to 6 after the big games. That's about 35 to 50 posts a day. Never post filler to hit a number. The daily review watches reach per post; if it falls steadily for a week, recommend trimming the peak desks first.
 - **Audience:** mostly UK and European fans, with big pockets in Nigeria, India and the US. In IST: UK lunchtime is 17:00 to 19:30, UK evening is 23:00 to 03:30, and Champions League full time is around 03:15 to 03:45. Weekend Premier League full times are about 21:20, 23:50 and 02:20.
 - **Spacing:** at least 20 minutes between posts, except straight after full time, where 15 minutes is fine.
 
