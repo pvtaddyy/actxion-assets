@@ -356,6 +356,17 @@
    }
   ]
  },
+ "mats-hummels": {
+  "name": "Mats Hummels",
+  "variants": [
+   {
+    "credit": "Photo: Michael Kranewitter, Wikimedia Commons, CC BY 3.0 at",
+    "file": "photos/mats-hummels.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/FIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Mats_Hummels_01.jpg/1920px-FIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Mats_Hummels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "maurizio-sarri": {
   "name": "Maurizio Sarri",
   "variants": [
@@ -408,6 +419,18 @@
     "file": "photos/oliver-glasner.jpg",
     "url": "",
     "used": 0
+   }
+  ]
+ },
+ "rayan-ait-nouri": {
+  "name": "Rayan Ait-Nouri",
+  "variants": [
+   {
+    "credit": "Photo: goal.com",
+    "file": "photos/rayan-ait-nouri.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news",
+    "used": 1
    }
   ]
  },
