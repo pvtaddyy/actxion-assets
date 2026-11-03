@@ -96,7 +96,8 @@ def write_index(idx):
 
 def score(title, w, h, name=""):
     # Close single-subject portraits and recent photos win; other people's names, "A & B" and "A v B" lose
-    crowd = len(re.findall(r"&|,| and | v | vs | with ", title))
+    # "A & B" or "A and B" is a two-person shot; "France v Spain" is just the match name
+    crowd = len(re.findall(r"&|,| and | with ", title))
     words = set(norm(name).split())
     extra = [x for x in re.findall(r"\b[A-Z][a-z\u00c0-\u017f]+", title) if norm(x).strip() not in words]
     bonus = 600 if re.search(r"crop|portrait|headshot", title, re.I) else 0
@@ -106,19 +107,20 @@ def score(title, w, h, name=""):
 
 
 def club_hit(club, text):
-    """Bonus when the photo's own text names the club the story is about."""
-    return 700 if club and f" {' '.join(norm(club).split())} " in f" {' '.join(norm(text).split())} " else 0
+    """Small bonus when the photo's text names the club. Kept small: signing-day shots carry the
+    club name and are often club photos re-uploaded without a real licence."""
+    return 250 if club and f" {' '.join(norm(club).split())} " in f" {' '.join(norm(text).split())} " else 0
 
 
 def queries(name, club):
     # "Name + club" first: it lands on the right person in one search
-    return [f'"{name}" {club}', f'"{name}"'] if club else [f'"{name}"']
+    return [f'intitle:"{name}" {club}', f'intitle:"{name}"'] if club else [f'intitle:"{name}"']
 
 
 def from_openverse(name, tries, club=""):
     out, seen = [], set()
     for query in queries(name, club):
-        q = urllib.parse.quote(query)
+        q = urllib.parse.quote(query.replace("intitle:", ""))
         d = get(f"https://api.openverse.org/v1/images/?q={q}&license_type=commercial&page_size=40", tries)
         for r in (d or {}).get("results", []):
             w, h = r.get("width") or 0, r.get("height") or 0
@@ -189,6 +191,16 @@ def face_ok(data):
     return False
 
 
+def blocked(url):
+    """Files we've caught as the wrong person or unlicensed: photos/blocklist.txt, one fragment per line."""
+    try:
+        with open(os.path.join(LIB, "blocklist.txt")) as f:
+            frags = [l.strip() for l in f if l.strip() and not l.startswith("#")]
+    except FileNotFoundError:
+        return False
+    return any(fr in url for fr in frags)
+
+
 def add_variant(name, entry, tries, club=""):
     """Download the best candidate not already in the library. Returns True if one was added.
 
@@ -200,7 +212,7 @@ def add_variant(name, entry, tries, club=""):
         for _, url, credit in finder(name, tries, club)[:4]:
             if DEADLINE - time.time() < 5:
                 break
-            if url in have:
+            if url in have or blocked(url):
                 continue
             data = get(url, tries, binary=True)
             if not data or not (data[:3] == b"\xff\xd8\xff" or data[:8] == b"\x89PNG\r\n\x1a\n"):
