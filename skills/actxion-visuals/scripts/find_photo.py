@@ -42,6 +42,8 @@ DEADLINE = time.time() + 40
 
 
 def norm(s):
+    # Letters NFKD can't split into a base letter (Turkish ı, Nordic ø, German ß) are mapped by hand
+    s = s.translate(str.maketrans({"ı": "i", "İ": "I", "ø": "o", "Ø": "O", "ß": "ss", "ł": "l", "Ł": "L", "đ": "d", "æ": "ae"}))
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9 ]+", " ", s.lower())
 
