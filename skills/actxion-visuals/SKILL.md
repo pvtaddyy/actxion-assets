@@ -19,21 +19,24 @@ The account posts football controversy, rumours and debates. Its images should l
 
 Inter, Space Grotesk, Geist and the other "tasteful default" faces are avoided on purpose.
 
-**Photos:** only free-licence HD photos from Wikimedia Commons, credited. They are printed as a **newspaper halftone**, which makes a 2019 file photo look like a deliberate editorial choice instead of an old picture, and keeps the black-and-red palette intact. Never use agency or TV images, and never AI images of real people.
+**Photos:** only free-licence HD photos from Wikimedia Commons, credited. They are shown **as real photos in their own colours**: cropped, levelled and sharpened, never tinted red, turned black and white or printed as dots. The owner's call: a real face next to the design's text is what makes the post feel relevant. The brand colours live in the type, panels, cards and stamps, not on the person. (`"photo_style": "print"` brings back the old halftone/duotone look for a one-off, but don't use it by default.) Never use agency or TV images, and never AI images of real people.
 
 **Texture:** a little paper grain, hand-crooked stamps and slips. Real objects are never perfectly straight; that is part of why these read as made rather than generated.
 
-## The five templates
+## The six templates
 
 Pick the object that matches the story. The story decides the template, not the other way round.
 
 | Template | Football object | Use for | Spec fields |
 |---|---|---|---|
 | `backpage` | Red-top tabloid back page | Big news, manager pressure, records, viral moments | `headline`, `kicker`, `photo`, `credit`, `date` |
-| `ballot` | Paper ballot slip with tick boxes | "Fan verdict" A-or-B debates | `question`, `option_a`, `option_b`, `context` |
-| `scoreboard` | Stadium dot-matrix board | Full-time results, half-time, big scorelines | `home`, `away`, `home_score`, `away_score`, `scorers`, `status`, `question` |
+| `ballot` | Paper ballot slip with tick boxes | "Fan verdict" A-or-B debates | `question`, `option_a`, `option_b`, `context`; for two people add `photo_a`, `photo_b`, `credit_a`, `credit_b` |
+| `scoreboard` | Stadium dot-matrix board | Full-time results, half-time, big scorelines | `home`, `away`, `home_score`, `away_score`, `scorers`, `status`, `question`; add `photo`, `photo_label`, `credit` for the player or manager of the night |
 | `rumour` | Typed transfer file with a rubber stamp | Transfer and manager rumours, with the source's reliability tier | `player`, `from_club`, `to_club`, `fee`, `source`, `tier` (1-3), `photo`, `credit` |
-| `redcard` | Referee's red card | A controversial quote, a manager or player outburst | `quote`, `speaker`, `context`, `label` |
+| `redcard` | Referee's red card | A controversial quote, a manager or player outburst | `quote`, `speaker`, `context`, `label`; add `photo`, `credit` to print the speaker beside the card |
+| `poster` | Full-height red-and-black print of one person | The one big story about one person: pressure, a record, a return | `headline`, `kicker`, `label`, `photo`, `credit` |
+
+**Use a photo of the person whenever the story is about a person.** Real faces stop the scroll and make the image make sense on its own. The photo variants switch on automatically when the photo fields are filled. A ballot about two players shows both; a scoreboard shows the manager under pressure or the match winner; a red card shows whoever said it. Fall back to the text-only version only when Commons has no free HD photo of that person, and never use a photo of someone else.
 
 ## Render
 
@@ -48,6 +51,8 @@ python3 ~/.claude/skills/actxion-visuals/scripts/render.py ballot \
 - `photo` takes a local path or a Wikimedia `https://upload.wikimedia.org/...` URL.
 - The script needs Pillow (`pip install pillow`) and nothing else. Fonts and logo masks ship in `assets/`, so it renders the same on a Mac and on a Linux cloud box.
 
+Thumbnail URLs (`.../thumb/.../2560px-...`) also work: if Commons refuses the size, the renderer retries 3840px, 1920px and then the original file.
+
 To find a photo, search Commons for the person's full name or the stadium. Keep only CC0, public domain, CC BY or CC BY-SA files at least 2000px on the long side, and put the credit in the post's first comment as well as on the image.
 
 ## Copy on images
@@ -56,6 +61,7 @@ The renderer already strips em dashes and underscores, and drops full stops from
 - Headlines are what a back-page sub-editor would write. Short, one idea, no full stop at the end, and a question mark only when it is a real question.
 - A full stop in the middle of a headline ("NINE WITHOUT A WIN. IS TONIGHT CARRICK'S LAST?") is fine when it is two beats. Avoid it otherwise.
 - No hashtags on images, no "BREAKING" unless a Tier 1 source confirmed it, no emoji on images.
+- Kick-off and other times on images are UK time, e.g. `"status": "Kick-off 8pm UK"`. Never IST.
 - Never invent a score, quote or fee. If the fee is unknown, write "Not reported".
 
 ## Check before posting
@@ -69,4 +75,13 @@ Look at the PNG, because a render can hide problems the spec can't. Check:
 
 ## Getting images to X from a cloud routine
 
-Metricool only accepts a public image URL. In the cloud, commit the PNG to the ACTXION assets GitHub repository the routine has cloned, push, and pass the `raw.githubusercontent.com` URL to Metricool. Metricool copies the file to its own storage when the post is scheduled. Never upload brand files to anonymous public file-sharing hosts.
+This is tested and working (3 Nov 2026):
+
+1. **Install Pillow** with `python3 -m pip install -q --ignore-installed pillow`. Plain `pip` installs for a different Python on the cloud box, and the system copy of Pillow there is broken.
+2. **Check out the posts branch:** `git fetch -q origin claude/posts && git checkout -q -B claude/posts origin/claude/posts`. Cloud runs can push to `claude/` branches; `main` holds the skills.
+3. **Render** to `posts/<YYYY-MM-DD>/<HHMM>-<slug>.png`.
+4. **Commit and push:** `git pull -q --rebase origin claude/posts; git push -q origin claude/posts`.
+5. **Get the image URL:** `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/<path>`. It returns 200 within seconds.
+6. **Schedule:** pass that URL in Metricool's `media`. Metricool copies the file to static.metricool.com when the post is scheduled.
+
+Never upload brand files to anonymous public file-sharing hosts.

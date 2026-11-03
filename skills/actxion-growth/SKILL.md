@@ -36,6 +36,8 @@ The voice is a sharp, funny, fair fan who knows the game: never a press release,
 
 **Ending:** a real either/or question fans can answer in one word, or a "Fan verdict:" question. Use at most one or two hashtags, and only match tags (#MUNROM) or competition tags (#UCL) on match nights.
 
+**Times in posts and on images are UK time**, never IST. Write kick-offs as "8pm UK" (GMT in winter, BST from the last Sunday of March to the last Sunday of October; convert with `TZ=Europe/London date`). The audience is mostly UK and European fans. Scheduling in Metricool still uses Asia/Kolkata, which is only the account's clock and never appears in the copy.
+
 **Facts:** never invent a quote, score, stat or fee. Rumours always name the source and its tier (Tier 1: BBC, Sky Sports, The Athletic, Fabrizio Romano, David Ornstein; Tier 2: national papers; Tier 3: tabloids and aggregators).
 
 **Taste:** never mock deaths, serious injuries, racism victims or players' families. Criminal or abuse allegations go to review, never to autopost.
@@ -44,11 +46,12 @@ The voice is a sharp, funny, fair fan who knows the game: never a press release,
 
 | Format | When | Image template |
 |---|---|---|
-| Fan verdict debate | Any controversy with two clear sides | `ballot` |
-| Full-time verdict | Within 30 min of a big final whistle | `scoreboard` |
+| Fan verdict debate | Any controversy with two clear sides | `ballot` (with both people's photos when it is person v person) |
+| Full-time verdict | Within 30 min of a big final whistle | `scoreboard` with the match winner or the manager under pressure |
 | Back-page story | Manager pressure, records, the big story of the day | `backpage` with a halftone photo |
 | Rumour desk | Transfer or manager rumours | `rumour` with the tier stamp |
-| Quote of the day | A manager or player outburst | `redcard` |
+| Quote of the day | A manager or player outburst | `redcard` with the speaker's photo |
+| One person, one big story | Pressure, a record, a return, a sacking watch | `poster` |
 | Quote post | An official club or reporter post is the news | No image; the quoted post's media shows |
 | Crossover / personality story | Celebrity, viral fan, player humour | `backpage` |
 

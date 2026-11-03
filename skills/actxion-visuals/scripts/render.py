@@ -24,7 +24,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 HERE = Path(__file__).resolve().parent
 ASSETS = HERE.parent / "assets"
@@ -119,9 +119,21 @@ def load_photo(src):
     if not src:
         return None
     if re.match(r"^https?://", src):
-        req = urllib.request.Request(src, headers={"User-Agent": "ACTXION-visuals/1.0"})
-        data = urllib.request.urlopen(req, timeout=30).read()
-        return Image.open(io.BytesIO(data)).convert("RGB")
+        # Wikimedia only serves standard thumbnail widths; fall back to ones it accepts, then the original
+        tries = [src]
+        m = re.match(r"(https://[^/]*wikimedia\.org/wikipedia/commons)/thumb/(.+?)/\d+px-[^/]+$", src)
+        if m:
+            tries += [re.sub(r"/\d+px-", "/3840px-", src), re.sub(r"/\d+px-", "/1920px-", src),
+                      f"{m.group(1).replace('thumb.wikimedia.org', 'upload.wikimedia.org')}/{m.group(2)}"]
+        last = None
+        for u in dict.fromkeys(tries):
+            try:
+                req = urllib.request.Request(u, headers={"User-Agent": "ACTXION-visuals/1.0 (https://github.com/pvtaddyy/actxion-assets)"})
+                data = urllib.request.urlopen(req, timeout=30).read()
+                return Image.open(io.BytesIO(data)).convert("RGB")
+            except Exception as e:  # try the next size
+                last = e
+        raise last
     return Image.open(src).convert("RGB")
 
 
@@ -189,7 +201,7 @@ def t_backpage(spec, W, H):
         head_box = (m, mh + int(50 * SS), W * SS - ph_w - m, H * SS - int(170 * SS))
     if photo:
         bw, bh = ph_box[2] - ph_box[0], ph_box[3] - ph_box[1]
-        img.paste(halftone(photo, bw, bh, cell=int(8 * SS)), ph_box[:2])
+        img.paste(treat(photo, bw, bh, spec, lambda: halftone(photo, bw, bh, cell=int(8 * SS))), ph_box[:2])
         if spec.get("credit"):  # credit on a paper tab, like a picture desk caption
             cf = font("narrow", 17)
             ct = clean(spec["credit"])
@@ -268,7 +280,7 @@ def t_ballot(spec, W, H):
     return img
 
 
-def t_scoreboard(spec, W, H):
+def t_scoreboard_core(spec, W, H):
     """Stadium dot-matrix scoreboard. Spec: home, away, home_score, away_score, scorers, status, question."""
     img = Image.new("RGB", (W * SS, H * SS), (8, 8, 9))
     d = ImageDraw.Draw(img)
@@ -329,7 +341,7 @@ def t_rumour(spec, W, H):
         pw = int((sheet[2] - sheet[0]) * (0.34 if not portrait else 0.42))
         ph = int(pw * 1.22)
         px, py = sheet[2] - pad - pw, y0 + int(96 * SS)
-        img.paste(halftone(photo, pw, ph, cell=int(7 * SS)), (px, py))
+        img.paste(treat(photo, pw, ph, spec, lambda: halftone(photo, pw, ph, cell=int(7 * SS))), (px, py))
         d.rectangle((px, py, px + pw, py + ph), outline=INK, width=int(3 * SS))
         credit_line(d, (px, py + ph + int(10 * SS)), spec.get("credit"), (90, 86, 78), 16)
         text_right = px - int(40 * SS)
@@ -471,7 +483,234 @@ def footer(d, W, H, dark=True):
     d.text((W * SS - int(56 * SS) - d.textlength(h, font=f), H * SS - int(52 * SS)), h, font=f, fill=RED if dark else INK)
 
 
-TEMPLATES = {"backpage": t_backpage, "ballot": t_ballot, "scoreboard": t_scoreboard, "rumour": t_rumour, "redcard": t_redcard}
+
+
+# ---------- photo-led variants ----------
+def duotone(photo, w, h, dark=INK, light=PAPER, focus_y=0.30, contrast=1.15):
+    """Print a file photo in two inks. Faces stay readable, age and colour casts disappear."""
+    g = ImageOps.autocontrast(cover(photo, w, h, focus_y).convert("L"), cutoff=1)
+    g = g.point(lambda v: max(0, min(255, int((v - 128) * contrast + 128))))
+    return ImageOps.colorize(g, black=dark, white=light)
+
+
+def natural(photo, w, h, focus_y=0.30):
+    """The photo as it was taken, in full colour: just cropped, levelled and sharpened."""
+    im = ImageOps.autocontrast(cover(photo.convert("RGB"), w, h, focus_y), cutoff=0.5)
+    im = ImageEnhance.Color(im).enhance(1.05)
+    return im.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=3))
+
+
+def treat(photo, w, h, spec, printed):
+    """Real colour by default. spec photo_style "print" keeps the old halftone/duotone look."""
+    if (spec or {}).get("photo_style") == "print":
+        return printed()
+    return natural(photo, w, h)
+
+
+def photo_card(photo, w, h, credit=None, dark=INK, light=PAPER, label=None, label_bg=RED, spec=None):
+    """A photo with a thin keyline, an optional label tab and a credit line."""
+    card = treat(photo, w, h, spec, lambda: grain(duotone(photo, w, h, dark, light), 12))
+    d = ImageDraw.Draw(card)
+    d.rectangle((0, 0, w - 1, h - 1), outline=INK, width=int(3 * SS))
+    if label:
+        lf = font("barlow-xb", 30)
+        tw = d.textlength(label, font=lf)
+        d.rectangle((0, h - int(56 * SS), tw + int(36 * SS), h), fill=label_bg)
+        d.text((int(18 * SS), h - int(50 * SS)), label, font=lf, fill=WHITE)
+    if credit:
+        cf = font("narrow", 15)
+        ct = clean(credit)
+        cw = d.textlength(ct, font=cf)
+        d.rectangle((w - cw - int(22 * SS), 0, w, int(28 * SS)), fill=PAPER)
+        d.text((w - cw - int(11 * SS), int(4 * SS)), ct, font=cf, fill=INK)
+    return card
+
+
+def t_ballot_photos(spec, W, H):
+    """Ballot slip with a photo above each tick box: a straight A-or-B choice between two people."""
+    img = Image.new("RGB", (W * SS, H * SS), PITCH_NIGHT)
+    d = ImageDraw.Draw(img)
+    pitch_lines(d, W, H, (34, 38, 36))
+    sw, sh = int(W * SS * 0.90), int(H * SS * 0.90)
+    slip = Image.new("RGB", (sw, sh), PAPER)
+    sd = ImageDraw.Draw(slip)
+    pad = int(44 * SS)
+    sd.rectangle((0, 0, sw, int(78 * SS)), fill=INK)
+    wm = mask("wordmark", 32 * SS)
+    stamp_mask(slip, wm, (pad, (int(78 * SS) - wm.height) // 2), PAPER)
+    lf = font("barlow-xb", 30)
+    sd.text((sw - pad - sd.textlength("FAN VERDICT", font=lf), int(20 * SS)), "FAN VERDICT", font=lf, fill=RED)
+    # Question on the left, two photo ballots on the right
+    qw = int(sw * 0.40)
+    q = clean(spec.get("question", ""), headline=True)
+    qf, ql = fit(sd, q, "anton", (qw - pad) / SS, 5, 80, upper=True, max_h=(sh - int(260 * SS)) / SS)
+    y = int(120 * SS)
+    for ln in ql:
+        sd.text((pad, y), ln, font=qf, fill=INK)
+        y += int(qf.size * 1.04)
+    ctx = clean(spec.get("context", ""))
+    if ctx:
+        # Context sits under the question so the stamp at the foot never covers it
+        cf, cl = fit(sd, ctx, "serif", (qw - pad) / SS, 3, 26)
+        cy = y + int(26 * SS)
+        for ln in cl:
+            sd.text((pad, cy), ln, font=cf, fill=(70, 66, 60))
+            cy += int(cf.size * 1.3)
+    gap = int(28 * SS)
+    cw = (sw - qw - pad - gap) // 2
+    ch = sh - int(78 * SS) - int(40 * SS) - int(120 * SS)
+    for i, key in enumerate(("a", "b")):
+        x = qw + i * (cw + gap)
+        ph = load_photo(spec.get(f"photo_{key}"))
+        top = int(78 * SS) + int(36 * SS)
+        if ph:
+            slip.paste(photo_card(ph, cw, ch, spec.get(f"credit_{key}"), spec=spec), (x, top))
+        else:
+            sd.rectangle((x, top, x + cw, top + ch), fill=PAPER_SHADE)
+        box = int(50 * SS)
+        by = top + ch + int(22 * SS)
+        sd.rectangle((x, by, x + box, by + box), outline=INK, width=int(4 * SS))
+        of, ol = fit(sd, clean(spec.get(f"option_{key}", ""), headline=True), "barlow-xb", (cw - box - 20 * SS) / SS, 1, 46, upper=True)
+        sd.text((x + box + int(18 * SS), by - int(2 * SS)), ol[0], font=of, fill=INK)
+    slip = grain(slip, 10)
+    rot = slip.rotate(-1.2, expand=True, resample=Image.BICUBIC, fillcolor=PITCH_NIGHT)
+    img.paste(rot, ((W * SS - rot.width) // 2, (H * SS - rot.height) // 2))
+    st = rubber_stamp("VOTE IN THE REPLIES", 28, RED, rot=-8)
+    img.paste(st, (int(W * SS * 0.05) + int(30 * SS), int(H * SS * 0.86) - st.height), st.split()[3])
+    return img
+
+
+def t_redcard_photo(spec, W, H):
+    """The speaker's printed photo on the left, their words on the red card on the right."""
+    img = Image.new("RGB", (W * SS, H * SS), PITCH_NIGHT)
+    d = ImageDraw.Draw(img)
+    pw = int(W * SS * 0.46)
+    ph = load_photo(spec["photo"])
+    img.paste(treat(ph, pw, H * SS, spec, lambda: grain(duotone(ph, pw, H * SS, dark=(10, 10, 12), light=(205, 200, 190)), 12)), (0, 0))
+    wm = mask("wordmark", 38 * SS)
+    d.rectangle((0, 0, wm.width + int(80 * SS), int(98 * SS)), fill=PITCH_NIGHT)
+    stamp_mask(img, wm, (int(40 * SS), int(30 * SS)), WHITE)
+    if spec.get("credit"):
+        cf = font("narrow", 15)
+        ct = clean(spec["credit"])
+        d.rectangle((0, H * SS - int(30 * SS), d.textlength(ct, font=cf) + int(30 * SS), H * SS), fill=PITCH_NIGHT)
+        d.text((int(16 * SS), H * SS - int(26 * SS)), ct, font=cf, fill=(160, 158, 152))
+    cw = int(W * SS * 0.44)
+    ch = min(int(cw * 1.38), int(H * SS * 0.84))
+    cw = int(ch / 1.38)
+    card = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
+    cd = ImageDraw.Draw(card)
+    cd.rounded_rectangle((0, 0, cw, ch), radius=int(22 * SS), fill=RED)
+    pad = int(44 * SS)
+    cd.text((pad, pad - int(40 * SS)), "“", font=font("anton", 140), fill=(150, 12, 20, 255))
+    q = clean(spec.get("quote", ""), headline=True)
+    qf, ql = fit(cd, q, "anton", (cw - 2 * pad) / SS, 7, 70, 28, upper=True, max_h=(ch - 260 * SS) / SS)
+    y = pad + int(92 * SS)
+    for ln in ql:
+        cd.text((pad, y), ln, font=qf, fill=WHITE)
+        y += int(qf.size * 1.06)
+    cd.text((pad, ch - pad - int(70 * SS)), clean(spec.get("speaker", ""), True).upper(), font=font("barlow-xb", 32), fill=INK)
+    ctx = clean(spec.get("context", ""))
+    if ctx:
+        cf2, cl2 = fit(cd, ctx, "barlow-med", (cw - 2 * pad) / SS, 1, 24)
+        cd.text((pad, ch - pad - int(30 * SS)), cl2[0], font=cf2, fill=(60, 10, 12))
+    card = card.rotate(4, expand=True, resample=Image.BICUBIC)
+    sh = Image.new("L", card.size, 0)
+    sh.paste(card.split()[3])
+    cx, cy = pw + int((W * SS - pw - card.width) * 0.45), (H * SS - card.height) // 2
+    img.paste((0, 0, 0), (cx + int(16 * SS), cy + int(20 * SS)), sh.filter(ImageFilter.GaussianBlur(20 * SS)).point(lambda v: int(v * 0.6)))
+    img.paste(card, (cx, cy), card)
+    footer(ImageDraw.Draw(img), W, H, dark=True)
+    return img
+
+
+def t_scoreboard_photo(spec, W, H):
+    """Scoreboard on the left, the player or manager of the night printed on the right."""
+    pw = int(W * SS * 0.36)
+    img = Image.new("RGB", (W * SS, H * SS), (8, 8, 9))
+    ph = load_photo(spec["photo"])
+    img.paste(treat(ph, pw, H * SS, spec, lambda: grain(duotone(ph, pw, H * SS, dark=(12, 8, 8), light=RED), 12)), (W * SS - pw, 0))
+    sub = t_scoreboard_core(spec, W - pw // SS, H)
+    img.paste(sub, (0, 0))
+    d = ImageDraw.Draw(img)
+    lab = clean(spec.get("photo_label", ""), True).upper()
+    if lab:
+        lf = font("barlow-xb", 30)
+        tw = d.textlength(lab, font=lf)
+        d.rectangle((W * SS - pw, H * SS - int(70 * SS), W * SS - pw + tw + int(40 * SS), H * SS - int(14 * SS)), fill=INK)
+        d.text((W * SS - pw + int(20 * SS), H * SS - int(64 * SS)), lab, font=lf, fill=WHITE)
+    if spec.get("credit"):
+        cf = font("narrow", 15)
+        ct = clean(spec["credit"])
+        cw = d.textlength(ct, font=cf)
+        d.rectangle((W * SS - cw - int(24 * SS), 0, W * SS, int(28 * SS)), fill=(8, 8, 9))
+        d.text((W * SS - cw - int(12 * SS), int(4 * SS)), ct, font=cf, fill=(170, 168, 162))
+    return img
+
+
+def t_poster(spec, W, H):
+    """One big story: the person printed full height in red and black, one line of headline beside them."""
+    img = Image.new("RGB", (W * SS, H * SS), INK)
+    d = ImageDraw.Draw(img)
+    portrait = H > W
+    ph = load_photo(spec.get("photo"))
+    if portrait:
+        box = (0, 0, W * SS, int(H * SS * 0.60))
+    else:
+        box = (int(W * SS * 0.42), 0, W * SS, H * SS)
+    bw, bh = box[2] - box[0], box[3] - box[1]
+    if ph:
+        img.paste(treat(ph, bw, bh, spec, lambda: grain(duotone(ph, bw, bh, dark=(14, 6, 7), light=RED, contrast=1.25), 14)), box[:2])
+    m = int(60 * SS)
+    wm = mask("wordmark", 40 * SS)
+    stamp_mask(img, wm, (m, m), WHITE)
+    lab = clean(spec.get("label", ""), True).upper()
+    if lab:
+        st = rubber_stamp(lab, 30, WHITE, rot=-5)
+        img.paste(st, (m - int(8 * SS), m + wm.height + int(34 * SS)), st.split()[3])
+    tx0 = m
+    tx1 = (box[0] - int(40 * SS)) if not portrait else W * SS - m
+    ty0 = int(H * SS * 0.30) if not portrait else box[3] + int(40 * SS)
+    ty1 = H * SS - int(150 * SS)
+    head = clean(spec.get("headline", ""), headline=True)
+    hf, hl = fit(d, head, "anton", (tx1 - tx0) / SS, 4, 140, upper=True, max_h=(ty1 - ty0) / SS - 90, lead=1.02)
+    y = ty0
+    for ln in hl:
+        d.text((tx0, y), ln, font=hf, fill=WHITE)
+        y += int(hf.size * 1.02)
+    kick = clean(spec.get("kicker", ""))
+    if kick:
+        kf, kl = fit(d, kick, "barlow-med", (tx1 - tx0) / SS, 3, 34)
+        y += int(44 * SS)
+        for ln in kl:
+            d.text((tx0, y), ln, font=kf, fill=(236, 232, 224))
+            y += int(kf.size * 1.25)
+    if spec.get("credit"):
+        cf = font("narrow", 15)
+        ct = clean(spec["credit"])
+        cw = d.textlength(ct, font=cf)
+        d.text((box[2] - cw - int(16 * SS), box[3] - int(26 * SS)), ct, font=cf, fill=WHITE)
+    footer(d, W, H, dark=True)
+    return img
+
+
+def t_scoreboard(spec, W, H):
+    return t_scoreboard_photo(spec, W, H) if spec.get("photo") else t_scoreboard_core(spec, W, H)
+
+
+_ballot_plain = t_ballot
+_redcard_plain = t_redcard
+
+
+def t_ballot_any(spec, W, H):
+    return t_ballot_photos(spec, W, H) if (spec.get("photo_a") or spec.get("photo_b")) else _ballot_plain(spec, W, H)
+
+
+def t_redcard_any(spec, W, H):
+    return t_redcard_photo(spec, W, H) if spec.get("photo") else _redcard_plain(spec, W, H)
+
+
+TEMPLATES = {"backpage": t_backpage, "ballot": t_ballot_any, "scoreboard": t_scoreboard, "rumour": t_rumour, "redcard": t_redcard_any, "poster": t_poster}
 
 
 def main():
