@@ -36,6 +36,8 @@ The voice is a sharp, funny, fair fan who knows the game: never a press release,
 
 **Ending:** a real either/or question fans can answer in one word, or a "Fan verdict:" question. Use at most one or two hashtags, and only match tags (#MUNROM) or competition tags (#UCL) on match nights.
 
+**Times in posts and on images are UK time**, never IST. Write kick-offs as "8pm UK" (GMT in winter, BST from the last Sunday of March to the last Sunday of October; convert with `TZ=Europe/London date`). The audience is mostly UK and European fans. Scheduling in Metricool still uses Asia/Kolkata, which is only the account's clock and never appears in the copy.
+
 **Facts:** never invent a quote, score, stat or fee. Rumours always name the source and its tier (Tier 1: BBC, Sky Sports, The Athletic, Fabrizio Romano, David Ornstein; Tier 2: national papers; Tier 3: tabloids and aggregators).
 
 **Taste:** never mock deaths, serious injuries, racism victims or players' families. Criminal or abuse allegations go to review, never to autopost.

@@ -61,6 +61,7 @@ The renderer already strips em dashes and underscores, and drops full stops from
 - Headlines are what a back-page sub-editor would write. Short, one idea, no full stop at the end, and a question mark only when it is a real question.
 - A full stop in the middle of a headline ("NINE WITHOUT A WIN. IS TONIGHT CARRICK'S LAST?") is fine when it is two beats. Avoid it otherwise.
 - No hashtags on images, no "BREAKING" unless a Tier 1 source confirmed it, no emoji on images.
+- Kick-off and other times on images are UK time, e.g. `"status": "Kick-off 8pm UK"`. Never IST.
 - Never invent a score, quote or fee. If the fee is unknown, write "Not reported".
 
 ## Check before posting
