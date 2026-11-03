@@ -9,20 +9,22 @@ Built from the frontend-design skill's process (token plan, then a self-review a
 
 ## Design language (shared brand with actxion-visuals)
 - **The one bold move: the red card** (`#E61E28`), used the way football uses red: for the verdict, the key number, the stamp. Never as decoration and never to highlight a single word.
-- **Two grounds:** data slides are printed on **newsprint** `#F2EEE5` with ink `#0A0A0A` (a matchday programme / annual report feel). Only the cover and outro are **night at the stadium** (`#050505` with a black-and-white halftone Wikimedia photo). That mix avoids the "near-black plus one accent" AI default.
+- **Two grounds:** data slides are printed on **newsprint** `#F2EEE5` with ink `#0A0A0A` (a matchday programme / annual report feel). The cover and outro are **night at the stadium**: a full-bleed photo with a dark fade.
+- **Photos on (almost) every slide, in real colour.** The owner's rule: player, manager and stadium photos stay in true colour, never black-and-white, halftone or red-tinted. Any newsprint slide with `photo` gets a full-width photo band across the top (460px; stat 560, quote 620; override with `bandHeight`, crop with `focus`, e.g. "center 30%"), with the logo and counter in white over it and a black rule under it. A 2-option `versus` with `options[].photo` becomes two big side-by-side photo tiles. Pick the photo that matches the slide: the club in the bar, the stadium of the story, the fans the option is about. Only skip a photo when none fits honestly; a plain newsprint slide is better than an irrelevant picture. Credit every photo in `source`.
 - **Type (same faces as actxion-visuals):** Anton for headlines and big numbers, Barlow Condensed for labels, bar values and the top meta, Source Serif 4 for body and context lines. Sentence case. Loaded from Google Fonts in the renderer; identical TTFs live in `~/.claude/skills/actxion-visuals/assets/fonts`.
 - **Furniture:** a 3px ink rule under the top bar (logo + wordmark left, "series n/total" right), ruled rows like a printed table, ballot tick boxes for either/or, paper grain, slightly crooked cards. Source line in grey at the bottom of every data slide.
 - **Layout:** 1080x1350, 88px margins, left-aligned.
+- **Logo: always the official ACTXION files, never typed text.** `assets/logo/lockup-black.png` (mark + wordmark, for newsprint) and `lockup-white.png` (for night slides) sit top-left on every slide; the closing slide signs off with a large white lockup instead. `mark-black/white.png` is the icon alone for tight spaces. They were made from the owner's master files (transparent PNGs, trimmed). The renderer reads them from `$ACTXION_LOGO_DIR` or `../assets/logo` next to the script; in the cloud they live in the `actxion-assets` repo.
 - **Copy rules:** at most about 15 words of body per slide. A headline of 2–8 words. Every number gets a source. Never invent a stat, quote or poll result. `**bold**` for emphasis (weight only); `\n` for headline breaks only when needed.
 
 ## Templates (`type`)
 | type | fields | use |
 |---|---|---|
-| `cover` | title, text?, photo?, card?{big, small}, source? | Slide 1: hook. The photo is a Wikimedia HD image URL (credit in source). The card holds the hook number. |
+| `cover` | title, kicker?, text?, photo?, card?{big, small}, source? | Slide 1: hook. The photo is a Wikimedia HD image URL (credit in source). The card holds the hook number. |
 | `stat` | number, label, text, source | One huge number on a tilted red card. |
 | `bars` | title, bars[{label, value, display?, highlight?}], text?, source | Ranked comparison (max 6 bars). Highlight the one the story is about. |
 | `quote` | quote, who, role?, source? | Real, sourced quotes only. |
-| `versus` | title, options[{title, text?, tick?}] (2–4), text? | Ballot slip. Used for the poll-result card (tick the winner) or an either/or debate. LinkedIn polls themselves can't carry images. |
+| `versus` | title, options[{title, text?, tick?, photo?}] (2–4), text?, photo? | Ballot slip. Used for the poll-result card (tick the winner) or an either/or debate. LinkedIn polls themselves can't carry images. |
 | `points` | title, points[{head, text}] (3) | "What clubs should take from this." |
 | `outro` | title?, text?, cta? | Last slide. Default: "The fan's view of the business of football." / Follow ACTXION. |
 
@@ -47,4 +49,4 @@ Metricool `media` needs **public URLs** of the PNGs. Host them where ACTXION own
 
 Example specs: `examples/fan-pulse-money-league.json` (6-slide carousel), `examples/poll-result.json` (single ballot card; its result is illustrative).
 
-Cloud hosting: commit PNGs to the public GitHub repo `actxion-assets` the routine clones, push, and pass the `raw.githubusercontent.com` URLs to Metricool. Never use anonymous file hosts.
+Cloud hosting: the public repo `pvtaddyy/actxion-assets`. Clone it, set `ACTXION_LOGO_DIR=<repo>/logo`, commit the PNGs to the `claude/posts` branch, push, and pass `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/<path>` to Metricool (it copies the file). Never use anonymous file hosts.
