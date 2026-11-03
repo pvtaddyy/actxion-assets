@@ -69,4 +69,13 @@ Look at the PNG, because a render can hide problems the spec can't. Check:
 
 ## Getting images to X from a cloud routine
 
-Metricool only accepts a public image URL. In the cloud, commit the PNG to the ACTXION assets GitHub repository the routine has cloned, push, and pass the `raw.githubusercontent.com` URL to Metricool. Metricool copies the file to its own storage when the post is scheduled. Never upload brand files to anonymous public file-sharing hosts.
+This is tested and working (3 Nov 2026):
+
+1. **Install Pillow** with `python3 -m pip install -q --ignore-installed pillow`. Plain `pip` installs for a different Python on the cloud box, and the system copy of Pillow there is broken.
+2. **Check out the posts branch:** `git fetch -q origin claude/posts && git checkout -q -B claude/posts origin/claude/posts`. Cloud runs can push to `claude/` branches; `main` holds the skills.
+3. **Render** to `posts/<YYYY-MM-DD>/<HHMM>-<slug>.png`.
+4. **Commit and push:** `git pull -q --rebase origin claude/posts; git push -q origin claude/posts`.
+5. **Get the image URL:** `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/<path>`. It returns 200 within seconds.
+6. **Schedule:** pass that URL in Metricool's `media`. Metricool copies the file to static.metricool.com when the post is scheduled.
+
+Never upload brand files to anonymous public file-sharing hosts.
