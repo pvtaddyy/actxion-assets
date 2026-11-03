@@ -59,7 +59,7 @@ Rotate templates so no two consecutive posts use the same one.
 
 ## Volume and timing
 
-- **Volume:** 15 to 25 posts a day is enough. Above that, author diversity decay eats most of the gain. On big match nights, put the extra posts in the 90 minutes after full time.
+- **Volume:** each desk aims for 5 to 6 posts (owner's call, 4 Nov 2026), about 30 to 40 a day. Author diversity decay means each extra post reaches fewer people, so the daily review watches reach per post; if it falls steadily for a week, recommend going back to 3 to 4. On big match nights, put the extra posts in the 90 minutes after full time.
 - **Audience:** mostly UK and European fans, with big pockets in Nigeria, India and the US. In IST: UK lunchtime is 17:00 to 19:30, UK evening is 23:00 to 03:30, and Champions League full time is around 03:15 to 03:45. Weekend Premier League full times are about 21:20, 23:50 and 02:20.
 - **Spacing:** at least 20 minutes between posts, except straight after full time, where 15 minutes is fine.
 
@@ -76,6 +76,15 @@ Replies earn profile visits from people reading big accounts' threads. Draft rep
 - **Daily:** read the per-post stats in Metricool (they lag by about 3 days) and the daily follower count. Note the best and worst 3 posts and why.
 - **Weekly:** compare formats, templates, hours, photo vs quote vs text-only, and hashtags vs none. Drop a format that stays below the account median for two weeks. Run two experiments a week.
 - **Targets:** 150 followers by 16 Nov 2026, 750 by 2 Dec, 3,000 by 1 Jan 2027 and 8,000 by 31 Jan 2027. If the 16 Nov checkpoint misses by more than half, change the strategy, not just the volume.
+
+## Copyright watch
+
+Since 4 Nov 2026 the desks use the news article's own photo (often Getty, PA or club) on purpose, by the owner's decision. Watch for the cost every day:
+- In Metricool, any X post that failed to publish, or whose status or media changed after publishing.
+- Followers or impressions suddenly dropping to near zero, or posts not appearing in search (a sign of a restriction).
+- Anything the owner reports from X notifications: "media disabled in response to a report by the copyright owner", a DMCA notice, or a strike.
+
+On the first sign, say so at the top of the daily review and in a phone notification, list the post and the photo source, and recommend: stop article photos from that agency, keep free photos and quote posts, and review after a week. Don't change the policy alone: the owner decides.
 
 ## Off-X levers that beat any posting tactic
 
