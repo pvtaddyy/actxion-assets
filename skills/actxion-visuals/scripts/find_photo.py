@@ -9,7 +9,9 @@ repeated post after post. A file is
 accepted only when its title contains every part of the person's full name, so a namesake
 or someone else's photo is never used. Recent photos (2024 to 2026) rank higher.
 
-    python3 skills/actxion-visuals/scripts/find_photo.py "Scott Parker" --club "West Ham"
+    python3 skills/actxion-visuals/scripts/find_photo.py "Scott Parker" --club "West Ham" --article <story URL>
+
+--article (repeatable) takes the news article the story came from; its lead photo is used first.
 
 --club takes the club or national team in the story; "name + club" is searched first,
 which finds the right person in one go.
@@ -209,6 +211,53 @@ def blocked(url):
     return any(fr in url for fr in frags)
 
 
+BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+AGENCY = re.compile(r"getty|\bpa\b|press association|reuters|\bap\b|associated press|afp|imago|offside|shutterstock|"
+                    r"epa|alamy|action images|camera press|sportsfile|ansa|lapresse|dpa", re.I)
+
+
+def from_article(url):
+    """The lead photo of the news article the story came from: real-time and about this story.
+
+    Returns (image bytes, credit) or None. Section pages and logos are skipped."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA, "Accept-Language": "en-GB,en"})
+        with urllib.request.urlopen(req, timeout=max(3, min(15, DEADLINE - time.time()))) as r:
+            html = r.read(800_000).decode("utf-8", "ignore")
+    except Exception:
+        return None
+    def meta(*names):
+        for n in names:
+            m = re.search(r'<meta[^>]+(?:property|name)=["\']%s["\'][^>]*content=["\']([^"\']+)' % re.escape(n), html, re.I) \
+                or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']%s["\']' % re.escape(n), html, re.I)
+            if m:
+                return m.group(1).replace("&amp;", "&")
+        return ""
+    img = meta("og:image", "twitter:image", "twitter:image:src")
+    if not img or re.search(r"logo|placeholder|default|misc_logos|favicon", img, re.I):
+        return None
+    data = get(urllib.parse.urljoin(url, img), 2, binary=True)
+    if not data or not (data[:3] == b"\xff\xd8\xff" or data[:8] == b"\x89PNG\r\n\x1a\n" or data[:4] == b"RIFF"):
+        return None
+    try:
+        import io
+        from PIL import Image
+        im = Image.open(io.BytesIO(data))
+        if max(im.size) < 800:
+            return None
+        if data[:4] == b"RIFF":  # webp: store as jpeg so the renderer and Metricool both take it
+            buf = io.BytesIO()
+            im.convert("RGB").save(buf, "JPEG", quality=92)
+            data = buf.getvalue()
+    except ImportError:
+        pass
+    site = meta("og:site_name") or urllib.parse.urlparse(url).netloc.replace("www.", "")
+    text = " ".join([meta("og:image:alt", "twitter:image:alt")] + re.findall(r"<figcaption[^>]*>(.*?)</figcaption>", html, re.I | re.S)[:3])
+    agency = AGENCY.search(re.sub("<[^>]+>", " ", text))
+    credit = f"Photo: {agency.group(0).title() if agency else site} via {site}" if agency else f"Photo: {site}"
+    return data, credit
+
+
 def add_variant(name, entry, tries, club=""):
     """Download the best candidate not already in the library. Returns True if one was added.
 
@@ -247,16 +296,32 @@ def keep(name, entry, data, url, credit):
 
 
 def main():
-    args, club = sys.argv[1:], ""
-    if "--club" in args:
-        i = args.index("--club")
-        club = " ".join(args[i + 1:i + 2])
-        args = args[:i] + args[i + 2:]
+    args, club, articles = sys.argv[1:], "", []
+    for flag in ("--club", "--article"):
+        while flag in args:
+            i = args.index(flag)
+            if flag == "--club":
+                club = " ".join(args[i + 1:i + 2])
+            else:
+                articles += args[i + 1:i + 2]
+            args = args[:i] + args[i + 2:]
     name = " ".join(a for a in args if not a.startswith("--")).strip()
     idx = load_index()
     entry = idx.get(slug(name)) or {"name": name, "variants": []}
     entry["variants"] = [v for v in entry["variants"] if os.path.exists(os.path.join(ROOT, v["file"]))]
-    # Every call looks for a photo this account hasn't posted yet, newest uploads first.
+    # The story's own article photo comes first: it is real-time and about exactly this story
+    for url in articles:
+        found = from_article(url)
+        if found:
+            keep(name, entry, found[0], url, found[1])
+            entry["variants"][-1]["source"] = "article"
+            entry["variants"][-1]["used"] = 1
+            idx[slug(name)] = entry
+            write_index(idx)
+            v = entry["variants"][-1]
+            print(json.dumps({"path": os.path.join(ROOT, v["file"]), "credit": v["credit"], "source": "article"}))
+            return 0
+    # Otherwise look for a free photo this account hasn't posted yet, recent ones first.
     # The saved photos are only the fallback for when the APIs refuse the cloud machine.
     fresh = "--no-new" not in sys.argv and add_variant(name, entry, 3 if not entry["variants"] else 2, club)
     if not fresh and not entry["variants"] and "--no-new" not in sys.argv:
