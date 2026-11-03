@@ -29,13 +29,16 @@ LIB = os.path.join(ROOT, "photos")
 INDEX = os.path.join(LIB, "index.json")
 UA = "ACTXION-visuals/1.0 (https://github.com/pvtaddyy/actxion-assets)"
 OK_LICENCE = re.compile(r"cc0|public ?domain|pdm|^pd|cc[ -]?by(?![ -]?nc)(?![ -]?nd)", re.I)
-MIN_LONG = 1500
+MIN_LONG = 800  # our photo panels are under 1000px wide; bigger files still rank higher
 # A namesake from music, art or another sport is the common wrong match, so the file's
 # title, categories or tags must also say football.
 FOOTBALL = re.compile(r"football|soccer|futbol|fútbol|calcio|fussball|fußball|\bf\.?c\b|league|liga|serie a|"
                       r"bundesliga|uefa|fifa|cup|national team|manager|coach|united|city|stadium|stadion|estadio|"
-                      r"world cup|euro 20|premier", re.I)
+                      r"world cup|euro 20|premier|footballer|\\b(?:cf|afc|fk|sc|ac|ssc|bv|vfb|rb)\\b|real madrid|atletico|barcelona|juventus|"
+                      r"bayern|olympique|paris saint|arsenal|chelsea|liverpool|tottenham|hotspur|inter |milan|napoli|roma\\b|lazio", re.I)
 MAX_VARIANTS = 10
+# Whole-call budget: a desk run can't wait minutes for a busy API
+DEADLINE = time.time() + 40
 
 
 def norm(s):
@@ -52,12 +55,15 @@ def slug(name):
     return re.sub(r"\s+", "-", norm(name).strip())
 
 
-def get(url, tries=5, binary=False):
-    wait = 4
+def get(url, tries=2, binary=False):
+    wait = 2
     for _ in range(tries):
+        left = DEADLINE - time.time()
+        if left < 3:
+            return None
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=40) as r:
+            with urllib.request.urlopen(req, timeout=min(15, left)) as r:
                 data = r.read()
                 return data if binary else json.loads(data)
         except urllib.error.HTTPError as e:
@@ -65,7 +71,7 @@ def get(url, tries=5, binary=False):
                 return None
         except Exception:
             pass
-        time.sleep(wait)
+        time.sleep(min(wait, max(0, DEADLINE - time.time() - 3)))
         wait *= 2
     return None
 
@@ -121,7 +127,7 @@ def from_openverse(name, tries, club=""):
                     or not OK_LICENCE.search(lic.replace("by-sa", "by sa")):
                 continue
             text = f"{r.get('title', '')} " + " ".join(t.get("name", "") for t in r.get("tags") or [])
-            if not FOOTBALL.search(text):
+            if not (FOOTBALL.search(text) or club_hit(club, text)):
                 continue
             seen.add(r["url"])
             credit = f"Photo: {r.get('creator') or 'unknown'}, {r.get('source', 'Openverse').title()}, CC {lic.upper().strip()}"
@@ -146,7 +152,7 @@ def from_commons(name, tries, club=""):
             if url in seen or max(i["width"], i["height"]) < MIN_LONG or not name_match(name, p["title"]) or not OK_LICENCE.search(lic):
                 continue
             text = f"{p['title']} {m.get('Categories', {}).get('value', '')} {m.get('ImageDescription', {}).get('value', '')}"
-            if not FOOTBALL.search(text):
+            if not (FOOTBALL.search(text) or club_hit(club, text)):
                 continue
             seen.add(url)
             art = re.sub("<[^>]+>", "", m.get("Artist", {}).get("value", "")).strip()[:40] or "unknown"
@@ -158,21 +164,14 @@ def from_commons(name, tries, club=""):
 
 
 def face_ok(data):
-    """True when the photo has one clear, close face. Rejects rooms, crowds and far-away figures."""
+    """True when the photo has a clear, close face. Rejects rooms, crowds and far-away figures.
+
+    Used only to rank candidates. Without OpenCV installed every photo counts as fine."""
     try:
         import cv2
         cv2.CascadeClassifier  # OpenCV 5 moved it out; 4.x has it
     except (ImportError, AttributeError):
-        import subprocess
-        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--ignore-installed", "opencv-python-headless<5"],
-                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        try:
-            import importlib
-            import cv2
-            importlib.reload(cv2)
-            cv2.CascadeClassifier
-        except (ImportError, AttributeError):
-            return True  # can't check here; the desk still looks at every photo before using it
+        return True
     import numpy as np
     img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_GRAYSCALE)
     if img is None:
@@ -187,14 +186,7 @@ def face_ok(data):
     big = [s for s in sizes if s >= min(img.shape) * 0.12]
     if 1 <= len(big) <= 3 and not (len(big) == 3 and min(big) > max(big) * 0.6):
         return True
-    # Otherwise accept one or two large people in frame: a full-length shot of the player.
-    # Rooms, streets, paintings, scanned pages and wide crowd shots have no such figure.
-    hog = cv2.HOGDescriptor()
-    hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
-    small = cv2.resize(img, None, fx=0.6, fy=0.6)
-    boxes, weights = hog.detectMultiScale(small, winStride=(8, 8), padding=(8, 8), scale=1.05)
-    tall = [b for b, w in zip(boxes, weights) if b[3] >= small.shape[0] * 0.40 and float(w) > 0.5]
-    return 1 <= len(tall) <= 2
+    return False
 
 
 def add_variant(name, entry, tries, club=""):
@@ -205,7 +197,9 @@ def add_variant(name, entry, tries, club=""):
     have = {v.get("url") for v in entry["variants"]}
     for finder in (from_openverse, from_commons):
         fallback = None
-        for _, url, credit in finder(name, tries, club)[:10]:
+        for _, url, credit in finder(name, tries, club)[:4]:
+            if DEADLINE - time.time() < 5:
+                break
             if url in have:
                 continue
             data = get(url, tries, binary=True)
@@ -244,7 +238,7 @@ def main():
     entry["variants"] = [v for v in entry["variants"] if os.path.exists(os.path.join(ROOT, v["file"]))]
     # Every call looks for a photo this account hasn't posted yet, newest uploads first.
     # The saved photos are only the fallback for when the APIs refuse the cloud machine.
-    fresh = "--no-new" not in sys.argv and add_variant(name, entry, 5 if not entry["variants"] else 3, club)
+    fresh = "--no-new" not in sys.argv and add_variant(name, entry, 3 if not entry["variants"] else 2, club)
     if len(entry["variants"]) > MAX_VARIANTS:  # rolling library: drop the most-used, oldest photo
         old = max(entry["variants"][:-1], key=lambda v: (v["used"], -entry["variants"].index(v)))
         entry["variants"].remove(old)
