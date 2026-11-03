@@ -44,11 +44,12 @@ The voice is a sharp, funny, fair fan who knows the game: never a press release,
 
 | Format | When | Image template |
 |---|---|---|
-| Fan verdict debate | Any controversy with two clear sides | `ballot` |
-| Full-time verdict | Within 30 min of a big final whistle | `scoreboard` |
+| Fan verdict debate | Any controversy with two clear sides | `ballot` (with both people's photos when it is person v person) |
+| Full-time verdict | Within 30 min of a big final whistle | `scoreboard` with the match winner or the manager under pressure |
 | Back-page story | Manager pressure, records, the big story of the day | `backpage` with a halftone photo |
 | Rumour desk | Transfer or manager rumours | `rumour` with the tier stamp |
-| Quote of the day | A manager or player outburst | `redcard` |
+| Quote of the day | A manager or player outburst | `redcard` with the speaker's photo |
+| One person, one big story | Pressure, a record, a return, a sacking watch | `poster` |
 | Quote post | An official club or reporter post is the news | No image; the quoted post's media shows |
 | Crossover / personality story | Celebrity, viral fan, player humour | `backpage` |
 
