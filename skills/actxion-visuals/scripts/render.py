@@ -24,7 +24,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 HERE = Path(__file__).resolve().parent
 ASSETS = HERE.parent / "assets"
@@ -201,7 +201,7 @@ def t_backpage(spec, W, H):
         head_box = (m, mh + int(50 * SS), W * SS - ph_w - m, H * SS - int(170 * SS))
     if photo:
         bw, bh = ph_box[2] - ph_box[0], ph_box[3] - ph_box[1]
-        img.paste(halftone(photo, bw, bh, cell=int(8 * SS)), ph_box[:2])
+        img.paste(treat(photo, bw, bh, spec, lambda: halftone(photo, bw, bh, cell=int(8 * SS))), ph_box[:2])
         if spec.get("credit"):  # credit on a paper tab, like a picture desk caption
             cf = font("narrow", 17)
             ct = clean(spec["credit"])
@@ -341,7 +341,7 @@ def t_rumour(spec, W, H):
         pw = int((sheet[2] - sheet[0]) * (0.34 if not portrait else 0.42))
         ph = int(pw * 1.22)
         px, py = sheet[2] - pad - pw, y0 + int(96 * SS)
-        img.paste(halftone(photo, pw, ph, cell=int(7 * SS)), (px, py))
+        img.paste(treat(photo, pw, ph, spec, lambda: halftone(photo, pw, ph, cell=int(7 * SS))), (px, py))
         d.rectangle((px, py, px + pw, py + ph), outline=INK, width=int(3 * SS))
         credit_line(d, (px, py + ph + int(10 * SS)), spec.get("credit"), (90, 86, 78), 16)
         text_right = px - int(40 * SS)
@@ -493,9 +493,23 @@ def duotone(photo, w, h, dark=INK, light=PAPER, focus_y=0.30, contrast=1.15):
     return ImageOps.colorize(g, black=dark, white=light)
 
 
-def photo_card(photo, w, h, credit=None, dark=INK, light=PAPER, label=None, label_bg=RED):
-    """A printed photo with a thin keyline, an optional label tab and a credit line."""
-    card = grain(duotone(photo, w, h, dark, light), 12)
+def natural(photo, w, h, focus_y=0.30):
+    """The photo as it was taken, in full colour: just cropped, levelled and sharpened."""
+    im = ImageOps.autocontrast(cover(photo.convert("RGB"), w, h, focus_y), cutoff=0.5)
+    im = ImageEnhance.Color(im).enhance(1.05)
+    return im.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=3))
+
+
+def treat(photo, w, h, spec, printed):
+    """Real colour by default. spec photo_style "print" keeps the old halftone/duotone look."""
+    if (spec or {}).get("photo_style") == "print":
+        return printed()
+    return natural(photo, w, h)
+
+
+def photo_card(photo, w, h, credit=None, dark=INK, light=PAPER, label=None, label_bg=RED, spec=None):
+    """A photo with a thin keyline, an optional label tab and a credit line."""
+    card = treat(photo, w, h, spec, lambda: grain(duotone(photo, w, h, dark, light), 12))
     d = ImageDraw.Draw(card)
     d.rectangle((0, 0, w - 1, h - 1), outline=INK, width=int(3 * SS))
     if label:
@@ -550,7 +564,7 @@ def t_ballot_photos(spec, W, H):
         ph = load_photo(spec.get(f"photo_{key}"))
         top = int(78 * SS) + int(36 * SS)
         if ph:
-            slip.paste(photo_card(ph, cw, ch, spec.get(f"credit_{key}")), (x, top))
+            slip.paste(photo_card(ph, cw, ch, spec.get(f"credit_{key}"), spec=spec), (x, top))
         else:
             sd.rectangle((x, top, x + cw, top + ch), fill=PAPER_SHADE)
         box = int(50 * SS)
@@ -572,7 +586,7 @@ def t_redcard_photo(spec, W, H):
     d = ImageDraw.Draw(img)
     pw = int(W * SS * 0.46)
     ph = load_photo(spec["photo"])
-    img.paste(grain(duotone(ph, pw, H * SS, dark=(10, 10, 12), light=(205, 200, 190)), 12), (0, 0))
+    img.paste(treat(ph, pw, H * SS, spec, lambda: grain(duotone(ph, pw, H * SS, dark=(10, 10, 12), light=(205, 200, 190)), 12)), (0, 0))
     wm = mask("wordmark", 38 * SS)
     d.rectangle((0, 0, wm.width + int(80 * SS), int(98 * SS)), fill=PITCH_NIGHT)
     stamp_mask(img, wm, (int(40 * SS), int(30 * SS)), WHITE)
@@ -615,7 +629,7 @@ def t_scoreboard_photo(spec, W, H):
     pw = int(W * SS * 0.36)
     img = Image.new("RGB", (W * SS, H * SS), (8, 8, 9))
     ph = load_photo(spec["photo"])
-    img.paste(grain(duotone(ph, pw, H * SS, dark=(12, 8, 8), light=RED), 12), (W * SS - pw, 0))
+    img.paste(treat(ph, pw, H * SS, spec, lambda: grain(duotone(ph, pw, H * SS, dark=(12, 8, 8), light=RED), 12)), (W * SS - pw, 0))
     sub = t_scoreboard_core(spec, W - pw // SS, H)
     img.paste(sub, (0, 0))
     d = ImageDraw.Draw(img)
@@ -646,7 +660,7 @@ def t_poster(spec, W, H):
         box = (int(W * SS * 0.42), 0, W * SS, H * SS)
     bw, bh = box[2] - box[0], box[3] - box[1]
     if ph:
-        img.paste(grain(duotone(ph, bw, bh, dark=(14, 6, 7), light=RED, contrast=1.25), 14), box[:2])
+        img.paste(treat(ph, bw, bh, spec, lambda: grain(duotone(ph, bw, bh, dark=(14, 6, 7), light=RED, contrast=1.25), 14)), box[:2])
     m = int(60 * SS)
     wm = mask("wordmark", 40 * SS)
     stamp_mask(img, wm, (m, m), WHITE)

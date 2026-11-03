@@ -19,7 +19,7 @@ The account posts football controversy, rumours and debates. Its images should l
 
 Inter, Space Grotesk, Geist and the other "tasteful default" faces are avoided on purpose.
 
-**Photos:** only free-licence HD photos from Wikimedia Commons, credited. They are printed as a **newspaper halftone**, which makes a 2019 file photo look like a deliberate editorial choice instead of an old picture, and keeps the black-and-red palette intact. Never use agency or TV images, and never AI images of real people.
+**Photos:** only free-licence HD photos from Wikimedia Commons, credited. They are shown **as real photos in their own colours**: cropped, levelled and sharpened, never tinted red, turned black and white or printed as dots. The owner's call: a real face next to the design's text is what makes the post feel relevant. The brand colours live in the type, panels, cards and stamps, not on the person. (`"photo_style": "print"` brings back the old halftone/duotone look for a one-off, but don't use it by default.) Never use agency or TV images, and never AI images of real people.
 
 **Texture:** a little paper grain, hand-crooked stamps and slips. Real objects are never perfectly straight; that is part of why these read as made rather than generated.
 
