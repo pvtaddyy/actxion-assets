@@ -7,36 +7,23 @@ description: ACTXION's football-artifact design system and renderer for X post i
 
 The account posts football controversy, rumours and debates. Its images should look like they came out of football itself: something a fan has held, read or stared at on a matchday. That is what separates them from the AI defaults everyone now recognises (purple gradients, glass cards, near-black with one neon accent, a centred hero with three icons).
 
-## The design language
+## The design language: Still Frame
 
-**Palette:** black, white and red, ACTXION's own colours. The red is a referee's card (`#E61E28`), so use it the way football uses red: for a decision, a warning or a stamp, not for decoration. Light templates are printed on newsprint (`#F2EEE5`) and dark ones are night at the stadium, not flat UI black.
+Read `DESIGN.md` before designing anything. In short: the real photo is the hero, in its own colours. One headline in Instrument Sans (sentence case), a small mono dateline in Geist Mono, the human line (quote, kicker, question) in Instrument Serif. The only colour added is one accent taken from the photo itself (the kit, a board), used as a small mark. Warm paper (`#F4F2EE`) and deep ink (`#0E0F11`) panels, generous margins, nothing crowded, nothing decorative. The older newsprint and red-card look is retired; `--style classic` still renders it if ever needed.
 
-**Type**, all open-licence and bundled in `assets/fonts`:
-- **Anton** for headlines, a condensed tabloid face.
-- **Barlow Condensed** for labels, stamps and scoreboards, a stadium-signage feel.
-- **Source Serif 4** for kickers and context lines, newspaper body text.
-- **Archivo Narrow** for typed dossier fields and photo credits.
+**Size: portrait 4:5 (1080x1350) by default.** On the X phone app a single 4:5 image shows uncropped and fills about twice the screen of a 16:9 one, which is what X's dwell-time ranking rewards. Use `--size x` (1600x900) only for a deliberate test; the weekly report compares the two.
 
-Inter, Space Grotesk, Geist and the other "tasteful default" faces are avoided on purpose.
-
-**Photos:** shown **as real photos in their own colours**: cropped, levelled and sharpened, never tinted red, turned black and white or printed as dots. A real, current face next to the design's text is what makes the post feel relevant. The brand colours live in the type, panels, cards and stamps, not on the person. (`"photo_style": "print"` brings back the old halftone/duotone look for a one-off.) Never AI images of real people.
-
-**Photo policy (owner's decision, 4 Nov 2026):** use the real-time photo from the news article the story came from, even when it is an agency (Getty, PA, Reuters) or club photo. This is commentary and news reporting, credited to the source, and the owner has accepted the risk of a copyright notice on X. Free-licence photos are the backup. If X removes a post or a strike or notice arrives, the daily review flags it and the owner decides the next step (see actxion-growth, "Copyright watch").
-
-**Texture:** a little paper grain, hand-crooked stamps and slips. Real objects are never perfectly straight; that is part of why these read as made rather than generated.
-
-## The six templates
+## The templates
 
 Pick the object that matches the story. The story decides the template, not the other way round.
 
-| Template | Football object | Use for | Spec fields |
+| Template | Look | Use for | Spec fields |
 |---|---|---|---|
-| `backpage` | Red-top tabloid back page | Big news, manager pressure, records, viral moments | `headline`, `kicker`, `photo`, `credit`, `date` |
-| `ballot` | Paper ballot slip with tick boxes | "Fan verdict" A-or-B debates | `question`, `option_a`, `option_b`, `context`; for two people add `photo_a`, `photo_b`, `credit_a`, `credit_b` |
-| `scoreboard` | Stadium dot-matrix board | Full-time results, half-time, big scorelines | `home`, `away`, `home_score`, `away_score`, `scorers`, `status`, `question`; add `photo`, `photo_label`, `credit` for the player or manager of the night |
-| `rumour` | Typed transfer file with a rubber stamp | Transfer and manager rumours, with the source's reliability tier | `player`, `from_club`, `to_club`, `fee`, `source`, `tier` (1-3), `photo`, `credit` |
-| `redcard` | Referee's red card | A controversial quote, a manager or player outburst | `quote`, `speaker`, `context`, `label`; add `photo`, `credit` to print the speaker beside the card |
-| `poster` | Full-height red-and-black print of one person | The one big story about one person: pressure, a record, a return | `headline`, `kicker`, `label`, `photo`, `credit` |
+| `poster` / `backpage` | Full-bleed photo, headline and italic kicker on the lower third | The big story about one person: pressure, records, sackings, viral moments | `headline`, `kicker`, `label`, `date`, `photo`, `credit` |
+| `ballot` | Two photos side by side with "or" on the seam, question on top | Fan verdict A-or-B debates | `question`, `option_a`, `option_b`, `photo_a`, `photo_b`, `credit_a`, `credit_b`, `label`, `context` (text-only version) |
+| `scoreboard` | Ink panel with big score, photo below (portrait) or beside (wide) | Full time, half time, kick-off previews | `home`, `away`, `home_score`, `away_score`, `scorers`, `status`, `label`, `question`, `photo`, `photo_label`, `credit` |
+| `rumour` | Photo on top, a clean file of From / To / Fee / Source, reliability squares | Transfer and manager rumours with the source tier | `player`, `from_club`, `to_club`, `fee`, `source`, `tier` (1-3), `photo`, `credit` |
+| `redcard` | Photo on top, the quote large in serif on paper | A quote, an outburst, a press-conference line | `quote`, `speaker`, `context`, `label`, `photo`, `credit` |
 
 **Use a photo of the person whenever the story is about a person.** Real faces stop the scroll and make the image make sense on its own. The photo variants switch on automatically when the photo fields are filled. A ballot about two players shows both; a scoreboard shows the manager under pressure or the match winner; a red card shows whoever said it. Fall back to the text-only version only when Commons has no free HD photo of that person, and never use a photo of someone else.
 
@@ -45,10 +32,10 @@ Pick the object that matches the story. The story decides the template, not the 
 ```bash
 python3 ~/.claude/skills/actxion-visuals/scripts/render.py ballot \
   --spec '{"question":"Should Iraola tell Isak to go down?","option_a":"Yes, refs force it","option_b":"No, stay on your feet","context":"Timber held his shirt and VAR never looked"}' \
-  --out post.png --size x
+  --out post.png
 ```
 
-- `--size x` gives 1600x900, the size X shows full width in the feed. `portrait` (1080x1350) and `square` (1080x1080) are for Instagram and LinkedIn.
+- Default size is portrait 1080x1350. `--size x` is 1600x900, `square` is 1080x1080.
 - `--spec` takes inline JSON or a path to a JSON file.
 - `photo` takes a local path or a Wikimedia `https://upload.wikimedia.org/...` URL.
 - The script needs Pillow (`pip install pillow`) and nothing else. Fonts and logo masks ship in `assets/`, so it renders the same on a Mac and on a Linux cloud box.

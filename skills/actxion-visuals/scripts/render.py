@@ -712,19 +712,29 @@ def t_redcard_any(spec, W, H):
     return t_redcard_photo(spec, W, H) if spec.get("photo") else _redcard_plain(spec, W, H)
 
 
-TEMPLATES = {"backpage": t_backpage, "ballot": t_ballot_any, "scoreboard": t_scoreboard, "rumour": t_rumour, "redcard": t_redcard_any, "poster": t_poster}
+CLASSIC = {"backpage": t_backpage, "ballot": t_ballot_any, "scoreboard": t_scoreboard, "rumour": t_rumour, "redcard": t_redcard_any, "poster": t_poster}
+TEMPLATES = CLASSIC  # main() uses the Still Frame set in edition.py unless --style classic
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("template", choices=sorted(TEMPLATES))
+    ap.add_argument("template", choices=sorted(CLASSIC))
     ap.add_argument("--spec", required=True, help="JSON file or inline JSON")
     ap.add_argument("--out", required=True)
-    ap.add_argument("--size", default="x", choices=sorted(SIZES))
+    ap.add_argument("--size", default="portrait", choices=sorted(SIZES),
+                    help="portrait 1080x1350 fills a phone screen on X (default); x is 1600x900 wide")
+    ap.add_argument("--style", default="still", choices=["still", "classic"],
+                    help="still: the current photo-led minimal look (DESIGN.md); classic: the older newsprint set")
     a = ap.parse_args()
+    if a.style == "still":
+        sys.path.insert(0, str(HERE))
+        import edition
+        templates = edition.TEMPLATES
+    else:
+        templates = CLASSIC
     spec = json.loads(a.spec) if a.spec.strip().startswith("{") else json.loads(Path(a.spec).read_text())
     W, H = SIZES[a.size]
-    img = TEMPLATES[a.template](spec, W, H)
+    img = templates[a.template](spec, W, H)
     img = img.resize((W, H), Image.LANCZOS)
     img.save(a.out, quality=92, optimize=True)
     print(a.out, img.size)
