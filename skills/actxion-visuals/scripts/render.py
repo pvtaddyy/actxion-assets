@@ -689,7 +689,9 @@ def t_poster(spec, W, H):
         cf = font("narrow", 15)
         ct = clean(spec["credit"])
         cw = d.textlength(ct, font=cf)
-        d.text((box[2] - cw - int(16 * SS), box[3] - int(26 * SS)), ct, font=cf, fill=WHITE)
+        # Bottom-left of the photo on a dark tab, clear of the handle in the bottom-right corner
+        d.rectangle((box[0], box[3] - int(30 * SS), box[0] + cw + int(28 * SS), box[3]), fill=INK)
+        d.text((box[0] + int(14 * SS), box[3] - int(26 * SS)), ct, font=cf, fill=(200, 196, 188))
     footer(d, W, H, dark=True)
     return img
 
