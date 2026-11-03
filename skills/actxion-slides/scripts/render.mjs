@@ -166,7 +166,16 @@ for (const s of spec.slides) {
   for (const o of s.options || []) if (o.photo) o.photo = await safe(o.photo);
 }
 
-const browser = await chromium.launch();
+// The cloud image ships its own Chromium (often a newer build than this Playwright pins),
+// so fall back to it instead of failing on a missing download.
+async function launch() {
+  try { return await chromium.launch(); } catch (e) {
+    const fallbacks = [process.env.CHROMIUM_PATH, '/opt/pw-browsers/chromium'].filter(Boolean);
+    for (const executablePath of fallbacks) if (fs.existsSync(executablePath)) return chromium.launch({ executablePath });
+    throw e;
+  }
+}
+const browser = await launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
 const n = spec.slides.length;
 for (let i = 0; i < n; i++) {

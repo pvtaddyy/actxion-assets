@@ -61,3 +61,10 @@ Account: LIEV01 followers, LIEV08 new followers, LIEV18 post impressions, LIEV05
 - Criticise decisions, not people. Nothing on deaths, injuries, abuse, families. Legal cases, investigations, named-company disputes: `createScheduledPostForReview`, never auto-post.
 - Images: actxion-slides output, or Wikimedia Commons free licences (CC0, PD, CC BY, CC BY-SA) with credit. Never agency photos, TV grabs, club/player-owned images, AI images of real people.
 - No "comment YES", pods, bought followers, or identical team reshares.
+
+## Desk rules (for the scheduling routines)
+- **No repeat stories.** Before choosing a topic, read the text of every LinkedIn post in Metricool for the next 10 days (including drafts) and the last 30 days of published posts. Never pick a story, deal or headline number that is already queued or was posted in that window, even with a different angle.
+- **Drafts don't block a slot.** A day whose only LinkedIn post is a draft counts as empty: schedule a fresh post and leave the draft alone.
+- **Wikimedia rate limits (HTTP 429):** wait about 15 seconds and retry up to 3 times; search one name at a time.
+- **Never commit `node_modules/` or `package-lock.json`.** They're in `.gitignore`.
+
