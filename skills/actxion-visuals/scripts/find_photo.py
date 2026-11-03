@@ -28,7 +28,8 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..")
 LIB = os.path.join(ROOT, "photos")
 INDEX = os.path.join(LIB, "index.json")
 UA = "ACTXION-visuals/1.0 (https://github.com/pvtaddyy/actxion-assets)"
-OK_LICENCE = re.compile(r"cc0|public ?domain|pdm|^pd|cc[ -]?by(?![ -]?nc)(?![ -]?nd)", re.I)
+# "Attribution" alone is Commons' plain credit-only licence
+OK_LICENCE = re.compile(r"cc0|public ?domain|pdm|^pd|cc[ -]?by(?![ -]?nc)(?![ -]?nd)|^attribution$", re.I)
 MIN_LONG = 800  # our photo panels are under 1000px wide; bigger files still rank higher
 # A namesake from music, art or another sport is the common wrong match, so the file's
 # title, categories or tags must also say football.
@@ -37,6 +38,7 @@ FOOTBALL = re.compile(r"football|soccer|futbol|fútbol|calcio|fussball|fußball|
                       r"world cup|euro 20|premier|footballer|\\b(?:cf|afc|fk|sc|ac|ssc|bv|vfb|rb)\\b|real madrid|atletico|barcelona|juventus|"
                       r"bayern|olympique|paris saint|arsenal|chelsea|liverpool|tottenham|hotspur|inter |milan|napoli|roma\\b|lazio", re.I)
 MAX_VARIANTS = 10
+SOLO_ONLY = False  # set for the small-photo pass, where a crop can land on the other person
 # Whole-call budget: a desk run can't wait minutes for a busy API
 DEADLINE = time.time() + 40
 
@@ -127,6 +129,8 @@ def from_openverse(name, tries, club=""):
         for r in (d or {}).get("results", []):
             w, h = r.get("width") or 0, r.get("height") or 0
             lic = f"{r.get('license', '')} {r.get('license_version', '')}"
+            if SOLO_ONLY and re.search(r"&|,| and | with ", r.get("title", "")):
+                continue
             if r["url"] in seen or max(w, h) < MIN_LONG or not name_match(name, r.get("title", "")) \
                     or not OK_LICENCE.search(lic.replace("by-sa", "by sa")):
                 continue
@@ -153,6 +157,8 @@ def from_commons(name, tries, club=""):
             m = i.get("extmetadata", {})
             lic = m.get("LicenseShortName", {}).get("value", "")
             url = i.get("thumburl") or i["url"]
+            if SOLO_ONLY and re.search(r"&|,| and | with ", p["title"]):
+                continue
             if url in seen or max(i["width"], i["height"]) < MIN_LONG or not name_match(name, p["title"]) or not OK_LICENCE.search(lic):
                 continue
             text = f"{p['title']} {m.get('Categories', {}).get('value', '')} {m.get('ImageDescription', {}).get('value', '')}"
@@ -253,6 +259,11 @@ def main():
     # Every call looks for a photo this account hasn't posted yet, newest uploads first.
     # The saved photos are only the fallback for when the APIs refuse the cloud machine.
     fresh = "--no-new" not in sys.argv and add_variant(name, entry, 3 if not entry["variants"] else 2, club)
+    if not fresh and not entry["variants"] and "--no-new" not in sys.argv:
+        # Some players have no big free photo yet; a 600px one still works on the smaller panels
+        global MIN_LONG, SOLO_ONLY
+        MIN_LONG, SOLO_ONLY = 600, True
+        fresh = add_variant(name, entry, 2, club)
     if len(entry["variants"]) > MAX_VARIANTS:  # rolling library: drop the most-used, oldest photo
         old = max(entry["variants"][:-1], key=lambda v: (v["used"], -entry["variants"].index(v)))
         entry["variants"].remove(old)
