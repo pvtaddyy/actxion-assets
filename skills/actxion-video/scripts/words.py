@@ -28,7 +28,7 @@ def main():
     from faster_whisper import WhisperModel
     model = WhisperModel("base.en", device="cpu", compute_type="int8")
     segs, info = model.transcribe(src, word_timestamps=True, beam_size=5, vad_filter=False,
-                                  initial_prompt=script[:400] if script else None)
+                                  initial_prompt=None)  # a script prompt made base.en skip the opening seconds (cloud run, 4 Nov 2026)
     heard = []
     for s in segs:
         for w in s.words:
