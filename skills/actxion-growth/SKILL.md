@@ -19,7 +19,7 @@ From the open-source ranking code at github.com/xai-org/x-algorithm (README upda
 - **48-hour age filter.** A post's feed life is two days. Old news is dead, and reacting fast is worth a lot.
 - **Account reputation.** `user-cred-v2` runs PageRank over follows and engagement, and `agatha` labels accounts by how often people block or report them relative to likes. Rage-bait that earns blocks costs reputation, so argue about the football, never attack people.
 
-What this means in practice: post fewer, better, varied posts at the right moments. Make every post worth stopping on. Trigger replies with real debates. Build the reply engine. Avoid anything that gets muted or reported.
+What this means in practice: post varied posts at the right moments, each worth stopping on. Make every post worth stopping on. Trigger replies with real debates. Build the reply engine. Avoid anything that gets muted or reported.
 
 ## The niche and voice
 
@@ -59,9 +59,27 @@ Rotate templates so no two consecutive posts use the same one.
 
 ## Volume and timing
 
-- **Volume (owner's call, 4 Nov 2026):** heavy when UK and European fans are online, lighter when they're not. Peak desks (16:30, 20:30, 00:30 IST, covering 17:00 to 03:00 IST) post up to 8 each, at least 6, about one every 20 minutes. Off-peak desks (05:00 night owl, 07:30, 12:30 IST) post up to 5, at least 4, about one every 40 minutes. The full-time desk adds 3 to 6 after the big games. That's about 35 to 50 posts a day. Never post filler to hit a number. The daily review watches reach per post; if it falls steadily for a week, recommend trimming the peak desks first.
+- **Volume (owner's call, 4 Nov 2026, evening):** every news desk posts **6**. This line overrides the number in each routine's prompt. Night owl, overnight, midday, afternoon, prime-time and late: 6 each, never fewer than 5. On big match nights the afternoon, prime-time and late desks may go to 8. The full-time desk adds 3 to 6. That's about 40 a day.
+- **When the news runs dry, don't stop at 3.** Use the format bank below to reach 6. A bank post is still a real post with a real fact in it, never filler:
+  1. **Pick your side:** two players, managers or clubs in tonight's or the weekend's news, on a `ballot` card. Example: "Saka or Palmer: who would you rather have for the run-in?"
+  2. **Prediction:** "Call the score: Porto v Napoli, 8pm UK", on a `scoreboard` with "?" scores. Use it for any big game within 12 hours.
+  3. **Stat-led debate:** one hard stat from Opta, FBref or the BBC with a question. Example: "Haaland 13 goals, City's other forwards 4. Problem or fine?"
+  4. **Rumour round-up:** the morning papers' best Tier 2 or Tier 3 story, on a `rumour` card with its tier.
+  5. **On this day:** a famous match, goal or row from the same date in an earlier year, checked on Wikipedia or the BBC.
+  6. **Pressure ranking:** "Which manager is next out?", with four names and the reason for each.
+- **Watch the count:** X's author-diversity decay means each extra post in a viewer's feed scores lower, and 40 a day is the most this account should test. The daily review compares reach per post on 6-a-desk days with the earlier 3-to-5 days. If reach per post falls by more than a third and total daily impressions don't rise, recommend going back to 5.
 - **Audience:** mostly UK and European fans, with big pockets in Nigeria, India and the US. In IST: UK lunchtime is 17:00 to 19:30, UK evening is 23:00 to 03:30, and Champions League full time is around 03:15 to 03:45. Weekend Premier League full times are about 21:20, 23:50 and 02:20.
 - **Spacing:** at least 20 minutes between posts, except straight after full time, where 15 minutes is fine.
+
+## Experiments running (from 5 Nov 2026)
+
+Every desk tags each post with its variant in `posts/experiments.csv` on the claude/posts branch. The columns are `date,ist_time,desk,experiment,variant,first_line`; append a row per post and commit it with the images. The daily review reads it, waits for the stats (which lag about 3 days), and reports which variant wins on impressions, replies and follows. One winner a week becomes the default, and a new test takes its place.
+
+1. **E1 short vs long copy.** Alternate within each desk. Variant `short` is one line of story, one line of fact and the either/or question, under 230 characters in all. Variant `long` is the current 3-to-4-paragraph style. Long reads well, but most small accounts win with short copy plus a strong image.
+2. **E2 quote the source.** When a Tier 1 account (Fabrizio Romano, David Ornstein, Sky Sports News, BBC Sport, the club itself) posts the breaking news, the desk makes its post a quote of that post: our verdict line and question on top, and their x.com status URL on the last line of the text. Use no image of our own; the quoted post's media shows. Variant `quote` vs `image`, at most 2 per desk. A quote shows up in the original post's quotes list, where that account's fans are already reading.
+3. **E3 video on X.** The daily "Pick your side in 30 seconds" video from actxion-video also goes to X at peak time (17:30 to 19:30 or 23:00 to 01:00 IST), uploaded as native video. So far on this account, video posts reach about three times what image posts do. The video routine owns this; the desks only leave a 20-minute gap around it.
+
+The daily review judges each test on per-post medians, not totals, and never on fewer than 10 posts per variant.
 
 ## The reply engine (the main growth lever for a small account)
 
