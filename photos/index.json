@@ -7,6 +7,12 @@
     "file": "photos/alexander-isak.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Alexander_Isak_France_v_Sweden_6.30.26-043.jpg/1920px-Alexander_Isak_France_v_Sweden_6.30.26-043.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "credit": "Photo: Rolandhino1, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/alexander-isak-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_3.jpg/1920px-UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -285,6 +291,12 @@
     "file": "photos/florian-wirtz.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181.jpg/1920px-Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/florian-wirtz-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },
@@ -341,6 +353,14 @@
     "article": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
     "credit": "Photo: Sky Sports",
     "file": "photos/jj-gabriel-2.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
+    "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/jj-gabriel-3.jpg",
     "source": "article",
     "url": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
     "used": 1
