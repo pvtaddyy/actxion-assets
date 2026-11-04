@@ -163,6 +163,19 @@
    }
   ]
  },
+ "deniz-undav": {
+  "name": "Deniz Undav",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/vfb-stuttgart-deniz-undav-relieved-094100272.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/deniz-undav.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/vfb-stuttgart-deniz-undav-relieved-094100272.html",
+    "used": 1
+   }
+  ]
+ },
  "diego-simeone": {
   "name": "Diego Simeone",
   "variants": [
@@ -240,6 +253,19 @@
    }
   ]
  },
+ "fabian-bredlow": {
+  "name": "Fabian Bredlow",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/something-s-not-right-here-vfb-stuttgart-s-fabian-bredlow-makes-explosive-allegations-against-galatasaray-after-online-backlash/bltd871a0c557cee58e",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/fabian-bredlow.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/something-s-not-right-here-vfb-stuttgart-s-fabian-bredlow-makes-explosive-allegations-against-galatasaray-after-online-backlash/bltd871a0c557cee58e",
+    "used": 1
+   }
+  ]
+ },
  "federico-valverde": {
   "name": "Federico Valverde",
   "variants": [
@@ -258,6 +284,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/florian-wirtz.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181.jpg/1920px-Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "francesco-farioli": {
+  "name": "Francesco Farioli",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/psv-one-matches-francesco-farioli-070005480.html",
+    "credit": "Photo: Imago via Yahoo Sports",
+    "file": "photos/francesco-farioli.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/psv-one-matches-francesco-farioli-070005480.html",
     "used": 1
    }
   ]
