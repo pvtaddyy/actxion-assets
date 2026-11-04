@@ -72,6 +72,19 @@
    }
   ]
  },
+ "bruno-fernandes": {
+  "name": "Bruno Fernandes",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/lot-lies-bruno-fernandes-clarifies-084900889.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/bruno-fernandes-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/lot-lies-bruno-fernandes-clarifies-084900889.html",
+    "used": 1
+   }
+  ]
+ },
  "bryan-cristante": {
   "name": "Bryan Cristante",
   "variants": [
@@ -397,6 +410,22 @@
     "source": "article",
     "url": "https://www.skysports.com/football/video/13607630/manchester-united-vs-roma-michael-dawson-reacts-to-bruno-fernandes-penalty-drama",
     "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13607206/man-utd-3-2-roma-matheus-cunha-scores-two-and-is-sent-off-in-wild-comeback-to-end-nine-game-winless-run",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/matheus-cunha-2.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13607206/man-utd-3-2-roma-matheus-cunha-scores-two-and-is-sent-off-in-wild-comeback-to-end-nine-game-winless-run",
+    "used": 1
+   },
+   {
+    "article": "https://www.cbssports.com/watch/soccer/video/matheus-cunha-saves-manchester-united-late-in-3-2-win-vs-roma-champions-club",
+    "credit": "Photo: CBS Sports",
+    "file": "photos/matheus-cunha-3.jpg",
+    "source": "article",
+    "url": "https://www.cbssports.com/watch/soccer/video/matheus-cunha-saves-manchester-united-late-in-3-2-win-vs-roma-champions-club",
+    "used": 1
    }
   ]
  },
@@ -430,6 +459,14 @@
     "file": "photos/michael-carrick.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/michael-carrick-2.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
+    "used": 1
    }
   ]
  },
@@ -451,6 +488,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/mohamed-salah.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-161_%28cropped%29.jpg/1920px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-161_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "old-trafford": {
+  "name": "Old Trafford",
+  "variants": [
+   {
+    "article": "https://www.ilmessaggero.it/en/roma_faces_manchester_united_at_old_trafford_match_preview_and_analysis-9864550.html",
+    "credit": "Photo: ilmessaggero.it",
+    "file": "photos/old-trafford.jpg",
+    "source": "article",
+    "url": "https://www.ilmessaggero.it/en/roma_faces_manchester_united_at_old_trafford_match_preview_and_analysis-9864550.html",
     "used": 1
    }
   ]
