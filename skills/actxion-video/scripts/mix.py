@@ -155,10 +155,19 @@ def main():
     m = json.loads(js)
     af = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
           f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
-    subprocess.run([FF, "-y", "-loglevel", "error", "-i", pre, "-af", af, "-ar", str(SR), "-ac", "2", out], check=True)
-    r = subprocess.run([FF, "-hide_banner", "-i", out, "-af", "loudnorm=print_format=json", "-f", "null", "-"],
-                       capture_output=True, text=True)
-    js = json.loads(r.stderr[r.stderr.rfind("{"): r.stderr.rfind("}") + 1])
+    mid = os.path.join(tmpd, "mid.wav")
+    subprocess.run([FF, "-y", "-loglevel", "error", "-i", pre, "-af", af, "-ar", str(SR), "-ac", "2", mid], check=True)
+
+    def measure(path):
+        r = subprocess.run([FF, "-hide_banner", "-i", path, "-af", "loudnorm=print_format=json", "-f", "null", "-"],
+                           capture_output=True, text=True)
+        return json.loads(r.stderr[r.stderr.rfind("{"): r.stderr.rfind("}") + 1])
+
+    # loudnorm can stop short of -14 when it protects the peaks: close the gap with gain + a limiter
+    gap = -14.0 - float(measure(mid)["input_i"])
+    subprocess.run([FF, "-y", "-loglevel", "error", "-i", mid, "-af",
+                    f"volume={gap:.2f}dB,alimiter=limit=0.84:attack=2:release=50:level=false", "-ar", str(SR), out], check=True)
+    js = measure(out)
     print(json.dumps({"path": out, "lufs": js["input_i"], "true_peak": js["input_tp"]}))
 
 

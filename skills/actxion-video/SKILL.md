@@ -1,6 +1,6 @@
 ---
 name: actxion-video
-description: ACTXION's short-video engine for Instagram Reels, YouTube Shorts, TikTok and X - football "pick your side" debates told with an ElevenLabs voice, word-by-word captions, real player cut-outs with text behind them, animated scoreboards, stat counters, head-to-head bars and 3D pitches, rendered frame by frame to a 1080x1920 MP4. Covers the series, hooks (Hook Code), the 5-pass edit (reel-edit), sound, packaging per platform and posting through Metricool. Use when planning, scripting, voicing, editing, rendering, captioning, posting or reviewing any ACTXION video.
+description: ACTXION's short-video engine for Instagram Reels, YouTube Shorts, TikTok and X - football "pick your side" debates told with a narrated voice (Kokoro, or ElevenLabs on a paid plan), word-by-word captions, real player cut-outs with text behind them, animated scoreboards, stat counters, head-to-head bars and 3D pitches, rendered frame by frame to a 1080x1920 MP4. Covers the series, hooks (Hook Code), the 5-pass edit (reel-edit), sound, packaging per platform and posting through Metricool. Use when planning, scripting, voicing, editing, rendering, captioning, posting or reviewing any ACTXION video.
 ---
 
 # ACTXION video engine
@@ -61,18 +61,24 @@ Run the script through ig-human (`python3 /tmp/ig/skills/ig-human/detect.py scri
 everything it flags (no em dashes, no AI slop words). Read it aloud in your head: nothing that
 sounds written.
 
-## 4. Voice (ElevenLabs connector)
-- `creative_generate_speech`, model **eleven_v4**, voice **Petros** `vr54y8Xovf4AEnfNrGqH`
-  (real South London voice, football-fan feel). Backup voices: Asher `UaYTS0wayjmO9KD1LR4R`,
-  Archie `kmSVBPu7loj4ayNinwWM`. `generations_count: 1`. Light direction tags only:
-  `[confident]`, `[beat]`, `[building]`, `[pause]`, `[questioning]`.
-- Then `creative_get_generations` with the returned flow_id and generation id, and download
-  `full_res_url` with curl to `voice.mp3`. Never generate twice for one video; if it fails, use the
-  Piper fallback (`en_GB-northern_english_male-medium`, CC BY-SA 4.0, credit it in the YouTube text).
-- **Budget:** a 30 s script costs about 340-390 credits on eleven_v4 and about 170 on
-  eleven_flash_v2_5. The account has 10,000 credits a month: one eleven_v4 video a day is about
-  11,000, so use eleven_v4 on weekdays and flash on weekends unless the owner raises the plan.
-  Price with `estimate_only: true` before any script over 45 s.
+## 4. Voice
+**Default: Kokoro-82M** (Apache-2.0 weights, MIT runtime, free for commercial use), runs in the
+cloud box in seconds, no credits:
+```bash
+python3 skills/actxion-video/scripts/voice.py script.txt voice.wav --voice bm_george --speed 1.08
+```
+British male voices: `bm_george` (house voice), `bm_fable`, `bm_lewis`, `bm_daniel`. Credit in the
+YouTube description: "Voice: Kokoro-82M (Apache 2.0)". Write for the ear: short sentences, "..." for
+a pause; direction tags are stripped.
+
+**ElevenLabs: only on a paid plan.** The owner's account is on the free plan (4 Nov 2026), whose
+terms don't allow commercial use, and ACTXION posts are commercial. So ElevenLabs is OFF for
+anything that gets posted until the owner upgrades (Starter or higher includes a commercial
+licence). When it is on: `creative_generate_speech`, eleven_v4, voice Petros `vr54y8Xovf4AEnfNrGqH`,
+`generations_count: 1`, then `creative_get_generations` and curl `full_res_url`. About 340-390
+credits per 30 s on eleven_v4, 170 on flash. If it says "busy", use Kokoro; never retry in a loop.
+
+**Fallback:** Piper `en_GB-northern_english_male-medium` (CC BY-SA 4.0, credit it).
 
 ## 5. Edit: the five passes
 Working folder `work/<date>-<slug>/`. Everything is code; every pass writes a file the next reads.
@@ -147,7 +153,7 @@ with the sound off (captions + graphics) and with it on.
 - **YouTube Short:** title per yt-package: under 60 characters (40 for mobile), the question with a
   name or a number, no more than 2 capitalised words, ends `#shorts`. Description per yt-seo: the
   first two lines answer the query people type ("Cunha red card Roma"), then "Pick your side in the
-  comments", sources, photo credits, "Voice: ElevenLabs" (or the Piper credit), "Vote on every big
+  comments", sources, photo credits, the voice credit ("Voice: Kokoro-82M (Apache 2.0)"), "Vote on every big
   call in the ACTXION app". 5-12 tags (names, club, competition). `youtubeData {"type": "short",
   "privacy": "public", "madeForKids": false, "category": "SPORTS", "isAiGeneratedContent": false}`.
 - **TikTok:** one hook line + the A or B ask + 3-4 hashtags. `tiktokData {"privacyOption":
@@ -172,12 +178,13 @@ result into this file's series table.
 
 ## Cloud setup (once per run)
 ```bash
-python3 -m pip install -q --ignore-installed pillow numpy scipy imageio-ffmpeg "rembg[cpu]" faster-whisper
+python3 -m pip install -q --ignore-installed pillow numpy scipy imageio-ffmpeg "rembg[cpu]" faster-whisper kokoro-onnx soundfile
 (cd skills/actxion-video/engine && npm i --silent)      # playwright 1.49.1; falls back to /opt/pw-browsers/chromium
 git clone -q --depth 1 https://github.com/Jakeschincariol/instagram-agent-skill /tmp/ig
 git clone -q --depth 1 https://github.com/Jakeschincariol/youtube-agent-skill /tmp/yt
 ```
-First runs download the cut-out model (~180 MB) and the whisper model (~140 MB).
+First runs download the cut-out model (~180 MB), the whisper model (~140 MB) and Kokoro (~350 MB).
+Kokoro needs Python 3.10+.
 
 ## Never
 Match footage, TV clips, club or league video, copyrighted music, AI images or AI video of real
