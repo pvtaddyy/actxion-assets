@@ -45,7 +45,17 @@ Source of truth: `github.com/pvtaddyy/actxion-assets` (`main`). Read `skills/act
 - **Identity check (no face recognition, so you do it):** Read every photo. It must clearly be that person (face, kit, crest, number). If it's someone else, add the file name or article URL to `photos/blocklist.txt`, delete it and rerun. If the person is in the frame but off-centre, crop to them before rendering (the renderer centres horizontally).
 - **No repeats:** never the same photo twice in one carousel, and not a photo X used in the last 24 hours if another exists (the `used` counts in `photos/index.json` spread this). Wikimedia Commons search by full name finds extra angles.
 - `render.py` refuses a card without a photo (exit 3). Fix the photo; `--text-ok` only for a deliberate text card, with the reason in the run report.
-- Look at every PNG before scheduling: nothing clipped, names right, credit visible, not the same template as the last two posts.
+- **One accent per carousel.** Pass the same `"accent": "#RRGGBB"` on every slide (pick it from the cover photo's kit or the club's colour; default ACTXION red `#E61E28`), so the marker, dots and rules match across the swipe instead of changing colour per photo.
+- **Design pass, every slide:** the face sits in the upper two thirds and is never covered by type; one headline of 6 words or fewer with one or two `*marked*` words; the kicker is one line of 12 words or fewer; nothing within 120px of the edges on the cover; every slide still reads at thumbnail size. If a slide fails, re-crop or rewrite it before scheduling. Spend the time: a carousel that looks made by a picture editor is the whole point.
+- Look at every PNG before scheduling: nothing clipped, names right, credit visible on the image, not the same template as the last two posts.
+
+## Stories (full screen, 1080x1920)
+`python3 skills/actxion-instagram/scripts/story_frame.py <template> --spec '<json>' --out <png>` builds full-screen Still Frame stories, never a shrunken feed card:
+- `verdict`: one face full-bleed, caps headline, kicker, the two sides as A / B rows, a "Reply A or B" pill.
+- `thisorthat`: two faces stacked, the question on the seam between them.
+- `quote`: the speaker full-bleed, their words in serif, "Agree or disagree? Reply".
+- `result`: full time, the score over the match winner or the manager under pressure, "Rate the winner out of 10".
+Everything readable sits between y=270 and y=1580 (Instagram's bars cover the rest). Same photo rules, same accent rule (pass `accent`). Read each PNG before scheduling.
 
 ## Hosting (cloud routines, identical to X)
 1. `python3 -m pip install -q --ignore-installed pillow`
@@ -64,8 +74,8 @@ Before choosing stories, read the Metricool queue with getScheduledPosts for the
 - Rumours name the source and tier. Never invent a quote, score, fee or stat. Times in UK time.
 
 ## Scheduling (Metricool createScheduledPost)
-- providers `[{"network":"instagram"}]`, `instagramData: {"type":"POST","isAiGenerated":false}`, `media` = the image URLs in slide order, `firstCommentText` = the photo credit.
-- Slots: carousel 13:00 and 17:30 IST. Never within 45 minutes of a team reel; check getScheduledPosts first. Never two posts on the same story within 24 hours.
+- providers `[{"network":"instagram"}]`, `instagramData: {"type":"POST","isAiGenerated":false}`, `media` = the image URLs in slide order. **`firstCommentText` is a follow-up question, never credits** (credits live on the image): a second, related pick-your-side question that starts a thread, e.g. "Bonus round: who's the bigger miss for United, Cunha or Bruno? 👇". One line, different from the caption's question, no hashtags.
+- Slots: carousels 13:00, 17:30 and 22:30 IST. Never within 45 minutes of a team reel; check getScheduledPosts first. Never two posts on the same story within 24 hours.
 
 ## Human-only jobs (never automate)
 Likes, follows, comments, DMs, story poll stickers, collab invites. Draft them with ig-reply, ig-comment, ig-dm, ig-story; a person sends them.
