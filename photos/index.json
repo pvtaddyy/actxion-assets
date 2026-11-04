@@ -162,6 +162,17 @@
    }
   ]
  },
+ "dirk-kuyt": {
+  "name": "Dirk Kuyt",
+  "variants": [
+   {
+    "credit": "Photo: User:Zafer, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/dirk-kuyt-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Dirk_Kuyt_Fenerbah%C3%A7e_20260805_%281%29_%28cropped%29.JPG/1920px-Dirk_Kuyt_Fenerbah%C3%A7e_20260805_%281%29_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "eddie-howe": {
   "name": "Eddie Howe",
   "variants": [
@@ -322,6 +333,18 @@
    }
   ]
  },
+ "manchester-united-fans": {
+  "name": "Manchester United fans",
+  "variants": [
+   {
+    "credit": "Photo: goal.com",
+    "file": "photos/manchester-united-fans.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/man-utd-fans-stage-tennis-ball-protest-glazer-family-sir-jim-ratcliffe-roma/blt9b71c9def57e6a94",
+    "used": 1
+   }
+  ]
+ },
  "marco-silva": {
   "name": "Marco Silva",
   "variants": [
@@ -433,6 +456,17 @@
    }
   ]
  },
+ "phil-foden": {
+  "name": "Phil Foden",
+  "variants": [
+   {
+    "credit": "Photo: Brad Tutterow, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/phil-foden-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Phil_Foden_%2836502388741%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
  "rayan-ait-nouri": {
   "name": "Rayan Ait-Nouri",
   "variants": [
@@ -497,6 +531,12 @@
     "credit": "Photo: Alexander Böhm, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/thomas-tuchel.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Thomas_Tuchel.jpg/1920px-Thomas_Tuchel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/thomas-tuchel-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Thomas_Tuchel_England_v_Ghana_23_June_2026-225.jpg/1920px-Thomas_Tuchel_England_v_Ghana_23_June_2026-225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
