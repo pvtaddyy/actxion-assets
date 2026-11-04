@@ -764,5 +764,37 @@
     "used": 0
    }
   ]
+ },
+ "vinicius-junior": {
+  "name": "Vinícius Júnior",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/vinicius-is-not-the-biggest-problem-the-magician-s-absence-exposes-real-madrid-s-confusion-in-athens/blt98133cc841080061",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/vinicius-junior-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/vinicius-is-not-the-biggest-problem-the-magician-s-absence-exposes-real-madrid-s-confusion-in-athens/blt98133cc841080061",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/vinicius-junior-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "yan-diomande": {
+  "name": "Yan Diomande",
+  "variants": [
+   {
+    "article": "https://www.beinsports.com/en-us/soccer/la-liga/articles/yan-diomande-gets-his-big-real-madrid-opportunity-2026-10-16",
+    "credit": "Photo: beIN SPORTS",
+    "file": "photos/yan-diomande.jpg",
+    "source": "article",
+    "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/yan-diomande-gets-his-big-real-madrid-opportunity-2026-10-16",
+    "used": 1
+   }
+  ]
  }
 }
