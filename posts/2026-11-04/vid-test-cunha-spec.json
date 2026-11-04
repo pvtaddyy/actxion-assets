@@ -1,0 +1,29 @@
+{
+ "voice": "/root/voices/en_GB-northern_english_male-medium.onnx",
+ "slides": [
+  {
+   "image": "posts/2026-11-04/ig-1600-cunha-01.png",
+   "say": "Matheus Cunha did a whole season in one night. Hero, or liability?"
+  },
+  {
+   "image": "posts/2026-11-04/ig-1600-cunha-02.png",
+   "say": "Manchester United were two nil down to Roma inside eighteen minutes."
+  },
+  {
+   "image": "posts/2026-11-04/ig-1600-cunha-04.png",
+   "say": "Then Cunha took over. He won the penalty, scored the equaliser, and scored the winner."
+  },
+  {
+   "image": "posts/2026-11-04/ig-1600-cunha-03.png",
+   "say": "Three two. United's first win in fifty four days. And then he got himself sent off."
+  },
+  {
+   "image": "posts/2026-11-04/ig-1600-cunha-05.png",
+   "say": "So which is it? Hero, or liability?"
+  },
+  {
+   "image": "posts/2026-11-04/ig-1600-cunha-06.png",
+   "say": "Comment hero or liability, and send this to the United fan in your group."
+  }
+ ]
+}
