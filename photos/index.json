@@ -72,14 +72,13 @@
    }
   ]
  },
- "bruno-fernandes": {
-  "name": "Bruno Fernandes",
+ "bryan-cristante": {
+  "name": "Bryan Cristante",
   "variants": [
    {
-    "credit": "Photo: GiveMeSport",
-    "file": "photos/bruno-fernandes.jpg",
-    "source": "article",
-    "url": "https://www.givemesport.com/man-utd-fans-want-rid-diogo-dalot-disgraceful-vs-roma/",
+    "credit": "Photo: Werner100359, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/bryan-cristante.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Bryan-Cristante-2023.jpg",
     "used": 1
    }
   ]
@@ -256,13 +255,24 @@
    }
   ]
  },
+ "jamie-carragher": {
+  "name": "Jamie Carragher",
+  "variants": [
+   {
+    "credit": "Photo: Ludovic Péron, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/jamie-carragher.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Football_against_poverty_2014_-_Jamie_Carragher_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "john-eustace": {
   "name": "John Eustace",
   "variants": [
    {
     "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
-    "file": "photos/john-eustace-2.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/John_Eustace_25042026_%286%29.jpg/1920px-John_Eustace_25042026_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "file": "photos/john-eustace.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/John_Eustace_25042026_%282%29.jpg",
     "used": 1
    }
   ]
@@ -456,25 +466,13 @@
    }
   ]
  },
- "phil-foden": {
-  "name": "Phil Foden",
-  "variants": [
-   {
-    "credit": "Photo: Brad Tutterow, Wikimedia Commons, CC BY 2.0",
-    "file": "photos/phil-foden-2.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Phil_Foden_%2836502388741%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "used": 1
-   }
-  ]
- },
  "rayan-ait-nouri": {
-  "name": "Rayan Ait-Nouri",
+  "name": "Rayan Aït-Nouri",
   "variants": [
    {
-    "credit": "Photo: goal.com",
+    "credit": "Photo: Anneprudence, Wikimedia Commons, CC BY 4.0",
     "file": "photos/rayan-ait-nouri.jpg",
-    "source": "article",
-    "url": "https://www.goal.com/en/news",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg",
     "used": 1
    }
   ]
@@ -494,11 +492,10 @@
   "name": "Rodri",
   "variants": [
    {
-    "credit": "Photo: Imago via goal.com",
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/rodri.jpg",
-    "source": "article",
-    "url": "https://www.goal.com/en/news/flick-celebrates-ending-barcelona-s-negative-run-and-raises-mystery-over-rodri/blt762c3ead5df67e57",
-    "used": 2
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },

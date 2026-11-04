@@ -12,6 +12,10 @@ or someone else's photo is never used. Recent photos (2024 to 2026) rank higher.
     python3 skills/actxion-visuals/scripts/find_photo.py "Scott Parker" --club "West Ham" --article <story URL>
 
 --article (repeatable) takes the news article the story came from; its lead photo is used first.
+Then the photo on the person's own Wikipedia page (always the right person, used once), then
+recent news articles that name the person (Bing News; check these, they can show a team-mate),
+then Openverse and Commons, then the saved library. Logos and title graphics are skipped. --no-search skips the news search.
+To reject a photo, add its article URL or file name to photos/blocklist.txt and run again.
 
 --club takes the club or national team in the story; "name + club" is searched first,
 which finds the right person in one go.
@@ -25,6 +29,11 @@ import time
 import unicodedata
 import urllib.parse
 import urllib.request
+
+try:
+    from PIL import Image
+except ImportError:  # the graphic check is skipped without Pillow
+    Image = None
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 LIB = os.path.join(ROOT, "photos")
@@ -42,7 +51,7 @@ FOOTBALL = re.compile(r"football|soccer|futbol|fútbol|calcio|fussball|fußball|
 MAX_VARIANTS = 10
 SOLO_ONLY = False  # set for the small-photo pass, where a crop can land on the other person
 # Whole-call budget: a desk run can't wait minutes for a busy API
-DEADLINE = time.time() + 40
+DEADLINE = time.time() + 55
 
 
 def norm(s):
@@ -201,6 +210,18 @@ def face_ok(data):
     return False
 
 
+def is_graphic(im):
+    """True for logos, title cards and 'Paper Talk' style graphics: few colours, big flat areas.
+    A real photo of a person has thousands of colours and no one colour covering a third of it."""
+    if Image is None:
+        return False
+    small = im.convert("RGB").resize((96, 96))
+    q = small.quantize(colors=64)
+    counts = sorted((c for c, _ in q.getcolors(96 * 96) or []), reverse=True)
+    distinct = len(small.getcolors(96 * 96) or [])
+    return bool(counts and counts[0] > 0.30 * 96 * 96) or distinct < 900
+
+
 def blocked(url):
     """Files we've caught as the wrong person or unlicensed: photos/blocklist.txt, one fragment per line."""
     try:
@@ -234,7 +255,9 @@ def from_article(url):
                 return m.group(1).replace("&amp;", "&")
         return ""
     img = meta("og:image", "twitter:image", "twitter:image:src")
-    if not img or re.search(r"logo|placeholder|default|misc_logos|favicon", img, re.I):
+    if not img or re.search(r"logo|placeholder|default|misc_logos|favicon|paper-?talk|graphic|badge|crest", img, re.I):
+        return None
+    if blocked(url) or blocked(img):
         return None
     data = get(urllib.parse.urljoin(url, img), 2, binary=True)
     if not data or not (data[:3] == b"\xff\xd8\xff" or data[:8] == b"\x89PNG\r\n\x1a\n" or data[:4] == b"RIFF"):
@@ -243,7 +266,7 @@ def from_article(url):
         import io
         from PIL import Image
         im = Image.open(io.BytesIO(data))
-        if max(im.size) < 800:
+        if max(im.size) < 800 or is_graphic(im):
             return None
         if data[:4] == b"RIFF":  # webp: store as jpeg so the renderer and Metricool both take it
             buf = io.BytesIO()
@@ -256,6 +279,65 @@ def from_article(url):
     agency = AGENCY.search(re.sub("<[^>]+>", " ", text))
     credit = f"Photo: {agency.group(0).title() if agency else site} via {site}" if agency else f"Photo: {site}"
     return data, credit
+
+
+def from_wikipedia(name, tries=2, club=""):
+    """The lead photo on the person's own Wikipedia page: always the right person.
+
+    Returns (score, url, credit) candidates; the page whose intro names the club ranks first."""
+    q = urllib.parse.quote(f"{name} footballer {club}".strip())
+    d = get("https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search"
+            f"&gsrsearch={q}&gsrlimit=5&prop=pageimages|extracts&exintro=1&explaintext=1&exlimit=5"
+            "&piprop=original|name&pilicense=free", tries)
+    out = []
+    for p in ((d or {}).get("query") or {}).get("pages", {}).values():
+        o, intro = p.get("original"), p.get("extract", "")
+        if not o or not (name_match(name, p["title"]) or name_match(name, intro[:300])):
+            continue
+        if not FOOTBALL.search(intro[:600]) or max(o["width"], o["height"]) < 600:
+            continue
+        sc = 1000 - p.get("index", 5) * 100 + club_hit(club, intro) * 4
+        out.append((sc, o["source"].split("?")[0], p.get("pageimage", "")))
+    out.sort(reverse=True)
+    res = []
+    for sc, url, fname in out[:1]:  # only the best-matching page: a second "Rodri" is someone else
+        credit = "Photo: Wikimedia Commons"
+        info = get("https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo"
+                   f"&iiprop=extmetadata&titles=File:{urllib.parse.quote(fname)}", 1)
+        for pg in ((info or {}).get("query") or {}).get("pages", {}).values():
+            m = (pg.get("imageinfo") or [{}])[0].get("extmetadata", {})
+            lic = m.get("LicenseShortName", {}).get("value", "")
+            art = re.sub("<[^>]+>", "", m.get("Artist", {}).get("value", "")).strip()[:40]
+            if art or lic:
+                credit = f"Photo: {art or 'unknown'}, Wikimedia Commons, {lic}".rstrip(", ")
+        res.append((sc, url, credit))
+    return res
+
+
+def news_articles(name, club=""):
+    """Recent news articles about the person (Bing News RSS), so a fresh lead photo can be used
+    when the story's own article had none. Only articles whose headline names the person."""
+    q = urllib.parse.quote(f'"{name}" {club}'.strip())
+    try:
+        req = urllib.request.Request(f"https://www.bing.com/news/search?q={q}&format=rss&setlang=en-gb",
+                                     headers={"User-Agent": BROWSER_UA})
+        with urllib.request.urlopen(req, timeout=max(3, min(10, DEADLINE - time.time()))) as r:
+            xml = r.read(400_000).decode("utf-8", "ignore")
+    except Exception:
+        return []
+    last = norm(name).split()[-1]
+    out = []
+    for item in re.findall(r"<item>(.*?)</item>", xml, re.S):
+        t = re.search(r"<title>(.*?)</title>", item, re.S)
+        l = re.search(r"<link>(.*?)</link>", item, re.S)
+        if not t or not l or f" {last} " not in f" {norm(t.group(1))} ":
+            continue
+        link = l.group(1).replace("&amp;", "&")
+        u = urllib.parse.parse_qs(urllib.parse.urlparse(link).query).get("url", [link])[0]
+        if "msn.com" in u:  # MSN pages are script-only, no lead photo in the HTML
+            continue
+        out.append(u)
+    return out[:6]
 
 
 def add_variant(name, entry, tries, club=""):
@@ -310,11 +392,42 @@ def main():
     entry = idx.get(slug(name)) or {"name": name, "variants": []}
     entry["variants"] = [v for v in entry["variants"] if os.path.exists(os.path.join(ROOT, v["file"]))]
     # The story's own article photo comes first: it is real-time and about exactly this story
-    for url in articles:
-        found = from_article(url)
+    def article_photo(urls):
+        for url in urls:
+            if DEADLINE - time.time() < 12:
+                return None
+            found = from_article(url)
+            if found:
+                return url, found
+        return None
+
+    def done(v, source):
+        idx[slug(name)] = entry
+        write_index(idx)
+        print(json.dumps({"path": os.path.join(ROOT, v["file"]), "credit": v["credit"], "source": source}))
+        return 0
+
+    new_ok = "--no-new" not in sys.argv
+    hit = article_photo(articles)
+    # No usable photo in the story's article: the person's own Wikipedia photo is next, because it is
+    # always the right person. Other outlets' articles can lead with the manager or a team-mate.
+    if not hit and new_ok:
+        have = {v.get("url") for v in entry["variants"]}
+        for _, url, credit in from_wikipedia(name, 2, club):
+            if url in have or blocked(url):
+                continue
+            data = get(url, 2, binary=True)
+            if data and (data[:3] == b"\xff\xd8\xff" or data[:8] == b"\x89PNG\r\n\x1a\n"):
+                keep(name, entry, data, url, credit)
+                entry["variants"][-1]["used"] = 1
+                return done(entry["variants"][-1], "wikipedia")
+    if not hit and new_ok and "--no-search" not in sys.argv:
+        hit = article_photo([u for u in news_articles(name, club) if u not in articles])
+    for url, found in [hit] if hit else []:
         if found:
             keep(name, entry, found[0], url, found[1])
             entry["variants"][-1]["source"] = "article"
+            entry["variants"][-1]["article"] = url
             entry["variants"][-1]["used"] = 1
             idx[slug(name)] = entry
             write_index(idx)
