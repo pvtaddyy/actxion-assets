@@ -245,6 +245,17 @@
    }
   ]
  },
+ "john-eustace": {
+  "name": "John Eustace",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/john-eustace-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/John_Eustace_25042026_%286%29.jpg/1920px-John_Eustace_25042026_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "jose-mourinho": {
   "name": "Jose Mourinho",
   "variants": [
@@ -442,6 +453,18 @@
     "file": "photos/riccardo-calafiori.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/1_Riccardo_Calafiori_2026.jpg/1920px-1_Riccardo_Calafiori_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   }
+  ]
+ },
+ "rodri": {
+  "name": "Rodri",
+  "variants": [
+   {
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/rodri.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/flick-celebrates-ending-barcelona-s-negative-run-and-raises-mystery-over-rodri/blt762c3ead5df67e57",
+    "used": 2
    }
   ]
  },
