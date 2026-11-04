@@ -50,7 +50,7 @@ def segment(still, secs, path):
     vf = (f"scale={W * 2}:{H * 2},zoompan=z='1+0.06*on/{frames}':x='iw/2-(iw/zoom/2)':"
           f"y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{H}:fps={FPS},format=yuv420p")
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-loop", "1", "-i", still, "-vf", vf,
-                    "-frames:v", str(frames), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", path],
+                    "-frames:v", str(frames), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "veryfast", "-crf", "20", path],
                    check=True)
 
 
