@@ -225,11 +225,11 @@
     "used": 1
    },
    {
-    "article": "https://www.turkiyetoday.com/sports/fenerbahce-names-dirk-kuyt-interim-coach-after-ismail-kartals-exit-3231429",
-    "credit": "Photo: Türkiye Today",
+    "article": "https://sports.yahoo.com/articles/dirk-kuyt-prepares-emotional-liverpool-174404434.html",
+    "credit": "Photo: Imago via Yahoo Sports",
     "file": "photos/dirk-kuyt-3.jpg",
     "source": "article",
-    "url": "https://www.turkiyetoday.com/sports/fenerbahce-names-dirk-kuyt-interim-coach-after-ismail-kartals-exit-3231429",
+    "url": "https://sports.yahoo.com/articles/dirk-kuyt-prepares-emotional-liverpool-174404434.html",
     "used": 1
    }
   ]
@@ -726,6 +726,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/thomas-tuchel-2.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Thomas_Tuchel_England_v_Ghana_23_June_2026-225.jpg/1920px-Thomas_Tuchel_England_v_Ghana_23_June_2026-225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "vedat-muriqi": {
+  "name": "Vedat Muriqi",
+  "variants": [
+   {
+    "article": "https://www.beinsports.com/en-us/soccer/sper-lig/articles-video/vedat-muriqi-explains-what-makes-galatasaray-vs-fenerbah%C3%A7e-so-intense-2026-10-26",
+    "credit": "Photo: beIN SPORTS",
+    "file": "photos/vedat-muriqi.jpg",
+    "source": "article",
+    "url": "https://www.beinsports.com/en-us/soccer/sper-lig/articles-video/vedat-muriqi-explains-what-makes-galatasaray-vs-fenerbah%C3%A7e-so-intense-2026-10-26",
     "used": 1
    }
   ]
