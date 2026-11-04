@@ -152,6 +152,12 @@
     "file": "photos/cole-palmer-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cole_Palmer_20042025_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
+   },
+   {
+    "credit": "Photo: Ollie Noori, Wikimedia Commons, CC0",
+    "file": "photos/cole-palmer-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cole_Palmer_making_pass_vs_Southampton_crowd_view.jpg/1920px-Cole_Palmer_making_pass_vs_Southampton_crowd_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -263,6 +269,12 @@
     "credit": "Photo: Jacek Stanislawek, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/erling-haaland-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Erling_Haaland_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/erling-haaland-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
     "used": 1
    }
   ]
