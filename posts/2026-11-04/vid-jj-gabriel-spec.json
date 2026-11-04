@@ -1,0 +1,141 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "credit": "Photo: Sky Sports",
+ "tail": 1.2,
+ "header": {
+  "text": "JJ Gabriel: family or United?",
+  "key": [
+   "family or United?"
+  ]
+ },
+ "keywords": [
+  "!Nine",
+  "Madrid",
+  "Milan.",
+  "twenty",
+  "!squad.",
+  "September.",
+  "development.",
+  "wait?",
+  "enough?"
+ ],
+ "sources": [
+  "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "gabriel-cut.png",
+   "bgPhoto": "gabriel.jpg",
+   "word": "NINE MINUTES",
+   "label": "JJ Gabriel, 16",
+   "wordY": -40,
+   "wordSize": 260,
+   "height": 600
+  },
+  {
+   "type": "list",
+   "at": "JJ",
+   "title": "Sky Sports",
+   "items": [
+    {
+     "at": "JJ",
+     "text": "Man Utd academy, age 16"
+    },
+    {
+     "at": "Real",
+     "text": "Real Madrid: verbal agreement"
+    },
+    {
+     "at": "sign",
+     "text": "Plan: sign him in January"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "pre",
+   "value": 9,
+   "unit": "minutes",
+   "label": "v AC Milan, pre-season",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "card",
+   "at": "family",
+   "colour": "yellow",
+   "text": "Not happy"
+  },
+  {
+   "type": "stat",
+   "at": "wanted",
+   "value": 20,
+   "unit": "minutes",
+   "label": "what his family wanted",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "player",
+   "at": "didn't",
+   "photo": "gabriel-cut.png",
+   "bgPhoto": "gabriel.jpg",
+   "word": "LEFT OUT",
+   "label": "Champions League squad",
+   "wordY": -40,
+   "wordSize": 260,
+   "height": 600
+  },
+  {
+   "type": "list",
+   "at": "asked",
+   "title": "Since September",
+   "items": [
+    {
+     "at": "asked",
+     "text": "Asked to leave"
+    },
+    {
+     "at": "training",
+     "text": "No training since"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "United",
+   "title": "Two sides",
+   "items": [
+    {
+     "at": "protecting",
+     "text": "United: protect his development"
+    },
+    {
+     "at": "camp",
+     "text": "His camp: football now"
+    }
+   ]
+  },
+  {
+   "type": "versus",
+   "at": 25.8,
+   "a": {
+    "photo": "gabriel-cut.png",
+    "label": "Family"
+   },
+   "b": {
+    "photo": "mufc.png",
+    "label": "United"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Family or <span class=\"k\">United?</span>",
+   "sub": "Was nine minutes enough?"
+  }
+ ]
+}
