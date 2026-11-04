@@ -199,11 +199,23 @@ def vignette(img, color, strength=120):
     img.paste(color, (0, 0, w, h), Image.eval(m, lambda v: int((255 - v) * strength / 255)))
 
 
+def spec_accent(spec, acc):
+    """An optional fixed accent ("accent": "#RRGGBB") so every slide of a carousel matches."""
+    h = (spec.get("accent") or "").lstrip("#")
+    if len(h) == 6:
+        try:
+            return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+        except ValueError:
+            pass
+    return acc
+
+
 def base(spec, W, H, key="photo", focus=0.18):
     """The full-bleed photo with its vignette. Returns (img, draw, accent, shade)."""
     CW, CH = s(W), s(H)
     raw = R.load_photo(spec.get(key))
     acc, shade = palette(raw)
+    acc = spec_accent(spec, acc)
     img = Image.new("RGB", (CW, CH), shade)
     if raw:
         img.paste(R.natural(raw, CW, CH, focus), (0, 0))
@@ -342,6 +354,7 @@ def t_verdict(spec, W, H):
     CW, CH = s(W), s(H)
     pa, pb = R.load_photo(spec.get("photo_a")), R.load_photo(spec.get("photo_b"))
     acc, shade = palette(pa or pb)
+    acc = spec_accent(spec, acc)
     img = Image.new("RGB", (CW, CH), shade)
     d = ImageDraw.Draw(img)
     q = R.clean(spec.get("question", ""), headline=True)
