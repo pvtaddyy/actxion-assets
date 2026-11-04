@@ -72,6 +72,17 @@
    }
   ]
  },
+ "bryan-cristante": {
+  "name": "Bryan Cristante",
+  "variants": [
+   {
+    "credit": "Photo: Werner100359, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/bryan-cristante.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Bryan-Cristante-2023.jpg",
+    "used": 1
+   }
+  ]
+ },
  "bukayo-saka": {
   "name": "Bukayo Saka",
   "variants": [
@@ -233,6 +244,28 @@
    }
   ]
  },
+ "jamie-carragher": {
+  "name": "Jamie Carragher",
+  "variants": [
+   {
+    "credit": "Photo: Ludovic Péron, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/jamie-carragher.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Football_against_poverty_2014_-_Jamie_Carragher_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "john-eustace": {
+  "name": "John Eustace",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/john-eustace.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/John_Eustace_25042026_%282%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "jose-mourinho": {
   "name": "Jose Mourinho",
   "variants": [
@@ -387,6 +420,17 @@
    }
   ]
  },
+ "rayan-ait-nouri": {
+  "name": "Rayan Aït-Nouri",
+  "variants": [
+   {
+    "credit": "Photo: Anneprudence, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/rayan-ait-nouri.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg",
+    "used": 1
+   }
+  ]
+ },
  "riccardo-calafiori": {
   "name": "Riccardo Calafiori",
   "variants": [
@@ -394,6 +438,17 @@
     "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/riccardo-calafiori.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/1_Riccardo_Calafiori_2026.jpg/1920px-1_Riccardo_Calafiori_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "rodri": {
+  "name": "Rodri",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/rodri.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg",
     "used": 1
    }
   ]

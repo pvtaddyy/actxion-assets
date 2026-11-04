@@ -725,6 +725,7 @@ def main():
                     help="portrait 1080x1350 fills a phone screen on X (default); x is 1600x900 wide")
     ap.add_argument("--style", default="still", choices=["still", "classic"],
                     help="still: the current photo-led minimal look (DESIGN.md); classic: the older newsprint set")
+    ap.add_argument("--text-ok", action="store_true", help="allow a Still Frame card with no photo")
     a = ap.parse_args()
     if a.style == "still":
         sys.path.insert(0, str(HERE))
@@ -733,6 +734,20 @@ def main():
     else:
         templates = CLASSIC
     spec = json.loads(a.spec) if a.spec.strip().startswith("{") else json.loads(Path(a.spec).read_text())
+    # A Still Frame card without its photo is an empty dark panel. Refuse it, so a missed photo
+    # stops the post instead of going out blank. --text-ok overrides for a deliberate text card.
+    if a.style == "still" and not a.text_ok:
+        keys = ("photo_a", "photo_b") if a.template == "ballot" else ("photo",)
+        def loads(src):
+            try:
+                return bool(src and load_photo(src))
+            except Exception:
+                return False
+        if not any(loads(spec.get(k)) for k in keys):
+            print(f"NO PHOTO: {a.template} needs a loadable {' or '.join(keys)}. Run find_photo.py again "
+                  "(a team-mate, the manager or the match photo from the article also works), "
+                  "or pass --text-ok only if a text card is really the right call.", file=sys.stderr)
+            return 3
     W, H = SIZES[a.size]
     img = templates[a.template](spec, W, H)
     img = img.resize((W, H), Image.LANCZOS)

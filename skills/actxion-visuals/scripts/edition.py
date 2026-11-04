@@ -347,11 +347,13 @@ def t_verdict(spec, W, H):
     q = R.clean(spec.get("question", ""), headline=True)
     names = (R.clean(spec.get("option_a", ""), True), R.clean(spec.get("option_b", ""), True))
     half, gap = CW // 2, s(4)
-    if pa or pb:
+    if pa and pb:
         for i, ph in enumerate((pa, pb)):
             x, w = (0, half - gap // 2) if i == 0 else (half + gap // 2, CW - half - gap // 2)
-            if ph:
-                img.paste(R.natural(ph, w, CH, 0.18), (x, 0))
+            img.paste(R.natural(ph, w, CH, 0.18), (x, 0))
+        vignette(img, shade, 110)
+    elif pa or pb:  # one photo: run it full-bleed rather than leave half the card empty
+        img.paste(R.natural(pa or pb, CW, CH, 0.18), (0, 0))
         vignette(img, shade, 110)
     scrim(img, (0, 0, CW, int(CH * 0.44)), shade, 235, 1.2, up=True)
     scrim(img, (0, int(CH * 0.64), CW, CH), shade, 240, 1.4)
@@ -366,7 +368,7 @@ def t_verdict(spec, W, H):
         tracked(d, (x, y - s(38)), "A" if i == 0 else "B", f("mono", 19), acc, 0.1)
         draw_rich(d, (x, y), nl, nf, WHITE, acc)
         credit(d, (half - gap // 2 if i == 0 else CW) - s(16), CH - s(26), spec.get("credit_a" if i == 0 else "credit_b"))
-    if pa or pb:
+    if pa and pb:
         r = s(32)
         cx, cy = half, int(CH * (0.53 if portrait else 0.56))
         d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=shade)
@@ -460,7 +462,13 @@ def t_file(spec, W, H):
     cs = s(64)
     y -= s(40) + cs
     frm, to = R.clean(spec.get("from_club", ""), True), R.clean(spec.get("to_club", ""), True)
-    mf = f("sans-bold", 40)
+    # shrink the club line until badge FROM -> badge TO fits the column
+    for size in range(40, 21, -2):
+        mf = f("sans-bold", size)
+        need = 2 * (cs + s(16)) + d.textlength(frm.upper(), font=mf) + d.textlength(to.upper(), font=mf) \
+            + d.textlength("→", font=mf) + 2 * s(22)
+        if need <= max_w:
+            break
     ty = y + (cs - mf.size) // 2 - s(4)
     x = m
     w = paste_crest(img, crest(frm), x, y, cs)

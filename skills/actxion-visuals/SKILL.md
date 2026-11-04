@@ -27,7 +27,13 @@ Pick the object that matches the story. The story decides the template, not the 
 
 Club badges are looked up automatically from each club's Wikipedia page and cached in `photos/crests/`. Use full club names (or the `*_crest_name` fields) so the lookup finds the right club. Highlighting with `*asterisks*` works in `headline`, `question`, `quote`, `player` and `option_a`/`option_b`; use it on at most two words.
 
-**Use a photo of the person whenever the story is about a person.** Real faces stop the scroll and make the image make sense on its own. The photo variants switch on automatically when the photo fields are filled. A ballot about two players shows both; a scoreboard shows the manager under pressure or the match winner; a red card shows whoever said it. Fall back to the text-only version only when Commons has no free HD photo of that person, and never use a photo of someone else.
+**Use a photo of the person whenever the story is about a person.** Real faces stop the scroll and make the image make sense on its own. The photo variants switch on automatically when the photo fields are filled. A ballot about two players shows both; a scoreboard shows the manager under pressure or the match winner; a red card shows whoever said it. Never use a photo of someone else.
+
+**No photo, no image.** The renderer refuses a card without a photo (exit code 3, "NO PHOTO") because a blank dark card is what went out on 4 Nov when the finder missed. When that happens, in this order:
+1. Run `find_photo.py` again without `--article`: it now tries the person's Wikipedia photo, then recent news articles about them, then Commons.
+2. Still nothing: use the other person in the story (the manager who spoke, the player it's about, the rival), or the story article's own match photo, and say so in the alt text.
+3. A ballot with one photo is fine: it runs that photo full-bleed.
+4. `--text-ok` exists for a deliberate text card only. If you use it, say why in the run report.
 
 ## Render
 
@@ -44,7 +50,14 @@ python3 ~/.claude/skills/actxion-visuals/scripts/render.py ballot \
 
 Thumbnail URLs (`.../thumb/.../2560px-...`) also work: if Commons refuses the size, the renderer retries 3840px, 1920px and then the original file.
 
-**Finding photos:** run `python3 skills/actxion-visuals/scripts/find_photo.py "<full name>" --club "<club or national team>" --article "<the article URL you took the story from>"`. Pass `--article` every time (repeat it for a second source). It takes that article's lead photo first: real-time and about exactly this story, credited as "Photo: <agency> via <outlet>" when the caption names one, otherwise "Photo: <outlet>". Without an article photo it falls back to free photos: a title search for "name + club" on Openverse and Wikimedia Commons, full name in order, football-tagged, recent first, a different photo each time, then the saved library in `photos/`. It answers within about 40 seconds. Look at the photo before using it and drop it if it isn't clearly that person; if you drop a free photo, add its file name to `photos/blocklist.txt`. If the lead photo shows the wrong person or no person (a stadium, a logo, a graphic), pass a different article about the same story.
+**Finding photos:** run `python3 skills/actxion-visuals/scripts/find_photo.py "<full name>" --club "<club or national team>" --article "<the article URL you took the story from>"`. Pass `--article` every time (repeat it for a second source). The order it tries, stopping at the first that works (about a minute at most):
+1. **The story article's lead photo:** real-time and about exactly this story, credited "Photo: <agency> via <outlet>" when the caption names one, otherwise "Photo: <outlet>". Logos and title graphics such as Sky's "Paper Talk" card are skipped automatically.
+2. **The person's own Wikipedia photo:** always the right person, free licence. Used once, then the next options take over.
+3. **Recent news articles that name the person** (Bing News) and their lead photos. These can show a team-mate or the manager, so check them.
+4. **Openverse and Wikimedia Commons:** "name + club" title search, football-tagged, recent first.
+5. **The saved library** in `photos/`.
+
+The JSON's `source` says which one won. Look at the photo before using it. If it isn't clearly that person, add the file name, or the article URL for an article photo, to `photos/blocklist.txt`, delete the file and run again: the next source is used. `--no-search` skips step 3.
 
 For a stadium, search Commons for the stadium name. Keep only CC0, public domain, CC BY or CC BY-SA files at least 2000px on the long side, and put the credit in the post's first comment as well as on the image.
 
