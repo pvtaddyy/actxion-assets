@@ -100,6 +100,7 @@ def t_thisorthat(spec):
     CW, CH = s(W), s(H)
     pa, pb = R.load_photo(spec.get("photo_a")), R.load_photo(spec.get("photo_b"))
     acc, shade = E.palette(pa or pb)
+    acc = E.spec_accent(spec, acc)
     img = Image.new("RGB", (CW, CH), shade)
     half = CH // 2
     for raw, y in ((pa, 0), (pb, half)):
@@ -123,7 +124,7 @@ def t_thisorthat(spec):
         d.text((s(M + 48), y), E.line_text(fl[0]), font=ff, fill=E.WHITE)
     ask_pill(d, s(BOTTOM), spec.get("ask") or "Reply A or B", acc)
     if spec.get("credit_a"):
-        E.credit(d, CW - s(M), half - s(40), spec.get("credit_a"))
+        E.credit(d, CW - s(M), qy - s(170), spec.get("credit_a"))
     if spec.get("credit_b"):
         E.credit(d, CW - s(M), s(BOTTOM) + s(30), spec.get("credit_b"))
     return finish(img)

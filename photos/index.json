@@ -13,6 +13,14 @@
     "file": "photos/alexander-isak-2.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_3.jpg/1920px-UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/fenerbah-e-liverpool-florian-wirtz-165000470.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/alexander-isak-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/fenerbah-e-liverpool-florian-wirtz-165000470.html",
+    "used": 1
    }
   ]
  },
@@ -297,6 +305,14 @@
     "file": "photos/florian-wirtz-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/why-isnt-florian-wirtz-starting-164657769.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/florian-wirtz-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/why-isnt-florian-wirtz-starting-164657769.html",
+    "used": 1
    }
   ]
  },
@@ -440,6 +456,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/lisandro-martinez.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Lisandro_Martinez_Argentina_v_Egypt_7_July_2026-125.jpg/1920px-Lisandro_Martinez_Argentina_v_Egypt_7_July_2026-125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "luis-enrique": {
+  "name": "Luis Enrique",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/luis-enrique-reveals-psg-overcame-080000851.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/luis-enrique-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/luis-enrique-reveals-psg-overcame-080000851.html",
     "used": 1
    }
   ]
