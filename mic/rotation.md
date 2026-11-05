@@ -9,6 +9,7 @@ Man Utd, Liverpool, Man City) and roughly one a fortnight from a non-English gia
 | Date | Set idea | Club / story | Status |
 |---|---|---|---|
 | Thu 5 Nov | street | EP 01 pilot: Man Utd, "Carrick or the players?" (after the 3-0 v Bournemouth) | pilot, not posted |
+| Thu 5 Nov | viewing (Lagos) | EP 1 posted: Liverpool, "Barcola: flop, or give him time?" (test run, slug mic-2026-11-05-barcola, MP4 posts/test/) | posted (owner OK): IG 417754478 + YT 417754532 + TikTok 417754716 at 22:00 IST, FB 417754852 at 23:00 IST |
 | Sun 8 Nov | decide on the day | the biggest row from Saturday's games | todo |
 | Tue 10 Nov | decide on the day | the biggest row from Sunday / Monday games | todo |
 | Thu 12 Nov | decide on the day | midweek / international break row | todo |
