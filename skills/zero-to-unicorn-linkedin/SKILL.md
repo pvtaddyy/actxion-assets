@@ -65,3 +65,10 @@ Banned words: significant, crucial, notably, comprehensive, insights, robust, le
    Then `getScheduledPosts` again and confirm each post is there at the right UK time on the LinkedIn provider.
 6. **Report** (Sunday desk only, before writing): followers now (LIEV01) and change, posts and impressions last 7 days (LIPO12 per post), best and worst post and why, progress against the targets (22 Nov 850 followers / median 250; 13 Dec 1,000 / 450; 10 Jan 1,250 / 650; 31 Jan 1,500 / 800), one change for next week. Metricool's personal-profile stats lag up to 3 days and may read 0 for the first week; say so instead of guessing.
 7. **Finish**: a table (UK date/time | series | format | first line | Metricool id), sources, anything held as draft, failures quoted exactly. Then PushNotification: "Shamit LinkedIn: <n> posts booked" + the first lines.
+
+## Engagement pack (copy-paste only; routine trig_012T953Tgxj55xeoD6ep7uqe, Mon + Thu 07:00 UK)
+Everything for Shamit's profile lives here, including what used to be in ACTXION's Monday "founder & team pack" (moved 5 Nov 2026). LinkedIn bans automated comments, likes, reshares, invites and DMs on personal profiles, so this part is written for him to paste by hand:
+- 10 comment ideas (story + source, who posts about it, LinkedIn search link, a 200–350 character comment in his voice; 6 sports-business, 2 fan-engagement/sports-tech, 2 founder/startup). Templates: missing piece, answer the closing question, data-first, counter with concession, sharper question. No hashtags, no product plug, never "Great post".
+- His reshare lines for each ACTXION page LinkedIn post that week (2 options each, his founder angle, never the page's wording).
+- His own queued posts, so he's around to reply in the first hour.
+Team reshare lines for other staff stay in the ACTXION team reshare pack (trig_01BgymVCviKoiqskLbUmSoXw).
