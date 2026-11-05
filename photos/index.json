@@ -185,6 +185,19 @@
    }
   ]
  },
+ "cristiano-ronaldo": {
+  "name": "Cristiano Ronaldo",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/cristiano-ronaldo.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
+    "used": 1
+   }
+  ]
+ },
  "declan-rice": {
   "name": "Declan Rice",
   "variants": [
@@ -474,6 +487,27 @@
     "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
     "file": "photos/john-eustace.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/John_Eustace_25042026_%282%29.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "jorge-jesus": {
+  "name": "Jorge Jesus",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/jorge-jesus.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
+    "used": 1
+   },
+   {
+    "article": "https://worldsoccertalk.com/news/cristiano-ronaldos-coach-jorge-jesus-addresses-transfer-controversy-involving-al-hilal-and-al-nassr/",
+    "credit": "Photo: Getty via World Soccer Talk",
+    "file": "photos/jorge-jesus-2.jpg",
+    "source": "article",
+    "url": "https://worldsoccertalk.com/news/cristiano-ronaldos-coach-jorge-jesus-addresses-transfer-controversy-involving-al-hilal-and-al-nassr/",
     "used": 1
    }
   ]

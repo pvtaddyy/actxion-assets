@@ -1,0 +1,141 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Fans say...",
+ "tail": 1.2,
+ "header": {
+  "text": "Ronaldo quits Portugal: better off?",
+  "key": [
+   "better off?"
+  ]
+ },
+ "keywords": [
+  "!hurt.",
+  "retired",
+  "better",
+  "forty-six",
+  "forty-three",
+  "sixteen,",
+  "!Jesus",
+  "goodbye.",
+  "fill?",
+  "!hurt?"
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
+  "https://www.skysports.com/football/video/13608319/charlie-austin-backs-portugal-to-succeed-after-cristiano-ronaldos-calls-international-retirement-at-the-right-time",
+  "https://worldsoccertalk.com (Jorge Jesus / Ronaldo photo, Getty)"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "ronaldo-cut.png",
+   "bgPhoto": "ronaldo.jpg",
+   "word": "HURT?",
+   "label": "Cristiano Ronaldo",
+   "wordY": 0,
+   "wordSize": 270,
+   "height": 570
+  },
+  {
+   "type": "player",
+   "at": 2.55,
+   "photo": "ronaldo2-cut.png",
+   "bgPhoto": "ronaldo2.jpg",
+   "word": "RETIRED",
+   "label": "From Portugal duty, per Sky Sports",
+   "wordY": 0,
+   "wordSize": 270,
+   "height": 570
+  },
+  {
+   "type": "list",
+   "at": 6.55,
+   "title": "Fans say",
+   "items": [
+    {
+     "at": 6.55,
+     "text": "Better off without him"
+    },
+    {
+     "at": 8.85,
+     "text": "You can't replace the record scorer"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": 12.55,
+   "photo": "ronaldo-cut.png",
+   "bgPhoto": "ronaldo.jpg",
+   "word": "41",
+   "label": "Age, per Sky Sports",
+   "wordY": 0,
+   "height": 570,
+   "wordSize": 270
+  },
+  {
+   "type": "stat",
+   "at": 13.65,
+   "value": 146,
+   "unit": "goals",
+   "label": "for Portugal, the record",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "stat",
+   "at": 17.6,
+   "value": 243,
+   "unit": "caps",
+   "label": "across 23 years",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "list",
+   "at": 19.75,
+   "title": "Won with Portugal",
+   "items": [
+    {
+     "at": 19.75,
+     "text": "Euro 2016"
+    },
+    {
+     "at": 20.8,
+     "text": "Two Nations League titles"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": 22.3,
+   "photo": "jesus-cut.png",
+   "bgPhoto": "jesus.jpg",
+   "word": "FALL OUT",
+   "label": "Head coach Jorge Jesus, per Sky Sports",
+   "wordY": 0,
+   "wordSize": 260,
+   "height": 570
+  },
+  {
+   "type": "versus",
+   "at": 28.45,
+   "a": {
+    "photo": "ronaldo-cut.png",
+    "label": "Better off"
+   },
+   "b": {
+    "photo": "ronaldo2-cut.png",
+    "label": "Hole to fill"
+   }
+  },
+  {
+   "type": "ask",
+   "at": 31.0,
+   "html": "Better off, or a <span class=\"k\">hole?</span>",
+   "sub": "Send this to a Portugal fan"
+  }
+ ]
+}
