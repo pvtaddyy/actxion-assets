@@ -245,6 +245,17 @@
    }
   ]
  },
+ "emirates-stadium": {
+  "name": "Emirates Stadium",
+  "variants": [
+   {
+    "credit": "Photo: Wonker from London, United Kingdom, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/emirates-stadium.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Emirates_Stadium_2009.jpg/1920px-Emirates_Stadium_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "enzo-maresca": {
   "name": "Enzo Maresca",
   "variants": [
@@ -343,6 +354,19 @@
     "file": "photos/francesco-farioli.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/psv-one-matches-francesco-farioli-070005480.html",
+    "used": 1
+   }
+  ]
+ },
+ "gabriel-magalhaes": {
+  "name": "Gabriel Magalhães",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/arsenal-star-gabriel-magalhaes-having-072138914.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/gabriel-magalhaes.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/arsenal-star-gabriel-magalhaes-having-072138914.html",
     "used": 1
    }
   ]
@@ -887,6 +911,17 @@
     "file": "photos/vinicius-junior-4.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/the-dispute-with-diomande-is-settled-a-storm-of-criticism-hits-vinicius-after-the-greece-clash/blt3eee9319249a5ecb",
+    "used": 1
+   }
+  ]
+ },
+ "william-saliba": {
+  "name": "William Saliba",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/william-saliba-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/William_Saliba_France_v_Norway_26_June_26-044_%28cropped%29.jpg/1920px-William_Saliba_France_v_Norway_26_June_26-044_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]

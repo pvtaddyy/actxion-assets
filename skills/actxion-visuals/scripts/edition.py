@@ -312,7 +312,7 @@ def t_frame(spec, W, H):
     kick = R.clean(spec.get("kicker", ""))
     max_w = CW - 2 * m if portrait else int(CW * 0.66)
     kf, kl = fit_plain(d, kick, "serif-it", max_w, 3, 40 if portrait else 36, 24) if kick else (None, [])
-    hf, hl = fit_rich(d, head, "sans-bold", max_w, 4, 112 if portrait else 100, 48, max_h=CH * (0.32 if portrait else 0.40))
+    hf, hl = fit_rich(d, head, "sans-bold", max_w, int(spec.get("headline_lines", 4)), 112 if portrait else 100, 48, max_h=CH * (0.32 if portrait else 0.40))
     k_h = rich_h(kl, kf, 1.16) + s(34) if kl else 0
     y = CH - m - s(34) - k_h - rich_h(hl, hf)
     y = draw_rich(d, (m, y), hl, hf, WHITE, acc)
