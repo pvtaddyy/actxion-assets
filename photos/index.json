@@ -238,6 +238,19 @@
    }
   ]
  },
+ "didier-deschamps": {
+  "name": "Didier Deschamps",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/didier-deschamps-manchester-united-contact-130800446.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/didier-deschamps-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/didier-deschamps-manchester-united-contact-130800446.html",
+    "used": 1
+   }
+  ]
+ },
  "diego-simeone": {
   "name": "Diego Simeone",
   "variants": [
@@ -805,6 +818,12 @@
     "credit": "Photo: Wikimedia Commons",
     "file": "photos/michael-carrick-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Michael_Carrick_12042025_%285%29_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Matt Janzer from Missoula, USA, Wikimedia Commons, CC BY-SA 2.0",
+    "file": "photos/michael-carrick-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Michael_Carrick_-_July_2015.jpg/1920px-Michael_Carrick_-_July_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
