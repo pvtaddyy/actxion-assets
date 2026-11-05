@@ -986,6 +986,14 @@
     "file": "photos/ruben-amorim.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/R%C3%BAben_Amorim_nega_ter_reuni%C3%B5es_marcadas_com_clubes_ingleses.webm/1920px--R%C3%BAben_Amorim_nega_ter_reuni%C3%B5es_marcadas_com_clubes_ingleses.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
     "used": 1
+   },
+   {
+    "article": "https://www.pianetamilan.it/stagione/europa-league-news-e-risultati/milan-ferencvaros-0-0-analisi-del-primo-tempo-a-san-siro/",
+    "credit": "Photo: Pianeta Milan",
+    "file": "photos/ruben-amorim-3.jpg",
+    "source": "article",
+    "url": "https://www.pianetamilan.it/stagione/europa-league-news-e-risultati/milan-ferencvaros-0-0-analisi-del-primo-tempo-a-san-siro/",
+    "used": 1
    }
   ]
  },
@@ -997,6 +1005,17 @@
     "file": "photos/scott-parker.jpg",
     "url": "",
     "used": 0
+   }
+  ]
+ },
+ "teun-koopmeiners": {
+  "name": "Teun Koopmeiners",
+  "variants": [
+   {
+    "credit": "Photo: Ardfern, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/teun-koopmeiners.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Teun_Koopmeiners_Manchester_United_v_Atalanta_BC%2C_20_October_2021_%2812%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
    }
   ]
  },
