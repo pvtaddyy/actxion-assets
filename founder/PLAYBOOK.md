@@ -58,11 +58,11 @@ This file is also the rulebook the founder routines follow. It sits next to the 
 | Format | How often | Why |
 |---|---|---|
 | **Text post, first person** (900–1,400 characters) | 2–3 a week | Native text from a person is what travels on personal profiles in 2026; his own text post beat his video repost 3x. |
-| **Text + one real-colour photo** | about 1 a week (usually the fan-side take) | A free-licence Wikimedia Commons photo of the stadium, club or person in the story, credited in the first comment. Never agency, TV or club-owned images, never AI images of real people, never black-and-white or tinted. |
+| **Text + build-log card** (his line, a number, or a real-colour photo with his hook) | every non-poll post | A free-licence Wikimedia Commons photo of the stadium, club or person in the story, credited in the first comment. Never agency, TV or club-owned images, never AI images of real people, never black-and-white or tinted. |
 | **LinkedIn poll** | every other Saturday | 2–4 options, 7 days, a question fans and industry both care about. |
 | **Personal photo posts** | when Shamit sends photos | The strongest format of all; only he can supply them (§7). |
 
-**No ACTXION red-and-newsprint slides** on his posts: they'd make him look like the brand account. ACTXION appears in the words, naturally, and in his headline and banner.
+**Every post carries an image (except polls, which LinkedIn won't allow): his own look, "the build log".** Not the ACTXION red-card-on-newsprint slides, which would make him look like the brand account, but a sister style: midnight background, his line in big type, ACTXION red only on the one key number, a "0 → UNICORN" track as the signature, signed with his name and the small ACTXION mark. Monday = his strongest line or number (every other Monday a 5–7 slide build-log carousel), Tuesday = his key sentence, Thursday = a real-colour photo of the story with his hook over it, Saturday = his line. Samples: `skills/zero-to-unicorn-linkedin/examples/samples/`.
 
 **Writing rules**
 - Line 1 under 200 characters, works alone before "…see more", **never a question**. Strong openers: a sharp claim, a dated fact, a number with a referent, a confession of a view ("I used to think fan apps were about scores. I was wrong.").
