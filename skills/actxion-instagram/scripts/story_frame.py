@@ -115,7 +115,9 @@ def t_thisorthat(spec):
     qf, ql = E.fit_rich(d, R.clean(spec.get("question", ""), headline=True), "sans-bold", CW - s(2 * M), 2, 76, 40)
     qh = E.rich_h(ql, qf)
     qy = half - qh // 2
-    E.scrim(img, (0, qy - s(260), CW, qy + qh + s(260)), shade, 210, 1.0)
+    mid = qy + qh // 2  # fade in towards the question and out again, no hard edge across a face
+    E.scrim(img, (0, qy - s(260), CW, mid), shade, 210, 1.0)
+    E.scrim(img, (0, mid, CW, qy + qh + s(260)), shade, 210, 1.0, up=True)
     E.draw_rich(d, (s(M), qy), ql, qf, E.WHITE, acc)
     lf = E.f("mono", 22)
     for letter, text, y in (("A", spec.get("option_a", ""), qy - s(120)), ("B", spec.get("option_b", ""), qy + qh + s(70))):

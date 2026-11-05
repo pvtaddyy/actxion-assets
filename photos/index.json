@@ -567,6 +567,19 @@
    }
   ]
  },
+ "lionel-messi": {
+  "name": "Lionel Messi",
+  "variants": [
+   {
+    "article": "https://worldsoccertalk.com/news/cristiano-ronaldo-and-lionel-messi-both-bring-an-end-to-their-legendary-international-careers-but-their-simultaneous-fifa-break-absence-is-not-a-first/",
+    "credit": "Photo: Getty via World Soccer Talk",
+    "file": "photos/lionel-messi-3.jpg",
+    "source": "article",
+    "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-and-lionel-messi-both-bring-an-end-to-their-legendary-international-careers-but-their-simultaneous-fifa-break-absence-is-not-a-first/",
+    "used": 1
+   }
+  ]
+ },
  "lionel-scaloni": {
   "name": "Lionel Scaloni",
   "variants": [
