@@ -6,7 +6,7 @@ description: ACTXION's short-video engine for Instagram Reels, YouTube Shorts, T
 # ACTXION video engine
 
 One vertical master file (1080x1920, 30 fps, H.264, AAC, -14 LUFS) goes to Instagram Reels, YouTube
-Shorts, TikTok and X, each with its own text. Everything is made in code from scratch: our research,
+Shorts, TikTok, X and the Facebook Page, each with its own text. Everything is made in code from scratch: our research,
 our script, our voice, our graphics. No match footage, no TV clips, no copyrighted music, no AI
 images or AI video of real people, no cloned real voice.
 
@@ -163,6 +163,12 @@ with the sound off (captions + graphics) and with it on.
   IST (not on the dot of the other networks) or 23:00-01:00 IST, at least 20 minutes from any queued X
   post. Append `date,ist_time,desk,experiment,variant,first_line` = `...,video,E3,video,...` to
   posts/experiments.csv on claude/posts. If X rejects the file, report it; don't retry in a loop.
+- **Facebook Page Reel (owner-approved 5 Nov 2026, Facebook plan):** `providers [{"network": "facebook"}]`,
+  `facebookData {"type": "REEL"}`, same MP4, at **21:30 IST** (16:00 UK, 17:00 Lagos, 19:00 Nairobi); if a
+  Facebook post is queued within 60 minutes, the next clear time after it. The audience is African Premier
+  League fans: name players and clubs plainly. Caption: hook line, 1-2 lines of context, ONE open question that
+  asks for a reason ("...and why?"). Never "Comment A or B", "tag a mate", "share if" or any vote/comment bait:
+  Meta demotes Pages for engagement bait. 0-2 hashtags. `firstCommentText`: "Bonus round: <a follow-up question>".
 - **Timing:** main post 19:00 IST (UK 13:30, Lagos 14:30, Nairobi 16:30, India evening). Never within
   45 minutes of a team video on the same network.
 

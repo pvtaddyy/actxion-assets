@@ -7,6 +7,20 @@
     "file": "photos/alexander-isak.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Alexander_Isak_France_v_Sweden_6.30.26-043.jpg/1920px-Alexander_Isak_France_v_Sweden_6.30.26-043.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "credit": "Photo: Rolandhino1, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/alexander-isak-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_3.jpg/1920px-UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/fenerbah-e-liverpool-florian-wirtz-165000470.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/alexander-isak-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/fenerbah-e-liverpool-florian-wirtz-165000470.html",
+    "used": 1
    }
   ]
  },
@@ -138,6 +152,12 @@
     "file": "photos/cole-palmer-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cole_Palmer_20042025_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
+   },
+   {
+    "credit": "Photo: Ollie Noori, Wikimedia Commons, CC0",
+    "file": "photos/cole-palmer-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cole_Palmer_making_pass_vs_Southampton_crowd_view.jpg/1920px-Cole_Palmer_making_pass_vs_Southampton_crowd_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -205,11 +225,11 @@
     "used": 1
    },
    {
-    "article": "https://www.turkiyetoday.com/sports/fenerbahce-names-dirk-kuyt-interim-coach-after-ismail-kartals-exit-3231429",
-    "credit": "Photo: Türkiye Today",
+    "article": "https://sports.yahoo.com/articles/dirk-kuyt-prepares-emotional-liverpool-174404434.html",
+    "credit": "Photo: Imago via Yahoo Sports",
     "file": "photos/dirk-kuyt-3.jpg",
     "source": "article",
-    "url": "https://www.turkiyetoday.com/sports/fenerbahce-names-dirk-kuyt-interim-coach-after-ismail-kartals-exit-3231429",
+    "url": "https://sports.yahoo.com/articles/dirk-kuyt-prepares-emotional-liverpool-174404434.html",
     "used": 1
    }
   ]
@@ -222,6 +242,17 @@
     "file": "photos/eddie-howe.jpg",
     "url": "",
     "used": 0
+   }
+  ]
+ },
+ "emirates-stadium": {
+  "name": "Emirates Stadium",
+  "variants": [
+   {
+    "credit": "Photo: Wonker from London, United Kingdom, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/emirates-stadium.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Emirates_Stadium_2009.jpg/1920px-Emirates_Stadium_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -249,6 +280,18 @@
     "credit": "Photo: Jacek Stanislawek, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/erling-haaland-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Erling_Haaland_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/erling-haaland-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/erling-haaland-5.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/1920px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -285,6 +328,20 @@
     "file": "photos/florian-wirtz.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181.jpg/1920px-Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/florian-wirtz-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/why-isnt-florian-wirtz-starting-164657769.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/florian-wirtz-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/why-isnt-florian-wirtz-starting-164657769.html",
+    "used": 1
    }
   ]
  },
@@ -297,6 +354,19 @@
     "file": "photos/francesco-farioli.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/psv-one-matches-francesco-farioli-070005480.html",
+    "used": 1
+   }
+  ]
+ },
+ "gabriel-magalhaes": {
+  "name": "Gabriel Magalhães",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/arsenal-star-gabriel-magalhaes-having-072138914.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/gabriel-magalhaes.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/arsenal-star-gabriel-magalhaes-having-072138914.html",
     "used": 1
    }
   ]
@@ -334,6 +404,19 @@
    }
   ]
  },
+ "jesus-gil-manzano": {
+  "name": "Jesús Gil Manzano",
+  "variants": [
+   {
+    "article": "https://football-italia.net/man-united-roma-referee-slammed-penalty-red/",
+    "credit": "Photo: Getty via Football Italia",
+    "file": "photos/jesus-gil-manzano.jpg",
+    "source": "article",
+    "url": "https://football-italia.net/man-united-roma-referee-slammed-penalty-red/",
+    "used": 1
+   }
+  ]
+ },
  "jj-gabriel": {
   "name": "JJ Gabriel",
   "variants": [
@@ -341,6 +424,14 @@
     "article": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
     "credit": "Photo: Sky Sports",
     "file": "photos/jj-gabriel-2.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
+    "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/jj-gabriel-3.jpg",
     "source": "article",
     "url": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
     "used": 1
@@ -354,6 +445,17 @@
     "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
     "file": "photos/john-eustace.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/John_Eustace_25042026_%282%29.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "jorge-valdano": {
+  "name": "Jorge Valdano",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/jorge-valdano.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Jorge_Valdano_Cropped.jpg",
     "used": 1
    }
   ]
@@ -424,6 +526,19 @@
    }
   ]
  },
+ "luis-enrique": {
+  "name": "Luis Enrique",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/luis-enrique-reveals-psg-overcame-080000851.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/luis-enrique-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/luis-enrique-reveals-psg-overcame-080000851.html",
+    "used": 1
+   }
+  ]
+ },
  "manchester-united-fans": {
   "name": "Manchester United fans",
   "variants": [
@@ -432,6 +547,19 @@
     "file": "photos/manchester-united-fans.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/man-utd-fans-stage-tennis-ball-protest-glazer-family-sir-jim-ratcliffe-roma/blt9b71c9def57e6a94",
+    "used": 1
+   }
+  ]
+ },
+ "marc-bernal": {
+  "name": "Marc Bernal",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/barcelona-director-announces-imminent-renewals-143500573.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/marc-bernal.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/barcelona-director-announces-imminent-renewals-143500573.html",
     "used": 1
    }
   ]
@@ -465,6 +593,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/martin-odegaard.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg/1920px-Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "massimiliano-allegri": {
+  "name": "Massimiliano Allegri",
+  "variants": [
+   {
+    "article": "https://football-italia.net/allegri-napoli-limitations-mistakes-cost-you/",
+    "credit": "Photo: Getty via Football Italia",
+    "file": "photos/massimiliano-allegri.jpg",
+    "source": "article",
+    "url": "https://football-italia.net/allegri-napoli-limitations-mistakes-cost-you/",
     "used": 1
    }
   ]
@@ -504,6 +645,19 @@
     "credit": "Photo: Michael Kranewitter, Wikimedia Commons, CC BY 3.0 at",
     "file": "photos/mats-hummels.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/FIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Mats_Hummels_01.jpg/1920px-FIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Mats_Hummels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "matteo-politano": {
+  "name": "Matteo Politano",
+  "variants": [
+   {
+    "article": "https://football-italia.net/ucl-fc-porto-4-1-napoli-collapse-in-porto/",
+    "credit": "Photo: Getty via Football Italia",
+    "file": "photos/matteo-politano.jpg",
+    "source": "article",
+    "url": "https://football-italia.net/ucl-fc-porto-4-1-napoli-collapse-in-porto/",
     "used": 1
    }
   ]
@@ -584,6 +738,17 @@
    }
   ]
  },
+ "phil-parkinson": {
+  "name": "Phil Parkinson",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/phil-parkinson.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Phil_Parkinson_30082025_%284%29.jpg/1920px-Phil_Parkinson_30082025_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "rayan-ait-nouri": {
   "name": "Rayan Aït-Nouri",
   "variants": [
@@ -591,6 +756,14 @@
     "credit": "Photo: Anneprudence, Wikimedia Commons, CC BY 4.0",
     "file": "photos/rayan-ait-nouri.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/ait-nouri-s-agents-move-him-closer-to-an-english-giant/blt657e9e33e4072c3a",
+    "credit": "Photo: goal.com",
+    "file": "photos/rayan-ait-nouri-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/ait-nouri-s-agents-move-him-closer-to-an-english-giant/blt657e9e33e4072c3a",
     "used": 1
    }
   ]
@@ -656,6 +829,54 @@
    }
   ]
  },
+ "tolu-arokodare": {
+  "name": "Tolu Arokodare",
+  "variants": [
+   {
+    "article": "https://www.espn.com/espn/story/_/id/49667285/nigeria-tolu-arokodare-puts-struggles-wolves-targets-goals-glory-ajax",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/tolu-arokodare.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/espn/story/_/id/49667285/nigeria-tolu-arokodare-puts-struggles-wolves-targets-goals-glory-ajax",
+    "used": 1
+   }
+  ]
+ },
+ "vedat-muriqi": {
+  "name": "Vedat Muriqi",
+  "variants": [
+   {
+    "article": "https://www.beinsports.com/en-us/soccer/sper-lig/articles-video/vedat-muriqi-explains-what-makes-galatasaray-vs-fenerbah%C3%A7e-so-intense-2026-10-26",
+    "credit": "Photo: beIN SPORTS",
+    "file": "photos/vedat-muriqi.jpg",
+    "source": "article",
+    "url": "https://www.beinsports.com/en-us/soccer/sper-lig/articles-video/vedat-muriqi-explains-what-makes-galatasaray-vs-fenerbah%C3%A7e-so-intense-2026-10-26",
+    "used": 1
+   }
+  ]
+ },
+ "victor-osimhen": {
+  "name": "Victor Osimhen",
+  "variants": [
+   {
+    "credit": "Photo: Fédération Guinéenne Football, Wikimedia Commons, Public domain",
+    "file": "photos/victor-osimhen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Victor-osimhen-nigeria-2024-3-4.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "viktor-gyokeres": {
+  "name": "Viktor Gyökeres",
+  "variants": [
+   {
+    "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/viktor-gyokeres.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/1_Viktor_Gy%C3%B6keres_2026.jpg/1920px-1_Viktor_Gy%C3%B6keres_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "vincent-kompany": {
   "name": "Vincent Kompany",
   "variants": [
@@ -664,6 +885,82 @@
     "file": "photos/vincent-kompany.jpg",
     "url": "",
     "used": 0
+   }
+  ]
+ },
+ "vinicius-junior": {
+  "name": "Vinícius Júnior",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/vinicius-is-not-the-biggest-problem-the-magician-s-absence-exposes-real-madrid-s-confusion-in-athens/blt98133cc841080061",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/vinicius-junior-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/vinicius-is-not-the-biggest-problem-the-magician-s-absence-exposes-real-madrid-s-confusion-in-athens/blt98133cc841080061",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/vinicius-junior-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/the-dispute-with-diomande-is-settled-a-storm-of-criticism-hits-vinicius-after-the-greece-clash/blt3eee9319249a5ecb",
+    "credit": "Photo: goal.com",
+    "file": "photos/vinicius-junior-4.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/the-dispute-with-diomande-is-settled-a-storm-of-criticism-hits-vinicius-after-the-greece-clash/blt3eee9319249a5ecb",
+    "used": 1
+   }
+  ]
+ },
+ "william-saliba": {
+  "name": "William Saliba",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/william-saliba-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/William_Saliba_France_v_Norway_26_June_26-044_%28cropped%29.jpg/1920px-William_Saliba_France_v_Norway_26_June_26-044_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "xavi-simons": {
+  "name": "Xavi Simons",
+  "variants": [
+   {
+    "article": "https://www.tottenhamhotspur.com/news/1078839/gallery-xavi-simons-steps-up-rehab-at-hotspur-way",
+    "credit": "Photo: tottenhamhotspur.com",
+    "file": "photos/xavi-simons.jpg",
+    "source": "article",
+    "url": "https://www.tottenhamhotspur.com/news/1078839/gallery-xavi-simons-steps-up-rehab-at-hotspur-way",
+    "used": 1
+   }
+  ]
+ },
+ "yan-diomande": {
+  "name": "Yan Diomande",
+  "variants": [
+   {
+    "article": "https://www.beinsports.com/en-us/soccer/la-liga/articles/yan-diomande-gets-his-big-real-madrid-opportunity-2026-10-16",
+    "credit": "Photo: beIN SPORTS",
+    "file": "photos/yan-diomande.jpg",
+    "source": "article",
+    "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/yan-diomande-gets-his-big-real-madrid-opportunity-2026-10-16",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/yan-diomande-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/yan-diomande-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
    }
   ]
  }
