@@ -1,0 +1,24 @@
+{
+ "slug": "the-mic-ep01-carrick",
+ "set": "street",
+ "club": {"name": "Man Utd", "primary": "#c4121d", "secondary": "#ffffff", "third": "#15161c"},
+ "loc": "SIR MATT BUSBY WAY · AFTER THE BOOS",
+ "question": {"phrase": "Is it Carrick", "kicker": "ONE QUESTION", "line1": "CARRICK", "line2": "OR THE PLAYERS?"},
+ "meter": {"title": "WHO GETS THE BLAME?", "left": "CARRICK", "right": "PLAYERS", "third": "THE BOARD?"},
+ "ask": {"a": "CARRICK", "b": "THE PLAYERS?", "next": "Who's to blame? Comment 👇"},
+ "end": "Which fanbase do we visit next? 👇",
+ "boo": true, "laugh": "I'm still",
+ "keywords": ["forty", "give", "carrick", "players", "him", "lost", "cares", "tools", "lagos", "three", "nil", "recovering", "neither", "upstairs", "fergie", "mess", "you"],
+ "fans": [
+  {"who": "OLD", "label": "THE OLD HEAD", "sub": "Stretford End since the 80s", "coat": "#6b5a45", "shirt": "#6b5a45", "legs": "#2a2d36", "skin": "#e2b996", "hair": "#9a9a9a",
+   "acc": ["cap", "scarf"], "open": false, "gesture": "pockets", "mood": -0.3, "meter": 0, "color": "#ffd54a"},
+  {"who": "ANGRY", "label": "THE ANGRY ONE", "sub": "Salford", "coat": "#8f9aa6", "shirt": "#c4121d", "legs": "#1b2233", "skin": "#f0cdb4", "hair": "#4a2c1c",
+   "acc": ["ponytail"], "open": true, "gesture": "jab", "mood": 0.42, "meter": -0.72, "color": "#ff5a5f"},
+  {"who": "LOYAL", "label": "THE LOYAL ONE", "sub": "Came up from London", "coat": "#b3121c", "shirt": "#b3121c", "legs": "#2c3e66", "skin": "#c89a78", "hair": "#1a1a1a",
+   "acc": ["hood"], "open": false, "gesture": "point", "mood": 0.12, "meter": 0.62, "color": "#ffd54a"},
+  {"who": "LAGOS", "label": "FLEW IN FROM LAGOS", "sub": "First game at Old Trafford", "coat": "#1d1f26", "shirt": "#c4121d", "legs": "#3b3f4a", "skin": "#5a3825", "hair": "#111111",
+   "acc": ["bucket"], "open": true, "gesture": "handsup", "mood": -0.18, "laugh": true, "pop": "Lagos#2", "popHold": 2.4, "meter": 0.05, "color": "#7CFFB2"},
+  {"who": "NAIROBI", "label": "IN FROM NAIROBI", "sub": "United fan for 20 years", "coat": "#1d2742", "shirt": "#1d2742", "legs": "#23252c", "skin": "#4a2e1f", "hair": "#111111",
+   "acc": ["beanie", "glasses"], "open": false, "gesture": "crossed", "mood": 0.08, "pop": "Look upstairs", "popHold": 1.6, "meter": "third", "color": "#7cc7ff"}
+ ]
+}
