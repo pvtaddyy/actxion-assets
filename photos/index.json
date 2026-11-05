@@ -1,4 +1,17 @@
 {
+ "alan-shearer": {
+  "name": "Alan Shearer",
+  "variants": [
+   {
+    "article": "https://www.mirror.co.uk/sport/football/news/alan-shearer-newcastle-nile-ranger-37792086",
+    "credit": "Photo: Pa via Daily Mirror",
+    "file": "photos/alan-shearer.jpg",
+    "source": "article",
+    "url": "https://www.mirror.co.uk/sport/football/news/alan-shearer-newcastle-nile-ranger-37792086",
+    "used": 1
+   }
+  ]
+ },
  "alexander-isak": {
   "name": "Alexander Isak",
   "variants": [
@@ -389,6 +402,22 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/harry-kane.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped_2%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13608255/harry-kane-england-captain-signs-new-contract-at-bayern-munich-running-until-2029",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/harry-kane-3.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13608255/harry-kane-england-captain-signs-new-contract-at-bayern-munich-running-until-2029",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/harry-kane-signs-bayern-contract-090749507.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/harry-kane-4.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/harry-kane-signs-bayern-contract-090749507.html",
     "used": 1
    }
   ]
