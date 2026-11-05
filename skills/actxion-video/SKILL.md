@@ -17,6 +17,25 @@ actxion-growth (voice, niche, banned AI tells) and actxion-visuals (brand, fonts
 Reference account: @thefinalthird.pro (26.9K followers from 11 reels, 2.4M on one) proved that
 football debates and myth-busting built entirely in code, with a voiceover and data graphics, travel.
 
+## 0. Plan first (every run, before any voice or render)
+Write `plan.md` in the work folder and commit it next to the video (`posts/<date>/vid-<slug>-plan.md`). Nothing is
+voiced or rendered until it is complete and passes its own checklist.
+1. **Freshness:** list today's top 5 candidate stories with their publish time and URL. Pick one that broke in the
+   last 24 h (or a live row still moving today). Say why it beats the others and confirm no ACTXION desk has
+   covered it on video in 48 h. Prefer the newest angle (today's quote, reaction or number), not yesterday's recap.
+2. **Fact sheet:** every number, quote and name that will be on screen or spoken, each with its source URL. No fact
+   without a source; nothing older than the story unless it is a career record.
+3. **Angle + series + the A or B:** one line each. The two sides must both be defensible.
+4. **Hooks:** three, different Hook Code types, with hookscore results; the winner and what frame one shows.
+5. **Beat sheet:** a table of every script line, giving: time, scene type, what is on screen, motion, sound, and why
+   this beat earns its place. Each beat is one idea. The frame changes every beat, no beat runs over 4 s, and
+   the loop line echoes the hook.
+6. **Photos:** which person for each scene, the source, and the cut-out check.
+7. **Packaging:** cover frame, the YouTube title, and the five first lines (IG, YT, TikTok, X, Facebook).
+8. **Checklist (tick each):** story <24 h old; every fact sourced; one idea per beat; no face covered; safe area
+   respected; no photo credits on screen; music under the voice; the ask is a real two-sided question.
+Then build from the plan. If the build reveals a problem (a short scene, a bad cut-out), fix the plan and rebuild.
+
 ## 1. What we make (series)
 Every video ends in an A or B choice. Rotate these; the weekly review keeps what works.
 
