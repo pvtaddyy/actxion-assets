@@ -154,3 +154,6 @@ These are stretch targets; nobody can promise them. If a checkpoint misses by mo
 - 2026 feed: dwell time, saves and real comments beat likes; engagement bait and pods were demoted in the "Authenticity Update"; external links cut reach (Ordinal link-penalty study ~26.5%), so links go in the first comment.
 - Build-in-public and founder-journey posts are among the most followed formats for early-stage founders; first-hour replies from the author lift distribution.
 - LinkedIn's User Agreement bans bots and automated access for likes, comments, invitations and messages, which is why §6 stays human.
+
+## Voice (ElevenLabs, decided 5 Nov 2026)
+The ElevenLabs paid plan (shared with the ACTXION video desks) is NOT used on Shamit's profile. A synthetic narrator on a personal founder account reads as fake and costs trust, and his posts are text + plain images. Never clone, imitate or synthesise Shamit's voice, and never present any voice as his, unless Shamit himself gives explicit written consent to the owner. If he ever records his own short videos or voice notes, those go out as they are (subtitles only).
