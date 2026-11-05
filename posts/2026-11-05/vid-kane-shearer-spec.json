@@ -1,0 +1,148 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "credit": "Photos: Yahoo Sports, Wikimedia CC BY-SA, PA/Mirror",
+ "tail": 1.2,
+ "header": {
+  "text": "Kane v Shearer's record: gone?",
+  "key": [
+   "gone?"
+  ]
+ },
+ "keywords": [
+  "!Kane,",
+  "twenty-nine,",
+  "gone?",
+  "Forty-seven.",
+  "Thirty-three,",
+  "fifty-six",
+  "home.",
+  "!safe."
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13608255/harry-kane-england-captain-signs-new-contract-at-bayern-munich-running-until-2029",
+  "https://www.skysports.com/football/news/13602662/harry-kane-wins-ballon-dor-bayern-munich-striker-completes-cinderella-story-from-efl-loans-to-worlds-best-player",
+  "https://sports.yahoo.com/articles/harry-kane-signs-bayern-contract-090749507.html",
+  "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped_2).jpg",
+  "https://www.mirror.co.uk/sport/football/news/alan-shearer-newcastle-nile-ranger-37792086"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "kane-eng-cut.png",
+   "bgPhoto": "kane-eng.jpg",
+   "word": "STILL WAITING?",
+   "label": "Harry Kane",
+   "wordY": -40,
+   "wordSize": 230,
+   "height": 640
+  },
+  {
+   "type": "list",
+   "at": 2.95,
+   "title": "Fans say",
+   "items": [
+    {
+     "at": 2.95,
+     "text": "Spurs: he comes home"
+    },
+    {
+     "at": 6.55,
+     "text": "Bayern: he never leaves"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": "Today",
+   "photo": "kane-sign-cut.png",
+   "bgPhoto": "kane-sign.jpg",
+   "word": "2029",
+   "label": "New Bayern deal, per Sky Sports",
+   "wordY": -40,
+   "wordSize": 340,
+   "height": 600
+  },
+  {
+   "type": "card",
+   "at": 13.75,
+   "colour": "yellow",
+   "text": "Record gone?"
+  },
+  {
+   "type": "stat",
+   "at": "Number",
+   "value": 47,
+   "unit": "goals",
+   "label": "behind the Premier League record",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "player",
+   "at": "Alan",
+   "photo": "shearer-cut.png",
+   "bgPhoto": "shearer.jpg",
+   "word": "260",
+   "label": "Alan Shearer, PL record",
+   "wordY": -40,
+   "wordSize": 340,
+   "height": 600
+  },
+  {
+   "type": "stat",
+   "at": 21.85,
+   "value": 33,
+   "unit": "years old",
+   "label": "Harry Kane today",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "stat",
+   "at": 23.95,
+   "value": 156,
+   "unit": "goals",
+   "label": "in 161 games for Bayern",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "stat",
+   "at": 29.95,
+   "value": 61,
+   "unit": "goals",
+   "label": "for Bayern last season, most since Ronaldo in 2014/15",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "player",
+   "at": 34.4,
+   "photo": "kane-sign-cut.png",
+   "bgPhoto": "kane-sign.jpg",
+   "word": "AT HOME",
+   "label": "Ballon d'Or winner",
+   "wordY": -40,
+   "wordSize": 260,
+   "height": 600
+  },
+  {
+   "type": "versus",
+   "at": 37.95,
+   "a": {
+    "photo": "shearer-cut.png",
+    "label": "Record safe"
+   },
+   "b": {
+    "photo": "kane-eng-cut.png",
+    "label": "Kane takes it"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "safe.",
+   "html": "Shearer's record: <span class=\"k\">safe?</span>",
+   "sub": "A: safe. B: Kane takes it"
+  }
+ ]
+}
