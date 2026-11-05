@@ -35,7 +35,7 @@ Curated from the best 2026 open-source LinkedIn skills (social-media-skills/skil
 | Wed 13:30 | **Fan Pulse** | Document carousel, 6–8 slides from actxion-slides, `publishImagesAsPDF` |
 | Thu 13:30 | Industry poll | LinkedIn poll, 7 days, 2–4 options |
 | Fri 13:30 | Fan-side read #2 (or a milestone/culture post when the team has sent facts) | Text + 1 branded image |
-| Mon 08:00 | Founder & team pack (drafts only) | 3 founder posts, 10 comments, reshare lines |
+| Mon 08:00 | Team reshare pack (drafts only) | team reshare lines; everything for the founder (posts, comments, his reshare lines) is in `zero-to-unicorn-linkedin` |
 | Sun 19:00 | Weekly report | Metrics vs targets, best/worst, one change |
 
 Metricool does not report LinkedIn poll votes, so poll results are never automated or guessed; if the founder shares the real split, a ballot card (actxion-slides `versus` with `tick`) can report it. Never more than 1 page post a day. Weekends off. Football clips are not cross-posted to LinkedIn (max 1/week with a business caption).
