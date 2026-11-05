@@ -1,7 +1,7 @@
-# ACTXION on LinkedIn: Growth Playbook v2 (draft for approval)
+# ACTXION on LinkedIn: Growth Playbook v2 (approved 4 Nov 2026)
 
 Page: ACTXION company page (`urn:li:organization:101149376`) · Metricool brand 4945970 · timezone Asia/Kolkata
-Written: 3 Nov 2026, revised the same day · Deadline: 31 Jan 2027 (90 days)
+Written: 3 Nov 2026, revised the same day, approved by the owner 4 Nov 2026 · Deadline: 31 Jan 2027 (90 days)
 
 This file is also the rulebook the LinkedIn routines follow.
 
@@ -136,10 +136,10 @@ That's 4 company posts a week, up from about 11 a week now but far better target
 
 | Routine | When (IST) | What it does |
 |---|---|---|
-| **LinkedIn desk A** | Mon 09:00 | Researches the week's sports-business news → schedules Tue's fan-side read + Wed's Fan Pulse carousel |
-| **LinkedIn desk B** | Wed 18:00 | Schedules Thu's poll + Fri's fan-side read, fresh from midweek news |
-| **Founder & team pack** | Mon 08:00 | Writes 3 posts for the founder's personal profile, 10 comment ideas for big sports-business posts, and a one-line reshare note for each of this week's company posts. Sends a phone notification. **Never posts.** |
-| **Weekly LinkedIn report** | Sun 19:00 | Followers, impressions, best and worst posts, progress against targets, one change for next week |
+| **LinkedIn desk A** (`trig_014YqcgJs3XJXzS5i1Zo3QN6`) | Mon 09:00 | Researches the week's sports-business news → schedules Tue's fan-side read + Wed's Fan Pulse carousel |
+| **LinkedIn desk B** (`trig_01NJ2MVE12xZtVKjrXMhMFNR`) | Wed 18:00 | Schedules Thu's poll + Fri's fan-side read, fresh from midweek news |
+| **Team reshare pack** (`trig_01BgymVCviKoiqskLbUmSoXw`) | Mon 08:00 | Reshare lines for team members for each of this week's company posts. Sends a phone notification. **Never posts.** (Since 5 Nov 2026 everything for the founder, Shamit, runs on his own routines: posts, comment ideas and his reshare lines. See `founder/PLAYBOOK.md` and skill `zero-to-unicorn-linkedin`.) |
+| **Weekly LinkedIn report** (`trig_01NJjUsRybM7UypEgCLV3nBZ`) | Sun 19:00 | Followers, impressions, best and worst posts, progress against targets, one change for next week |
 
 ### 👤 What only people can do (this is where growth actually comes from)
 
