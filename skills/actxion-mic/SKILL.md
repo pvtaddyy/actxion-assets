@@ -55,15 +55,18 @@ full autopilot, never ask; retry busy tools on your own). The approved look and 
    gesture = pockets, jab, point, handsup, crossed, shrug, facepalm; mood = brows (-0.3 sad .. +0.45 angry);
    pop = the phrase where the gesture peaks ('Lagos#2' = 2nd time); meter = -1..1 or "third".
 5. **Voice** (ElevenLabs; owner on a paid plan since 5 Nov 2026; credits shared with the desk and LAB):
-   a. Budget: sum this calendar month's credits in `posts/elevenlabs-ledger.csv` (and `elevenlabs-usage.csv` if it
-      exists) on claude/posts. THE MIC cap = 8,000 credits/month (~610 an episode). If THE MIC month total + 700 would
-      pass the cap, or all desks together would pass 27,000, use `eleven_flash_v2_5` for the fans (about half) and say so.
+   a. Budget: sum this calendar month's rows in `posts/elevenlabs-ledger.csv` on claude/posts (the one shared ledger;
+      THE MIC rows have slugs starting `mic-`). THE MIC cap = 8,000 credits/month (~610 an episode; agreed split 5 Nov:
+      LAB 14,000, LinkedIn 1,300, daily reel now Kokoro-only). If THE MIC month total + 700 would pass 8,000, OR the
+      whole file's month total + 700 would pass 28,500 (95 % of the 30k plan), use `eleven_flash_v2_5` for the fans
+      (about half the cost); if even that would pass 28,500, Kokoro for every line. Say which in the report.
    b. For each line: `creative_generate_speech` (model eleven_v4, the line's voice_id, generations_count 1, prompt = the
       text with its tags). Then `creative_get_generations` and curl `full_res_url` to voice/<id>.mp3. ONE call per line:
       never re-call a line that started (each call charges). If it says "busy" (nothing charged), wait 60-90 s
       (`sleep 75`) and try that line again, up to 6 times. If a line still fails, Kokoro for that line only:
       `python3 skills/actxion-lab/engine/voice.py voice/<id>.txt voice/<id>-kokoro.wav --voice <bm_george|bf_emma|...>`.
-   c. Append one row per generation to posts/elevenlabs-ledger.csv: `<date>,mic-<slug>-<id>,<model>,<credits>`.
+   c. Append one row per generation to posts/elevenlabs-ledger.csv: `<date>,mic-<slug>-<id>,<model>,<credits>`
+      (credits = the `credit_costs` value the tool returned).
    d. `python3 lines.py` (trims, levels each line to -16 LUFS, word times via faster-whisper, script spelling laid over).
 6. `python3 build.py`, `npx -y hyperframes@0.9.15 check --json` (fix errors), then
    `npx -y hyperframes@0.9.15 snapshot --at <one time inside every line + the question card + the ask>` and LOOK at every
