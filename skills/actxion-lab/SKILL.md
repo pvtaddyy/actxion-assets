@@ -119,7 +119,8 @@ YTVP12 shares, YTVP11 comments. Baselines: desk reels (~19:00 IST) and combined 
 Per episode and network: views 48 h after posting (+ Instagram avg watch, comments, shares) divided by the LAB series median
 for that network (normalised views), one row per episode x network in posts/e4-time-results.csv
 (`date,desk,variant,ist_time,network,views_48h,norm_views,ig_avg_watch_s,comments,shares`; MIC writes desk=mic rows).
-Compare slots on medians; "too early" until each slot has 3 episodes. On Sun 29 Nov pool LAB + MIC rows (6 per slot):
+Compare slots on medians; "too early" until each slot has 3 episodes. Only variants A, B and C count: leave any other
+variant (e.g. MIC EP 1's "0030") out of every comparison. On Sun 29 Nov pool LAB + MIC rows (6 per slot):
 winner = best median normalised views; if within 10 % of the runner-up, the one with better Instagram avg watch wins; a
 network gets its own slot only if its gap is over 20 %. Write the decision to posts/e4-decision.md (THE MIC's Monday review
 reads it, so both series move together unless the data clearly splits them) and set lab/rotation.md "Default slot".
