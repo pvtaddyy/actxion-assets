@@ -65,9 +65,9 @@ sounds written.
 **Default: Kokoro-82M** (Apache-2.0 weights, MIT runtime, free for commercial use), runs in the
 cloud box in seconds, no credits:
 ```bash
-python3 skills/actxion-video/scripts/voice.py script.txt voice.wav --voice bm_george --speed 1.08
+python3 skills/actxion-video/scripts/voice.py script.txt voice.wav --voice bm_fable --speed 1.1
 ```
-British male voices: `bm_george` (house voice), `bm_fable`, `bm_lewis`, `bm_daniel`. Credit in the
+British male voices: `bm_fable` (house voice since 5 Nov, same as the Motion Lab series), `bm_george`, `bm_lewis`, `bm_daniel`. Credit in the
 YouTube description: "Voice: Kokoro-82M (Apache 2.0)". Write for the ear: short sentences, "..." for
 a pause; direction tags are stripped.
 
@@ -101,15 +101,20 @@ python3 $S/build.py spec.json out.mp4                                 # render +
   live at y 1200-1430, never over a face.
 - **04 Motion.** One scene per idea, fired on its trigger word (`at`). Fast in (0.2-0.35 s,
   ease-out), hold, clean out. Push-ins at most 6%. One idea on screen at a time.
-- **05 Sound.** mix.py: hit on frame one, whoosh on every scene change, tap on list items / goals /
-  stat rows, ticks on counters, buzz on a red card, chime on the ask. All synthesised in code. Voice
-  cleaned and always on top; anything else ducked under it. Master -14 LUFS, true peak under -1 dB.
+- **05 Sound.** build.py writes a SOUND PLAN (time, sound, reason) from the scenes, mix.py plays it. Layers:
+  voice on top; a Mixkit music bed by series mood (`spec.series` or `spec.music`: drive, tense, upbeat, drama,
+  cinematic, none), high-passed at 160 Hz, about 13 dB under speech and ducked when anyone talks; then football
+  moments from `scripts/sfx_kit.py`: ball kick + boom on frame one, whooshes on scene changes, riser into the
+  A or B reveal, crowd roar on each goal, whistle + crowd groan on a red card, impact when a number lands,
+  ticks on counters, taps on list items and stat rows, typing on a source chip, chant + ding under the ask.
+  Optional crowd bed (`"crowd": true`). Never meme sounds; never two big hits within 2 s. Mixkit files are
+  downloaded at render time (their licence forbids re-hosting); CC0 ones live in `sfx/`. Master -14 LUFS, true peak under -1 dB.
 
 ### spec.json
 ```json
 {
  "voice": "voice-tight.wav", "words": "words-tight.json", "mark": "<repo>/logo/mark-white.png",
- "accent": "#E61E28", "credit": "Photos: Sky Sports, CBS Sports", "tail": 1.2,
+ "accent": "#E61E28", "series": "Pick your side", "tail": 1.2,
  "header": {"text": "Cunha: hero or liability?", "key": ["hero or liability?"]},
  "keywords": ["!off", "eighteen", "penalty", "equaliser", "!winner", "fifty", "!red", "liability"],
  "sources": ["https://www.skysports.com/..."],
@@ -135,6 +140,8 @@ screen. Colours: background #09090A with a soft red glow, text #F5F5F4, muted #A
 ### Safe area (strictest of reel-edit and ig-reel)
 Nothing important above y=230, below y=1440, or in the right 230 px. The header sits at y 250-420,
 the stage at y 430-1190, captions at y 1200-1430.
+
+No photo credits on the video itself (owner, 5 Nov 2026): credits go in the YouTube description and the X first comment.
 
 ## 6. Review before anything posts (direct, don't settle)
 Look at the stills from `--stills`, then 4 frames pulled from the final MP4. Fix and re-render if:

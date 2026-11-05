@@ -26,7 +26,7 @@
   if (TL.mark) document.getElementById("mark").innerHTML = `<img src="${TL.mark}">`;
   const header = document.getElementById("header");
   if (TL.header) header.innerHTML = TL.header.html;
-  document.getElementById("credit").textContent = TL.credit || "";
+  document.getElementById("credit").textContent = "";  // no photo credits on the video (owner, 5 Nov 2026); they go in the post text
   const caps = document.getElementById("caps");
   const root = document.getElementById("scenes");
 

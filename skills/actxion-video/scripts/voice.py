@@ -6,7 +6,7 @@
 Needs Python 3.10+ and: pip install kokoro-onnx soundfile
 The model (~330 MB) downloads once to ~/.cache/kokoro from the kokoro-onnx GitHub release.
 ElevenLabs direction tags like [pause] are removed; "..." gives a natural pause.
-British male voices: bm_george (default), bm_fable, bm_lewis, bm_daniel. Female: bf_emma, bf_isabella.
+British male voices: bm_fable (default, same as Motion Lab), bm_george, bm_lewis, bm_daniel. Female: bf_emma, bf_isabella.
 Credit in the YouTube description: "Voice: Kokoro-82M (Apache 2.0)".
 """
 import os
@@ -29,7 +29,7 @@ def fetch(name):
 
 def main():
     a = sys.argv[1:]
-    voice, speed = "bm_george", 1.08
+    voice, speed = "bm_fable", 1.1
     if "--voice" in a:
         i = a.index("--voice"); voice = a[i + 1]; del a[i:i + 2]
     if "--speed" in a:
