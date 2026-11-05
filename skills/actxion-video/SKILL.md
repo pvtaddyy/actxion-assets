@@ -81,23 +81,18 @@ everything it flags (no em dashes, no AI slop words). Read it aloud in your head
 sounds written.
 
 ## 4. Voice
-**Default: Kokoro-82M** (Apache-2.0 weights, MIT runtime, free for commercial use), runs in the
-cloud box in seconds, no credits:
-```bash
-python3 skills/actxion-video/scripts/voice.py script.txt voice.wav --voice bm_fable --speed 1.1
-```
-British male voices: `bm_fable` (house voice since 5 Nov, same as the Motion Lab series), `bm_george`, `bm_lewis`, `bm_daniel`. Credit in the
-YouTube description: "Voice: Kokoro-82M (Apache 2.0)". Write for the ear: short sentences, "..." for
-a pause; direction tags are stripped.
-
-**ElevenLabs: only on a paid plan.** The owner's account is on the free plan (4 Nov 2026), whose
-terms don't allow commercial use, and ACTXION posts are commercial. So ElevenLabs is OFF for
-anything that gets posted until the owner upgrades (Starter or higher includes a commercial
-licence). When it is on: `creative_generate_speech`, eleven_v4, voice Petros `vr54y8Xovf4AEnfNrGqH`,
-`generations_count: 1`, then `creative_get_generations` and curl `full_res_url`. About 340-390
-credits per 30 s on eleven_v4, 170 on flash. If it says "busy", use Kokoro; never retry in a loop.
-
-**Fallback:** Piper `en_GB-northern_english_male-medium` (CC BY-SA 4.0, credit it).
+**Default since 5 Nov 2026: ElevenLabs** (owner upgraded to the paid Starter plan: 30,000 credits a month, commercial
+use allowed, shared with the other ACTXION chats). Through the ElevenLabs connector:
+`creative_generate_speech`, model **eleven_v4**, voice **Petros** `vr54y8Xovf4AEnfNrGqH`, `generations_count: 1`,
+light tags only (`[confident]`, `[beat]`, `[building]`, `[pause]`, `[questioning]`). Then `creative_get_generations`
+for the generation id and curl `full_res_url` to `voice.mp3`. One generation per video, never a retry loop.
+**Budget:** the daily reel may use at most **12,500 credits a calendar month** (about 390 per 30 s reel). Every
+generation appends `date,slug,model,credits` (the `credit_costs` the tool returns) to `posts/elevenlabs-ledger.csv`
+on claude/posts. Before generating, sum this month's rows: if adding about 400 would pass 12,500, use Kokoro.
+Price anything over 45 s with `estimate_only: true` first.
+**Fallback: Kokoro** `voice.py script.txt voice.wav --voice bm_fable --speed 1.1` (Apache-2.0) when the budget is
+spent, the connector is missing, or ElevenLabs returns an error or "busy". Say so in the run report.
+Voice credit in the YouTube description: "Voice: ElevenLabs" (or "Voice: Kokoro-82M (Apache 2.0)").
 
 ## 5. Edit: the five passes
 Working folder `work/<date>-<slug>/`. Everything is code; every pass writes a file the next reads.
