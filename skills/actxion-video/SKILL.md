@@ -88,7 +88,9 @@ light tags only (`[confident]`, `[beat]`, `[building]`, `[pause]`, `[questioning
 for the generation id and curl `full_res_url` to `voice.mp3`. One generation per video, never a retry loop.
 **Budget:** the daily reel may use at most **12,500 credits a calendar month** (about 390 per 30 s reel). Every
 generation appends `date,slug,model,credits` (the `credit_costs` the tool returns) to `posts/elevenlabs-ledger.csv`
-on claude/posts. Before generating, sum this month's rows: if adding about 400 would pass 12,500, use Kokoro.
+on claude/posts (shared by every ACTXION chat; video rows are the ones whose slug starts `vid-`). Before generating,
+sum this month's rows: use Kokoro if this desk's total plus about 400 would pass 12,500, OR if the whole file's total
+plus 400 would pass 28,500 (95 % of the 30k plan). Split agreed 5 Nov: video 12,500, LAB 14,000, LinkedIn 1,300, rest MIC.
 Price anything over 45 s with `estimate_only: true` first.
 **Fallback: Kokoro** `voice.py script.txt voice.wav --voice bm_fable --speed 1.1` (Apache-2.0) when the budget is
 spent, the connector is missing, or ElevenLabs returns an error or "busy". Say so in the run report.
