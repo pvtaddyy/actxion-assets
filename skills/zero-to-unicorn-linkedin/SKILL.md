@@ -14,7 +14,7 @@ Full plan: `founder/PLAYBOOK.md` in the actxion-assets repo (local copy `~/.clau
 - Owner decision: **full autopilot**, posts publish automatically (`autoPublish: true, draft: false`), except the held topics below.
 
 ## Facts bank (the only private/company facts posts may use; add here when the owner sends more)
-- ACTXION: "One App. All Sports. Built for Fans"; 500K+ Google Play downloads; fans follow teams, watch and react, vote and give their verdict, send feedback to their club. Founded Oct 2024. More product facts only from actxion.com or the Google Play listing, fetched that day.
+- ACTXION: 500K+ Google Play downloads; fans follow teams, watch and react, vote and give their verdict, send feedback to their club. Founded Oct 2024. More product facts only from actxion.com or the Google Play listing, fetched that day.
 - Mission (his headline): build the best sports app in the world and take it from 0 to Unicorn (a billion-dollar business) in 1000 days, sharing wins, setbacks and lessons in public.
 - Background: Founder & Director of LearnX 2017–2023 (edtech: technology and AI learning insights for universities, product "LInsights"); business-analysis consultant to Anglia Ruskin University (2021–23) and Kingston University (2016–17); Director of Rolesa 2015–2022; London Business School, Leadership in Organisations (2015); BSc Business Information Systems, De Montfort University (2005–09); CBAP (IIBA UK, 2016).
 - ACTXION ran a daily founder video series ("DAY 222", "DAY 256"…). Day 1 date of the 1000-day clock: **unknown**, so never print a day number until it's added here.
@@ -38,7 +38,7 @@ Rotate topics; over 4 weeks roughly 30% fan-side take, 30% 0 to Unicorn, 25% fou
 2. 2–4 short paragraphs (1–2 sentences each, blank line between): the fact or idea, then his reasoning.
 3. One clear opinion. One or two numbers at most, each with a named source.
 4. Close with one specific question to a named group ("Founders building consumer apps: …", "Club commercial people: …"). Never "Agree?" / "Thoughts?".
-5. 0–3 hashtags from #SportsBusiness #FootballBusiness #FanEngagement #SportsTech #BuildInPublic #Startups.
+5. 0–3 plain hashtags from #SportsBusiness #FootballBusiness #FanEngagement #SportsTech #Startups.
 6. No links in the post. Source link and photo credit go in `firstCommentText` (e.g. "Source: BBC Sport, 4 Nov 2026. Photo: Anfield, Jane Doe / Wikimedia Commons (CC BY-SA 4.0)").
 Poll: intro text 300–700 characters with context and source; question under 140 characters; 2–4 options up to 30 characters, mutually exclusive; duration "SEVEN_DAYS".
 
@@ -73,14 +73,22 @@ Everything for Shamit's profile lives here, including what used to be in ACTXION
 - His own queued posts, so he's around to reply in the first hour.
 Team reshare lines for other staff stay in the ACTXION team reshare pack (trig_01BgymVCviKoiqskLbUmSoXw).
 
-## Visuals: "the build log" (every post except polls gets an image)
-Shamit's own look, so his posts never read as the ACTXION page (the page uses red cards on newsprint). Renderer: `scripts/render.mjs` (Playwright, 1080x1350 PNG; same fonts as the ACTXION family). Midnight ground `#0F1115`, chalk type, ACTXION red `#E61E28` only for the key number/underline and the quote mark, a "0 ---- UNICORN" track under the series name (the signature motif; `progress` stays 0 until the Day-1 date is in the facts bank), signed "Shamit Manilal / Founder, ACTXION" with the official white ACTXION mark. Real-colour photos only.
-| Slot | Card | Template |
-|---|---|---|
-| Mon (0 to Unicorn / fan-side take) | his strongest line, or a real number (500K+ etc.) | `note` or `stat` |
-| Mon, even ISO weeks | instead: a 5–7 slide build-log carousel (cover, 3–5 of note/stat/points, outro) published as a PDF document | `cover` `note` `stat` `points` `outro` |
-| Tue (Founder notes) | his key sentence from the post | `note` |
-| Thu (fan-side take) | the story's stadium/club/person photo with his hook over it | `photo` (falls back to `note` if the photo fails) |
-| Sat text weeks | his line | `note` (polls can't carry images) |
-Fields: `note` {quote (use **…** for the 3–8 words to underline), context?}; `stat` {number, label, text?, source}; `photo` {title (his hook, under 60 chars), text?, photo (exact Wikimedia URL from find_image.py), credit}; `points` {title, points[3]{head,text}}; `cover` {title, text?, photo?}; `outro` {title?, text?, cta?}. Spec: `{"series":"<series name>","slides":[...]}`. Copy on the card must come from the post itself (his words), max ~25 words; numbers need a source line.
-Render and host (cloud): `cd $REPO/skills/zero-to-unicorn-linkedin/scripts && npm i --silent --no-audit --no-fund` (the cloud has Chromium at /opt/pw-browsers; else `npx playwright install chromium`), `ACTXION_LOGO_DIR=$REPO/logo node render.mjs /tmp/<slug>.json /tmp/out/<YYYY-MM-DD>-<slug>`. LOOK at every PNG (nothing clipped, readable, photo relevant). Then in a separate clone/worktree of branch `claude/posts`: copy to `posts/founder/<YYYY-MM-DD>-<slug>/`, commit, push (on rejection: pull --rebase, retry up to 3), and use `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/posts/founder/<dir>/01.png` (poll until HTTP 200). Single image: `media:[url]`, `mediaAltText:[the card text]`. Carousel: all URLs in order and `linkedinData: {"type":"post","previewIncluded":false,"publishImagesAsPDF":true,"documentTitle":"<cover title>"}`. If rendering or hosting fails, publish text-only and say so; never block the post.
+## Visuals: minimal (owner's call, 5 Nov 2026)
+No branding of any kind on his posts: no series names, no "0 to Unicorn" / "1000 days", no slogans, no logos, no brand colours, no #BuildInPublic. Series names in this file are internal categories only, never printed. ACTXION may be named in plain words where it belongs.
+Renderer `scripts/render.mjs`: off-white page, black text, one muted green accent, "Shamit Manilal" bottom-left, slide number bottom-right on carousels. Spec `{"slides":[{...}]}`.
+
+**Monday = carousel (ig-carousel rules, published as a LinkedIn PDF document):** 6–8 slides.
+1. `cover` {title: 6 words or fewer, promise: one line} — 80% of the result; it must make someone swipe.
+2. `stake` {text: one sentence on why it matters} — also works as a second cover, so never setup.
+3..N. `idea` {kicker?: 2–3 words, title: 3–7 words, text: max 25 words, source?} — one idea per slide; split anything longer.
+N+1. `recap` {title: "In short", items: 3–5 lines} — the screenshot slide; must read with no context.
+Last. `cta` {title: one question or one action, text?} — one ask only (usually: comment). Never "follow me" spam.
+Every word comes from the post or the facts bank; numbers carry a source. linkedinData = {"type":"post","previewIncluded":false,"publishImagesAsPDF":true,"documentTitle":"<cover title>"}, media = slide URLs in order, alt text per slide.
+**Tue / Sat text weeks:** one `note` {quote: one sentence from the post, max ~25 words}. **Thu:** one `photo` {title: his opening line under 60 chars, text?, photo: real-colour Wikimedia URL, credit}; no photo → `note`. `stat` {number, label, source} when a post turns on one sourced number. Polls: no image.
+Render and host (cloud): `cd $REPO/skills/zero-to-unicorn-linkedin/scripts && npm i --silent --no-audit --no-fund` (cloud Chromium at /opt/pw-browsers; else `npx playwright install chromium`), `node render.mjs /tmp/<slug>.json /tmp/out/<YYYY-MM-DD>-<slug>`. Look at every PNG. Push on branch `claude/posts` to `posts/founder/<YYYY-MM-DD>-<slug>/` (separate worktree; on rejection pull --rebase, retry max 3); URLs `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/posts/founder/<dir>/NN.png` (poll until 200). If it fails, publish text-only and say so.
+
+## Feedback loop (automated)
+- `founder/LEARNINGS.md` holds "This week's rules". Both desks read it first and follow it (guardrails win).
+- After scheduling, each desk appends one row per post to `founder/log.csv` (date_uk,time_uk,slot,format,topic_type,hook_type,first_line,metricool_id,image_dir) and commits to `main` (`git pull --rebase` then push, retry max 3).
+- Sunday desk A: analyse logged posts at least 3 days old against Metricool (LIPO02/04/12/13/10/18 + LIEV01/08), score engagement = (reactions + 3×comments + 5×shares) ÷ impressions, compare medians by format, slot, topic type and hook type, then rewrite "This week's rules" and add a row to "Results so far" under the rules in LEARNINGS.md (min 3 posts per bucket, max 2 changes a week, one experiment at a time), and commit.
+- topic_type values: building-actxion, fan-side-take, founder-lesson, matchday-question. hook_type values: sharp-claim, number-first, observation, change-of-mind, anniversary-contrast, background-claim, question-poll.

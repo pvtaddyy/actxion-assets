@@ -1,4 +1,4 @@
-# Shamit Manilal on LinkedIn: "0 to Unicorn" Founder Playbook v2 (autopilot, approved 5 Nov 2026)
+# Shamit Manilal on LinkedIn: Founder Playbook v3 (minimal) (autopilot, approved 5 Nov 2026)
 
 Profile: Shamit Manilal, Founder @ ACTXION, London · linkedin.com/in/shamit-manilal-2b881919 · LinkedIn `urn:li:person:M322zkDco7`
 Metricool brand "0toUnicorn" (blogId **5080900**), used only as the container for this profile. Its name and Instagram are ignored.
@@ -62,13 +62,15 @@ This file is also the rulebook the founder routines follow. It sits next to the 
 | **LinkedIn poll** | every other Saturday | 2–4 options, 7 days, a question fans and industry both care about. |
 | **Personal photo posts** | when Shamit sends photos | The strongest format of all; only he can supply them (§7). |
 
-**Every post carries an image (except polls, which LinkedIn won't allow): his own look, "the build log".** Not the ACTXION red-card-on-newsprint slides, which would make him look like the brand account, but a sister style: midnight background, his line in big type, ACTXION red only on the one key number, a "0 → UNICORN" track as the signature, signed with his name and the small ACTXION mark. Monday = his strongest line or number (every other Monday a 5–7 slide build-log carousel), Tuesday = his key sentence, Thursday = a real-colour photo of the story with his hook over it, Saturday = his line. Samples: `skills/zero-to-unicorn-linkedin/examples/samples/`.
+**Every post except polls carries plain, unbranded images** (off-white, black text, one muted accent, "Shamit Manilal" small at the bottom; no logos, series names, slogans or "0 to Unicorn"). **Monday is a 6–8 slide carousel** built to the ig-carousel rules: a cover of 6 words or fewer, a second slide that works as its own hook, one idea per slide, a recap slide people screenshot, one ask at the end, slides numbered. Tue and Sat get one quote card; Thu gets a real-colour photo with his opening line.
+
+**Feedback loop (automated):** every post is logged in `founder/log.csv`; each Sunday desk A matches them to their LinkedIn results, compares formats, slots, topics and hooks, and rewrites the rules in `founder/LEARNINGS.md` that the desks follow the next week (at least 3 posts before anything wins, at most 2 changes and one experiment a week).
 
 **Writing rules**
 - Line 1 under 200 characters, works alone before "…see more", **never a question**. Strong openers: a sharp claim, a dated fact, a number with a referent, a confession of a view ("I used to think fan apps were about scores. I was wrong.").
 - One idea, one opinion, one number at most two. Paragraphs of 1–2 sentences with blank lines between.
 - Ends with **one specific question** to the reader ("Club commercial people: would you put ticket pricing to a fan vote?"), never "Agree?" or "Thoughts?".
-- 0–3 hashtags at the end: #SportsBusiness #FootballBusiness #FanEngagement #SportsTech #BuildInPublic #Startups.
+- 0–3 hashtags at the end: #SportsBusiness #FootballBusiness #FanEngagement #SportsTech #Startups.
 - **No links in the post.** If a source link matters, it goes in the first comment (Metricool `firstCommentText`), with the photo credit.
 - No "comment YES", "like if…", "repost to help", no tagging people to farm reach.
 - Humanizer pass on every post: no AI vocabulary (significant, crucial, notably, comprehensive, insights, robust, leverage, foster, landscape, nuanced, streamline, elevate, unlock, game-changer, delve, tapestry, realm, navigate, pivotal, seamless), no "Here's the thing", "The result?", "Let that sink in", "Read that again", "Plot twist", no "No X. No Y. Just Z.", no one-word paragraphs, max one em dash per 100 words, at most one emoji.
@@ -139,7 +141,7 @@ These are stretch targets; nobody can promise them. If a checkpoint misses by mo
 
 ## 9. Guardrails
 
-- **His voice, first person, no inventions** (§3). ACTXION facts: "500K+ Google Play downloads", "One App. All Sports. Built for Fans", what actxion.com and the Play Store listing say, and anything in the facts bank. Nothing else.
+- **His voice, first person, no inventions** (§3). ACTXION facts: "500K+ Google Play downloads", what actxion.com and the Play Store listing say, and anything in the facts bank. Nothing else.
 - **Public facts:** one Tier 1 source (BBC, Sky, The Athletic, Reuters, FT, Guardian, SportBusiness, SportsPro, Sports Business Journal, Front Office Sports, Off The Pitch, Deloitte, UEFA, FIFA, official club or league sites) or two independent ones.
 - **Off-limits (until Shamit says otherwise):** fundraising details, investor names, revenue, valuations, family, politics, religion, other companies' internal matters. Criticise decisions, not people. Nothing on deaths, injuries, abuse or players' families.
 - **Held as draft, not published:** legal cases, investigations, disputes involving a named company, anything political.
