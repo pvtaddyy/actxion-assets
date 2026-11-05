@@ -17,9 +17,13 @@ Last updated: 5 Nov 2026 (before any episode posted). Starting assumptions until
   posts/experiments.csv as date,ist_time,mic,E4-time,<A|B|C>,first_line. Extra point: EP 1 at 00:30 IST (variant 0030).
 - Measure per network: views 48 h after posting (+ IG average watch, comments, shares), divided by the series median.
   "Too early" until each slot has 3 episodes.
-- Decide Mon 30 Nov pooling MIC + LAB (6 per slot): best median normalised views wins; if within 10 % of the runner-up,
-  the better IG average watch wins; a network may get its own slot if its gap is over 20 %. Then the Monday review
-  writes the winner here and changes the routine; re-test once a month against one challenger slot.
+- Results: the Monday review writes desk=mic rows (episode x network) to posts/e4-time-results.csv (shared with the LAB:
+  date,desk,variant,ist_time,network,views_48h,norm_views,ig_avg_watch_s,comments,shares). Variant is A/B/C; EP 1's 00:30
+  post is the extra point 0030 and is left out of the pooling.
+- Decision: the LAB's Sunday review on 29 Nov pools lab + mic (about 6 per slot) and writes posts/e4-decision.md (best median
+  norm_views; within 10 % -> better IG average watch; a network gets its own slot only if its gap is over 20 %). THE MIC's
+  Monday review on 30 Nov follows it unless MIC's own data clearly disagrees (another slot >20 % better on 3+ episodes each),
+  writes the winner here and into mic/rotation.md, then re-tests once a month against one challenger slot.
 
 ## Open tests (one at a time)
 1. Set: street v pub v viewing centre.
