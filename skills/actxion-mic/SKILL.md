@@ -1,6 +1,6 @@
 ---
 name: actxion-mic
-description: THE MIC by ACTXION - an animated street-interview series. A branded ACTXION microphone (the camera) pushes into a crowd after a big game and five stylised, fictional fans answer one sharp question, voiced in ElevenLabs with accents that fit the fanbase, over a 3D street / pub / viewing-centre set made in Three.js and rendered with HyperFrames. 40-50 s, posted Tue/Thu/Sun 16:00 IST to Instagram, YouTube, TikTok and Facebook by a cloud routine. Use for planning, writing, voicing, building, rendering, posting or reviewing a THE MIC episode.
+description: THE MIC by ACTXION - an animated street-interview series. A branded ACTXION microphone (the camera) pushes into a crowd after a big game and five stylised, fictional fans answer one sharp question, voiced in ElevenLabs with accents that fit the fanbase, over a 3D street / pub / viewing-centre set made in Three.js and rendered with HyperFrames. 40-50 s, posted Tue/Thu/Sun (time slot from mic/rotation.md) to Instagram, YouTube, TikTok and Facebook by a cloud routine. Use for planning, writing, voicing, building, rendering, posting or reviewing a THE MIC episode.
 ---
 
 # THE MIC (cloud)
@@ -110,8 +110,10 @@ smartLinkData {"ids": []}, hasNotReadNotes false, media [mp4 url]):
 - **Facebook Reel**: providers [{"network":"facebook"}], facebookData {"type":"REEL"}. African Premier League fans: name
   clubs and players plainly. Hook line, 1-2 lines of context, ONE open question asking for a reason ("...and why?").
   Never "comment A or B", "tag a mate", "share if". 0-2 hashtags. firstCommentText "Bonus round: <follow-up question>".
-- Time: 16:00 IST. Look at getScheduledPosts first; if the same network has a post within 45 min (Facebook 60), use the
-  nearest clear time 15:30-16:45. Never two MIC episodes in a day. All copy: UK spelling, no em dashes, nothing that
+- Time: the slot in today's row of mic/rotation.md (posting-time test E4-time until 30 Nov 2026: A 16:00 IST, B 23:30 IST,
+  C 01:30 IST next day; after that the 'Current best slot' in mic/learnings.md). Look at getScheduledPosts first; if the same
+  network has a post within 45 min (Facebook 60), move by the smallest step that clears it. Log every post in
+  posts/experiments.csv (date,ist_time,mic,E4-time,<slot>,first_line). Never post to X. Never two MIC episodes in a day. All copy: UK spelling, no em dashes, nothing that
   reads AI-written (ig-human detect on the IG caption).
 
 ## Learn (weekly)
