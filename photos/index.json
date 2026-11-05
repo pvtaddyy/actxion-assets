@@ -419,6 +419,17 @@
    }
   ]
  },
+ "jorge-valdano": {
+  "name": "Jorge Valdano",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/jorge-valdano.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Jorge_Valdano_Cropped.jpg",
+    "used": 1
+   }
+  ]
+ },
  "jose-mourinho": {
   "name": "Jose Mourinho",
   "variants": [
@@ -826,6 +837,14 @@
     "file": "photos/vinicius-junior-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/the-dispute-with-diomande-is-settled-a-storm-of-criticism-hits-vinicius-after-the-greece-clash/blt3eee9319249a5ecb",
+    "credit": "Photo: goal.com",
+    "file": "photos/vinicius-junior-4.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/the-dispute-with-diomande-is-settled-a-storm-of-criticism-hits-vinicius-after-the-greece-clash/blt3eee9319249a5ecb",
+    "used": 1
    }
   ]
  },
@@ -838,6 +857,18 @@
     "file": "photos/yan-diomande.jpg",
     "source": "article",
     "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/yan-diomande-gets-his-big-real-madrid-opportunity-2026-10-16",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/yan-diomande-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/yan-diomande-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
    }
   ]
