@@ -74,10 +74,21 @@ Everything for Shamit's profile lives here, including what used to be in ACTXION
 Team reshare lines for other staff stay in the ACTXION team reshare pack (trig_01BgymVCviKoiqskLbUmSoXw).
 
 ## Visuals: minimal (owner's call, 5 Nov 2026)
-No branding of any kind on his posts: no series names, no "0 to Unicorn" / "1000 days", no slogans ("One App. All Sports. Built for Fans"), no logos, no brand colours, no #BuildInPublic. Series names in this file are internal categories only, never printed in a post or on a card. ACTXION may be named in plain words where it belongs (he's its founder).
-Every post except polls gets ONE plain card from `scripts/render.mjs`: off-white page, black text, "Shamit Manilal" small at the bottom, nothing else.
-- `note` {quote, context?}: one sentence from the post itself (his words), max ~25 words. Default for Mon, Tue, Sat.
-- `stat` {number, label, text?, source}: only when the post turns on one real, sourced number.
-- `photo` {title, text?, photo, credit}: Thu. Real-colour Wikimedia photo on top, his opening line below. No photo → `note`.
-Spec: `{"slides":[{...}]}` (no series, no extra styling). One image per post; no carousels.
-Render and host (cloud): `cd $REPO/skills/zero-to-unicorn-linkedin/scripts && npm i --silent --no-audit --no-fund` (cloud Chromium at /opt/pw-browsers; else `npx playwright install chromium`), `node render.mjs /tmp/<slug>.json /tmp/out/<YYYY-MM-DD>-<slug>`. Look at the PNG. Push it on branch `claude/posts` to `posts/founder/<YYYY-MM-DD>-<slug>/01.png` (separate worktree; on rejection pull --rebase and retry, max 3) and use `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/posts/founder/<dir>/01.png` (poll until HTTP 200). `media:[url]`, `mediaAltText:[the card text]`. If rendering or hosting fails, publish text-only and say so.
+No branding of any kind on his posts: no series names, no "0 to Unicorn" / "1000 days", no slogans, no logos, no brand colours, no #BuildInPublic. Series names in this file are internal categories only, never printed. ACTXION may be named in plain words where it belongs.
+Renderer `scripts/render.mjs`: off-white page, black text, one muted green accent, "Shamit Manilal" bottom-left, slide number bottom-right on carousels. Spec `{"slides":[{...}]}`.
+
+**Monday = carousel (ig-carousel rules, published as a LinkedIn PDF document):** 6–8 slides.
+1. `cover` {title: 6 words or fewer, promise: one line} — 80% of the result; it must make someone swipe.
+2. `stake` {text: one sentence on why it matters} — also works as a second cover, so never setup.
+3..N. `idea` {kicker?: 2–3 words, title: 3–7 words, text: max 25 words, source?} — one idea per slide; split anything longer.
+N+1. `recap` {title: "In short", items: 3–5 lines} — the screenshot slide; must read with no context.
+Last. `cta` {title: one question or one action, text?} — one ask only (usually: comment). Never "follow me" spam.
+Every word comes from the post or the facts bank; numbers carry a source. linkedinData = {"type":"post","previewIncluded":false,"publishImagesAsPDF":true,"documentTitle":"<cover title>"}, media = slide URLs in order, alt text per slide.
+**Tue / Sat text weeks:** one `note` {quote: one sentence from the post, max ~25 words}. **Thu:** one `photo` {title: his opening line under 60 chars, text?, photo: real-colour Wikimedia URL, credit}; no photo → `note`. `stat` {number, label, source} when a post turns on one sourced number. Polls: no image.
+Render and host (cloud): `cd $REPO/skills/zero-to-unicorn-linkedin/scripts && npm i --silent --no-audit --no-fund` (cloud Chromium at /opt/pw-browsers; else `npx playwright install chromium`), `node render.mjs /tmp/<slug>.json /tmp/out/<YYYY-MM-DD>-<slug>`. Look at every PNG. Push on branch `claude/posts` to `posts/founder/<YYYY-MM-DD>-<slug>/` (separate worktree; on rejection pull --rebase, retry max 3); URLs `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/posts/founder/<dir>/NN.png` (poll until 200). If it fails, publish text-only and say so.
+
+## Feedback loop (automated)
+- `founder/LEARNINGS.md` holds "This week's rules". Both desks read it first and follow it (guardrails win).
+- After scheduling, each desk appends one row per post to `founder/log.csv` (date_uk,time_uk,slot,format,topic_type,hook_type,first_line,metricool_id,image_dir) and commits to `main` (`git pull --rebase` then push, retry max 3).
+- Sunday desk A: analyse logged posts at least 3 days old against Metricool (LIPO02/04/12/13/10/18 + LIEV01/08), score engagement = (reactions + 3×comments + 5×shares) ÷ impressions, compare medians by format, slot, topic type and hook type, then rewrite "This week's rules" and add a row to "Results so far" under the rules in LEARNINGS.md (min 3 posts per bucket, max 2 changes a week, one experiment at a time), and commit.
+- topic_type values: building-actxion, fan-side-take, founder-lesson, matchday-question. hook_type values: sharp-claim, number-first, observation, change-of-mind, anniversary-contrast, background-claim, question-poll.

@@ -62,7 +62,9 @@ This file is also the rulebook the founder routines follow. It sits next to the 
 | **LinkedIn poll** | every other Saturday | 2–4 options, 7 days, a question fans and industry both care about. |
 | **Personal photo posts** | when Shamit sends photos | The strongest format of all; only he can supply them (§7). |
 
-**Every post except polls carries one plain image, no branding.** Off-white card, black text: his own line from the post (or a Thursday real-colour photo with his opening line under it), and "Shamit Manilal" small at the bottom. No logos, series names, slogans, "0 to Unicorn" or brand colours (owner's call, 5 Nov 2026).
+**Every post except polls carries plain, unbranded images** (off-white, black text, one muted accent, "Shamit Manilal" small at the bottom; no logos, series names, slogans or "0 to Unicorn"). **Monday is a 6–8 slide carousel** built to the ig-carousel rules: a cover of 6 words or fewer, a second slide that works as its own hook, one idea per slide, a recap slide people screenshot, one ask at the end, slides numbered. Tue and Sat get one quote card; Thu gets a real-colour photo with his opening line.
+
+**Feedback loop (automated):** every post is logged in `founder/log.csv`; each Sunday desk A matches them to their LinkedIn results, compares formats, slots, topics and hooks, and rewrites the rules in `founder/LEARNINGS.md` that the desks follow the next week (at least 3 posts before anything wins, at most 2 changes and one experiment a week).
 
 **Writing rules**
 - Line 1 under 200 characters, works alone before "…see more", **never a question**. Strong openers: a sharp claim, a dated fact, a number with a referent, a confession of a view ("I used to think fan apps were about scores. I was wrong.").
