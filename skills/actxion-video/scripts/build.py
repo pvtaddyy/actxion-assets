@@ -89,6 +89,82 @@ def captions(words, keywords, dur):
     return out
 
 
+SERIES_MUSIC = {"pick your side": "drive", "head to head": "drive", "fans say": "tense",
+                "combined xi": "upbeat", "then and now": "cinematic"}
+
+
+def sound_plan(spec, scenes, words, dur):
+    """Football sound design: the kit (sfx_kit.py) on the motion cues, one reason per sound.
+    Layers: voice on top; a Mixkit music bed by series mood (spec "music": mood name, file, or "none");
+    optional crowd bed (spec "crowd": true); then the moments below. Never meme sounds, never music
+    near voice level, never two big hits within 2 s."""
+    series = str(spec.get("series", "pick your side")).lower()
+    music = spec.get("music", next((m for k, m in SERIES_MUSIC.items() if k in series), "drive"))
+    music = None if music in (None, "none", "") else music
+    cues = []
+
+    def add(t, sfx, why, **kw):
+        cues.append(dict(t=round(max(0.0, t), 3), sfx=sfx, why=why, **kw))
+
+    add(0.0, "kick", "frame one: a ball being struck, the hook lands")
+    add(0.0, "boom", "frame one: weight under the hook claim", gain=0.7)
+    if spec.get("crowd"):
+        add(0.0, "bed", "match-day crowd under the whole video")
+    whooshes = ["whoosh", "whoosh2", "whoosh"]
+    for i, sc in enumerate(scenes):
+        s0 = sc["s"]
+        if i:
+            if sc["type"] in ("versus", "ask"):
+                add(s0 - 1.1, "riser", "builds into the A or B moment", gain=0.9)
+                add(s0 - 0.25, "whoosh2", "sucks into the reveal")
+            else:
+                add(s0 - 0.12, whooshes[i % len(whooshes)], f"scene change into {sc['type']}")
+        t = sc["type"]
+        if t == "score":
+            for st in sc["states"][1:]:
+                add(st["t"], "roar", f"goal: {st['h']}-{st['a']}", dur=1.6)
+                add(st["t"], "tap", "the digit rolls")
+        elif t == "stat":
+            for k in range(12):
+                add(s0 + k * 0.075, "count", "counter ticking" if k == 0 else "", gain=0.8)
+            add(s0 + sc.get("countFor", 0.9), "impact", f"{sc.get('value')} {sc.get('unit', '')} lands", gain=0.8)
+        elif t == "list":
+            for it in sc["items"]:
+                add(it["t"], "tap", f"tick: {it['text'][:30]}")
+        elif t == "compare":
+            for r in sc["rows"]:
+                add(r["t"], "tap", f"bar grows: {r['label']}")
+        elif t == "pitch":
+            for k in range(len(sc["players"])):
+                add(s0 + 0.3 + k * 0.07, "count", "player pops onto the pitch" if k == 0 else "", gain=0.6)
+            add(s0 + 0.2, "yell", "stadium noise as the XI walks out", dur=1.8, gain=0.7)
+        elif t == "card":
+            add(s0 + 0.05, "whistle", "the referee's whistle")
+            if sc.get("colour", "red") == "red":
+                add(s0 + 0.35, "groan", "the crowd reacts to the red", dur=2.0)
+        elif t == "versus":
+            add(s0 + 0.15, "impact", "both sides slam in", gain=0.7)
+        elif t == "ask":
+            add(s0 + 0.15, "ding", "the question appears")
+            add(s0, "chant", "the crowd rises under the ask", dur=max(1.0, dur - s0), gain=0.8)
+        if sc.get("source"):
+            add(s0 + 0.4, "typing", f"source chip types: {sc['source']}", dur=0.5)
+    clk = Clock(words)
+    for c in spec.get("sfx", []):
+        add(clk.at(c["at"], advance=False) + c.get("offset", 0), c["sfx"], c.get("why", "spec extra"), gain=c.get("gain", 1))
+    cues.sort(key=lambda c: c["t"])
+    # density: never two big hits within 2 s (keep the earlier one)
+    big = {"impact", "boom", "roar", "groan"}
+    out, last_big = [], -9.0
+    for c in cues:
+        if c["sfx"] in big and c["t"] - last_big < 2.0 and c["t"] > 0:
+            continue
+        if c["sfx"] in big:
+            last_big = c["t"]
+        out.append(c)
+    return out, music
+
+
 def fileurl(p, base):
     if p.startswith(("http", "file:")):
         return p
@@ -146,27 +222,8 @@ def main():
 
     caps = captions(words, spec.get("keywords", []), dur)
 
-    # sound cues
-    cues = [{"t": 0.0, "sfx": "hit"}]
-    for sc in scenes[1:]:
-        cues.append({"t": sc["s"] - 0.12, "sfx": "whoosh"})
-    for sc in scenes:
-        if sc["type"] == "list":
-            cues += [{"t": it["t"], "sfx": "tap"} for it in sc["items"]]
-        if sc["type"] == "compare":
-            cues += [{"t": r["t"], "sfx": "tap"} for r in sc["rows"]]
-        if sc["type"] == "pitch":
-            cues += [{"t": sc["s"] + 0.3 + k * 0.07, "sfx": "count", "gain": 0.6} for k in range(len(sc["players"]))]
-        if sc["type"] == "stat":
-            cues += [{"t": sc["s"] + k * 0.075, "sfx": "count"} for k in range(12)]
-        if sc["type"] == "card":
-            cues.append({"t": sc["s"] + 0.3, "sfx": "buzz"})
-        if sc["type"] == "score":
-            cues += [{"t": st["t"], "sfx": "tap"} for st in sc["states"][1:]]
-        if sc["type"] == "ask":
-            cues.append({"t": sc["s"] + 0.2, "sfx": "chime"})
-    for c in spec.get("sfx", []):
-        cues.append({"t": Clock(words).at(c["at"]) + c.get("offset", 0), "sfx": c["sfx"], "gain": c.get("gain", 1)})
+    # sound plan (pass 05): every sound has a reason, printed below for review
+    cues, music = sound_plan(spec, scenes, words, dur)
     cues.sort(key=lambda c: c["t"])
 
     if plan_only or True:
@@ -176,6 +233,9 @@ def main():
             what = sc.get("word") or sc.get("text") or sc.get("label") or sc.get("unit") or sc.get("title") or ""
             print(f"{sc['s']:6.2f}  {str(sc.get('at', 0)):<14} {sc['type']:<8} {what}")
         print("KEY WORDS (pass 03):", ", ".join(" ".join(p["t"] for p in c["parts"]) for c in caps if c["parts"][0]["k"]))
+        print("SOUND PLAN (pass 05)   music bed:", music or "none")
+        for c in cues:
+            print(f"{c['t']:6.2f}  {c['sfx']:<8} {c.get('why', '')}")
         print(f"DURATION {dur}s, {len(caps)} captions, {len(cues)} sound cues")
     if plan_only:
         return
@@ -200,8 +260,8 @@ def main():
     json.dump(cues, open(cues_path, "w"))
     audio = stem + "-mix.wav"
     mix = [sys.executable, os.path.join(HERE, "mix.py"), os.path.join(base, spec["voice"]), cues_path, audio, "--dur", str(dur)]
-    if spec.get("music"):
-        mix += ["--music", os.path.join(base, spec["music"])]
+    if music:
+        mix += ["--music", music if "." not in music else os.path.join(base, music)]
     r = subprocess.run(mix, check=True, capture_output=True, text=True)
     loud = json.loads(r.stdout.strip().splitlines()[-1])
     subprocess.run([FF, "-y", "-loglevel", "error", "-i", silent, "-i", audio, "-map", "0:v", "-map", "1:a", "-c:v", "copy",

@@ -25,6 +25,12 @@ import wave
 import imageio_ffmpeg
 import numpy as np
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import sfx_kit
+except Exception:  # the kit is optional: without it every sound falls back to the synth below
+    sfx_kit = None
+
 SR = 48000
 FF = imageio_ffmpeg.get_ffmpeg_exe()
 rng = np.random.default_rng(7)
@@ -45,7 +51,31 @@ def lp(x, k):  # one-pole low-pass, k in 0..1
     return y
 
 
+_kit_cache = {}
+
+
+def kit_sound(kind):
+    """A prepared football sound from sfx_kit (Mixkit / CC0), or None to fall back to the synth."""
+    if sfx_kit is None or kind not in sfx_kit.KIT:
+        return None
+    if kind not in _kit_cache:
+        try:
+            _kit_cache[kind] = read_audio(sfx_kit.path(kind))
+        except Exception as e:
+            print(f"WARN kit sound {kind} unavailable ({e}); using the synth", file=sys.stderr)
+            _kit_cache[kind] = None
+    return _kit_cache[kind]
+
+
+FALLBACK = {"kick": "hit", "boom": "hit", "impact": "hit", "whoosh2": "whoosh", "roar": "riser", "groan": "buzz",
+            "whistle": "tap", "yell": "riser", "chant": "riser", "typing": "tap", "ding": "chime"}
+
+
 def sfx(kind):
+    k = kit_sound(kind)
+    if k is not None:
+        return k
+    kind = FALLBACK.get(kind, kind)
     if kind == "hit":
         n = int(0.6 * SR)
         t = np.arange(n) / SR
@@ -130,9 +160,21 @@ def main():
     v = read_audio(clean)
     total = max(len(v), int((dur or 0) * SR))
     fx = np.zeros(total + SR * 2)
-    gains = {"hit": 0.55, "tap": 0.30, "count": 0.25, "whoosh": 0.22, "riser": 0.25, "chime": 0.35, "buzz": 0.35}
-    for c in json.load(open(cues_path)):
-        s = sfx(c["sfx"]) * gains.get(c["sfx"], 0.3) * c.get("gain", 1.0)
+    gains = {"hit": 0.55, "tap": 0.30, "count": 0.25, "whoosh": 0.22, "riser": 0.25, "chime": 0.35, "buzz": 0.35,
+             "kick": 0.55, "boom": 0.30, "whoosh2": 0.26, "impact": 0.30, "roar": 0.32, "groan": 0.30,
+             "whistle": 0.30, "yell": 0.24, "chant": 0.20, "typing": 0.18, "ding": 0.26}
+    cues = json.load(open(cues_path))
+    bed = next((c for c in cues if c.get("sfx") == "bed"), None)
+    for c in cues:
+        if c.get("sfx") == "bed":
+            continue
+        s = sfx(c["sfx"])
+        if c.get("dur"):
+            n = int(c["dur"] * SR)
+            s = s[:n].copy()
+            f = min(len(s), int(0.4 * SR))
+            s[-f:] *= np.linspace(1, 0, f)
+        s = s * gains.get(c["sfx"], 0.3) * c.get("gain", 1.0)
         i = int(max(0, c["t"]) * SR)
         fx[i:i + len(s)] += s[: len(fx) - i]
     fx = fx[:total]
@@ -142,10 +184,42 @@ def main():
     venv_ = np.convolve(np.abs(np.pad(v, (0, total - len(v)))), np.ones(2400) / 2400, mode="same")
     duck = 1 - 0.45 * np.clip(venv_ / (venv_.max() + 1e-9) * 3, 0, 1)
     mix += fx * duck
+    if bed is not None:
+        # match-day crowd bed under the whole video: looped with crossfades, ducked hard under speech
+        b = sfx("bed")
+        if b is not None and len(b) > SR:
+            xf = int(0.8 * SR)
+            loop = b.copy()
+            while len(loop) < total:
+                seg = b.copy()
+                seg[:xf] *= np.linspace(0, 1, xf)
+                loop[-xf:] *= np.linspace(1, 0, xf)
+                loop = np.concatenate([loop[:-xf], loop[-xf:] + seg[:xf], seg[xf:]])
+            loop = loop[:total]
+            fi, fo = int(0.3 * SR), int(1.2 * SR)
+            loop[:fi] *= np.linspace(0, 1, fi)
+            loop[-fo:] *= np.linspace(1, 0, fo)
+            speech = np.clip(venv_ / (venv_.max() + 1e-9) * 3, 0, 1)
+            mix += loop * 0.11 * bed.get("gain", 1.0) * (1 - 0.6 * speech)
+    if music:
+        # a mood name from sfx_kit.MUSIC ("drive", "tense"...) or a file path
+        if sfx_kit is not None and music in sfx_kit.MUSIC:
+            try:
+                music = sfx_kit.music_path(music)
+            except Exception as e:
+                print(f"WARN music {music} unavailable ({e}); no music", file=sys.stderr)
+                music = None
     if music:
         m = read_audio(music)
+        start = int(min(len(m) * 0.15, 8 * SR))  # skip a slow intro so the bed is already moving
+        m = m[start:]
         m = np.tile(m, int(np.ceil(total / len(m))))[:total]
-        mix += m * 0.12 * (1 - 0.7 * np.clip(venv_ / (venv_.max() + 1e-9) * 3, 0, 1))
+        fi, fo = int(0.25 * SR), int(1.5 * SR)
+        m[:fi] *= np.linspace(0, 1, fi)
+        m[-fo:] *= np.linspace(1, 0, fo)
+        speech = np.clip(venv_ / (venv_.max() + 1e-9) * 3, 0, 1)
+        # about 13 dB under the voice while it talks, comes up a little in the gaps (sidechain-style duck)
+        mix += m * 0.16 * (1 - 0.65 * speech)
     pre = os.path.join(tmpd, "pre.wav")
     write(pre, mix * 0.8)
     # two-pass loudness to -14 LUFS, true peak -1 dB
