@@ -81,20 +81,14 @@ everything it flags (no em dashes, no AI slop words). Read it aloud in your head
 sounds written.
 
 ## 4. Voice
-**Default since 5 Nov 2026: ElevenLabs** (owner upgraded to the paid Starter plan: 30,000 credits a month, commercial
-use allowed, shared with the other ACTXION chats). Through the ElevenLabs connector:
-`creative_generate_speech`, model **eleven_v4**, voice **Petros** `vr54y8Xovf4AEnfNrGqH`, `generations_count: 1`,
-light tags only (`[confident]`, `[beat]`, `[building]`, `[pause]`, `[questioning]`). Then `creative_get_generations`
-for the generation id and curl `full_res_url` to `voice.mp3`. One generation per video, never a retry loop.
-**Budget:** the daily reel may use at most **12,500 credits a calendar month** (about 390 per 30 s reel). Every
-generation appends `date,slug,model,credits` (the `credit_costs` the tool returns) to `posts/elevenlabs-ledger.csv`
-on claude/posts (shared by every ACTXION chat; video rows are the ones whose slug starts `vid-`). Before generating,
-sum this month's rows: use Kokoro if this desk's total plus about 400 would pass 12,500, OR if the whole file's total
-plus 400 would pass 28,500 (95 % of the 30k plan). Split agreed 5 Nov: video 12,500, LAB 14,000, LinkedIn 1,300, rest MIC.
-Price anything over 45 s with `estimate_only: true` first.
-**Fallback: Kokoro** `voice.py script.txt voice.wav --voice bm_fable --speed 1.1` (Apache-2.0) when the budget is
-spent, the connector is missing, or ElevenLabs returns an error or "busy". Say so in the run report.
-Voice credit in the YouTube description: "Voice: ElevenLabs" (or "Voice: Kokoro-82M (Apache 2.0)").
+**Kokoro only** (owner, 5 Nov 2026: the daily reel does not use ElevenLabs; those credits are kept for other plans).
+```bash
+python3 skills/actxion-video/scripts/voice.py script.txt voice.wav --voice bm_fable --speed 1.1
+```
+Kokoro-82M, Apache-2.0, free for commercial use. House voice `bm_fable` (same as the LAB fallback); `bm_george` is
+the backup. Write for the ear: short sentences, "..." for a pause. Voice credit in the YouTube description:
+"Voice: Kokoro-82M (Apache 2.0)". Fallback if Kokoro fails: Piper `en_GB-northern_english_male-medium` (CC BY-SA 4.0).
+Never call the ElevenLabs connector from this desk.
 
 ## 5. Edit: the five passes
 Working folder `work/<date>-<slug>/`. Everything is code; every pass writes a file the next reads.
