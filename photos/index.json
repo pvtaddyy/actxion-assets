@@ -195,6 +195,22 @@
     "source": "article",
     "url": "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/lists/like-a-ghost-ronaldo-ignores-jesus-in-the-farewell-week/blta4891f11471a3a6d",
+    "credit": "Photo: goal.com",
+    "file": "photos/cristiano-ronaldo-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/lists/like-a-ghost-ronaldo-ignores-jesus-in-the-farewell-week/blta4891f11471a3a6d",
+    "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13608374/cristiano-ronaldo-portugal-captains-retirement-ends-extraordinary-record-breaking-international-career-which-will-be-debated-for-years-to-come",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/cristiano-ronaldo-3.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13608374/cristiano-ronaldo-portugal-captains-retirement-ends-extraordinary-record-breaking-international-career-which-will-be-debated-for-years-to-come",
+    "used": 1
    }
   ]
  },
@@ -318,6 +334,17 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/erling-haaland-5.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/1920px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "estadio-da-luz": {
+  "name": "Estádio da Luz",
+  "variants": [
+   {
+    "credit": "Photo: Werner100359, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/estadio-da-luz.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Est%C3%A1dio_da_Luz_08.jpg/1920px-Est%C3%A1dio_da_Luz_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -495,20 +522,20 @@
   "name": "Jorge Jesus",
   "variants": [
    {
-    "article": "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
-    "credit": "Photo: Sky Sports",
-    "file": "photos/jorge-jesus.jpg",
-    "source": "article",
-    "url": "https://www.skysports.com/football/news/13593800/cristiano-ronaldo-retires-from-international-football-after-glittering-portugal-career-that-spanned-23-years",
-    "used": 1
-   },
-   {
     "article": "https://worldsoccertalk.com/news/cristiano-ronaldos-coach-jorge-jesus-addresses-transfer-controversy-involving-al-hilal-and-al-nassr/",
     "credit": "Photo: Getty via World Soccer Talk",
     "file": "photos/jorge-jesus-2.jpg",
     "source": "article",
     "url": "https://worldsoccertalk.com/news/cristiano-ronaldos-coach-jorge-jesus-addresses-transfer-controversy-involving-al-hilal-and-al-nassr/",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/i-asked-him-to-continue-jesus-drops-a-surprise-after-ronaldo-s-international-retirement/bltada2e0de5b431fd3",
+    "credit": "Photo: goal.com",
+    "file": "photos/jorge-jesus-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/i-asked-him-to-continue-jesus-drops-a-surprise-after-ronaldo-s-international-retirement/bltada2e0de5b431fd3",
+    "used": 2
    }
   ]
  },
