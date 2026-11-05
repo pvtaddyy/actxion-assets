@@ -38,6 +38,14 @@ Curated from the best 2026 open-source LinkedIn skills (social-media-skills/skil
 | Mon 08:00 | Team reshare pack (drafts only) | team reshare lines; everything for the founder (posts, comments, his reshare lines) is in `zero-to-unicorn-linkedin` |
 | Sun 19:00 | Weekly report | Metrics vs targets, best/worst, one change |
 
+### Voice: "Fan Pulse in 60 seconds" (ElevenLabs, paid plan from 5 Nov 2026)
+- **What:** every other Friday, the Friday slot becomes a 45–60 s narrated video of that week's Wednesday carousel instead of the image post (still 4 page posts a week). 1080x1350 (4:5, fills the LinkedIn feed), the carousel slides with gentle Ken Burns motion and slide-to-slide cuts, word-by-word burned-in captions (most LinkedIn video is watched muted), the ACTXION lockup throughout, ending on the outro slide.
+- **Voice:** the house voice of the video desks, so the brand sounds the same everywhere: ElevenLabs `creative_generate_speech`, eleven_v4, voice Petros `vr54y8Xovf4AEnfNrGqH`, `generations_count: 1` (settings and fallbacks live in actxion-video, which owns them). Script: 110–150 words, the cover hook, the 2–3 key numbers with their source said aloud, the 3 takeaways, "Follow ACTXION for the fan's view of the business of football." No music bed, or a quiet one from actxion-video's licensed list.
+- **Credits are shared with the video desks.** Budget about 1,300 credits a month (2 videos). If ElevenLabs says busy or the monthly credits are low, use Kokoro `bm_fable`; if neither is available, post the normal Friday image post. Never retry in a loop.
+- **Caption:** like a carousel caption (writer skill), first line "60 seconds on …". Metricool LinkedIn video post with `linkedinData {"type":"post","previewIncluded":true}`.
+- **Not cross-posted:** football clips and Reels from the video desks stay off the page (max 1 a week with a business caption, per the rule below).
+- **Judge it after 4 videos** (the Sunday report): keep it only if its median impressions beat the median of the image posts it replaced.
+
 Metricool does not report LinkedIn poll votes, so poll results are never automated or guessed; if the founder shares the real split, a ballot card (actxion-slides `versus` with `tick`) can report it. Never more than 1 page post a day. Weekends off. Football clips are not cross-posted to LinkedIn (max 1/week with a business caption).
 
 ## Automate vs human
