@@ -276,6 +276,12 @@
     "file": "photos/erling-haaland-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
     "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/erling-haaland-5.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/1920px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -795,6 +801,17 @@
     "file": "photos/vedat-muriqi.jpg",
     "source": "article",
     "url": "https://www.beinsports.com/en-us/soccer/sper-lig/articles-video/vedat-muriqi-explains-what-makes-galatasaray-vs-fenerbah%C3%A7e-so-intense-2026-10-26",
+    "used": 1
+   }
+  ]
+ },
+ "victor-osimhen": {
+  "name": "Victor Osimhen",
+  "variants": [
+   {
+    "credit": "Photo: Fédération Guinéenne Football, Wikimedia Commons, Public domain",
+    "file": "photos/victor-osimhen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Victor-osimhen-nigeria-2024-3-4.jpg",
     "used": 1
    }
   ]
