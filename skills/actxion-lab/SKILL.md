@@ -41,8 +41,21 @@ reports, Wikipedia record pages, football-data.co.uk CSVs. Never get round a bot
 3. **Script**: 180-230 words (60-75 s), numbers as words, one line per beat, an early context line (player, club,
    competition, time span). `python3 /tmp/ig/skills/ig-human/detect.py script.txt` must PASS (club names flagged as slop
    are false positives). No em dashes.
-4. **Voice + timings**: `python3 voice_lines.py script.txt hf/assets/voice.wav words.json --voice bm_fable --speed 1.16`
-   (Kokoro, one line at a time, faster-whisper word times; numbers matched as words).
+4. **Voice + timings (ElevenLabs first, owner upgraded to a paid plan on 5 Nov 2026; Kokoro is the fallback)**:
+   a. Budget check: read `elevenlabs-usage.csv` (repo root on claude/posts; shared with the daily video desk). Sum this
+      calendar month's credits for desk=lab. LAB cap = **18,000 credits/month** (13 episodes at ~1,400). Price the take
+      first: ElevenLabs connector `creative_generate_speech` with `estimate_only: true`. If lab month total + estimate is
+      over the cap, or the file's `plan_monthly_credits` line shows the whole month (all desks) would pass 90 % of the
+      plan, use Kokoro (step d) and say so in the report.
+   b. Generate ONE take of the whole script: `creative_generate_speech` model_id `eleven_v4`, voice_id
+      `onwK4e9ZLuTAKqWW03F9` (Daniel, Steady Broadcaster, British; the LAB voice, different from the desk's), generations_count 1,
+      prompt = the script with each line as its own sentence (no direction tags). Never call it twice to retry (that charges
+      twice). Poll `creative_get_flow_run_status` until done, then `creative_get_generations` and curl its `full_res_url` to
+      voice-el.mp3. If it says busy, fails, or the download fails: Kokoro (step d), never a second ElevenLabs call.
+   c. `python3 align_voice.py script.txt voice-el.mp3 hf/assets/voice.wav words.json` (faster-whisper word times; aim
+      90 %+ matched). Append `<date>,lab,<credits>,eleven_v4,<slug>` to elevenlabs-usage.csv and commit it with the episode.
+   d. Kokoro fallback: `python3 voice_lines.py script.txt hf/assets/voice.wav words.json --voice bm_fable --speed 1.16`.
+   Credits in the YouTube description: "Voice: ElevenLabs" (or "Voice: Kokoro-82M (Apache 2.0)" on a Kokoro day).
 5. **Scenes**: edit build.py (beats via `at()`, EP data, cams, overlays incl. the context chip and 'Data: <source>',
    DIGITS table, HIDE windows, SFX list) and world.js scene blocks. Reuse EP 01 parts: hero figure (kit colours + number),
    ball rain/pile, glass tubes, goal grid, 3D pillars, crest sprites, mystery shield, blackout + spotlight. A new segment
@@ -79,7 +92,7 @@ smartLinkData {"ids": []}, hasNotReadNotes false, media [mp4 url], publicationDa
   a second related pick-your-side question (never credits). Run ig-human detect on it.
 - **YouTube Short**: youtubeData {"title": <under 60 chars, ends #shorts>, "type":"short","privacy":"public","tags":[5-12],
   "category":"SPORTS","madeForKids":false,"isAiGeneratedContent":false}; text = 2 search lines, "Pick your side in the
-  comments", sources, "Crests belong to their clubs. Voice: Kokoro-82M (Apache 2.0). Music and sound: Mixkit.",
+  comments", sources, "Crests belong to their clubs. Voice: ElevenLabs (or Kokoro-82M, Apache 2.0, on a fallback day). Music and sound: Mixkit.",
   "Vote on every big call in the ACTXION app".
 - **TikTok**: hook line + the A or B ask + 3-4 hashtags; tiktokData {"privacyOption":"PUBLIC_TO_EVERYONE","isAigc":true,"autoAddMusic":false,"title":"<question>"}.
 - **Facebook Reel**: providers [{"network":"facebook"}], facebookData {"type":"REEL"}; African Premier League fans: name
