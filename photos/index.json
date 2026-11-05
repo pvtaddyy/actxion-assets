@@ -527,6 +527,19 @@
    }
   ]
  },
+ "marc-bernal": {
+  "name": "Marc Bernal",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/barcelona-director-announces-imminent-renewals-143500573.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/marc-bernal.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/barcelona-director-announces-imminent-renewals-143500573.html",
+    "used": 1
+   }
+  ]
+ },
  "marco-silva": {
   "name": "Marco Silva",
   "variants": [
@@ -792,6 +805,19 @@
    }
   ]
  },
+ "tolu-arokodare": {
+  "name": "Tolu Arokodare",
+  "variants": [
+   {
+    "article": "https://www.espn.com/espn/story/_/id/49667285/nigeria-tolu-arokodare-puts-struggles-wolves-targets-goals-glory-ajax",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/tolu-arokodare.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/espn/story/_/id/49667285/nigeria-tolu-arokodare-puts-struggles-wolves-targets-goals-glory-ajax",
+    "used": 1
+   }
+  ]
+ },
  "vedat-muriqi": {
   "name": "Vedat Muriqi",
   "variants": [
@@ -861,6 +887,19 @@
     "file": "photos/vinicius-junior-4.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/the-dispute-with-diomande-is-settled-a-storm-of-criticism-hits-vinicius-after-the-greece-clash/blt3eee9319249a5ecb",
+    "used": 1
+   }
+  ]
+ },
+ "xavi-simons": {
+  "name": "Xavi Simons",
+  "variants": [
+   {
+    "article": "https://www.tottenhamhotspur.com/news/1078839/gallery-xavi-simons-steps-up-rehab-at-hotspur-way",
+    "credit": "Photo: tottenhamhotspur.com",
+    "file": "photos/xavi-simons.jpg",
+    "source": "article",
+    "url": "https://www.tottenhamhotspur.com/news/1078839/gallery-xavi-simons-steps-up-rehab-at-hotspur-way",
     "used": 1
    }
   ]
