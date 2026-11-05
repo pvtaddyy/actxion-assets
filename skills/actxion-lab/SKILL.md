@@ -42,18 +42,21 @@ reports, Wikipedia record pages, football-data.co.uk CSVs. Never get round a bot
    competition, time span). `python3 /tmp/ig/skills/ig-human/detect.py script.txt` must PASS (club names flagged as slop
    are false positives). No em dashes.
 4. **Voice + timings (ElevenLabs first, owner upgraded to a paid plan on 5 Nov 2026; Kokoro is the fallback)**:
-   a. Budget check: read `elevenlabs-usage.csv` (repo root on claude/posts; shared with the daily video desk). Sum this
-      calendar month's credits for desk=lab. LAB cap = **18,000 credits/month** (13 episodes at ~1,400). Price the take
-      first: ElevenLabs connector `creative_generate_speech` with `estimate_only: true`. If lab month total + estimate is
-      over the cap, or the file's `plan_monthly_credits` line shows the whole month (all desks) would pass 90 % of the
-      plan, use Kokoro (step d) and say so in the report.
+   a. Budget check. The plan is ElevenLabs **Starter, 30,000 credits a month**, shared by every ACTXION chat (owner, 5 Nov 2026).
+      Agreed split: daily reel 12,500, LinkedIn 1,300, **ACTXION LAB 14,000** (about 10 of the 13 episodes), small margin
+      for street interviews. Read `posts/elevenlabs-ledger.csv` on claude/posts (`date,slug,model,credits`; LAB rows have
+      slugs starting `lab-`). Price the take first with `creative_generate_speech` `estimate_only: true`. Use Kokoro
+      (step d) and say so in the report if: this month's `lab-` rows + the estimate would pass 14,000, OR all rows this month
+      + the estimate would pass 28,500 (95 % of the plan). When the cap is tight, spend ElevenLabs on Myth or Fact? and
+      Head to Head first (the big-name episodes) and voice the others with Kokoro.
    b. Generate ONE take of the whole script: `creative_generate_speech` model_id `eleven_v4`, voice_id
       `onwK4e9ZLuTAKqWW03F9` (Daniel, Steady Broadcaster, British; the LAB voice, different from the desk's), generations_count 1,
       prompt = the script with each line as its own sentence (no direction tags). Never call it twice to retry (that charges
       twice). Poll `creative_get_flow_run_status` until done, then `creative_get_generations` and curl its `full_res_url` to
       voice-el.mp3. If it says busy, fails, or the download fails: Kokoro (step d), never a second ElevenLabs call.
    c. `python3 align_voice.py script.txt voice-el.mp3 hf/assets/voice.wav words.json` (faster-whisper word times; aim
-      90 %+ matched). Append `<date>,lab,<credits>,eleven_v4,<slug>` to elevenlabs-usage.csv and commit it with the episode.
+      90 %+ matched). Append `<YYYY-MM-DD>,lab-<slug>,eleven_v4,<credits>` to posts/elevenlabs-ledger.csv and commit it with
+      the episode (pull --rebase first: other chats write to it too).
    d. Kokoro fallback: `python3 voice_lines.py script.txt hf/assets/voice.wav words.json --voice bm_fable --speed 1.16`.
    Credits in the YouTube description: "Voice: ElevenLabs" (or "Voice: Kokoro-82M (Apache 2.0)" on a Kokoro day).
 5. **Scenes**: edit build.py (beats via `at()`, EP data, cams, overlays incl. the context chip and 'Data: <source>',
