@@ -51,8 +51,10 @@ reports, Wikipedia record pages, football-data.co.uk CSVs. Never get round a bot
 6. `python3 build.py`; `npx -y hyperframes@0.9.15 check --json` (fix errors); `npx -y hyperframes@0.9.15 snapshot --at <every beat>`
    and LOOK at the contact sheets: no text over text, crests clear of labels, figure not behind captions, nothing
    important below y 1330. Fix and re-snapshot.
-7. `npx -y hyperframes@0.9.15 render --no-browser-gpu` (software WebGL in the cloud; if it times out add
-   `--workers 2 --protocol-timeout 600000`), then `python3 mix.py hf/renders/<newest>.mp4 out.mp4`: it prints the levels;
+7. Start the render in the background as soon as the snapshots look right:
+   `npx -y hyperframes@0.9.15 render --no-browser-gpu --workers 3 --protocol-timeout 600000` (software WebGL; one worker
+   took 35 min for a 74 s episode in the 5 Nov cloud test, so 3 workers on the 4-core box should take about 12-15 min; if it
+   fails, re-run with `--workers 1`). Then `python3 mix.py hf/renders/<newest>.mp4 out.mp4`: it prints the levels;
    aim -14 to -15 LUFS, peak under -1. Cover = `ffmpeg -ss 1.0 -i out.mp4 -frames:v 1 -q:v 2 cover.jpg`.
    Pull 4 frames from out.mp4 and look at them before posting.
 
