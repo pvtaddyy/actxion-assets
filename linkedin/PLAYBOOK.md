@@ -128,6 +128,8 @@ The idea: football's most recognisable object, the referee's red card, in ACTXIO
 | Mon | Founder pack ready (drafts for the founder's own profile) | 🤖 drafts, 👤 the founder posts |
 | Sun | Weekly LinkedIn report | 🤖 automatic |
 
+**New from 5 Nov 2026 (ElevenLabs is now on a paid plan):** every other Friday, the Friday post becomes **"Fan Pulse in 60 seconds"**: a 45–60 s narrated video of that week's carousel (the same slides, gentle motion, captions burned in because most people watch muted, the same ACTXION voice as our Reels). Still 4 posts a week, about 1,300 voice credits a month, shared with the video desks. If credits run low it falls back to the free voice, or to the normal Friday post. After 4 videos we keep it only if it beats the image posts it replaced. Full rules: the actxion-linkedin-growth skill.
+
 That's 4 company posts a week, up from about 11 a week now but far better targeted. Pages average 2–3 posts a week (Metricool 2026). More volume won't fix reach; people will.
 
 ## 6. Automate vs do personally
@@ -138,7 +140,7 @@ That's 4 company posts a week, up from about 11 a week now but far better target
 |---|---|---|
 | **LinkedIn desk A** (`trig_014YqcgJs3XJXzS5i1Zo3QN6`) | Mon 09:00 | Researches the week's sports-business news → schedules Tue's fan-side read + Wed's Fan Pulse carousel |
 | **LinkedIn desk B** (`trig_01NJ2MVE12xZtVKjrXMhMFNR`) | Wed 18:00 | Schedules Thu's poll + Fri's fan-side read, fresh from midweek news |
-| **Team reshare pack** (`trig_01BgymVCviKoiqskLbUmSoXw`) | Mon 08:00 | Reshare lines for team members for each of this week's company posts. Sends a phone notification. **Never posts.** (Since 5 Nov 2026 everything for the founder, Shamit, runs on his own routines: posts, comment ideas and his reshare lines. See `founder/PLAYBOOK.md` and skill `zero-to-unicorn-linkedin`.) |
+| **Founder & team pack** (`trig_01BgymVCviKoiqskLbUmSoXw`) | Mon 08:00 | Writes 3 posts for the founder's personal profile, 10 comment ideas for big sports-business posts, and a one-line reshare note for each of this week's company posts. Sends a phone notification. **Never posts.** |
 | **Weekly LinkedIn report** (`trig_01NJjUsRybM7UypEgCLV3nBZ`) | Sun 19:00 | Followers, impressions, best and worst posts, progress against targets, one change for next week |
 
 ### 👤 What only people can do (this is where growth actually comes from)
