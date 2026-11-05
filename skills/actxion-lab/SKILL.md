@@ -101,8 +101,12 @@ smartLinkData {"ids": []}, hasNotReadNotes false, media [mp4 url], publicationDa
 - **Facebook Reel**: providers [{"network":"facebook"}], facebookData {"type":"REEL"}; African Premier League fans: name
   players and clubs plainly; hook, 1-2 lines of context, ONE open question asking why; never "comment A or B", "tag a mate",
   "share if"; 0-2 hashtags; firstCommentText "Bonus round: <follow-up question>".
-- Time 16:00 IST; check getScheduledPosts first: if a post on the same network is within 45 min (Facebook 60), use the
-  nearest clear time 15:30-16:45. Never two LAB episodes in a day. UK spelling, no em dashes, nothing AI-sounding.
+- Time = the day's **Slot** in lab/rotation.md (E4 posting-time test, 7-28 Nov 2026): A 16:00 IST, B 23:30 IST, C 01:30 IST
+  on the NEXT calendar day (set publicationDate to that date). No slot on the row = the file's "Default slot" (per-network
+  override lines win). All four networks use the same slot. Check getScheduledPosts around the slot first: a post on the
+  same network within 45 min (Facebook 60) = move by the smallest step within +-30 min. Never touch X. Never two LAB
+  episodes in a day. UK spelling, no em dashes, nothing AI-sounding.
+- After scheduling, append to posts/experiments.csv: `<YYYY-MM-DD of the post>,<HH:MM IST>,lab,E4-time,<A|B|C>,"<IG first line>"`.
 
 ## Analytics (Metricool getAnalyticsDataByMetrics)
 IG reels IGRE02 date, IGRE03 text, IGRE06 url, IGRE23 views, IGRE11 reach, IGRE24 avg watch, IGRE27 retention, IGRE28 3 s
@@ -110,6 +114,16 @@ view rate, IGRE21 shares, IGRE12 saves, IGRE07 comments. FB reels FBRE02, FBRE05
 FBRE13 avg watched, FBRE07 actions. TikTok TKPO02, TKPO05, TKPO03, TKPO07 views, TKPO15 avg time, TKPO13 full watch,
 TKPO10 shares, TKPO09 comments, TKPO16 For You. YouTube YTVP02, YTVP17, YTVP05, YTVP06 views, YTVP08 avg duration,
 YTVP12 shares, YTVP11 comments. Baselines: desk reels (~19:00 IST) and combined XI reels ("player by player"); use medians.
+
+### E4 posting-time test (7-28 Nov 2026, with THE MIC; decide Sun 29 Nov; owner authorised the switch)
+Per episode and network: views 48 h after posting (+ Instagram avg watch, comments, shares) divided by the LAB series median
+for that network (normalised views), one row per episode x network in posts/e4-time-results.csv
+(`date,desk,variant,ist_time,network,views_48h,norm_views,ig_avg_watch_s,comments,shares`; MIC writes desk=mic rows).
+Compare slots on medians; "too early" until each slot has 3 episodes. On Sun 29 Nov pool LAB + MIC rows (6 per slot):
+winner = best median normalised views; if within 10 % of the runner-up, the one with better Instagram avg watch wins; a
+network gets its own slot only if its gap is over 20 %. Write the decision to posts/e4-decision.md (THE MIC's Monday review
+reads it, so both series move together unless the data clearly splits them) and set lab/rotation.md "Default slot".
+Then re-test once a month: one challenger slot on 3 episodes.
 
 ## Never
 Match footage, TV clips, other creators' videos, copyrighted music, AI images or video of real people, a cloned voice,
