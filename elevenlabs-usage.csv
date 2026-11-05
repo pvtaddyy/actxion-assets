@@ -1,0 +1,4 @@
+# Shared ElevenLabs credit log (all desks). One line per generation: date,desk,credits,model,slug
+# plan_monthly_credits: UNKNOWN (owner to confirm; until then each desk keeps to its own cap)
+# caps per month: lab 18000; video desk: set by the video desk
+date,desk,credits,model,slug
