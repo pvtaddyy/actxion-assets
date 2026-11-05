@@ -32,8 +32,14 @@ def main(out):
             os.remove(tmp); res[name] = 'ok'
         except Exception as e:
             res[name] = f'FAILED {e}'
+    # engine/ is copied into the work dir, so ../assets may not exist: also try $LAB_ASSETS and repo checkouts
+    import glob
+    cands = [os.path.join(HERE, '..', 'assets'), os.environ.get('LAB_ASSETS', ''),
+             *glob.glob(os.path.expanduser('~/*/skills/actxion-lab/assets')), *glob.glob('/home/*/*/skills/actxion-lab/assets')]
     for name in CC0:
-        shutil.copy(os.path.join(HERE, '..', 'assets', 'sfx-cc0', f'{name}.wav'), os.path.join(sfx_dir, f'{name}.wav')); res[name] = 'ok (cc0)'
+        src = next((os.path.join(c, 'sfx-cc0', f'{name}.wav') for c in cands if c and os.path.exists(os.path.join(c, 'sfx-cc0', f'{name}.wav'))), None)
+        if src: shutil.copy(src, os.path.join(sfx_dir, f'{name}.wav')); res[name] = 'ok (cc0)'
+        else: res[name] = 'FAILED cc0 file not found (set LAB_ASSETS=<repo>/skills/actxion-lab/assets)'
     for name, mid in MUSIC.items():
         try: get(f'https://assets.mixkit.co/music/{mid}/{mid}.mp3', os.path.join(out, f'{name}.mp3')); res[name] = 'ok'
         except Exception as e: res[name] = f'FAILED {e}'
