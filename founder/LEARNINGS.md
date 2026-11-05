@@ -16,12 +16,15 @@ Rules for changing things:
 - Never change the guardrails (facts, voice, minimal style, off-limits topics, no automated engagement).
 - Metricool stats for personal profiles lag up to 3 days: only judge posts that are at least 3 days old.
 
-## This week's rules (week of 9 Nov 2026)
-- Baseline: 772 followers on 5 Nov 2026. No post data yet: everything is "too early".
-- Format mix: Monday = carousel (6–8 slides), Tue = note card, Thu = photo card, Sat = note card or poll (even ISO weeks).
+## This week's rules (week of 9 Nov 2026; checked by desk A on Thu 5 Nov)
+- Data check 5 Nov: 772 followers (LIEV01, 4 Nov); LIEV08 and LIEV18 read 0 on 5 Nov; LIPO02/04/12/13/10/18 for the last 30 days returned no rows. No logged post is at least 3 days old (first one goes out 5 Nov 12:30), so there is nothing to score. Every bucket (format, slot, topic type, hook type) is "too early", 0 posts each.
+- KEEP: the starting mix. Monday = carousel (6–8 slides), Tue = note card, Thu = photo card, Sat = note card or poll (even ISO weeks). Slots unchanged: Mon 08:00, Tue 12:30, Thu 12:30, Sat 09:30 UK.
+- STOP: nothing yet (needs a bucket to be bottom twice).
 - TRY: none yet. First experiment from 22 Nov once each format has 3 posts.
+- Changes this week: 0 (no data).
 
 ## Results so far
 | Week | Posts | Median impressions | Best post | Followers | Notes |
 |---|---|---|---|---|---|
 | 2–8 Nov | 2 | – | – | 772 (5 Nov) | first posts, stats not in yet |
+| 5 Nov check (desk A) | 0 scored (4 booked 5–10 Nov) | – (no data) | – | 772 (4 Nov) | LIPO rows empty, LIEV08/18 = 0; Mon 9 + Tue 10 Nov already booked, no new posts written |
