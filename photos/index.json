@@ -220,6 +220,19 @@
    }
   ]
  },
+ "daichi-kamada": {
+  "name": "Daichi Kamada",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/crystal-palace-1-1-hoffenheim-210207391.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/daichi-kamada.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/crystal-palace-1-1-hoffenheim-210207391.html",
+    "used": 1
+   }
+  ]
+ },
  "declan-rice": {
   "name": "Declan Rice",
   "variants": [
@@ -961,6 +974,17 @@
     "file": "photos/rayan-ait-nouri-2.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/ait-nouri-s-agents-move-him-closer-to-an-english-giant/blt657e9e33e4072c3a",
+    "used": 1
+   }
+  ]
+ },
+ "regis-le-bris": {
+  "name": "Régis Le Bris",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/regis-le-bris.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/R%C3%A9gis_Le_Bris_05092026_%281%29.jpg/1920px-R%C3%A9gis_Le_Bris_05092026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
