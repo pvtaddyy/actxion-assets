@@ -1,0 +1,24 @@
+{
+ "slug": "the-mic-test-barcola",
+ "set": "viewing",
+ "club": {"name": "Liverpool", "primary": "#c8102e", "secondary": "#ffffff", "third": "#00a398"},
+ "loc": "SURULERE, LAGOS · VIEWING CENTRE",
+ "question": {"phrase": "Barcola flop", "kicker": "ONE QUESTION", "line1": "BARCOLA", "line2": "FLOP OR GIVE HIM TIME?"},
+ "meter": {"title": "BARCOLA VERDICT", "left": "FLOP", "right": "PATIENCE", "third": "WRONG POSITION?"},
+ "ask": {"a": "FLOP", "b": "GIVE HIM TIME?", "next": "Your verdict? Comment 👇"},
+ "end": "Which fanbase do we visit next? 👇",
+ "boo": true, "laugh": "refund too",
+ "keywords": ["defeats", "kids", "worst", "signing", "time", "hat-trick", "forget", "eighties", "hundred", "million", "nyoni", "birthday", "psg", "refund", "neither", "winger", "front", "real"],
+ "fans": [
+  {"who": "ANGRY", "label": "THE ANGRY ONE", "sub": "Peckham, home visiting family", "coat": "#2b2f3a", "shirt": "#c8102e", "legs": "#1b2233", "skin": "#4f3020", "hair": "#111111",
+   "acc": ["cap"], "open": true, "gesture": "jab", "mood": 0.44, "meter": -0.7, "pop": "worst", "color": "#ff5a5f"},
+  {"who": "LOYAL", "label": "THE LOYAL ONE", "sub": "From Kirkby, works in Lagos", "coat": "#c8102e", "shirt": "#c8102e", "legs": "#2c3e66", "skin": "#f1cfb6", "hair": "#c98a4b",
+   "acc": ["ponytail", "scarf"], "open": false, "gesture": "point", "mood": 0.15, "meter": 0.65, "pop": "hat-trick", "color": "#ffd54a"},
+  {"who": "OLD", "label": "THE OLD HEAD", "sub": "Red since the eighties", "coat": "#5a4a3a", "shirt": "#e8e2d6", "legs": "#2a2d36", "skin": "#5c3a26", "hair": "#a8a8a8",
+   "acc": ["glasses"], "open": false, "gesture": "facepalm", "mood": -0.25, "meter": -0.35, "pop": "Nyoni", "color": "#ffd54a"},
+  {"who": "FUNNY", "label": "THE FUNNY ONE", "sub": "Skipped a birthday party", "coat": "#d9a21b", "shirt": "#1d1f26", "legs": "#3b3f4a", "skin": "#3f2618", "hair": "#111111",
+   "acc": ["bucket"], "open": true, "gesture": "handsup", "mood": -0.15, "laugh": true, "pop": "refund", "popHold": 2.0, "meter": -0.15, "color": "#7CFFB2"},
+  {"who": "THIRD", "label": "IN FROM NAIROBI", "sub": "Kop since 2005", "coat": "#e8e8e8", "shirt": "#c8102e", "legs": "#23252c", "skin": "#4a2e1f", "hair": "#111111",
+   "acc": ["beanie"], "open": false, "gesture": "shrug", "mood": 0.05, "pop": "winger", "popHold": 1.6, "meter": "third", "color": "#7cc7ff"}
+ ]
+}
