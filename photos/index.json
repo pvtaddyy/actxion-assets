@@ -718,6 +718,12 @@
     "source": "article",
     "url": "https://www.skysports.com/football/news/13607700/manchester-united-3-2-roma-bruno-fernandes-claims-players-dont-need-to-save-michael-carricks-job-after-first-win-in-10-games",
     "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/michael-carrick-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Michael_Carrick_12042025_%285%29_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },
@@ -808,6 +814,19 @@
    }
   ]
  },
+ "rio-ngumoha": {
+  "name": "Rio Ngumoha",
+  "variants": [
+   {
+    "article": "https://www.teamtalk.com/liverpool/trey-nyoni-rio-ngumoha-form-massive-iraola-headache-217m-trio",
+    "credit": "Photo: TEAMtalk",
+    "file": "photos/rio-ngumoha.jpg",
+    "source": "article",
+    "url": "https://www.teamtalk.com/liverpool/trey-nyoni-rio-ngumoha-form-massive-iraola-headache-217m-trio",
+    "used": 1
+   }
+  ]
+ },
  "rodri": {
   "name": "Rodri",
   "variants": [
@@ -867,6 +886,19 @@
     "file": "photos/tolu-arokodare.jpg",
     "source": "article",
     "url": "https://www.espn.com/espn/story/_/id/49667285/nigeria-tolu-arokodare-puts-struggles-wolves-targets-goals-glory-ajax",
+    "used": 1
+   }
+  ]
+ },
+ "uberlandia": {
+  "name": "Uberlandia",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/uberlandia-mamore-53-red-cards-brazil-brawl/bltd997d0e084695946",
+    "credit": "Photo: goal.com",
+    "file": "photos/uberlandia.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/uberlandia-mamore-53-red-cards-brazil-brawl/bltd997d0e084695946",
     "used": 1
    }
   ]
