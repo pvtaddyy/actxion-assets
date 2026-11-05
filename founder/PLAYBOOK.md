@@ -97,7 +97,7 @@ The ACTXION page posts **Tue–Fri 08:00 UK**. Shamit's posts sit around it:
 | **Founder desk A** | Sun 17:00 UK | Weekly report (followers, impressions, best/worst post, against targets, one change) → researches → writes and schedules **Mon 08:00** and **Tue 12:30 UK** |
 | **Founder desk B** | Wed 17:00 UK | Researches midweek news → writes and schedules **Thu 12:30** and **Sat 09:30 UK** |
 
-Both read the ACTXION page's queue first so Shamit never repeats the page's story the same day, read the last 30 days of Shamit's posts to avoid repeats, and send a phone notification with what's booked. Anything about legal cases, investigations, a named company in a dispute or politics is held as a Metricool draft, not published.
+Both read the ACTXION page's queue first so Shamit never uses a story the page covers within 7 days either side, read the last 30 days of Shamit's posts to avoid repeats, and send a phone notification with what's booked. Anything about legal cases, investigations, a named company in a dispute or politics is held as a Metricool draft, not published.
 
 ### 👤 What only Shamit can do (LinkedIn bans automation of these on personal accounts)
 This is where most of the growth comes from. About 20 minutes a day.
