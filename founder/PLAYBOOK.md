@@ -73,7 +73,7 @@ This file is also the rulebook the founder routines follow. It sits next to the 
 - No "comment YES", "like if…", "repost to help", no tagging people to farm reach.
 - Humanizer pass on every post: no AI vocabulary (significant, crucial, notably, comprehensive, insights, robust, leverage, foster, landscape, nuanced, streamline, elevate, unlock, game-changer, delve, tapestry, realm, navigate, pivotal, seamless), no "Here's the thing", "The result?", "Let that sink in", "Read that again", "Plot twist", no "No X. No Y. Just Z.", no one-word paragraphs, max one em dash per 100 words, at most one emoji.
 - **UK times** in any copy ("kick-off 3pm UK"). UK spelling.
-- Different from every ACTXION page post: never the same story, deal or headline number on the same day, never page wording.
+- Different from every ACTXION page post: never a story, deal or headline number the page covers within 7 days either side, never page wording.
 
 ## 5. Weekly cadence (UK time; IST in brackets)
 
