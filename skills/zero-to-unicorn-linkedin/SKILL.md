@@ -72,3 +72,15 @@ Everything for Shamit's profile lives here, including what used to be in ACTXION
 - His reshare lines for each ACTXION page LinkedIn post that week (2 options each, his founder angle, never the page's wording).
 - His own queued posts, so he's around to reply in the first hour.
 Team reshare lines for other staff stay in the ACTXION team reshare pack (trig_01BgymVCviKoiqskLbUmSoXw).
+
+## Visuals: "the build log" (every post except polls gets an image)
+Shamit's own look, so his posts never read as the ACTXION page (the page uses red cards on newsprint). Renderer: `scripts/render.mjs` (Playwright, 1080x1350 PNG; same fonts as the ACTXION family). Midnight ground `#0F1115`, chalk type, ACTXION red `#E61E28` only for the key number/underline and the quote mark, a "0 ---- UNICORN" track under the series name (the signature motif; `progress` stays 0 until the Day-1 date is in the facts bank), signed "Shamit Manilal / Founder, ACTXION" with the official white ACTXION mark. Real-colour photos only.
+| Slot | Card | Template |
+|---|---|---|
+| Mon (0 to Unicorn / fan-side take) | his strongest line, or a real number (500K+ etc.) | `note` or `stat` |
+| Mon, even ISO weeks | instead: a 5–7 slide build-log carousel (cover, 3–5 of note/stat/points, outro) published as a PDF document | `cover` `note` `stat` `points` `outro` |
+| Tue (Founder notes) | his key sentence from the post | `note` |
+| Thu (fan-side take) | the story's stadium/club/person photo with his hook over it | `photo` (falls back to `note` if the photo fails) |
+| Sat text weeks | his line | `note` (polls can't carry images) |
+Fields: `note` {quote (use **…** for the 3–8 words to underline), context?}; `stat` {number, label, text?, source}; `photo` {title (his hook, under 60 chars), text?, photo (exact Wikimedia URL from find_image.py), credit}; `points` {title, points[3]{head,text}}; `cover` {title, text?, photo?}; `outro` {title?, text?, cta?}. Spec: `{"series":"<series name>","slides":[...]}`. Copy on the card must come from the post itself (his words), max ~25 words; numbers need a source line.
+Render and host (cloud): `cd $REPO/skills/zero-to-unicorn-linkedin/scripts && npm i --silent --no-audit --no-fund` (the cloud has Chromium at /opt/pw-browsers; else `npx playwright install chromium`), `ACTXION_LOGO_DIR=$REPO/logo node render.mjs /tmp/<slug>.json /tmp/out/<YYYY-MM-DD>-<slug>`. LOOK at every PNG (nothing clipped, readable, photo relevant). Then in a separate clone/worktree of branch `claude/posts`: copy to `posts/founder/<YYYY-MM-DD>-<slug>/`, commit, push (on rejection: pull --rebase, retry up to 3), and use `https://raw.githubusercontent.com/pvtaddyy/actxion-assets/claude/posts/posts/founder/<dir>/01.png` (poll until HTTP 200). Single image: `media:[url]`, `mediaAltText:[the card text]`. Carousel: all URLs in order and `linkedinData: {"type":"post","previewIncluded":false,"publishImagesAsPDF":true,"documentTitle":"<cover title>"}`. If rendering or hosting fails, publish text-only and say so; never block the post.
