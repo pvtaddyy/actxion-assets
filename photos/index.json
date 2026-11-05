@@ -543,6 +543,19 @@
    }
   ]
  },
+ "massimiliano-allegri": {
+  "name": "Massimiliano Allegri",
+  "variants": [
+   {
+    "article": "https://football-italia.net/allegri-napoli-limitations-mistakes-cost-you/",
+    "credit": "Photo: Getty via Football Italia",
+    "file": "photos/massimiliano-allegri.jpg",
+    "source": "article",
+    "url": "https://football-italia.net/allegri-napoli-limitations-mistakes-cost-you/",
+    "used": 1
+   }
+  ]
+ },
  "matheus-cunha": {
   "name": "Matheus Cunha",
   "variants": [
@@ -578,6 +591,19 @@
     "credit": "Photo: Michael Kranewitter, Wikimedia Commons, CC BY 3.0 at",
     "file": "photos/mats-hummels.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/FIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Mats_Hummels_01.jpg/1920px-FIFA_WC-qualification_2014_-_Austria_vs._Germany_2012-09-11_-_Mats_Hummels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "matteo-politano": {
+  "name": "Matteo Politano",
+  "variants": [
+   {
+    "article": "https://football-italia.net/ucl-fc-porto-4-1-napoli-collapse-in-porto/",
+    "credit": "Photo: Getty via Football Italia",
+    "file": "photos/matteo-politano.jpg",
+    "source": "article",
+    "url": "https://football-italia.net/ucl-fc-porto-4-1-napoli-collapse-in-porto/",
     "used": 1
    }
   ]
@@ -658,6 +684,17 @@
    }
   ]
  },
+ "phil-parkinson": {
+  "name": "Phil Parkinson",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/phil-parkinson.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Phil_Parkinson_30082025_%284%29.jpg/1920px-Phil_Parkinson_30082025_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "rayan-ait-nouri": {
   "name": "Rayan Aït-Nouri",
   "variants": [
@@ -665,6 +702,14 @@
     "credit": "Photo: Anneprudence, Wikimedia Commons, CC BY 4.0",
     "file": "photos/rayan-ait-nouri.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rayan_A%C3%AFt-Nouri_playing_for_Algeria_in_2024.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/ait-nouri-s-agents-move-him-closer-to-an-english-giant/blt657e9e33e4072c3a",
+    "credit": "Photo: goal.com",
+    "file": "photos/rayan-ait-nouri-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/ait-nouri-s-agents-move-him-closer-to-an-english-giant/blt657e9e33e4072c3a",
     "used": 1
    }
   ]
