@@ -691,6 +691,17 @@
    }
   ]
  },
+ "koni-de-winter": {
+  "name": "Koni De Winter",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/koni-de-winter.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Koni_De_Winter_USMNT_v_Belgium_Mar_28_2026-36_%28cropped%29.jpg/1920px-Koni_De_Winter_USMNT_v_Belgium_Mar_28_2026-36_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "kylian-mbappe": {
   "name": "Kylian Mbappe",
   "variants": [
@@ -818,6 +829,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/marcus-rashford.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Marcus_Rashford_England_v_Ghana_23_June_2026-036.jpg/1920px-Marcus_Rashford_England_v_Ghana_23_June_2026-036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "mark-van-bommel": {
+  "name": "Mark van Bommel",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en-in/news/mark-van-bommel-is-completely-fed-up-with-a-belgium-international-and-will-never-call-him-up-again/blt54265b6cadac5a65",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/mark-van-bommel.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-in/news/mark-van-bommel-is-completely-fed-up-with-a-belgium-international-and-will-never-call-him-up-again/blt54265b6cadac5a65",
     "used": 1
    }
   ]
