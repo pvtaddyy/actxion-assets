@@ -1,0 +1,153 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Pick your side",
+ "tail": 1.2,
+ "header": {
+  "text": "Palmer cut: right call?",
+  "key": [
+   "right call?"
+  ]
+ },
+ "keywords": [
+  "!cut",
+  "again.",
+  "!blunt.",
+  "Dortmund.",
+  "Fulham.",
+  "home.",
+  "right,"
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13608698/england-squad-cole-palmer-phil-foden-and-kobbie-mainoo-left-out-as-jobe-bellingham-and-josh-king-called-up"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "palmer-cut.png",
+   "bgPhoto": "palmer.jpg",
+   "word": "CUT",
+   "label": "Cole Palmer",
+   "wordY": -40,
+   "wordSize": 380,
+   "height": 640
+  },
+  {
+   "type": "player",
+   "at": "England's",
+   "photo": "palmer-chelsea-cut.png",
+   "bgPhoto": "palmer-chelsea.jpg",
+   "word": "AGAIN",
+   "label": "Not in the England squad",
+   "wordY": -40,
+   "wordSize": 300,
+   "height": 600
+  },
+  {
+   "type": "stat",
+   "at": "Why?",
+   "value": 2,
+   "unit": "camps",
+   "label": "Palmer pulled out of, in September and October",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "card",
+   "at": "Tuchel's",
+   "colour": "yellow",
+   "text": "Tuchel's verdict"
+  },
+  {
+   "type": "stat",
+   "at": "So",
+   "value": 2,
+   "unit": "first call-ups",
+   "label": "in Tuchel's 25-man squad",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "player",
+   "at": "Jobe",
+   "photo": "jobe-cut.png",
+   "bgPhoto": "jobe.jpg",
+   "word": "IN",
+   "label": "Jobe Bellingham, Dortmund",
+   "wordY": -40,
+   "wordSize": 380,
+   "height": 620
+  },
+  {
+   "type": "player",
+   "at": "Josh",
+   "photo": "king-cut.png",
+   "bgPhoto": "king.jpg",
+   "word": "IN",
+   "label": "Josh King, Fulham",
+   "wordY": -40,
+   "wordSize": 380,
+   "height": 620
+  },
+  {
+   "type": "list",
+   "at": "Foden",
+   "title": "Also left out",
+   "items": [
+    {
+     "at": "Foden",
+     "text": "Phil Foden"
+    },
+    {
+     "at": "Mainoo?",
+     "text": "Kobbie Mainoo"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "Croatia",
+   "title": "Nations League",
+   "items": [
+    {
+     "at": "Croatia",
+     "text": "Croatia, Thursday"
+    },
+    {
+     "at": "Spain",
+     "text": "Spain away, Sunday"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": 20.6,
+   "photo": "palmer-cut.png",
+   "bgPhoto": "palmer.jpg",
+   "word": "HOME",
+   "label": "Cole Palmer",
+   "wordY": -40,
+   "wordSize": 320,
+   "height": 640
+  },
+  {
+   "type": "versus",
+   "at": "You",
+   "a": {
+    "photo": "jobe-cut.png",
+    "label": "Tuchel's right"
+   },
+   "b": {
+    "photo": "palmer-cut.png",
+    "label": "Palmer should be in"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Palmer: <span class=\"k\">in or out?</span>",
+   "sub": "A: Tuchel's right. B: Palmer should be in"
+  }
+ ]
+}
