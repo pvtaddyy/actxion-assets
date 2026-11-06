@@ -26,7 +26,18 @@ fc.append(f'[vo][rain][crowd]{"".join(labels)}amix=inputs={3+len(labels)}:normal
 tmp = tempfile.mkdtemp(); raw = os.path.join(tmp, 'mix.wav')
 subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', *inputs, '-filter_complex', ';'.join(fc), '-map', '[a]', '-c:a', 'pcm_s24le', raw], check=True)
 I, P = measure(raw); gain = -13.2 - I
-subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', video, '-i', raw, '-map', '0:v', '-map', '1:a',
+R = M.get('rec')
+vin, vmap, vfc = ['-i', video], '0:v', []
+if R:   # lay the real app recording onto the phone screen (rounded corners, fade in/out)
+    HERE = os.path.dirname(os.path.abspath(__file__)); appd = os.environ.get('MIC_APP', os.path.join(HERE, 'app'))
+    vin += ['-ss', str(R['in']), '-t', str(R['out'] - R['in']), '-i', os.path.join(appd, R['file']), '-loop', '1', '-i', os.path.join(appd, 'screen-mask.png')]
+    d = R['t1'] - R['t0']
+    vfc = ['-filter_complex', f"[1:v]setpts=(PTS-STARTPTS)/{R['speed']},fps=30,scale={R['w']}:{R['h']},format=yuva420p,tpad=stop_mode=clone:stop_duration={d}[r];"
+           f"[2:v]scale={R['w']}:{R['h']},format=gray,trim=duration={d}[m];[r][m]alphamerge,trim=duration={d},fade=t=in:st=0:d=0.2:alpha=1,fade=t=out:st={d - .2}:d=0.2:alpha=1,"
+           f"setpts=PTS-STARTPTS+{R['t0']}/TB[rr];[0:v][rr]overlay={R['x']}:{R['y']}:eof_action=pass[v]"]
+    vmap = '[v]'
+nin = len([x for x in vin if x == '-i'])
+subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', *vin, '-i', raw, *vfc, '-map', vmap, '-map', f'{nin}:a',
                 '-c:v', 'libx264', '-preset', 'slow', '-crf', '20', '-pix_fmt', 'yuv420p', '-maxrate', '10M', '-bufsize', '20M',
                 '-af', f'volume={gain:.2f}dB,alimiter=limit=0.7:level=false:attack=5:release=60,aresample=48000',
                 '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', '-shortest', out], check=True)
