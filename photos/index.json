@@ -1088,6 +1088,17 @@
    }
   ]
  },
+ "phil-foden": {
+  "name": "Phil Foden",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/phil-foden-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg",
+    "used": 1
+   }
+  ]
+ },
  "phil-parkinson": {
   "name": "Phil Parkinson",
   "variants": [
