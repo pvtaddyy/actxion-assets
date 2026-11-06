@@ -125,7 +125,7 @@
         <div style="position:absolute;left:0;right:0;bottom:285px;background:#fff">
           <div class="tagrow">Tag it: ${tags.map(t => `<span class="chip" data-t="${t}">${t}</span>`).join('')}</div>
           <div class="comp"><span class="plus">+</span><div class="inp"><span class="typed"></span><span>|</span></div><span class="snd">➤</span></div></div>
-        ${kb()}<div class="toast">✓ Delivered to ${esc(f.club)}</div>`;
+        ${kb()}<div class="toast" data-layout-allow-overlap>✓ Delivered to ${esc(f.club)}</div>`;
     }
     if (f.type === 'fan_wall') {
       return top(f) + `<div class="hd"><span class="bk">‹ <span>What's On</span></span><span>☆</span></div>
@@ -139,7 +139,7 @@
           <div class="dl">Delivering six hours before kick-off<div class="ok2">✓ Delivered to ${esc(f.club)}</div></div></div></div>
           <div class="mine" style="height:0;overflow:hidden;opacity:0">${cmt({ user: f.me || 'you', tag: 'Motivational', text: f.text, ago: 'now' }, 3)}</div>
           ${(f.comments || []).slice(0, 3).map((c, i) => cmt({ ...c, tag: c.tag || 'Motivational' }, i)).join('')}</div>
-        ${nav}<div class="toast">✓ Delivered to ${esc(f.club)}</div>`;
+        ${nav}<div class="toast" data-layout-allow-overlap>✓ Delivered to ${esc(f.club)}</div>`;
     }
     if (f.type === 'starting_11') {
       const xi = (f.xi || []).slice(0, 11), pos = f.pos || [], empty = f.empty || [9, 10], pick = f.pick || [];
@@ -152,7 +152,7 @@
         <div class="btn">Submit my XI</div>${nav}
         <div class="sheet"><div class="gr"></div><div class="h">Pick ${esc(pos[empty[0]] || 'ST')}</div><div class="sec">Forward</div>
           ${pick.slice(0, 5).map(p => `<div class="row"><span class="n">${esc(p.num || '')}</span><span class="ph2">${ini(p.name)}</span><span>${esc(p.name)}${p.note ? `<span class="sub">${esc(p.note)}</span>` : ''}</span><span class="ok">✓</span></div>`).join('')}</div>
-        <div class="toast">✓ Sent to ${esc(f.club)}</div>`;
+        <div class="toast" data-layout-allow-overlap>✓ Sent to ${esc(f.club)}</div>`;
     }
     if (f.type === 'live_subs') {
       const sq = (f.squad || []).slice(0, 7);
@@ -165,7 +165,7 @@
         ${nav}
         <div class="sheet"><div class="gr"></div><div class="h">Substitute ${esc(f.off)} with</div>
           ${(f.options || []).slice(0, 4).map(o => `<div class="row"><span class="n">${esc(o.num || '')}</span><span class="ph2">${ini(o.name)}</span>${esc(o.name)}<span class="ok">✓</span></div>`).join('')}</div>
-        <div class="toast">✓ Your sub is in: ${esc(((f.options || []).find(o => o.pick) || {}).name || '')}</div>`;
+        <div class="toast" data-layout-allow-overlap>✓ Your sub is in: ${esc(((f.options || []).find(o => o.pick) || {}).name || '')}</div>`;
     }
     if (f.type === 'transfer_window') {
       const ps = (f.players || []).slice(0, 2);
@@ -177,7 +177,7 @@
         ${ps.map(p => `<div class="pc"><div class="nm"><span class="n">${esc(p.num || '')}</span><span class="ph2" style="width:38px;height:38px;border-radius:50%;background:#e8dccd;font:800 12px/38px Inter;text-align:center">${ini(p.name)}</span>${esc(p.name)}</div>
           <div class="kls"><div class="k1" data-c="keep">Keep</div><div class="l1" data-c="loan">Loan</div><div class="s1" data-c="sell">Sell</div></div>
           <div class="bar"></div><div class="sug">Suggest a replacement <span>›</span></div></div>`).join('')}
-        ${nav}<div class="toast">✓ Your window is saved</div>`;
+        ${nav}<div class="toast" data-layout-allow-overlap>✓ Your window is saved</div>`;
     }
     return top(f) + nav;
   }
@@ -221,7 +221,7 @@
       toast();
     } else if (f.type === 'transfer_window') {
       const cards = qa('.pc'), span = (toastAt - s - 1.4) / Math.max(1, cards.length);
-      cards.forEach((c, i) => { const ch = ((f.players || [])[i] || {}).choice || 'keep', b = c.querySelector(`[data-c="${ch}"]`);
+      cards.forEach((c, i) => { const ch = ((f.players || [])[i] || {}).choice || 'keep', b = [...c.querySelectorAll('[data-c]')].find(x => x.dataset.c === ch);
         if (b) { const t = s + 1.2 + i * span; tl.fromTo(b, { boxShadow: 'inset 0 0 0 0px #111' }, { boxShadow: 'inset 0 0 0 3px #111', duration: .12 }, t); tl.fromTo(b, { scale: 1 }, { scale: .92, duration: .1, yoyo: true, repeat: 1 }, t); } });
       toast();
     }
