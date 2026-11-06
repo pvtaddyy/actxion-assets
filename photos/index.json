@@ -658,6 +658,17 @@
    }
   ]
  },
+ "kai-havertz": {
+  "name": "Kai Havertz",
+  "variants": [
+   {
+    "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/kai-havertz.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/1_kai_havertz_2026.jpg/1920px-1_kai_havertz_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "kobbie-mainoo": {
   "name": "Kobbie Mainoo",
   "variants": [
