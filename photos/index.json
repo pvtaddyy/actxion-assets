@@ -287,6 +287,19 @@
    }
   ]
  },
+ "david-moyes": {
+  "name": "David Moyes",
+  "variants": [
+   {
+    "article": "https://talksport.com/football/4691546/david-moyes-history-everton-coventry-kick-off/",
+    "credit": "Photo: Getty via talkSPORT",
+    "file": "photos/david-moyes.jpg",
+    "source": "article",
+    "url": "https://talksport.com/football/4691546/david-moyes-history-everton-coventry-kick-off/",
+    "used": 1
+   }
+  ]
+ },
  "declan-rice": {
   "name": "Declan Rice",
   "variants": [
@@ -1253,6 +1266,19 @@
     "credit": "Photo: Ardfern, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/teun-koopmeiners.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Teun_Koopmeiners_Manchester_United_v_Atalanta_BC%2C_20_October_2021_%2812%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
+ "thierno-barry": {
+  "name": "Thierno Barry",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/sam-matterface-tells-alex-crook-123000307.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/thierno-barry.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/sam-matterface-tells-alex-crook-123000307.html",
     "used": 1
    }
   ]
