@@ -34,6 +34,19 @@
    }
   ]
  },
+ "alejandro-balde": {
+  "name": "Alejandro Balde",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/alejandro-balde-talks-early-life-171300651.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/alejandro-balde.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/alejandro-balde-talks-early-life-171300651.html",
+    "used": 1
+   }
+  ]
+ },
  "alexander-isak": {
   "name": "Alexander Isak",
   "variants": [
@@ -545,6 +558,19 @@
     "file": "photos/hansi-flick.jpg",
     "url": "",
     "used": 0
+   }
+  ]
+ },
+ "hany-mukhtar": {
+  "name": "Hany Mukhtar",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/hany-mukhtar-continues-nashville-sc-221712923.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/hany-mukhtar.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/hany-mukhtar-continues-nashville-sc-221712923.html",
+    "used": 1
    }
   ]
  },
