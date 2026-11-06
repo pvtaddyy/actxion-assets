@@ -81,6 +81,19 @@
    }
   ]
  },
+ "benni-mccarthy": {
+  "name": "Benni McCarthy",
+  "variants": [
+   {
+    "article": "https://www.timeslive.co.za/sport/2026-10-17-bafana-to-host-benni-mccarthys-kenya-at-orlando-stadium-next-month/",
+    "credit": "Photo: TimesLIVE",
+    "file": "photos/benni-mccarthy.jpg",
+    "source": "article",
+    "url": "https://www.timeslive.co.za/sport/2026-10-17-bafana-to-host-benni-mccarthys-kenya-at-orlando-stadium-next-month/",
+    "used": 1
+   }
+  ]
+ },
  "bradley-barcola": {
   "name": "Bradley Barcola",
   "variants": [
@@ -1015,6 +1028,17 @@
    }
   ]
  },
+ "pitso-mosimane": {
+  "name": "Pitso Mosimane",
+  "variants": [
+   {
+    "credit": "Photo: فاطمه عموزاد, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/pitso-mosimane.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pitso_Mosimane_Introductory_Press_Conferences%2C_25_October_2024_-_24.jpg",
+    "used": 1
+   }
+  ]
+ },
  "rayan-ait-nouri": {
   "name": "Rayan Aït-Nouri",
   "variants": [
@@ -1095,6 +1119,12 @@
     "file": "photos/ruben-amorim-3.jpg",
     "source": "article",
     "url": "https://www.pianetamilan.it/stagione/europa-league-news-e-risultati/milan-ferencvaros-0-0-analisi-del-primo-tempo-a-san-siro/",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Agencia LUSA, Wikimedia Commons, CC BY 3.0",
+    "file": "photos/ruben-amorim-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Ruben_Amorim_focado_em_acabar_a_jornada_em_primeiro_lugar.webm/1920px--Ruben_Amorim_focado_em_acabar_a_jornada_em_primeiro_lugar.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
     "used": 1
    }
   ]
