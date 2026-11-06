@@ -1,4 +1,15 @@
 {
+ "achraf-hakimi": {
+  "name": "Achraf Hakimi",
+  "variants": [
+   {
+    "credit": "Photo: Laloumance, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/achraf-hakimi.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Achraf_Hakimi_vs_Niger_%28cropped%29.jpg/1920px-Achraf_Hakimi_vs_Niger_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "alan-shearer": {
   "name": "Alan Shearer",
   "variants": [
@@ -1384,6 +1395,17 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/yan-diomande-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
+ "yassine-bounou": {
+  "name": "Yassine Bounou",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/yassine-bounou.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Yassine_Bounou_France_v_Morocco_9_July_2026-076.jpg/1920px-Yassine_Bounou_France_v_Morocco_9_July_2026-076.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
