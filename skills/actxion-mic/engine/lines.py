@@ -17,7 +17,7 @@ def word_times(wav16):
     segs, _ = m.transcribe(wav16, word_timestamps=True, language='en')
     return [(w.start, w.end) for s in segs for w in s.words]
 SR = 48000
-def gap_for(i, who): return .25 if i == 0 else (.55 if who == 'MIC' else .4)   # silence before each line
+def gap_for(i, who): return .25 if i == 0 else (.55 if who in ('MIC', 'APP') else .4)   # silence before each line
 FPS = 30
 
 def sh(*a): return subprocess.run(a, check=True, capture_output=True, text=True)

@@ -13,8 +13,22 @@ full autopilot, never ask; retry busy tools on your own). The approved look and 
 ## What an episode is
 - 40-50 s, 1080x1920, 30 fps. The ACTXION mic is the camera's point of view, always in frame bottom right.
 - Shape: cold open (a fan's best line) -> the MIC voice asks ONE question (question card) -> four more fans answer,
-  whip-cut between them, a blame meter swings with each answer -> the MIC voice signs off with the A-or-B question ->
-  end card "THE MIC / BY ACTXION / <which fanbase next>".
+  whip-cut between them, a blame meter swings with each answer -> the ACTXION FEATURE BEAT (the host's one line + a phone
+  showing that feature in the app, rebuilt to look exactly like the real app and filled with THIS episode's content) ->
+  the MIC voice signs off with the A-or-B question -> end card "THE MIC / BY ACTXION / Get ACTXION. Make your voice count 👇".
+- Feature beat (owner, 6 Nov 2026: every episode also shows what the app does, as a variation built for the script, not
+  the raw screen recordings). Pick the feature that answers the argument: manager/players/performance -> fan_voice; who
+  should start / line-up rows -> starting_11; a big game coming, morale, "get behind them" -> fan_wall; in-game
+  decisions, a bad sub -> live_subs; a signing/flop/sell/buy row -> transfer_window. No feature twice in a row.
+  Describe features only with the owner's words: Starting 11 = pick your XI before kick-off, sent to the club and
+  manager; Fan Wall (+ Report) = your pre-match message, fans' messages brought together and delivered to the club and
+  players six hours before the match; Fan Voice = tell your club what they're doing right and what to improve, delivered
+  to the club; Live Substitutions = make your sub choices live and show the manager what fans want; Transfer Window =
+  decide who to buy, sell, keep or loan.
+- Screen content: the club, the opponent and the competition/date of their NEXT real fixture (sourced), real current
+  players (sourced squad), the typed message = the episode's argument in a fan's words, and the comments on the wall =
+  the episode's own fan lines with fictional usernames (stretford_ender, lagos_red...). Never invent vote totals,
+  percentages, likes or message counts (keep reactions at 0).
 - The cast is 5 fictional characters from ONE fanbase: the angry one, the loyal one, the old head, the funny one, the
   one against everyone (the "third" option on the meter). Mix ages, genders, skin tones, and where they're from
   (locals + fans from Lagos, Nairobi, Accra, Mumbai, Jakarta: our audience). New clothes and accessories every time.
@@ -38,13 +52,15 @@ full autopilot, never ask; retry busy tools on your own). The approved look and 
 1. Copy `skills/actxion-mic/engine/*` into the work dir.
    `npx -y hyperframes@0.9.15 init hf --example blank --resolution portrait --non-interactive --skip-skills`
    `mkdir -p hf/assets/lib && cp skills/actxion-lab/assets/lib/three.*.js hf/assets/lib/ && cp world.js hf/assets/`
-   `python3 mic_kit.py hf/assets` (downloads the Mixkit effects; must print all ok).
+   `cp phone.js hf/assets/ && python3 mic_kit.py hf/assets` (downloads the Mixkit effects; must print all ok).
 2. **Story**: the biggest fan argument of the last 48 h (see the routine prompt). One question that splits a fanbase,
    two clear sides (meter left/right) and a third option the contrarian picks.
-3. **Script** `script.tsv` (tab-separated: id, who, voice, text), 7 lines, 95-125 words in all:
+3. **Script** `script.tsv` (tab-separated: id, who, voice, text), 8 lines, 110-140 words in all:
    l1 = a fan's cold-open line (the hook: emotional, under 14 words, no context needed), l2 = MIC question (UK host,
    names the result in a few words, then "One question. <question>?"), l3-l6 = the other four fans (6-20 words each,
-   one with a joke, one with "Neither..." style third option), l7 = MIC sign-off ("<A>, or <B>? You tell us.").
+   one with a joke, one with "Neither..." style third option), l7 = who APP, the host (Mia Moore) on the feature, one or two
+   short sentences linking the argument to it ("Want <club> to actually hear you? On ACTXION, Fan Voice sends it
+   straight to the club."), l8 = MIC sign-off ("<A>, or <B>? You tell us.").
    ElevenLabs v4 direction tags in [brackets] at the start of a fan line ([angry, fast], [laughing], [tired, quiet]).
    Spoken English, contractions, numbers as words, UK spelling, no em dashes. Run
    `python3 /tmp/ig/skills/ig-human/detect.py` on the text without tags (short dialogue lines score low on
@@ -54,10 +70,13 @@ full autopilot, never ask; retry busy tools on your own). The approved look and 
    meter, caption colour). Kit: acc = cap, scarf, ponytail, hood, bucket, beanie, glasses (combine freely);
    gesture = pockets, jab, point, handsup, crossed, shrug, facepalm; mood = brows (-0.3 sad .. +0.45 angry);
    pop = the phrase where the gesture peaks ('Lagos#2' = 2nd time); meter = -1..1 or "third".
+   feature = see build.py's docstring and episodes/ep01/episode-with-feature.json (type, club, opponent, comp, when,
+   colour, oppColour, text, tag, comments, xi/pos/empty/pick, squad/off/options, players/banner).
+   end = "Get ACTXION. Make your voice count 👇".
 5. **Voice** (ElevenLabs; owner on a paid plan since 5 Nov 2026; credits shared with the desk and LAB):
    a. Budget: sum this calendar month's rows in `posts/elevenlabs-ledger.csv` on claude/posts (the one shared ledger;
-      THE MIC rows have slugs starting `mic-`). THE MIC cap = 8,000 credits/month (~610 an episode; agreed split 5 Nov:
-      LAB 14,000, LinkedIn 1,300, daily reel now Kokoro-only). If THE MIC month total + 700 would pass 8,000, OR the
+      THE MIC rows have slugs starting `mic-`). THE MIC cap = 9,200 credits/month (~700 an episode with the feature line; agreed split 5 Nov:
+      LAB 14,000, LinkedIn 1,300, daily reel now Kokoro-only). If THE MIC month total + 800 would pass 9,200, OR the
       whole file's month total + 700 would pass 28,500 (95 % of the 30k plan), use `eleven_flash_v2_5` for the fans
       (about half the cost); if even that would pass 28,500, Kokoro for every line. Say which in the report.
    b. For each line: `creative_generate_speech` (model eleven_v4, the line's voice_id, generations_count 1, prompt = the
@@ -102,7 +121,7 @@ returns 200. One createScheduledPost per network (autoPublish true, draft false,
 smartLinkData {"ids": []}, hasNotReadNotes false, media [mp4 url]):
 - **Instagram Reel**: instagramData {"type":"REEL","showReelOnFeed":true,"isAiGenerated":true}, videoThumbnailUrl = cover.
   Caption (actxion-instagram rules): first line = the question; 2-4 short lines naming the club, the result and the
-  sides; "Comment A or B"-style single ask; 3 hashtags. firstCommentText = a second, related question (never credits).
+  sides, plus one plain line on the episode's feature ("Fan Voice on ACTXION sends your take straight to the club"); "Comment A or B"-style single ask; 3 hashtags. firstCommentText = a second, related question (never credits).
 - **YouTube Short**: title under 60 chars, the question + club name, ends #shorts. Description: 2 lines on the game,
   "Pick your side in the comments", the honesty line above, sources, "Sound: Mixkit", "Vote on every big call in the
   ACTXION app". 5-12 tags. youtubeData {"type":"short","privacy":"public","madeForKids":false,"category":"SPORTS","isAiGeneratedContent":true}.

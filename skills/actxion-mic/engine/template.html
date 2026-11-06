@@ -57,10 +57,12 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0b0e1a}
   <div id="brand" class="clip" data-start="0" data-duration="{{ENDCARD}}" data-track-index="1"><i></i>THE MIC · ACTXION</div>
 {{OVERLAYS}}
 {{CAPTIONS}}
+{{PHONE}}
   <div id="end" class="clip" data-start="{{ENDCARD}}" data-duration="{{ENDDUR}}" data-track-index="4"><div class="mic"></div><div class="e1">THE MIC</div><div class="e2">BY ACTXION</div><div class="e3">{{ENDLINE}}</div></div>
 </div>
 <script>window.EP = {{EP}};</script>
 <script type="module" src="assets/world.js"></script>
+<script src="assets/phone.js"></script>
 <script>
 const tl = gsap.timeline({ paused: true });
 const S = el => parseFloat(el.dataset.start), E = el => S(el) + parseFloat(el.dataset.duration);
@@ -100,6 +102,7 @@ document.querySelectorAll('.cap').forEach(el => {
     tl.fromTo(w, { color: 'rgba(255,255,255,.42)', scale: 1 }, { color: w.classList.contains('k') ? key : '#ffffff', scale: 1.06, duration: .08, ease: 'power2.out' }, ws).to(w, { scale: 1, duration: .12 }, ws + .08); });
   tl.to(inn, { opacity: 0, duration: .08 }, e - .09);
 });
+{ const ph = document.getElementById('phone'); if (ph && window.EP.feature && window.buildPhone) buildPhone(tl, window.EP.feature, S(ph), E(ph)); }
 tl.fromTo('#end .mic', { scale: 0 }, { scale: 1, duration: .35, ease: 'back.out(3)' }, {{ENDCARD}});
 tl.fromTo('#end .e1', { scale: .6, opacity: 0 }, { scale: 1, opacity: 1, duration: .35, ease: 'back.out(2)' }, {{ENDCARD}} + .1);
 tl.fromTo('#end .e3', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .3 }, {{ENDCARD}} + .6);
