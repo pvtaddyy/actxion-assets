@@ -1,0 +1,190 @@
+{
+ "slug": "mic-test-palmer-snub",
+ "set": "pub",
+ "club": {
+  "name": "Chelsea",
+  "primary": "#034694",
+  "secondary": "#ffffff",
+  "third": "#dba111"
+ },
+ "loc": "FULHAM ROAD PUB · ENGLAND SQUAD DAY",
+ "question": {
+  "phrase": "England's loss",
+  "kicker": "ONE QUESTION",
+  "line1": "ENGLAND'S LOSS",
+  "line2": "CHELSEA'S GAIN?"
+ },
+ "meter": {
+  "title": "PALMER LEFT OUT",
+  "left": "ENGLAND'S LOSS",
+  "right": "CHELSEA'S GAIN",
+  "third": "HIS OWN FAULT?"
+ },
+ "ask": {
+  "a": "ENGLAND'S LOSS",
+  "b": "CHELSEA'S GAIN?",
+  "next": "Loss or gain? Comment 👇"
+ },
+ "end": "Get ACTXION. Make your voice count 👇",
+ "boo": false,
+ "laugh": "Christmas card",
+ "keywords": [
+  "three",
+  "assists",
+  "nine",
+  "palmer",
+  "england's",
+  "chelsea's",
+  "fit",
+  "every",
+  "problem",
+  "nineties",
+  "mates",
+  "sunderland",
+  "tuchel",
+  "fresh",
+  "christmas",
+  "neither",
+  "two",
+  "shirt",
+  "camps",
+  "loss",
+  "gain",
+  "you"
+ ],
+ "fans": [
+  {
+   "who": "ANGRY",
+   "label": "THE ANGRY ONE",
+   "sub": "Shed End since he was six",
+   "coat": "#2b2f3a",
+   "shirt": "#034694",
+   "legs": "#1c1f26",
+   "skin": "#6b4430",
+   "hair": "#141414",
+   "acc": [
+    "cap"
+   ],
+   "open": true,
+   "gesture": "jab",
+   "mood": 0.44,
+   "pop": "still says",
+   "popHold": 1.4,
+   "meter": -0.7,
+   "color": "#ff5a5f"
+  },
+  {
+   "who": "LOYAL",
+   "label": "THE LOYAL ONE",
+   "sub": "Fulham Road regular",
+   "coat": "#e8e1d4",
+   "shirt": "#034694",
+   "legs": "#2a3348",
+   "skin": "#f1d2bd",
+   "hair": "#c99a5b",
+   "acc": [
+    "ponytail",
+    "scarf"
+   ],
+   "open": true,
+   "gesture": "point",
+   "mood": 0.25,
+   "pop": "problem with him",
+   "popHold": 1.5,
+   "meter": -0.55,
+   "color": "#ffd54a"
+  },
+  {
+   "who": "OLD",
+   "label": "THE OLD HEAD",
+   "sub": "Season ticket since the 90s",
+   "coat": "#3d4a3a",
+   "shirt": "#3d4a3a",
+   "legs": "#2a2d36",
+   "skin": "#e6bfa0",
+   "hair": "#b5b5b5",
+   "acc": [
+    "glasses"
+   ],
+   "open": false,
+   "gesture": "crossed",
+   "mood": -0.1,
+   "pop": "Sunderland",
+   "popHold": 1.6,
+   "meter": 0.5,
+   "color": "#7cc7ff"
+  },
+  {
+   "who": "LAGOS",
+   "label": "WATCHING FROM LAGOS",
+   "sub": "Over for the weekend",
+   "coat": "#dba111",
+   "shirt": "#034694",
+   "legs": "#3b3f4a",
+   "skin": "#4f3020",
+   "hair": "#111111",
+   "acc": [
+    "bucket"
+   ],
+   "open": true,
+   "gesture": "handsup",
+   "mood": -0.05,
+   "laugh": true,
+   "pop": "Thank you",
+   "popHold": 2.2,
+   "meter": 0.72,
+   "color": "#7CFFB2"
+  },
+  {
+   "who": "NAIROBI",
+   "label": "IN FROM NAIROBI",
+   "sub": "Blue since the Drogba days",
+   "coat": "#5a2a2a",
+   "shirt": "#5a2a2a",
+   "legs": "#23252c",
+   "skin": "#3f2619",
+   "hair": "#111111",
+   "acc": [
+    "beanie"
+   ],
+   "open": false,
+   "gesture": "shrug",
+   "mood": 0.1,
+   "pop": "Turn up",
+   "popHold": 1.4,
+   "meter": "third",
+   "color": "#c9a6ff"
+  }
+ ],
+ "feature": {
+  "type": "fan_wall",
+  "club": "Chelsea",
+  "opponent": "Sunderland",
+  "comp": "Premier League",
+  "when": "Sun 08 Nov · 14:00",
+  "colour": "#034694",
+  "oppColour": "#eb172b",
+  "clock": "14:02",
+  "text": "Forget England, Cole. You're ours. Go and show them at Sunderland.",
+  "comments": [
+   {
+    "user": "shed_end_kid",
+    "tag": "Motivational",
+    "text": "Three goals, three assists in nine games. Keep proving them wrong.",
+    "ago": "1 hour ago"
+   },
+   {
+    "user": "lagos_blue",
+    "tag": "Motivational",
+    "text": "A fresh Palmer for Sunderland. Go and enjoy it 😂",
+    "ago": "2 hours ago"
+   },
+   {
+    "user": "fulham_rd_90s",
+    "tag": "Motivational",
+    "text": "Let England keep their mates. Sunday's what matters.",
+    "ago": "3 hours ago"
+   }
+  ]
+ }
+}

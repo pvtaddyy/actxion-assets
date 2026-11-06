@@ -1,0 +1,13 @@
+# Cold-open options (hookscore.py), used: #1 (angry stat line, 63.4)
+
+HOOK RANKING
+==============================================================================
+->  63.4 OK      Three goals, three assists, nine games, and Tuchel still sa...
+        weakest: ADDRESS (35)
+    48.6 WEAK    Thank you, Tuchel! You've just handed Chelsea a fresh Palme...
+        weakest: STAKES (20)
+    39.2 WEAK    Palmer left out again. What else does the lad have to do?
+        weakest: STAKES (20)
+
+Shoot the top one. If the top one is under 50, none of these are the hook.
+
