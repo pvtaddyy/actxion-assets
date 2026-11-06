@@ -151,6 +151,19 @@
    }
   ]
  },
+ "cesc-fabregas": {
+  "name": "Cesc Fàbregas",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/barcelona-among-them-fabregas-on-the-radar-of-three-european-giants/bltb96670fac526f31f",
+    "credit": "Photo: goal.com",
+    "file": "photos/cesc-fabregas-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/barcelona-among-them-fabregas-on-the-radar-of-three-european-giants/bltb96670fac526f31f",
+    "used": 1
+   }
+  ]
+ },
  "cole-palmer": {
   "name": "Cole Palmer",
   "variants": [
