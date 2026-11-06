@@ -961,6 +961,19 @@
    }
   ]
  },
+ "nick-woltemade": {
+  "name": "Nick Woltemade",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en-in/news/it-is-almost-like-a-witch-hunt-nick-woltemade-made-a-big-mistake-in-the-summer/blt36d26004494211e1",
+    "credit": "Photo: goal.com",
+    "file": "photos/nick-woltemade-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-in/news/it-is-almost-like-a-witch-hunt-nick-woltemade-made-a-big-mistake-in-the-summer/blt36d26004494211e1",
+    "used": 1
+   }
+  ]
+ },
  "niclas-fullkrug": {
   "name": "Niclas Füllkrug",
   "variants": [
@@ -970,7 +983,7 @@
     "file": "photos/niclas-fullkrug.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/jurgen-klopp-germany-squad-niclas-fullkrug-nick-woltemade/bltff9642e00b59bed9",
-    "used": 1
+    "used": 2
    }
   ]
  },
