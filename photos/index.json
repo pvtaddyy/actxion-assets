@@ -688,6 +688,14 @@
     "source": "article",
     "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-and-lionel-messi-both-bring-an-end-to-their-legendary-international-careers-but-their-simultaneous-fifa-break-absence-is-not-a-first/",
     "used": 1
+   },
+   {
+    "article": "https://worldsoccertalk.com/news/cristiano-ronaldo-with-portugal-or-lionel-messi-with-argentina-who-had-the-better-international-career-the-numbers-tell-the-story/",
+    "credit": "Photo: Getty via World Soccer Talk",
+    "file": "photos/lionel-messi-6.jpg",
+    "source": "article",
+    "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-with-portugal-or-lionel-messi-with-argentina-who-had-the-better-international-career-the-numbers-tell-the-story/",
+    "used": 1
    }
   ]
  },
@@ -949,6 +957,25 @@
     "file": "photos/niclas-fullkrug.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/jurgen-klopp-germany-squad-niclas-fullkrug-nick-woltemade/bltff9642e00b59bed9",
+    "used": 1
+   }
+  ]
+ },
+ "nico-paz": {
+  "name": "Nico Paz",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/nico-paz-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Nico_Paz_Argentina_v_Spain_19_July_2026-028_%28cropped%29.jpg/1920px-Nico_Paz_Argentina_v_Spain_19_July_2026-028_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/nico-paz-taking-champions-league-165200741.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/nico-paz-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/nico-paz-taking-champions-league-165200741.html",
     "used": 1
    }
   ]
