@@ -223,6 +223,19 @@
    }
   ]
  },
+ "charlie-savage": {
+  "name": "Charlie Savage",
+  "variants": [
+   {
+    "article": "https://rdg.today/charlie-savage-stars-as-reading-smack-five-past-peterborough-in-fa-cup-win/",
+    "credit": "Photo: Reading Today Online",
+    "file": "photos/charlie-savage.jpg",
+    "source": "article",
+    "url": "https://rdg.today/charlie-savage-stars-as-reading-smack-five-past-peterborough-in-fa-cup-win/",
+    "used": 1
+   }
+  ]
+ },
  "city-ground": {
   "name": "City Ground",
   "variants": [
@@ -313,6 +326,12 @@
     "credit": "Photo: Anish Morarji from St Albans, England, Wikimedia Commons, CC BY 2.0",
     "file": "photos/cristiano-ronaldo-5.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/C._Ronaldo_-_Ballon_d%27Or_2014.jpg",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/cristiano-ronaldo-8.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/1920px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -1018,6 +1037,19 @@
    }
   ]
  },
+ "lewis-smith": {
+  "name": "Lewis Smith",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13605738/aberdeen-0-4-hibernian-fans-turn-on-head-coach-stephen-robinson-as-hibs-climb-off-scottish-premiership-bottom",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/lewis-smith.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13605738/aberdeen-0-4-hibernian-fans-turn-on-head-coach-stephen-robinson-as-hibs-climb-off-scottish-premiership-bottom",
+    "used": 1
+   }
+  ]
+ },
  "liam-delap": {
   "name": "Liam Delap",
   "variants": [
@@ -1054,6 +1086,20 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/lionel-messi-7.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Lionel_Messi_Argentina_v_Egypt_7_July_2026-112%28cropped%29.jpg/1920px-Lionel_Messi_Argentina_v_Egypt_7_July_2026-112%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://www.foxsports.com/stories/soccer/lionel-messi-scores-twice-inter-miami-1st-game-since-argentina-retirement",
+    "credit": "Photo: FOX Sports",
+    "file": "photos/lionel-messi-9.jpg",
+    "source": "article",
+    "url": "https://www.foxsports.com/stories/soccer/lionel-messi-scores-twice-inter-miami-1st-game-since-argentina-retirement",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/lionel-messi-10.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Lionel_Messi_Argentina_v_Egypt_7_July_2026-130_%28cropped%29.jpg/1920px-Lionel_Messi_Argentina_v_Egypt_7_July_2026-130_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -1616,6 +1662,17 @@
     "credit": "Photo: Jeollo von VfB-exklusiv.de, Wikimedia Commons, CC BY 4.0",
     "file": "photos/sebastian-hoeness.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sebastian_hoeness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
+ "stephen-robinson": {
+  "name": "Stephen Robinson",
+  "variants": [
+   {
+    "credit": "Photo: NASA, Wikimedia Commons, Public domain",
+    "file": "photos/stephen-robinson.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Stephen_Robinson_NASA_STS114.jpg/1920px-Stephen_Robinson_NASA_STS114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
