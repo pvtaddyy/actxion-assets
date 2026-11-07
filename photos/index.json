@@ -504,6 +504,12 @@
     "source": "article",
     "url": "https://britbrief.co.uk/sports/football/maresca-faces-donnarumma-questions-before-forest-trip.html",
     "used": 1
+   },
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/enzo-maresca-4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Enzo_Maresca_20042025_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
    }
   ]
  },
@@ -750,6 +756,14 @@
     "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
     "file": "photos/jayden-bogle.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Jayden_Bogle_13092025_%284%29.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.givemesport.com/leeds-tottenham-premier-league-jayden-bogle-mike-dean/",
+    "credit": "Photo: GiveMeSport",
+    "file": "photos/jayden-bogle-3.jpg",
+    "source": "article",
+    "url": "https://www.givemesport.com/leeds-tottenham-premier-league-jayden-bogle-mike-dean/",
     "used": 1
    }
   ]
@@ -1320,7 +1334,7 @@
     "credit": "Photo: Wikimedia Commons",
     "file": "photos/noah-okafor-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg",
-    "used": 1
+    "used": 2
    }
   ]
  },
