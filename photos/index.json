@@ -943,6 +943,14 @@
     "file": "photos/kylian-mbappe.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Kylian_Mbappe_France_v_Paraguay_4_July_2026-201_%28cropped%29.jpg/1920px-Kylian_Mbappe_France_v_Paraguay_4_July_2026-201_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/no-room-for-complacency-mourinho-surprises-valencia-with-a-fiery-line-up/bltf59a371807b2ed52",
+    "credit": "Photo: goal.com",
+    "file": "photos/kylian-mbappe-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/no-room-for-complacency-mourinho-surprises-valencia-with-a-fiery-line-up/bltf59a371807b2ed52",
+    "used": 1
    }
   ]
  },
@@ -959,6 +967,19 @@
     "credit": "Photo: Biso, Wikimedia Commons, CC BY 4.0",
     "file": "photos/lamine-yamal-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Lamine_Yamal_in_2025_%28cropped2%29.jpg/1920px-Lamine_Yamal_in_2025_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "leandro-paredes": {
+  "name": "Leandro Paredes",
+  "variants": [
+   {
+    "article": "https://www.el-balad.com/17061000",
+    "credit": "Photo: El-Balad.com",
+    "file": "photos/leandro-paredes-2.jpg",
+    "source": "article",
+    "url": "https://www.el-balad.com/17061000",
     "used": 1
    }
   ]
