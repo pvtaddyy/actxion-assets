@@ -212,6 +212,17 @@
    }
   ]
  },
+ "city-ground": {
+  "name": "City Ground",
+  "variants": [
+   {
+    "credit": "Photo: NottinghamNinja, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/city-ground.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NFFC_City_Ground_Trent_End_2025.jpg/1920px-NFFC_City_Ground_Trent_End_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "cole-palmer": {
   "name": "Cole Palmer",
   "variants": [
@@ -423,6 +434,17 @@
    }
   ]
  },
+ "elliot-anderson": {
+  "name": "Elliot Anderson",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/elliot-anderson-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Elliot_Anderson_England_v_Ghana_23_June_2026-059_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "emirates-stadium": {
   "name": "Emirates Stadium",
   "variants": [
@@ -442,6 +464,14 @@
     "file": "photos/enzo-maresca.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "https://britbrief.co.uk/sports/football/maresca-faces-donnarumma-questions-before-forest-trip.html",
+    "credit": "Photo: Brit Brief",
+    "file": "photos/enzo-maresca-3.jpg",
+    "source": "article",
+    "url": "https://britbrief.co.uk/sports/football/maresca-faces-donnarumma-questions-before-forest-trip.html",
+    "used": 1
    }
   ]
  },
@@ -1176,6 +1206,14 @@
     "file": "photos/oliver-glasner.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/oliver-glasner-expensive-release-clause-143956815.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/oliver-glasner-4.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/oliver-glasner-expensive-release-clause-143956815.html",
+    "used": 1
    }
   ]
  },
