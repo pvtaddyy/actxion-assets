@@ -866,6 +866,17 @@
    }
   ]
  },
+ "joshua-kimmich": {
+  "name": "Joshua Kimmich",
+  "variants": [
+   {
+    "credit": "Photo: Rufus46, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/joshua-kimmich.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Joshua_Kimmich_Training_2017-03_FC_Bayern_Muenchen-4.jpg/1920px-Joshua_Kimmich_Training_2017-03_FC_Bayern_Muenchen-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "jude-bellingham": {
   "name": "Jude Bellingham",
   "variants": [
@@ -1080,7 +1091,7 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/martin-odegaard.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg/1920px-Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    }
   ]
  },
