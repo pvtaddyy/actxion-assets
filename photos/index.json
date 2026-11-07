@@ -396,6 +396,19 @@
    }
   ]
  },
+ "dietmar-hamann": {
+  "name": "Dietmar Hamann",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/german-pundit-dietmar-hamann-lambasts-074400792.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/dietmar-hamann.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/german-pundit-dietmar-hamann-lambasts-074400792.html",
+    "used": 1
+   }
+  ]
+ },
  "dirk-kuyt": {
   "name": "Dirk Kuyt",
   "variants": [
@@ -941,6 +954,19 @@
     "file": "photos/manchester-united-fans.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/man-utd-fans-stage-tennis-ball-protest-glazer-family-sir-jim-ratcliffe-roma/blt9b71c9def57e6a94",
+    "used": 1
+   }
+  ]
+ },
+ "marc-andre-ter-stegen": {
+  "name": "Marc-André ter Stegen",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/jurgen-klopp-marc-andre-ter-stegen-germany-no-1-ajax-barcelona/bltb8ce978da3242185",
+    "credit": "Photo: goal.com",
+    "file": "photos/marc-andre-ter-stegen.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/jurgen-klopp-marc-andre-ter-stegen-germany-no-1-ajax-barcelona/bltb8ce978da3242185",
     "used": 1
    }
   ]
