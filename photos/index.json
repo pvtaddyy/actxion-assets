@@ -596,6 +596,19 @@
    }
   ]
  },
+ "frank-lampard": {
+  "name": "Frank Lampard",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13609067/everton-3-1-coventry-frank-lampard-says-var-didnt-do-its-job-after-three-incidents-went-against-sky-blues-in-premier-league-defeat",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/frank-lampard-4.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13609067/everton-3-1-coventry-frank-lampard-says-var-didnt-do-its-job-after-three-incidents-went-against-sky-blues-in-premier-league-defeat",
+    "used": 1
+   }
+  ]
+ },
  "gabriel-magalhaes": {
   "name": "Gabriel Magalhães",
   "variants": [
@@ -670,6 +683,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/harry-kane-6.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "james-tarkowski": {
+  "name": "James Tarkowski",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/james-tarkowski-urges-thomas-tuchel-173248199.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/james-tarkowski.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/james-tarkowski-urges-thomas-tuchel-173248199.html",
     "used": 1
    }
   ]

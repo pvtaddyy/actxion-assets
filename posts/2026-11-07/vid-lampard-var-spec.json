@@ -1,0 +1,23 @@
+{
+ "voice": "voice-tight.wav", "words": "words-tight.json", "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28", "series": "Pick your side", "tail": 1.2,
+ "header": {"text": "Lampard v VAR: robbed?", "key": ["robbed?"]},
+ "keywords": ["!failed", "first", "hair,", "outside", "!hand.", "job.", "grapes?"],
+ "sources": [
+  "https://www.skysports.com/football/news/13609067/everton-3-1-coventry-frank-lampard-says-var-didnt-do-its-job-after-three-incidents-went-against-sky-blues-in-premier-league-defeat",
+  "https://www.skysports.com/football/everton-vs-coventry-city/5934059159310513232"
+ ],
+ "scenes": [
+  {"type": "player", "at": 0, "photo": "lampard-cut.png", "bgPhoto": "lampard-c.jpg", "word": "FAILED", "label": "Coventry boss Frank Lampard", "wordY": -40, "wordSize": 300, "height": 640},
+  {"type": "score", "at": 3.5, "label": "Premier League, Friday", "home": "Everton", "away": "Coventry",
+   "states": [{"at": 3.5, "h": 0, "a": 1, "foot": "Coventry score first"}, {"at": 5.6, "h": 3, "a": 1, "foot": "Full time"}]},
+  {"type": "player", "at": 6.7, "photo": "tarkowski-cut.png", "bgPhoto": "tarkowski.jpg", "word": "HAIR", "label": "Call one: Tarkowski on Yirenkyi", "wordY": -40, "wordSize": 360, "height": 640},
+  {"type": "card", "at": 10.1, "colour": "yellow", "text": "No penalty"},
+  {"type": "list", "at": 11.0, "title": "Call two", "items": [{"at": 11.6, "text": "Mykolenko on Awoniyi"}, {"at": 13.7, "text": "VAR: outside the box"}]},
+  {"type": "player", "at": 14.8, "photo": "barry-cut.png", "bgPhoto": "barry-c.jpg", "word": "HAND?", "label": "Call three: Barry's second goal", "wordY": -40, "wordSize": 330, "height": 640},
+  {"type": "card", "at": 16.7, "colour": "yellow", "text": "Not hand, says VAR"},
+  {"type": "player", "at": 19.1, "photo": "lampard-cut.png", "bgPhoto": "lampard-c.jpg", "word": "JOB", "label": "Frank Lampard to Sky Sports", "wordY": -40, "wordSize": 380, "height": 640},
+  {"type": "versus", "at": 22.9, "a": {"photo": "lampard-cut.png", "label": "Robbed"}, "b": {"photo": "barry-cut.png", "label": "Sour grapes"}},
+  {"type": "ask", "at": 24.3, "html": "Robbed or <span class=\"k\">sour grapes?</span>", "sub": "A: Coventry were robbed. B: sour grapes"}
+ ]
+}
