@@ -243,6 +243,14 @@
     "file": "photos/cole-palmer-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cole_Palmer_making_pass_vs_Southampton_crowd_view.jpg/1920px-Cole_Palmer_making_pass_vs_Southampton_crowd_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/chelseas-cole-palmer-snubbed-thomas-145727024.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/cole-palmer-8.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/chelseas-cole-palmer-snubbed-thomas-145727024.html",
+    "used": 1
    }
   ]
  },
@@ -842,6 +850,19 @@
     "file": "photos/jose-mourinho.jpg",
     "url": "",
     "used": 0
+   }
+  ]
+ },
+ "josh-king": {
+  "name": "Josh King",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/alvaro-arbeloa-beams-fulham-teenage-130131474.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/josh-king.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/alvaro-arbeloa-beams-fulham-teenage-130131474.html",
+    "used": 1
    }
   ]
  },
@@ -1471,6 +1492,17 @@
    }
   ]
  },
+ "sebastian-hoeness": {
+  "name": "Sebastian Hoeness",
+  "variants": [
+   {
+    "credit": "Photo: Jeollo von VfB-exklusiv.de, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/sebastian-hoeness.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sebastian_hoeness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
  "teun-koopmeiners": {
   "name": "Teun Koopmeiners",
   "variants": [
@@ -1566,6 +1598,17 @@
     "file": "photos/uberlandia.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/uberlandia-mamore-53-red-cards-brazil-brawl/bltd997d0e084695946",
+    "used": 1
+   }
+  ]
+ },
+ "unai-emery": {
+  "name": "Unai Emery",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/unai-emery-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Unai_Emery_-_Sevilla_%28cropped%29.jpg",
     "used": 1
    }
   ]
