@@ -105,6 +105,17 @@
    }
   ]
  },
+ "arda-guler": {
+  "name": "Arda Güler",
+  "variants": [
+   {
+    "credit": "Photo: LawEnthusiast, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/arda-guler.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Arda_G%C3%BCler_2025.jpg",
+    "used": 1
+   }
+  ]
+ },
  "arne-slot": {
   "name": "Arne Slot",
   "variants": [
@@ -586,6 +597,12 @@
     "file": "photos/federico-valverde.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Federico_Valverde_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
+   },
+   {
+    "credit": "Photo: Real Madrid, Wikimedia Commons, CC BY 3.0",
+    "file": "photos/federico-valverde-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Federico_Valverde_2021_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },
@@ -662,6 +679,17 @@
     "file": "photos/gabriel-magalhaes.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/arsenal-star-gabriel-magalhaes-having-072138914.html",
+    "used": 1
+   }
+  ]
+ },
+ "gian-piero-gasperini": {
+  "name": "Gian Piero Gasperini",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/gian-piero-gasperini.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Gian_Piero_Gasperini%2C_2024.jpg",
     "used": 1
    }
   ]
