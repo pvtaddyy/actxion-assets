@@ -447,6 +447,17 @@
    }
   ]
  },
+ "elland-road": {
+  "name": "Elland Road",
+  "variants": [
+   {
+    "credit": "Photo: Arne Müseler, Wikimedia Commons, CC BY-SA 3.0 de",
+    "file": "photos/elland-road.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Leeds_elland_road_stadium.jpg/1920px-Leeds_elland_road_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "elliot-anderson": {
   "name": "Elliot Anderson",
   "variants": [
@@ -724,6 +735,17 @@
    }
   ]
  },
+ "jayden-bogle": {
+  "name": "Jayden Bogle",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/jayden-bogle.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Jayden_Bogle_13092025_%284%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "jesus-gil-manzano": {
   "name": "Jesús Gil Manzano",
   "variants": [
@@ -754,6 +776,17 @@
     "file": "photos/jj-gabriel-3.jpg",
     "source": "article",
     "url": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
+    "used": 1
+   }
+  ]
+ },
+ "john-brooks": {
+  "name": "John Brooks",
+  "variants": [
+   {
+    "credit": "Photo: Samuel William Reynolds II, Wikimedia Commons, Public domain",
+    "file": "photos/john-brooks.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/John_Brooks_-_Reynolds_mezzotint.png/1920px-John_Brooks_-_Reynolds_mezzotint.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -1075,6 +1108,17 @@
     "file": "photos/matheus-cunha-3.jpg",
     "source": "article",
     "url": "https://www.cbssports.com/watch/soccer/video/matheus-cunha-saves-manchester-united-late-in-3-2-win-vs-roma-champions-club",
+    "used": 1
+   }
+  ]
+ },
+ "mathys-tel": {
+  "name": "Mathys Tel",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/mathys-tel-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mathys_Tel_en_2026.png",
     "used": 1
    }
   ]
