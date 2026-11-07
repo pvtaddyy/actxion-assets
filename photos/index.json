@@ -1302,6 +1302,17 @@
    }
   ]
  },
+ "noah-okafor": {
+  "name": "Noah Okafor",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/noah-okafor-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg",
+    "used": 1
+   }
+  ]
+ },
  "old-trafford": {
   "name": "Old Trafford",
   "variants": [
@@ -1441,6 +1452,19 @@
     "file": "photos/rio-ngumoha.jpg",
     "source": "article",
     "url": "https://www.teamtalk.com/liverpool/trey-nyoni-rio-ngumoha-form-massive-iraola-headache-217m-trio",
+    "used": 1
+   }
+  ]
+ },
+ "roberto-de-zerbi": {
+  "name": "Roberto De Zerbi",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13593186/leeds-1-0-tottenham-noah-okafors-winner-ends-whites-five-game-winless-run-after-jayden-bogle-escapes-red-card",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/roberto-de-zerbi-2.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13593186/leeds-1-0-tottenham-noah-okafors-winner-ends-whites-five-game-winless-run-after-jayden-bogle-escapes-red-card",
     "used": 1
    }
   ]
