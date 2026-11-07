@@ -510,6 +510,12 @@
     "file": "photos/enzo-maresca-4.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Enzo_Maresca_20042025_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
+   },
+   {
+    "credit": "Photo: Oscar0123, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/enzo-maresca-5.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Enzo_maresca_chelsea_gent_2024_%28extracted%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
    }
   ]
  },
@@ -980,6 +986,19 @@
     "file": "photos/leandro-paredes-2.jpg",
     "source": "article",
     "url": "https://www.el-balad.com/17061000",
+    "used": 1
+   }
+  ]
+ },
+ "liam-delap": {
+  "name": "Liam Delap",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/nottingham-forest-got-wrong-liam-061500855.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/liam-delap.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/nottingham-forest-got-wrong-liam-061500855.html",
     "used": 1
    }
   ]
