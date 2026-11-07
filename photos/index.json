@@ -1138,6 +1138,17 @@
    }
   ]
  },
+ "paolo-zanetti": {
+  "name": "Paolo Zanetti",
+  "variants": [
+   {
+    "credit": "Photo: Riccardo Sabbadini, Wikimedia Commons, CC BY-SA 2.5",
+    "file": "photos/paolo-zanetti-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Alessandro_Rosina_and_Paolo_Zanetti.jpg/1920px-Alessandro_Rosina_and_Paolo_Zanetti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "phil-foden": {
   "name": "Phil Foden",
   "variants": [
@@ -1339,6 +1350,14 @@
     "source": "article",
     "url": "https://www.skysports.com/football/news/13596119/england-thomas-tuchel-still-stinging-from-world-cup-criticism-despite-nations-league-positives",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/tuchel-admits-his-relationship-with-bellingham-has-been-up-and-down-and-reveals-where-they-stand-now/bltaa840126e0744cab",
+    "credit": "Photo: goal.com",
+    "file": "photos/thomas-tuchel-5.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/tuchel-admits-his-relationship-with-bellingham-has-been-up-and-down-and-reveals-where-they-stand-now/bltaa840126e0744cab",
+    "used": 1
    }
   ]
  },
@@ -1531,6 +1550,17 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/yassine-bounou.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Yassine_Bounou_France_v_Morocco_9_July_2026-076.jpg/1920px-Yassine_Bounou_France_v_Morocco_9_July_2026-076.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "zion-suzuki": {
+  "name": "Zion Suzuki",
+  "variants": [
+   {
+    "credit": "Photo: RuinDig/Yuki Uchida, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/zion-suzuki.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg",
     "used": 1
    }
   ]
