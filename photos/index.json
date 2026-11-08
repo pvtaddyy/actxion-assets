@@ -479,6 +479,14 @@
     "source": "article",
     "url": "https://www.cnn.com/2025/09/18/sport/soccer-champions-league-diego-simeone-liverpool-intl",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/diego-simeone-makes-atl-tico-211934029.html",
+    "credit": "Photo: Afp via Yahoo Sports",
+    "file": "photos/diego-simeone-5.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/diego-simeone-makes-atl-tico-211934029.html",
+    "used": 1
    }
   ]
  },
@@ -769,6 +777,19 @@
    }
   ]
  },
+ "h": {
+  "name": "-h",
+  "variants": [
+   {
+    "article": "https://www.healthline.com/health/h-pylori-and-rosacea",
+    "credit": "Photo: Healthline",
+    "file": "photos/h.jpg",
+    "source": "article",
+    "url": "https://www.healthline.com/health/h-pylori-and-rosacea",
+    "used": 1
+   }
+  ]
+ },
  "hansi-flick": {
   "name": "Hansi Flick",
   "variants": [
@@ -1046,6 +1067,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/jude-bellingham.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/1920px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "julian-alvarez": {
+  "name": "Julian Alvarez",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/laporta-talks-julian-alvarez-raphinha-143000325.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/julian-alvarez-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/laporta-talks-julian-alvarez-raphinha-143000325.html",
     "used": 1
    }
   ]
@@ -1435,6 +1469,17 @@
    }
   ]
  },
+ "metropolitano-stadium": {
+  "name": "Metropolitano Stadium",
+  "variants": [
+   {
+    "credit": "Photo: Jose A., Wikimedia Commons, CC BY 2.0",
+    "file": "photos/metropolitano-stadium.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Wanda_Metropolitano_Stadium_Dec_2017_%2839ea73b8c7_o%29.jpg/1920px-Wanda_Metropolitano_Stadium_Dec_2017_%2839ea73b8c7_o%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "michael-carrick": {
   "name": "Michael Carrick",
   "variants": [
@@ -1692,6 +1737,25 @@
     "file": "photos/rafael-nadal.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/rafael-nadal-joins-real-madrid-s-board-of-directors-will-he-be-president-after-florentino-perez/blt232b0d0c01c8308b",
+    "used": 1
+   }
+  ]
+ },
+ "raphinha": {
+  "name": "Raphinha",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/raphinha-4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/laporta-talks-julian-alvarez-raphinha-143000325.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/raphinha-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/laporta-talks-julian-alvarez-raphinha-143000325.html",
     "used": 1
    }
   ]
