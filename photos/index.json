@@ -91,6 +91,17 @@
    }
   ]
  },
+ "alexis-mac-allister": {
+  "name": "Alexis Mac Allister",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/alexis-mac-allister.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Alexis_Mac_Allister_04012026_%283%29.jpg/1920px-Alexis_Mac_Allister_04012026_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "andoni-iraola": {
   "name": "Andoni Iraola",
   "variants": [
@@ -723,7 +734,7 @@
     "file": "photos/florian-wirtz-3.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/why-isnt-florian-wirtz-starting-164657769.html",
-    "used": 1
+    "used": 2
    }
   ]
  },
