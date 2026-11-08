@@ -1560,6 +1560,17 @@
    }
   ]
  },
+ "rayan-cherki": {
+  "name": "Rayan Cherki",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/rayan-cherki.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Rayan_Cherki_France_v_Paraguay_4_July_2026-087.jpg/1920px-Rayan_Cherki_France_v_Paraguay_4_July_2026-087.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "regis-le-bris": {
   "name": "Régis Le Bris",
   "variants": [
