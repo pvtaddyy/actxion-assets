@@ -47,6 +47,17 @@
    }
   ]
  },
+ "alex-ferguson": {
+  "name": "Alex Ferguson",
+  "variants": [
+   {
+    "credit": "Photo: North West Air Ambulance, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/alex-ferguson-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Sir_Alex_Ferguson_meets_NWAA.jpg/1920px-Sir_Alex_Ferguson_meets_NWAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "alexander-isak": {
   "name": "Alexander Isak",
   "variants": [
@@ -1560,6 +1571,17 @@
     "credit": "Photo: Riccardo Sabbadini, Wikimedia Commons, CC BY-SA 2.5",
     "file": "photos/paolo-zanetti-2.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Alessandro_Rosina_and_Paolo_Zanetti.jpg/1920px-Alessandro_Rosina_and_Paolo_Zanetti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "pep-guardiola": {
+  "name": "Pep Guardiola",
+  "variants": [
+   {
+    "credit": "Photo: Steffen Prößdorf, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/pep-guardiola.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
     "used": 1
    }
   ]
