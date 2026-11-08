@@ -1724,7 +1724,7 @@
     "file": "photos/pierre-sage-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/pierre-sage-addresses-issues-crystal-193419952.html",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -2158,6 +2158,19 @@
     "file": "photos/william-saliba-3.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/arsenal-mikel-arteta-sends-france-145348967.html",
+    "used": 1
+   }
+  ]
+ },
+ "xabi-alonso": {
+  "name": "Xabi Alonso",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13593219/sunderland-1-0-chelsea-enzo-le-fees-penalty-lifts-black-cats-off-bottom-of-table-as-xabi-alonsos-side-show-more-inconsistency",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/xabi-alonso-2.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13593219/sunderland-1-0-chelsea-enzo-le-fees-penalty-lifts-black-cats-off-bottom-of-table-as-xabi-alonsos-side-show-more-inconsistency",
     "used": 1
    }
   ]
