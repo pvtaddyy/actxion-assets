@@ -1714,6 +1714,19 @@
    }
   ]
  },
+ "pedri": {
+  "name": "Pedri",
+  "variants": [
+   {
+    "article": "https://www.yardbarker.com/soccer/articles/raphinha_answers_barcelona_fans_call_special_motivation_for_yamal_and_pedri/s1_17790_44532871",
+    "credit": "Photo: Yardbarker",
+    "file": "photos/pedri.jpg",
+    "source": "article",
+    "url": "https://www.yardbarker.com/soccer/articles/raphinha_answers_barcelona_fans_call_special_motivation_for_yamal_and_pedri/s1_17790_44532871",
+    "used": 1
+   }
+  ]
+ },
  "pep-guardiola": {
   "name": "Pep Guardiola",
   "variants": [
