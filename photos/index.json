@@ -192,6 +192,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/lot-lies-bruno-fernandes-clarifies-084900889.html",
     "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13608473/manchester-united-reporter-notebook-shea-lacey-and-old-trafford-young-guns-offer-michael-carrick-hope-of-unlikely-revival",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/bruno-fernandes-5.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13608473/manchester-united-reporter-notebook-shea-lacey-and-old-trafford-young-guns-offer-michael-carrick-hope-of-unlikely-revival",
+    "used": 1
    }
   ]
  },
@@ -1426,6 +1434,14 @@
     "file": "photos/michael-carrick-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Michael_Carrick_-_July_2015.jpg/1920px-Michael_Carrick_-_July_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/michael-carrick-8.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford",
+    "used": 1
    }
   ]
  },
@@ -1536,11 +1552,9 @@
   "name": "Old Trafford",
   "variants": [
    {
-    "article": "https://www.ilmessaggero.it/en/roma_faces_manchester_united_at_old_trafford_match_preview_and_analysis-9864550.html",
-    "credit": "Photo: ilmessaggero.it",
+    "credit": "Photo: Arne Müseler, Wikimedia Commons, CC BY-SA 3.0 de",
     "file": "photos/old-trafford.jpg",
-    "source": "article",
-    "url": "https://www.ilmessaggero.it/en/roma_faces_manchester_united_at_old_trafford_match_preview_and_analysis-9864550.html",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Manchester_United_Old_Trafford_%28cropped%29.jpg/1920px-Manchester_United_Old_Trafford_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -1898,6 +1912,22 @@
     "credit": "Photo: Wikimedia Commons",
     "file": "photos/unai-emery-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Unai_Emery_-_Sevilla_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/aston-villa-predicted-xi-vs-000000924.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/unai-emery-5.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/aston-villa-predicted-xi-vs-000000924.html",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/emery-set-extend-villa-stay-152300424.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/unai-emery-6.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/emery-set-extend-villa-stay-152300424.html",
     "used": 1
    }
   ]
