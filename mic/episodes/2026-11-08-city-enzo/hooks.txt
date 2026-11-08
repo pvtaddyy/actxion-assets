@@ -1,0 +1,14 @@
+# Cold-open options (hookscore.py), used: #1 (sad line, 78.0)
+
+
+HOOK RANKING
+==============================================================================
+->  78.0 STRONG  Seven wins on the bounce. Now three defeats. I don't recogn...
+        weakest: STAKES (70)
+    61.2 OK      Hundred and twenty-five million quid. What does Enzo actual...
+        weakest: ADDRESS (35)
+    45.0 WEAK    My wife said go on, enjoy Manchester. Two-nil down after ei...
+        weakest: STAKES (20)
+
+Shoot the top one. If the top one is under 50, none of these are the hook.
+
