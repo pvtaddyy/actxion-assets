@@ -1,0 +1,45 @@
+{
+ "slug": "mic-city-enzo",
+ "set": "pub",
+ "club": {"name": "Man City", "primary": "#6cabdd", "secondary": "#ffffff", "third": "#1c2c5b"},
+ "loc": "MANCHESTER PUB · AFTER FOREST 3-1 CITY",
+ "question": {"phrase": "Is it Enzo", "kicker": "ONE QUESTION", "line1": "ENZO", "line2": "OR MARESCA?"},
+ "meter": {"title": "WHO GETS THE BLAME?", "left": "ENZO", "right": "MARESCA", "third": "THE DEFENCE?"},
+ "ask": {"a": "ENZO", "b": "MARESCA?", "next": "Who's to blame? Comment 👇"},
+ "end": "Get ACTXION. Make your voice count 👇",
+ "boo": false,
+ "laugh": "I'm telling her",
+ "keywords": ["seven", "three", "recognise", "enzo", "maresca", "hundred", "million", "drop", "manager", "manchester", "two-nil", "eighteen", "won", "neither", "half-time", "eight", "clean", "defence", "you"],
+ "fans": [
+  {"who": "OLD", "label": "THE OLD HEAD", "sub": "Maine Road days", "coat": "#3b4a5c", "shirt": "#6cabdd", "legs": "#2a2d36", "skin": "#e8c3a4", "hair": "#b5b5b5", "acc": ["cap", "glasses"], "open": true, "gesture": "facepalm", "mood": -0.3, "pop": "I don't recognise", "popHold": 1.8, "meter": 0, "color": "#ffd54a"},
+  {"who": "ANGRY", "label": "THE ANGRY ONE", "sub": "Moss Side", "coat": "#1c2c5b", "shirt": "#6cabdd", "legs": "#1b2233", "skin": "#f2d0b8", "hair": "#2a1a12", "acc": ["ponytail", "scarf"], "open": true, "gesture": "jab", "mood": 0.44, "pop": "Drop him", "popHold": 1.2, "meter": -0.75, "color": "#ff5a5f"},
+  {"who": "LOYAL", "label": "THE LOYAL ONE", "sub": "Season ticket, East Stand", "coat": "#6cabdd", "shirt": "#ffffff", "legs": "#2c3e66", "skin": "#7a4a30", "hair": "#141414", "acc": ["beanie"], "open": false, "gesture": "point", "mood": 0.18, "pop": "That's on the manager", "popHold": 1.4, "meter": 0.65, "color": "#ffd54a"},
+  {"who": "LAGOS", "label": "OVER FROM LAGOS", "sub": "First trip to Manchester", "coat": "#2b2f3a", "shirt": "#6cabdd", "legs": "#3b3f4a", "skin": "#5a3825", "hair": "#111111", "acc": ["bucket"], "open": true, "gesture": "shrug", "mood": -0.1, "laugh": true, "pop": "I'm telling her", "popHold": 1.8, "meter": -0.15, "color": "#7CFFB2"},
+  {"who": "NAIROBI", "label": "IN FROM NAIROBI", "sub": "City fan for 15 years", "coat": "#4a3b2c", "shirt": "#1c2c5b", "legs": "#23252c", "skin": "#4a2e1f", "hair": "#111111", "acc": ["hood"], "open": false, "gesture": "crossed", "mood": 0.1, "pop": "Fix the defence", "popHold": 1.6, "meter": "third", "color": "#7cc7ff"}
+ ],
+ "feature": {
+  "type": "starting_11",
+  "club": "Man City",
+  "opponent": "Fulham",
+  "comp": "Premier League",
+  "when": "Sat 21 Nov · 12:30",
+  "colour": "#6cabdd",
+  "oppColour": "#ffffff",
+  "clock": "17:58",
+  "xi": ["Gianluigi Donnarumma", "Rayan Aït-Nouri", "Rúben Dias", "Abdukodir Khusanov", "Rico Lewis", "Elliot Anderson", "Phil Foden", "Rayan Cherki", "Jérémy Doku", "Erling Haaland", "Antoine Semenyo"],
+  "pos": ["GK", "LB", "CB", "CB", "RB", "CM", "CM", "AM", "LW", "ST", "RW"],
+  "empty": [6],
+  "sec": "Midfielder",
+  "pick": [
+   {"name": "Phil Foden", "num": "47", "chosen": true},
+   {"name": "Mateo Kovačić", "num": "8"},
+   {"name": "Ayyoub Bouaddi", "num": "32"},
+   {"name": "Enzo Fernández", "num": "17"}
+  ],
+  "text": "Drop Enzo. Foden in the middle.",
+  "comments": [
+   {"user": "mainroad_mike", "tag": "Both", "text": "Seven wins, then three defeats. Don't recognise this team.", "ago": "2 hours ago"},
+   {"user": "mossside_jo", "tag": "Improve", "text": "£125m and what does he actually do? Drop him.", "ago": "3 hours ago"}
+  ]
+ }
+}
