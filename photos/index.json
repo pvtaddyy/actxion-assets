@@ -127,6 +127,19 @@
    }
   ]
  },
+ "bart-verbruggen": {
+  "name": "Bart Verbruggen",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/sources-liverpool-turn-attention-signing-073000575.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/bart-verbruggen.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/sources-liverpool-turn-attention-signing-073000575.html",
+    "used": 1
+   }
+  ]
+ },
  "benni-mccarthy": {
   "name": "Benni McCarthy",
   "variants": [
@@ -829,6 +842,19 @@
    }
   ]
  },
+ "jeremie-frimpong": {
+  "name": "Jeremie Frimpong",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/liverpool-jeremie-frimpong-decision-ahead-095000190.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/jeremie-frimpong.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/liverpool-jeremie-frimpong-decision-ahead-095000190.html",
+    "used": 1
+   }
+  ]
+ },
  "jesus-gil-manzano": {
   "name": "Jesús Gil Manzano",
   "variants": [
@@ -859,6 +885,19 @@
     "file": "photos/jj-gabriel-3.jpg",
     "source": "article",
     "url": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
+    "used": 1
+   }
+  ]
+ },
+ "johan-manzambi": {
+  "name": "Johan Manzambi",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/aston-villa-midfielder-johan-manzambi-150418796.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/johan-manzambi.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/aston-villa-midfielder-johan-manzambi-150418796.html",
     "used": 1
    }
   ]
@@ -1052,6 +1091,17 @@
     "file": "photos/leandro-paredes-2.jpg",
     "source": "article",
     "url": "https://www.el-balad.com/17061000",
+    "used": 1
+   }
+  ]
+ },
+ "levi-colwill": {
+  "name": "Levi Colwill",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/levi-colwill.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Levi_Colwill_20042025_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
    }
   ]
@@ -1532,6 +1582,19 @@
     "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
     "file": "photos/phil-parkinson.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Phil_Parkinson_30082025_%284%29.jpg/1920px-Phil_Parkinson_30082025_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "pierre-sage": {
+  "name": "Pierre Sage",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/pierre-sage-addresses-issues-crystal-193419952.html",
+    "credit": "Photo: Imago via Yahoo Sports",
+    "file": "photos/pierre-sage-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/pierre-sage-addresses-issues-crystal-193419952.html",
     "used": 1
    }
   ]
