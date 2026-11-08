@@ -471,6 +471,14 @@
     "source": "article",
     "url": "https://www.cnn.com/2025/09/18/sport/soccer-champions-league-diego-simeone-liverpool-intl",
     "used": 1
+   },
+   {
+    "article": "https://www.cnn.com/2025/09/18/sport/soccer-champions-league-diego-simeone-liverpool-intl",
+    "credit": "Photo: CNN",
+    "file": "photos/diego-simeone-4.jpg",
+    "source": "article",
+    "url": "https://www.cnn.com/2025/09/18/sport/soccer-champions-league-diego-simeone-liverpool-intl",
+    "used": 1
    }
   ]
  },
@@ -1243,6 +1251,19 @@
     "file": "photos/manchester-united-fans.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/man-utd-fans-stage-tennis-ball-protest-glazer-family-sir-jim-ratcliffe-roma/blt9b71c9def57e6a94",
+    "used": 1
+   }
+  ]
+ },
+ "manuel-neuer": {
+  "name": "Manuel Neuer",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/manuel-neuer-injury-error-bayern-munich-mainz/blt78c4994cbe352a69",
+    "credit": "Photo: goal.com",
+    "file": "photos/manuel-neuer-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/manuel-neuer-injury-error-bayern-munich-mainz/blt78c4994cbe352a69",
     "used": 1
    }
   ]
