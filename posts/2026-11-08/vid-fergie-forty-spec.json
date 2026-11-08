@@ -1,0 +1,142 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Then and now",
+ "tail": 1.2,
+ "header": {
+  "text": "Fergie 1986 v Carrick now",
+  "key": [
+   "now"
+  ]
+ },
+ "keywords": [
+  "!Fergie",
+  "Oxford.",
+  "seven",
+  "!eighteenth,",
+  "nine,",
+  "impossible.",
+  "today.#2",
+  "late?",
+  "call."
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford",
+  "https://www.skysports.com/premier-league-table",
+  "https://en.wikipedia.org/wiki/1986%E2%80%9387_Manchester_United_F.C._season"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "ferguson-cut.png",
+   "bgPhoto": "ferguson.jpg",
+   "word": "1986",
+   "label": "Alex Ferguson, November 1986",
+   "wordY": -40,
+   "wordSize": 340,
+   "height": 640
+  },
+  {
+   "type": "score",
+   "at": "Two",
+   "label": "First Division, 8 Nov 1986",
+   "home": "Oxford",
+   "away": "Man Utd",
+   "states": [
+    {
+     "at": "Two",
+     "h": 2,
+     "a": 0,
+     "foot": "Ferguson's first game"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "United",
+   "value": 21,
+   "suffix": "st",
+   "unit": "in the league",
+   "label": "when Ferguson took over",
+   "source": "Wikipedia"
+  },
+  {
+   "type": "stat",
+   "at": "and",
+   "value": 7,
+   "unit": "years",
+   "label": "almost, until his first title",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "player",
+   "at": "Fast",
+   "photo": "carrick-cut.png",
+   "bgPhoto": "carrick.jpg",
+   "word": "18TH",
+   "label": "Michael Carrick, November 2026",
+   "wordY": -40,
+   "wordSize": 360,
+   "height": 640
+  },
+  {
+   "type": "stat",
+   "at": "with",
+   "value": 1,
+   "unit": "league win",
+   "label": "in nine games this season",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "list",
+   "at": "Michael",
+   "title": "Carrick to Sky Sports",
+   "items": [
+    {
+     "at": "matching",
+     "text": "\"It's not impossible\""
+    },
+    {
+     "at": "But",
+     "text": "\"Success does take time\""
+    }
+   ]
+  },
+  {
+   "type": "score",
+   "at": "Villa",
+   "label": "Premier League, today",
+   "home": "Man Utd",
+   "away": "Aston Villa",
+   "states": [
+    {
+     "at": "Villa",
+     "h": "",
+     "a": "",
+     "foot": "4.30pm UK, Old Trafford"
+    }
+   ]
+  },
+  {
+   "type": "versus",
+   "at": "So",
+   "a": {
+    "photo": "ferguson-cut.png",
+    "label": "The start"
+   },
+   "b": {
+    "photo": "carrick-cut.png",
+    "label": "Too late"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "The start or <span class=\"k\">too late?</span>",
+   "sub": "A: the start of something. B: too late"
+  }
+ ]
+}
