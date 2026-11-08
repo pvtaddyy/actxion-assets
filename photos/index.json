@@ -546,6 +546,14 @@
     "file": "photos/enzo-maresca-5.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Enzo_maresca_chelsea_gent_2024_%28extracted%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/just-see-anybody-else-jamie-redknapp-names-brighton-arsenal-biggest-title-rivals-man-city-suffer-third-straight-defeat/blt418eb6b22f4e9c7f",
+    "credit": "Photo: goal.com",
+    "file": "photos/enzo-maresca-7.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/just-see-anybody-else-jamie-redknapp-names-brighton-arsenal-biggest-title-rivals-man-city-suffer-third-straight-defeat/blt418eb6b22f4e9c7f",
+    "used": 1
    }
   ]
  },
@@ -940,6 +948,19 @@
     "credit": "Photo: Rufus46, Wikimedia Commons, CC BY-SA 3.0",
     "file": "photos/joshua-kimmich.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Joshua_Kimmich_Training_2017-03_FC_Bayern_Muenchen-4.jpg/1920px-Joshua_Kimmich_Training_2017-03_FC_Bayern_Muenchen-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "josko-gvardiol": {
+  "name": "Joško Gvardiol",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/barcelona-dreaming-josko-gvardiol-signing-144500340.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/josko-gvardiol.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/barcelona-dreaming-josko-gvardiol-signing-144500340.html",
     "used": 1
    }
   ]
