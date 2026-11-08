@@ -866,6 +866,17 @@
    }
   ]
  },
+ "igor-thiago": {
+  "name": "Igor Thiago",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/igor-thiago.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Igor_Thiago_Brazil_V_Morocco_13_June_2026-120_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "james-tarkowski": {
   "name": "James Tarkowski",
   "variants": [
@@ -1374,6 +1385,19 @@
    }
   ]
  },
+ "markus-krosche": {
+  "name": "Markus Krösche",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/lists/ac-milan-hardung-s-chances-of-becoming-their-new-sporting-director-rise-he-will-not-stay-at-eintracht-frankfurt-and-krosche-is-pushing-to-bring-him-with-him-to-ac-milan/bltef6a9565f49fbc0f",
+    "credit": "Photo: goal.com",
+    "file": "photos/markus-krosche.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/lists/ac-milan-hardung-s-chances-of-becoming-their-new-sporting-director-rise-he-will-not-stay-at-eintracht-frankfurt-and-krosche-is-pushing-to-bring-him-with-him-to-ac-milan/bltef6a9565f49fbc0f",
+    "used": 1
+   }
+  ]
+ },
  "martin-odegaard": {
   "name": "Martin Odegaard",
   "variants": [
@@ -1534,6 +1558,14 @@
     "file": "photos/michael-carrick-9.jpg",
     "source": "article",
     "url": "https://www.skysports.com/football/news/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/historic-poor-start-leon-goretzka-s-first-goal-and-another-unbelievable-comeback-manchester-united-slip-into-the-relegation-zone-after-a-turbulent-drama-against-aston-villa/blt426f4b0a7a31cfd4",
+    "credit": "Photo: goal.com",
+    "file": "photos/michael-carrick-10.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/historic-poor-start-leon-goretzka-s-first-goal-and-another-unbelievable-comeback-manchester-united-slip-into-the-relegation-zone-after-a-turbulent-drama-against-aston-villa/blt426f4b0a7a31cfd4",
     "used": 1
    }
   ]
