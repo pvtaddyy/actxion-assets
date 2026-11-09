@@ -1135,6 +1135,19 @@
    }
   ]
  },
+ "jonathan-tah": {
+  "name": "Jonathan Tah",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/fc-barcelona-interested-bayern-munich-183000159.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/jonathan-tah.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/fc-barcelona-interested-bayern-munich-183000159.html",
+    "used": 1
+   }
+  ]
+ },
  "jorge-jesus": {
   "name": "Jorge Jesus",
   "variants": [
@@ -1222,6 +1235,12 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/jude-bellingham.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/1920px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/jude-bellingham-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg",
     "used": 1
    }
   ]
@@ -1420,6 +1439,14 @@
     "file": "photos/lionel-messi-11.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/inter-miami-lionel-messi-makes-073225258.html",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/lionel-messi-makes-final-decision-190349001.html",
+    "credit": "Photo: Afp via Yahoo Sports",
+    "file": "photos/lionel-messi-12.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/lionel-messi-makes-final-decision-190349001.html",
     "used": 1
    }
   ]
