@@ -1,0 +1,5 @@
+Hooks (scored by hand with ig-reel hookscore.py's formulas; running the cloned script was blocked in this cloud run)
+82.3 STRONG  [curiosity + stakes] Nobody in the Premier League ran faster last season. And you won't guess who.   <- used
+57.2 OK      [number-first] Thirty seven point three kilometres an hour. Nobody in the league ran faster last season.
+52.0 OK      [curiosity] The fastest player in the Premier League last season isn't who you'd guess.
+44.2 WEAK    ["everyone says" myth] Everyone thinks wingers are the Premier League's fastest players. Last season, they weren't.
