@@ -847,6 +847,19 @@
    }
   ]
  },
+ "giorgi-mamardashvili": {
+  "name": "Giorgi Mamardashvili",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/giorgi-mamardashvili-reveals-mistake-liverpool-155000829.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/giorgi-mamardashvili.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/giorgi-mamardashvili-reveals-mistake-liverpool-155000829.html",
+    "used": 1
+   }
+  ]
+ },
  "h": {
   "name": "-h",
   "variants": [
@@ -2008,6 +2021,14 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/ait-nouri-s-agents-move-him-closer-to-an-english-giant/blt657e9e33e4072c3a",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/rayan-t-nouris-entourage-opens-183000060.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/rayan-ait-nouri-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/rayan-t-nouris-entourage-opens-183000060.html",
+    "used": 1
    }
   ]
  },
@@ -2461,6 +2482,19 @@
     "file": "photos/xabi-alonso-2.jpg",
     "source": "article",
     "url": "https://www.skysports.com/football/news/13593219/sunderland-1-0-chelsea-enzo-le-fees-penalty-lifts-black-cats-off-bottom-of-table-as-xabi-alonsos-side-show-more-inconsistency",
+    "used": 1
+   }
+  ]
+ },
+ "xavi-hernandez": {
+  "name": "Xavi Hernández",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/xavi-impressed-by-flick-s-innovation-reveals-the-truth-about-de-jong-s-new-position/bltcbad3f9ffc639f44",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/xavi-hernandez.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/xavi-impressed-by-flick-s-innovation-reveals-the-truth-about-de-jong-s-new-position/bltcbad3f9ffc639f44",
     "used": 1
    }
   ]
