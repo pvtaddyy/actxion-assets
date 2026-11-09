@@ -201,6 +201,19 @@
    }
   ]
  },
+ "brian-brobbey": {
+  "name": "Brian Brobbey",
+  "variants": [
+   {
+    "article": "https://www.sunderlandecho.com/sport/football/sunderland-afc/brian-brobbey-improve-new-sunderland-deal-9337538",
+    "credit": "Photo: Getty via Sunderland Echo",
+    "file": "photos/brian-brobbey.jpg",
+    "source": "article",
+    "url": "https://www.sunderlandecho.com/sport/football/sunderland-afc/brian-brobbey-improve-new-sunderland-deal-9337538",
+    "used": 1
+   }
+  ]
+ },
  "bruno-fernandes": {
   "name": "Bruno Fernandes",
   "variants": [
@@ -1607,6 +1620,19 @@
     "file": "photos/michael-carrick-10.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/historic-poor-start-leon-goretzka-s-first-goal-and-another-unbelievable-comeback-manchester-united-slip-into-the-relegation-zone-after-a-turbulent-drama-against-aston-villa/blt426f4b0a7a31cfd4",
+    "used": 1
+   }
+  ]
+ },
+ "micky-mellon": {
+  "name": "Micky Mellon",
+  "variants": [
+   {
+    "article": "https://www.theleaguepaper.com/latest-news/fa-cup/469684/micky-eyes-owls-cup-ko-again/",
+    "credit": "Photo: The League Paper",
+    "file": "photos/micky-mellon.jpg",
+    "source": "article",
+    "url": "https://www.theleaguepaper.com/latest-news/fa-cup/469684/micky-eyes-owls-cup-ko-again/",
     "used": 1
    }
   ]
