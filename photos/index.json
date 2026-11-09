@@ -1754,6 +1754,19 @@
    }
   ]
  },
+ "patrick-dorgu": {
+  "name": "Patrick Dorgu",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/patrick-dorgu-admits-premier-league-relegation-zone-hurts-manchester-united-aston-villa/blt8cbbb10e603a7bbf",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/patrick-dorgu-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/patrick-dorgu-admits-premier-league-relegation-zone-hurts-manchester-united-aston-villa/blt8cbbb10e603a7bbf",
+    "used": 1
+   }
+  ]
+ },
  "pedri": {
   "name": "Pedri",
   "variants": [
@@ -1941,6 +1954,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/rodri.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "roy-keane": {
+  "name": "Roy Keane",
+  "variants": [
+   {
+    "article": "https://www.balls.ie/football/james-mcclean-roy-keane-ireland-issue-666077",
+    "credit": "Photo: Balls.ie",
+    "file": "photos/roy-keane.jpg",
+    "source": "article",
+    "url": "https://www.balls.ie/football/james-mcclean-roy-keane-ireland-issue-666077",
     "used": 1
    }
   ]
