@@ -287,6 +287,17 @@
    }
   ]
  },
+ "christian-pulisic": {
+  "name": "Christian Pulisic",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/christian-pulisic.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg/1920px-Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "city-ground": {
   "name": "City Ground",
   "variants": [
@@ -1674,6 +1685,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/nico-paz-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Nico_Paz_Argentina_v_Egypt_7_July_2026-031_%28cropped%29.jpg/1920px-Nico_Paz_Argentina_v_Egypt_7_July_2026-031_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "noa-lang": {
+  "name": "Noa Lang",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/napoli-fans-boo-insult-noa-143400974.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/noa-lang-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/napoli-fans-boo-insult-noa-143400974.html",
     "used": 1
    }
   ]
