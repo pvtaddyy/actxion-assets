@@ -311,6 +311,19 @@
    }
   ]
  },
+ "christian-kofane": {
+  "name": "Christian Kofane",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/arsenal-target-christian-kofane-january-transfer-bayer-leverkusen/blt6427b0621baecdd6",
+    "credit": "Photo: goal.com",
+    "file": "photos/christian-kofane.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/arsenal-target-christian-kofane-january-transfer-bayer-leverkusen/blt6427b0621baecdd6",
+    "used": 1
+   }
+  ]
+ },
  "christian-pulisic": {
   "name": "Christian Pulisic",
   "variants": [
@@ -2351,6 +2364,19 @@
     "file": "photos/tolu-arokodare.jpg",
     "source": "article",
     "url": "https://www.espn.com/espn/story/_/id/49667285/nigeria-tolu-arokodare-puts-struggles-wolves-targets-goals-glory-ajax",
+    "used": 1
+   }
+  ]
+ },
+ "tom-brady": {
+  "name": "Tom Brady",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13610387/tom-brady-leaves-birmingham-nfl-legend-and-minority-owner-makes-shock-departure-after-three-years",
+    "credit": "Photo: Epa via Sky Sports",
+    "file": "photos/tom-brady.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13610387/tom-brady-leaves-birmingham-nfl-legend-and-minority-owner-makes-shock-departure-after-three-years",
     "used": 1
    }
   ]
