@@ -989,6 +989,19 @@
    }
   ]
  },
+ "james-trafford": {
+  "name": "James Trafford",
+  "variants": [
+   {
+    "article": "https://uk.sports.yahoo.com/news/jordan-pickford-said-leeds-united-160000459.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/james-trafford.jpg",
+    "source": "article",
+    "url": "https://uk.sports.yahoo.com/news/jordan-pickford-said-leeds-united-160000459.html",
+    "used": 1
+   }
+  ]
+ },
  "jamie-carragher": {
   "name": "Jamie Carragher",
   "variants": [
@@ -1904,6 +1917,17 @@
     "file": "photos/patrick-dorgu-2.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/patrick-dorgu-admits-premier-league-relegation-zone-hurts-manchester-united-aston-villa/blt8cbbb10e603a7bbf",
+    "used": 1
+   }
+  ]
+ },
+ "pau-cubarsi": {
+  "name": "Pau Cubarsí",
+  "variants": [
+   {
+    "credit": "Photo: Biso, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/pau-cubarsi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Pau_Cubars%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
    }
   ]
