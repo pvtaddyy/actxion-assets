@@ -1937,6 +1937,19 @@
    }
   ]
  },
+ "raul-gonzalez": {
+  "name": "Raúl González",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/a-formal-step-before-the-anticipated-announcement-raul-closes-in-on-a-new-coaching-destination/bltc3ce311e43349645",
+    "credit": "Photo: goal.com",
+    "file": "photos/raul-gonzalez.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/a-formal-step-before-the-anticipated-announcement-raul-closes-in-on-a-new-coaching-destination/bltc3ce311e43349645",
+    "used": 1
+   }
+  ]
+ },
  "rayan-ait-nouri": {
   "name": "Rayan Aït-Nouri",
   "variants": [
@@ -2035,6 +2048,14 @@
     "file": "photos/roy-keane.jpg",
     "source": "article",
     "url": "https://www.balls.ie/football/james-mcclean-roy-keane-ireland-issue-666077",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/politician-roy-keane-tears-michael-070855333.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/roy-keane-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/politician-roy-keane-tears-michael-070855333.html",
     "used": 1
    }
   ]
