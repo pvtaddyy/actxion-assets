@@ -1,0 +1,23 @@
+{
+ "voice": "voice-tight.wav", "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28", "series": "Head to head", "tail": 1.2,
+ "header": {"text": "Kane v Yamal: best creator?", "key": ["best creator?"]},
+ "keywords": ["!Eight", "Kane.", "both", "anyone", "matched", "!four", "Yamal.", "creator"],
+ "sources": ["https://www.skysports.com/football/news/13607213/harry-kane-is-bayern-munichs-assist-king-barcelona-win-at-atletico-madrid-and-inter-close-gap-on-lazio-all-in-the-euro-debrief"],
+ "scenes": [
+  {"type": "player", "at": 0, "photo": "kane-cut.png", "bgPhoto": "kane.jpg", "word": "EIGHT", "label": "Harry Kane, Bayern Munich", "wordY": -40, "wordSize": 340, "height": 640},
+  {"type": "stat", "at": "Only", "value": 2, "unit": "players", "label": "on eight assists in Europe's big leagues", "source": "Sky Sports"},
+  {"type": "score", "at": "Mainz", "label": "Bundesliga, this weekend", "home": "Mainz", "away": "Bayern",
+   "states": [{"at": "Mainz", "h": 1, "a": 2, "foot": "Kane set up both goals"}]},
+  {"type": "list", "at": 6.62, "title": "Kane at Mainz", "items": [{"at": "Kimmich", "text": "Assist for Kimmich"}, {"at": "Karl,", "text": "Assist for Lennart Karl"}]},
+  {"type": "stat", "at": "takes", "value": 8, "unit": "assists", "label": "most in the Bundesliga", "source": "Sky Sports"},
+  {"type": "player", "at": "He's", "photo": "kane-cut.png", "bgPhoto": "kane.jpg", "word": "MATCHED", "label": "His best Bundesliga season for assists", "wordY": -40, "wordSize": 230, "height": 640},
+  {"type": "stat", "at": "Not", "value": 4, "unit": "games", "label": "without a goal, only once before at Bayern", "source": "Sky Sports"},
+  {"type": "player", "at": "The", "photo": "yamal-cut.png", "bgPhoto": "yamal.jpg", "word": "YAMAL", "label": "Lamine Yamal, Barcelona", "wordY": -40, "wordSize": 300, "height": 640},
+  {"type": "compare", "at": 21.05, "aName": "Kane", "bName": "Yamal", "aPhoto": "kane-cut.png", "bPhoto": "yamal-cut.png",
+   "rows": [{"label": "League assists", "a": "8", "b": "8", "at": 21.6}]},
+  {"type": "versus", "at": "Europe's", "a": {"photo": "kane-cut.png", "label": "Kane"}, "b": {"photo": "yamal-cut.png", "label": "Yamal"}},
+  {"type": "ask", "at": 24.45, "html": "Kane or <span class=\"k\">Yamal?</span>", "sub": "A: Kane. B: Yamal"}
+ ]
+}
