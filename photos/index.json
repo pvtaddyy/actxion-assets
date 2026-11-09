@@ -729,6 +729,12 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/fermin-lopez-barcelona-break-silence-183000600.html",
     "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/fermin-lopez-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ferm%C3%ADn_L%C3%B3pez_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },
@@ -1481,6 +1487,14 @@
     "file": "photos/matheus-cunha-3.jpg",
     "source": "article",
     "url": "https://www.cbssports.com/watch/soccer/video/matheus-cunha-saves-manchester-united-late-in-3-2-win-vs-roma-champions-club",
+    "used": 2
+   },
+   {
+    "article": "https://www.goal.com/en/news/matheus-cunha-admits-relegation-zone-not-normal-manchester-united-aston-villa/blt9bcb0ffc4f47080f",
+    "credit": "Photo: goal.com",
+    "file": "photos/matheus-cunha-4.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/matheus-cunha-admits-relegation-zone-not-normal-manchester-united-aston-villa/blt9bcb0ffc4f47080f",
     "used": 1
    }
   ]
