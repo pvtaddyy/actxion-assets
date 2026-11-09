@@ -14,7 +14,7 @@ Man Utd, Liverpool, Man City) and roughly one a fortnight from a non-English gia
 |---|---|---|---|---|
 | Thu 5 Nov | - | street | EP 01 pilot: Man Utd, "Carrick or the players?" | pilot, not posted |
 | Thu 5 Nov | 0030 (extra) | viewing (Lagos) | EP 1: Liverpool, "Barcola: flop, or give him time?" (slug mic-2026-11-05-barcola, MP4 posts/test/) | posted 00:30 IST Fri 6 Nov (moved by owner): IG 417793413, YT 417793472, TikTok 417793495, FB 417793539 |
-| Sun 8 Nov | B | pub (Manchester) | Man City, "Enzo or Maresca?" after Forest 3-1 City; feature starting_11 (slug mic-city-enzo, MP4 posts/2026-11-08/) | posted 23:30 IST Sun 8 Nov (slot B): IG 420505295, YT 420505313, TikTok 420505333, FB 420505345 |
+| Sun 8 Nov | B | pub (Manchester) | Man City, "Enzo or Maresca?" after Forest 3-1 City; feature starting_11 (slug mic-city-enzo, MP4 posts/2026-11-08/) | posted 23:30 IST Sun 8 Nov (slot B): IG 420505295, YT 420505313, TikTok 420505333, FB 420505345; 57.6 s, sad cold open, app line (Starting 11) |
 | Tue 10 Nov | C | decide on the day | Sunday / Monday games | todo |
 | Thu 12 Nov | A | decide on the day | midweek / international break | todo |
 | Sun 15 Nov | C | decide on the day | Saturday's games | todo |
@@ -26,4 +26,5 @@ Man Utd, Liverpool, Man City) and roughly one a fortnight from a non-English gia
 
 ## Results log (one line per episode)
 date | slot | club | set | cold-open type | length | IG views / avg watch | YT views | TikTok views | FB views | comments | note
-6 Nov (EP 1) | 0030 | Liverpool | viewing | angry | ~45 s | IG 1,629 / 14.1 s | YT n/a (Metricool returned no YouTube rows) | TikTok 602 | FB 218 | IG 2, TT 0, FB 1 | pulled 8 Nov ~58 h after posting; IG ~5x the desk news reel but below the combined XI reels (1.7K, 22-24 s)
+6 Nov (EP 1) | 0030 | Liverpool | viewing | angry | ~45 s | IG 1,629 / 14.1 s | YT n/a (Metricool returned no YouTube rows) | TikTok 602 | FB 218 | IG 2, TT 0, FB 1 | pulled 8 Nov ~58 h after posting; IG ~5x the desk news reel but below the combined XI reels (1.7K, 22-24 s). 9 Nov (~84 h): IG 1,632 / 14.0 s, 5 shares, 2 comments; TT 602; FB 219; YT still n/a (Metricool YouTube sync stops at 3 Nov). 47 s
+8 Nov (EP 2) | B | Man City | pub (Manchester) | sad | 57.6 s | IG 114 / 2.5 s | YT n/a (no Metricool rows) | TikTok 14 | FB 1 | IG 1, TT 0, FB 1 action; shares IG 0, TT 0 | pulled 9 Nov ~12.5 h after posting (too early for 48 h); IG avg watch 2.5 s is far below every baseline; carried an app line (Starting 11) and ran 10 s over the 40-50 s rule. Re-pull Mon 16 Nov
