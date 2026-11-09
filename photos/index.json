@@ -453,6 +453,19 @@
    }
   ]
  },
+ "david-raya": {
+  "name": "David Raya",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/david-raya-admits-arsenal-little-103000675.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/david-raya.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/david-raya-admits-arsenal-little-103000675.html",
+    "used": 1
+   }
+  ]
+ },
  "declan-rice": {
   "name": "Declan Rice",
   "variants": [
