@@ -1640,6 +1640,25 @@
    }
   ]
  },
+ "martin-zubimendi": {
+  "name": "Martín Zubimendi",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/arsenal-atletico-madrid-martin-zubimendi-julian-alvarez-swap-deal/blte3f43924709c6120",
+    "credit": "Photo: goal.com",
+    "file": "photos/martin-zubimendi.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/arsenal-atletico-madrid-martin-zubimendi-julian-alvarez-swap-deal/blte3f43924709c6120",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/martin-zubimendi-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/1_Mart%C3%ADn_Zubimendi_arsenal_2025_%28cropped%29.jpg/1920px-1_Mart%C3%ADn_Zubimendi_arsenal_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "massimiliano-allegri": {
   "name": "Massimiliano Allegri",
   "variants": [
@@ -2589,6 +2608,14 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/-virgil-van-dijk-liverpool-nightmare-fenerbahce-/bltd092b9abd24226f5",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/virgil-van-dijk-ruled-netherlands-000000192.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/virgil-van-dijk-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/virgil-van-dijk-ruled-netherlands-000000192.html",
+    "used": 1
    }
   ]
  },
@@ -2706,6 +2733,14 @@
     "credit": "Photo: RuinDig/Yuki Uchida, Wikimedia Commons, CC BY 4.0",
     "file": "photos/zion-suzuki.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/zion-suzuki-potentially-achilles-heel-185443830.html",
+    "credit": "Photo: Imago via Yahoo Sports",
+    "file": "photos/zion-suzuki-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/zion-suzuki-potentially-achilles-heel-185443830.html",
     "used": 1
    }
   ]
