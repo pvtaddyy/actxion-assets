@@ -135,6 +135,17 @@
    }
   ]
  },
+ "anfield": {
+  "name": "Anfield",
+  "variants": [
+   {
+    "credit": "Photo: Daniel from Glasgow, United Kingdom, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/anfield.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Anfield_Stadium_Tour_%2851930265969%29.jpg/1920px-Anfield_Stadium_Tour_%2851930265969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "ange-postecoglou": {
   "name": "Ange Postecoglou",
   "variants": [
@@ -778,6 +789,12 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/erling-haaland-6.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Erling_Haaland_Morocco_v_Norway_7_June_2026-166.jpg/1920px-Erling_Haaland_Morocco_v_Norway_7_June_2026-166.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/erling-haaland-7.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Erling_Haaland_Morocco_v_Norway_7_June_2026-103.jpg/1920px-Erling_Haaland_Morocco_v_Norway_7_June_2026-103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -1883,6 +1900,17 @@
     "credit": "Photo: Jose A., Wikimedia Commons, CC BY 2.0",
     "file": "photos/metropolitano-stadium.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Wanda_Metropolitano_Stadium_Dec_2017_%2839ea73b8c7_o%29.jpg/1920px-Wanda_Metropolitano_Stadium_Dec_2017_%2839ea73b8c7_o%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "micah-richards": {
+  "name": "Micah Richards",
+  "variants": [
+   {
+    "credit": "Photo: Oldelpaso, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/micah-richards.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Richards_crop.JPG",
     "used": 1
    }
   ]
