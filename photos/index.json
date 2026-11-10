@@ -203,6 +203,17 @@
    }
   ]
  },
+ "aurelien-tchouameni": {
+  "name": "Aurélien Tchouaméni",
+  "variants": [
+   {
+    "credit": "Photo: Кирилл Венедиктов, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/aurelien-tchouameni.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Aur%C3%A9lien_Tchouam%C3%A9ni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
  "bart-verbruggen": {
   "name": "Bart Verbruggen",
   "variants": [
@@ -1046,6 +1057,14 @@
     "file": "photos/hany-mukhtar.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/hany-mukhtar-continues-nashville-sc-221712923.html",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/nashville-scs-hany-mukhtar-wins-171500050.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/hany-mukhtar-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/nashville-scs-hany-mukhtar-wins-171500050.html",
     "used": 1
    }
   ]
