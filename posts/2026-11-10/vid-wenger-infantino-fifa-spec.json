@@ -1,0 +1,146 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Pick your side",
+ "tail": 1.2,
+ "header": {
+  "text": "Wenger v Infantino: who runs FIFA?",
+  "key": [
+   "who runs FIFA?"
+  ]
+ },
+ "keywords": [
+  "!seventy-seven,",
+  "eighteenth",
+  "fourth",
+  "outsider,",
+  "twenty",
+  "!fifty-four",
+  "early.",
+  "March."
+ ],
+ "sources": [
+  "https://www.goal.com/en/news/wenger-considers-activating-the-african-weapon-has-the-infantino-era-at-fifa-come-to-an-end/blt6a70be374f6093b0",
+  "https://sports.yahoo.com/articles/wenger-decide-week-whether-run-093323733.html"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "wenger-cut.png",
+   "bgPhoto": "wenger.jpg",
+   "word": "77",
+   "label": "Arsène Wenger, FIFA",
+   "wordY": -85,
+   "wordSize": 340,
+   "height": 660
+  },
+  {
+   "type": "stat",
+   "at": "He",
+   "value": 18,
+   "unit": "November",
+   "label": "deadline to stand for FIFA president",
+   "source": "Goal"
+  },
+  {
+   "type": "player",
+   "at": 5.86,
+   "photo": "infantino-cut.png",
+   "bgPhoto": "infantino.jpg",
+   "word": "4TH TERM",
+   "label": "Gianni Infantino, FIFA president",
+   "wordY": -40,
+   "wordSize": 220,
+   "height": 660
+  },
+  {
+   "type": "player",
+   "at": 7.7,
+   "photo": "wenger-cut.png",
+   "bgPhoto": "wenger.jpg",
+   "word": "INSIDER",
+   "label": "Wenger already works at FIFA",
+   "wordY": -40,
+   "wordSize": 230,
+   "height": 660
+  },
+  {
+   "type": "list",
+   "at": "He's",
+   "title": "Wenger at FIFA",
+   "items": [
+    {
+     "at": "chief",
+     "text": "Chief of global football development"
+    },
+    {
+     "at": "since",
+     "text": "In the job since 2019"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "But",
+   "value": 54,
+   "unit": "of 54",
+   "label": "African associations behind Infantino",
+   "source": "Goal"
+  },
+  {
+   "type": "player",
+   "at": 15.6,
+   "photo": "infantino-cut.png",
+   "bgPhoto": "infantino.jpg",
+   "word": "AFRICA",
+   "label": "All 54 associations, per Goal",
+   "wordY": -40,
+   "wordSize": 300,
+   "height": 660
+  },
+  {
+   "type": "player",
+   "at": "And",
+   "photo": "wenger-cut.png",
+   "bgPhoto": "wenger.jpg",
+   "word": "STEP DOWN?",
+   "label": "Some backers: win, then go early",
+   "wordY": -40,
+   "wordSize": 200,
+   "height": 660
+  },
+  {
+   "type": "player",
+   "at": "Vote's",
+   "photo": "infantino-cut.png",
+   "bgPhoto": "infantino.jpg",
+   "word": "MARCH",
+   "label": "The vote: March 2027",
+   "wordY": -40,
+   "wordSize": 300,
+   "height": 660
+  },
+  {
+   "type": "versus",
+   "at": "So",
+   "a": {
+    "photo": "wenger-cut.png",
+    "label": "Wenger"
+   },
+   "b": {
+    "photo": "infantino-cut.png",
+    "label": "Infantino"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Wenger or <span class=\"k\">Infantino?</span>",
+   "sub": "A: Wenger. B: Infantino"
+  }
+ ],
+ "cover_t": 1.5
+}
