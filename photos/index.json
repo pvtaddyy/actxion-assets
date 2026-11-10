@@ -1318,6 +1318,14 @@
     "file": "photos/kylian-mbappe-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg",
     "used": 2
+   },
+   {
+    "article": "https://www.goal.com/en/news/konate-reveals-mbappe-s-reaction-after-the-ballon-d-or-shock/blt1ce9ffcd97e37e33",
+    "credit": "Photo: goal.com",
+    "file": "photos/kylian-mbappe-4.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/konate-reveals-mbappe-s-reaction-after-the-ballon-d-or-shock/blt1ce9ffcd97e37e33",
+    "used": 1
    }
   ]
  },
@@ -1828,6 +1836,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/morgan-rogers.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Morgan_Rogers_England_v_Ghana_23_June_2026-034_%28cropped%29.jpg/1920px-Morgan_Rogers_England_v_Ghana_23_June_2026-034_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "nahuel-molina": {
+  "name": "Nahuel Molina",
+  "variants": [
+   {
+    "article": "https://www.ilmessaggero.it/en/nahuel_molina_joins_roma_four_year_deal_sealed-9702498.html",
+    "credit": "Photo: ilmessaggero.it",
+    "file": "photos/nahuel-molina.jpg",
+    "source": "article",
+    "url": "https://www.ilmessaggero.it/en/nahuel_molina_joins_roma_four_year_deal_sealed-9702498.html",
     "used": 1
    }
   ]
