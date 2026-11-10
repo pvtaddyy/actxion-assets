@@ -15,7 +15,7 @@ Man Utd, Liverpool, Man City) and roughly one a fortnight from a non-English gia
 | Thu 5 Nov | - | street | EP 01 pilot: Man Utd, "Carrick or the players?" | pilot, not posted |
 | Thu 5 Nov | 0030 (extra) | viewing (Lagos) | EP 1: Liverpool, "Barcola: flop, or give him time?" (slug mic-2026-11-05-barcola, MP4 posts/test/) | posted 00:30 IST Fri 6 Nov (moved by owner): IG 417793413, YT 417793472, TikTok 417793495, FB 417793539 |
 | Sun 8 Nov | B | pub (Manchester) | Man City, "Enzo or Maresca?" after Forest 3-1 City; feature starting_11 (slug mic-city-enzo, MP4 posts/2026-11-08/) | posted 23:30 IST Sun 8 Nov (slot B): IG 420505295, YT 420505313, TikTok 420505333, FB 420505345; 57.6 s, sad cold open, app line (Starting 11) |
-| Tue 10 Nov | C | decide on the day | Sunday / Monday games | todo |
+| Tue 10 Nov | C | street (Sir Matt Busby Way) | Man Utd, "Stick with Carrick, or twist?" after United 4-4 Villa; feature fan_voice (slug mic-carrick-stick, MP4 posts/2026-11-10/) | scheduled 01:30 IST Wed 11 Nov (slot C, 20:00 UK Tue): IG 422777367, YT 422777396, TikTok 422777427, FB 422777450; 48.5 s, funny cold open (80.8), app line (Fan Voice); fans on flash_v2_5 |
 | Thu 12 Nov | A | decide on the day | midweek / international break | todo |
 | Sun 15 Nov | C | decide on the day | Saturday's games | todo |
 | Tue 17 Nov | A | decide on the day | | todo |
