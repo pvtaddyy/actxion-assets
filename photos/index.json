@@ -931,6 +931,19 @@
    }
   ]
  },
+ "frenkie-de-jong": {
+  "name": "Frenkie de Jong",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/everyone-knows-i-m-a-midfielder-de-jong-sends-a-decisive-message-to-flick/blt1184e180d184f136",
+    "credit": "Photo: goal.com",
+    "file": "photos/frenkie-de-jong-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/everyone-knows-i-m-a-midfielder-de-jong-sends-a-decisive-message-to-flick/blt1184e180d184f136",
+    "used": 1
+   }
+  ]
+ },
  "gabriel-magalhaes": {
   "name": "Gabriel Magalhães",
   "variants": [
@@ -1176,6 +1189,19 @@
     "file": "photos/jesus-gil-manzano.jpg",
     "source": "article",
     "url": "https://football-italia.net/man-united-roma-referee-slammed-penalty-red/",
+    "used": 1
+   }
+  ]
+ },
+ "jim-ratcliffe": {
+  "name": "Jim Ratcliffe",
+  "variants": [
+   {
+    "article": "https://www.the-sun.com/sport/17283367/man-utd-ratcliffe-sack-michael-carrick-pochettino/",
+    "credit": "Photo: Pa via The US Sun",
+    "file": "photos/jim-ratcliffe.jpg",
+    "source": "article",
+    "url": "https://www.the-sun.com/sport/17283367/man-utd-ratcliffe-sack-michael-carrick-pochettino/",
     "used": 1
    }
   ]
