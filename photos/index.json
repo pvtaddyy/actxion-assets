@@ -1113,6 +1113,14 @@
     "file": "photos/igor-thiago.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Igor_Thiago_Brazil_V_Morocco_13_June_2026-120_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/brentford-learn-igor-thiago-red-192559346.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/igor-thiago-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/brentford-learn-igor-thiago-red-192559346.html",
+    "used": 1
    }
   ]
  },
@@ -2547,6 +2555,19 @@
     "credit": "Photo: Jeollo von VfB-exklusiv.de, Wikimedia Commons, CC BY 4.0",
     "file": "photos/sebastian-hoeness.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sebastian_hoeness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
+ "sonia-bompastor": {
+  "name": "Sonia Bompastor",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13610414/hacken-0-0-chelsea-blues-frustrated-but-stay-unbeaten-in-wcl",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/sonia-bompastor.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13610414/hacken-0-0-chelsea-blues-frustrated-but-stay-unbeaten-in-wcl",
     "used": 1
    }
   ]
