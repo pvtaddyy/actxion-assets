@@ -333,6 +333,19 @@
    }
   ]
  },
+ "charalampos-kostoulas": {
+  "name": "Charalampos Kostoulas",
+  "variants": [
+   {
+    "article": "https://uk.sports.yahoo.com/news/him-quickly-teddy-sheringham-names-172551776.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/charalampos-kostoulas.jpg",
+    "source": "article",
+    "url": "https://uk.sports.yahoo.com/news/him-quickly-teddy-sheringham-names-172551776.html",
+    "used": 1
+   }
+  ]
+ },
  "charlie-savage": {
   "name": "Charlie Savage",
   "variants": [
@@ -2571,6 +2584,19 @@
    }
   ]
  },
+ "teddy-sheringham": {
+  "name": "Teddy Sheringham",
+  "variants": [
+   {
+    "article": "https://metro.co.uk/2026/11/10/teddy-sheringham-urges-man-utd-sign-30m-brighton-star-ahead-arsenal-big-prospect-29781568/",
+    "credit": "Photo: Getty via Metro",
+    "file": "photos/teddy-sheringham.jpg",
+    "source": "article",
+    "url": "https://metro.co.uk/2026/11/10/teddy-sheringham-urges-man-utd-sign-30m-brighton-star-ahead-arsenal-big-prospect-29781568/",
+    "used": 1
+   }
+  ]
+ },
  "teun-koopmeiners": {
   "name": "Teun Koopmeiners",
   "variants": [
@@ -2950,6 +2976,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/yassine-bounou.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Yassine_Bounou_France_v_Morocco_9_July_2026-076.jpg/1920px-Yassine_Bounou_France_v_Morocco_9_July_2026-076.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "zinedine-zidane": {
+  "name": "Zinedine Zidane",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/-zinedine-zidane-injury-nightmare-aurelien-tchouameni-france-real-madrid-midfielder-fitness-/bltd497ee1e18135ce6",
+    "credit": "Photo: goal.com",
+    "file": "photos/zinedine-zidane.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/-zinedine-zidane-injury-nightmare-aurelien-tchouameni-france-real-madrid-midfielder-fitness-/bltd497ee1e18135ce6",
     "used": 1
    }
   ]
