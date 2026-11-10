@@ -1379,6 +1379,19 @@
    }
   ]
  },
+ "kenan-yildiz": {
+  "name": "Kenan Yildiz",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/kenan-yildiz-reveals-comeback-date-114018026.html",
+    "credit": "Photo: Afp via Yahoo Sports",
+    "file": "photos/kenan-yildiz-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/kenan-yildiz-reveals-comeback-date-114018026.html",
+    "used": 1
+   }
+  ]
+ },
  "kobbie-mainoo": {
   "name": "Kobbie Mainoo",
   "variants": [
@@ -1445,6 +1458,14 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/lamine-yamal-6.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Lamine_Yamal_France_v_Spain_7.24.26-142.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/barcelona-sensation-lamine-yamal-emerges-190000627.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/lamine-yamal-9.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/barcelona-sensation-lamine-yamal-emerges-190000627.html",
     "used": 1
    }
   ]
@@ -2786,6 +2807,14 @@
     "file": "photos/xabi-alonso-2.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/originals/xabi-alonso-honeymoon-period-over-chelsea-boss-needs-answers-blues-backlash/blt17f323058c3088c5",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/xabi-alonsos-honeymoon-period-over-081500696.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/xabi-alonso-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/xabi-alonsos-honeymoon-period-over-081500696.html",
     "used": 1
    }
   ]
