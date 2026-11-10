@@ -1,0 +1,197 @@
+{
+ "slug": "mic-carrick-stick",
+ "set": "street",
+ "club": {
+  "name": "Man Utd",
+  "primary": "#da291c",
+  "secondary": "#ffffff",
+  "third": "#111318"
+ },
+ "loc": "SIR MATT BUSBY WAY · AFTER UNITED 4-4 VILLA",
+ "question": {
+  "phrase": "Stick with Carrick",
+  "kicker": "ONE QUESTION",
+  "line1": "STICK WITH CARRICK",
+  "line2": "OR TWIST?"
+ },
+ "meter": {
+  "title": "STICK OR TWIST?",
+  "left": "STICK",
+  "right": "TWIST",
+  "third": "THE OWNERS?"
+ },
+ "ask": {
+  "a": "STICK",
+  "b": "TWIST?",
+  "next": "Stick or twist? Comment 👇"
+ },
+ "end": "Get ACTXION. Make your voice count 👇",
+ "boo": false,
+ "laugh": "queuing for my pie",
+ "keywords": [
+  "four",
+  "minutes",
+  "pie",
+  "four-four",
+  "bottom",
+  "three",
+  "carrick",
+  "twist",
+  "forty",
+  "chance",
+  "change",
+  "own",
+  "third",
+  "players",
+  "thirty",
+  "coaching",
+  "neither",
+  "stretford",
+  "owners",
+  "dugout",
+  "you"
+ ],
+ "fans": [
+  {
+   "who": "LAGOS",
+   "label": "IN FROM LAGOS",
+   "sub": "Season ticket, two years",
+   "coat": "#2b6e4f",
+   "shirt": "#da291c",
+   "legs": "#2a2d36",
+   "skin": "#5a3825",
+   "hair": "#111111",
+   "acc": [
+    "cap"
+   ],
+   "open": true,
+   "gesture": "handsup",
+   "mood": -0.1,
+   "laugh": true,
+   "pop": "four minutes",
+   "popHold": 1.8,
+   "meter": 0,
+   "color": "#7CFFB2"
+  },
+  {
+   "who": "ANGRY",
+   "label": "THE ANGRY ONE",
+   "sub": "Wythenshawe",
+   "coat": "#1f2a3a",
+   "shirt": "#da291c",
+   "legs": "#1b2233",
+   "skin": "#f0cdb4",
+   "hair": "#b8743a",
+   "acc": [
+    "ponytail",
+    "scarf"
+   ],
+   "open": true,
+   "gesture": "jab",
+   "mood": 0.44,
+   "pop": "Change it",
+   "popHold": 1.4,
+   "meter": 0.72,
+   "color": "#ff5a5f"
+  },
+  {
+   "who": "LOYAL",
+   "label": "THE LOYAL ONE",
+   "sub": "Came up from Croydon",
+   "coat": "#111318",
+   "shirt": "#111318",
+   "legs": "#3a3d46",
+   "skin": "#6b4430",
+   "hair": "#141414",
+   "acc": [
+    "beanie"
+   ],
+   "open": false,
+   "gesture": "point",
+   "mood": 0.15,
+   "pop": "one of our own",
+   "popHold": 1.6,
+   "meter": -0.68,
+   "color": "#ffd54a"
+  },
+  {
+   "who": "OLD",
+   "label": "THE OLD HEAD",
+   "sub": "Stretford End since '79",
+   "coat": "#5c4b3b",
+   "shirt": "#5c4b3b",
+   "legs": "#2a2d36",
+   "skin": "#e2b996",
+   "hair": "#a0a0a0",
+   "acc": [
+    "bucket",
+    "glasses"
+   ],
+   "open": false,
+   "gesture": "facepalm",
+   "mood": -0.28,
+   "pop": "That's coaching",
+   "popHold": 1.6,
+   "meter": 0.45,
+   "color": "#ffd54a"
+  },
+  {
+   "who": "THIRD",
+   "label": "THE ONE AGAINST EVERYONE",
+   "sub": "Down from London",
+   "coat": "#7a1f2b",
+   "shirt": "#ffffff",
+   "legs": "#23252c",
+   "skin": "#f3d2bd",
+   "hair": "#2a1a12",
+   "acc": [
+    "hood"
+   ],
+   "open": false,
+   "gesture": "crossed",
+   "mood": 0.1,
+   "pop": "the owners",
+   "popHold": 1.6,
+   "meter": "third",
+   "color": "#7cc7ff"
+  }
+ ],
+ "feature": {
+  "type": "fan_voice",
+  "club": "Manchester United",
+  "opponent": "Liverpool",
+  "comp": "Premier League",
+  "when": "Sun 22 Nov · Anfield",
+  "colour": "#da291c",
+  "oppColour": "#c8102e",
+  "clock": "18:04",
+  "tag": "Improve",
+  "text": "Dorgu and Zirkzee saved a point, but thirty conceded already. Sort the defending, whoever's in charge.",
+  "comments": [
+   {
+    "user": "lagos_red_devil",
+    "tag": "Both",
+    "text": "Two down in four minutes. I was still queuing for my pie 😭",
+    "ago": "1 hour ago"
+   },
+   {
+    "user": "wythenshawe_lass",
+    "tag": "Improve",
+    "text": "First manager in forty years to take us into the bottom three. Change it.",
+    "ago": "2 hours ago"
+   },
+   {
+    "user": "croydon_utd",
+    "tag": "Keep Doing",
+    "text": "He's one of our own. The players let him down.",
+    "ago": "3 hours ago"
+   },
+   {
+    "user": "stretford_79",
+    "tag": "Improve",
+    "text": "Thirty conceded already. That's coaching, that is.",
+    "ago": "5 hours ago"
+   }
+  ]
+ }
+}

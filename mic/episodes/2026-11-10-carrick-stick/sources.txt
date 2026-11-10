@@ -1,0 +1,24 @@
+THE MIC 2026-11-10 mic-carrick-stick: Man Utd, "Stick with Carrick, or twist?"
+
+Match and facts (Man Utd 4-4 Aston Villa, Old Trafford, Sun 8 Nov 2026; Villa 2-0 up inside four minutes (Alysson 1', Jackson 4'); Fernandes pen 16', Tielemans 44', McGinn pen 48', Goretzka 53', Zirkzee 90+2', Dorgu 90+6'; Lammens in goal; Stretford End chants against the ownership; fans applauded Carrick at full-time):
+https://www.skysports.com/football/news/13593226/man-utd-4-4-aston-villa-patrick-dorgu-levels-in-the-96th-minute-as-united-come-from-two-down-twice-to-earn-incredible-draw
+https://www.espn.com/soccer/story/_/id/50420272/man-united-aston-villa-live-premier-league-updates
+https://www.avfc.co.uk/news/2026/november/08/report-manchester-united-4-4-aston-villa
+
+Relegation zone, worst PL start, one win in 11, 30 goals conceded in all competitions, third-place finish last season, fans sang for Carrick, review led by Jason Wilcox, decision in the international break:
+https://www.skysports.com/football/news/13610315/michael-carrick-future-man-utd-will-not-rush-decision-over-head-coachs-tenure-despite-dropping-into-relegation-zone
+https://www.skysports.com/football/news/13610412/michael-carrick-future-man-utd-head-coach-position-increasingly-in-doubt-but-no-final-decision-made
+
+Fan reaction (split: many want Carrick sacked; first United manager in 40 years to take the club into the bottom three; others blame the players, INEOS and Wilcox; 18th; next game Liverpool on 22 Nov):
+https://uk.sports.yahoo.com/news/manchester-united-fans-agreement-over-181529258.html
+https://www.sportbible.com/football/football-news/man-utd/michael-carrick-sack-decision-aston-villa-draw-new-favourite-named-283340-20261109
+https://www.skysports.com/football/news/13609927/michael-carrick-manchester-united-boss-expects-to-stay-on-despite-club-sitting-in-relegation-zone-after-aston-villa-draw
+
+Next fixture (app screen): Liverpool v Manchester United, Anfield, Premier League, Sun 22 Nov 2026 (kick-off time not confirmed in sources; not shown):
+https://www.sportbible.com/football/football-news/man-utd/michael-carrick-sack-decision-aston-villa-draw-new-favourite-named-283340-20261109
+https://uk.sports.yahoo.com/news/manchester-united-fans-agreement-over-181529258.html
+
+Current squad named in the script/screen (from the 8 Nov match report): Senne Lammens, Diogo Dalot, Leny Yoro, Bruno Fernandes, Matheus Cunha, Joshua Zirkzee, Patrick Dorgu.
+https://www.skysports.com/football/news/13593226/man-utd-4-4-aston-villa-patrick-dorgu-levels-in-the-96th-minute-as-united-come-from-two-down-twice-to-earn-incredible-draw
+
+Sound: Mixkit (free licence). Voices: ElevenLabs. Characters fictional.

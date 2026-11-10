@@ -1,0 +1,16 @@
+# Cold-open options (hookscore.py), used: #3 (funny line, 80.8)
+
+HOOK RANKING
+==============================================================================
+->  80.8 STRONG  Two down in four minutes. I was still queuing for my pie.
+        weakest: STAKES (70)
+    59.8 OK      Bottom three. Bottom three! And people still want to give h...
+        weakest: ADDRESS (35)
+    58.0 OK      First manager in forty years to put us in the bottom three....
+        weakest: LENGTH (33)
+
+Shoot the top one. If the top one is under 50, none of these are the hook.
+
+Bottom three. Bottom three! And people still want to give him more time?
+First manager in forty years to put us in the bottom three. And we sang his name.
+Two down in four minutes. I was still queuing for my pie.
