@@ -10,6 +10,17 @@
    }
   ]
  },
+ "ademola-lookman": {
+  "name": "Ademola Lookman",
+  "variants": [
+   {
+    "credit": "Photo: Charltonkyle, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/ademola-lookman.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Ademola_Lookman_against_Derby.jpg/1920px-Ademola_Lookman_against_Derby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "alan-shearer": {
   "name": "Alan Shearer",
   "variants": [
@@ -975,6 +986,12 @@
     "source": "article",
     "url": "https://www.skysports.com/football/news/13607213/harry-kane-is-bayern-munichs-assist-king-barcelona-win-at-atletico-madrid-and-inter-close-gap-on-lazio-all-in-the-euro-debrief",
     "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/harry-kane-10.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -1455,6 +1472,12 @@
     "file": "photos/lionel-messi-12.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/lionel-messi-makes-final-decision-190349001.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/lionel-messi-13.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-043_%28cropped%29.jpg/1920px-Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-043_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
