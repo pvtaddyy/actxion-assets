@@ -684,6 +684,17 @@
    }
   ]
  },
+ "endrick": {
+  "name": "Endrick",
+  "variants": [
+   {
+    "credit": "Photo: YantsImages, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/endrick.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "enzo-le-fee": {
   "name": "Enzo Le Fée",
   "variants": [
@@ -1173,6 +1184,19 @@
    }
   ]
  },
+ "joao-pedro": {
+  "name": "João Pedro",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/chelsea-crack-down-internal-security-100716422.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/joao-pedro-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/chelsea-crack-down-internal-security-100716422.html",
+    "used": 1
+   }
+  ]
+ },
  "johan-manzambi": {
   "name": "Johan Manzambi",
   "variants": [
@@ -1556,6 +1580,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/lisandro-martinez.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Lisandro_Martinez_Argentina_v_Egypt_7_July_2026-125.jpg/1920px-Lisandro_Martinez_Argentina_v_Egypt_7_July_2026-125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "lorenzo-lucca": {
+  "name": "Lorenzo Lucca",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/lists/napoli-deeney-launches-scathing-attack-lucca-is-lucky-to-be-a-footballer-he-s-one-of-the-worst-strikers-i-ve-ever-seen/blt60722600f240ae13",
+    "credit": "Photo: goal.com",
+    "file": "photos/lorenzo-lucca.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/lists/napoli-deeney-launches-scathing-attack-lucca-is-lucky-to-be-a-footballer-he-s-one-of-the-worst-strikers-i-ve-ever-seen/blt60722600f240ae13",
     "used": 1
    }
   ]
@@ -2100,6 +2137,17 @@
     "file": "photos/pedri.jpg",
     "source": "article",
     "url": "https://www.yardbarker.com/soccer/articles/raphinha_answers_barcelona_fans_call_special_motivation_for_yamal_and_pedri/s1_17790_44532871",
+    "used": 1
+   }
+  ]
+ },
+ "pedro-sanchez": {
+  "name": "Pedro Sánchez",
+  "variants": [
+   {
+    "credit": "Photo: President Of Ukraine from Україна, Wikimedia Commons, CC0",
+    "file": "photos/pedro-sanchez.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/President_of_Ukraine_Volodymyr_Zelenskyy_met_with_Prime_Minister_of_the_Kingdom_of_Spain_Pedro_S%C3%A1nchez%2C_who_arrived_in_our_country_on_a_visit._%2852709683573%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
