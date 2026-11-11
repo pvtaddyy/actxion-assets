@@ -1979,6 +1979,43 @@
    }
   ]
  },
+ "mauricio-pochettino": {
+  "name": "Mauricio Pochettino",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13610578/manchester-united-and-mauricio-pochettino-would-argentine-be-the-perfect-fit-or-just-another-manager-to-fall-foul-of-old-trafford-chaos",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/mauricio-pochettino-5.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13610578/manchester-united-and-mauricio-pochettino-would-argentine-be-the-perfect-fit-or-just-another-manager-to-fall-foul-of-old-trafford-chaos",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/man-united-pay-nearly-eur10-million-for-michael-carrick-s-successor/bltc343eef840d77a78",
+    "credit": "Photo: goal.com",
+    "file": "photos/michael-carrick-19.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/man-united-pay-nearly-eur10-million-for-michael-carrick-s-successor/bltc343eef840d77a78",
+    "used": 1
+   },
+   {
+    "article": "https://www.foxsports.com/stories/soccer/manchester-united-reportedly-nearing-deal-hire-usa-coach-mauricio-pochettino",
+    "credit": "Photo: FOX Sports",
+    "file": "photos/mauricio-pochettino-6.jpg",
+    "source": "article",
+    "url": "https://www.foxsports.com/stories/soccer/manchester-united-reportedly-nearing-deal-hire-usa-coach-mauricio-pochettino",
+    "used": 1
+   },
+   {
+    "article": "https://www.foxsports.com/stories/soccer/manchester-united-reportedly-nearing-deal-hire-usa-coach-mauricio-pochettino",
+    "credit": "Photo: FOX Sports",
+    "file": "photos/mauricio-pochettino-7.jpg",
+    "source": "article",
+    "url": "https://www.foxsports.com/stories/soccer/manchester-united-reportedly-nearing-deal-hire-usa-coach-mauricio-pochettino",
+    "used": 1
+   }
+  ]
+ },
  "maurizio-sarri": {
   "name": "Maurizio Sarri",
   "variants": [
@@ -2066,11 +2103,27 @@
     "used": 1
    },
    {
-    "article": "https://www.skysports.com/football/video/13610477/manchester-utd-latest-what-we-know-about-michael-carricks-future",
-    "credit": "Photo: Epa via Sky Sports",
+    "article": "https://www.skysports.com/football/news/13610412/michael-carrick-future-man-utd-head-coach-position-increasingly-in-doubt-with-mauricio-pochettino-open-to-talks",
+    "credit": "Photo: Sky Sports",
     "file": "photos/michael-carrick-16.jpg",
     "source": "article",
-    "url": "https://www.skysports.com/football/video/13610477/manchester-utd-latest-what-we-know-about-michael-carricks-future",
+    "url": "https://www.skysports.com/football/news/13610412/michael-carrick-future-man-utd-head-coach-position-increasingly-in-doubt-with-mauricio-pochettino-open-to-talks",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/final-day-carrick-s-first-reaction-after-arriving-at-manchester-united-training/blt9ade55ba340bb065",
+    "credit": "Photo: goal.com",
+    "file": "photos/michael-carrick-17.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/final-day-carrick-s-first-reaction-after-arriving-at-manchester-united-training/blt9ade55ba340bb065",
+    "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13610675/man-utd-q-and-a-michael-carrick-mauricio-pochettino-ineos-and-more-kaveh-solhekol-answers-your-questions",
+    "credit": "Photo: Epa via Sky Sports",
+    "file": "photos/michael-carrick-18.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13610675/man-utd-q-and-a-michael-carrick-mauricio-pochettino-ineos-and-more-kaveh-solhekol-answers-your-questions",
     "used": 1
    }
   ]
@@ -2318,6 +2371,14 @@
     "file": "photos/paul-merson.jpg",
     "source": "article",
     "url": "https://dailypost.ng/2026/11/10/epl-momentum-failure-paul-merson-issues-champions-league-warning-to-chelsea/",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/signing-paul-merson-hails-martin-093213905.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/paul-merson-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/signing-paul-merson-hails-martin-093213905.html",
     "used": 1
    }
   ]
