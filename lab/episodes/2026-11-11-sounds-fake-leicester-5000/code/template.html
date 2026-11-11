@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<script src="assets/lib/gsap.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#070b16}
+#root{width:100%;height:100%;position:relative;font-family:Inter,sans-serif;color:#fff}
+#world{position:absolute;inset:0;width:1080px;height:1920px}
+#grade{position:absolute;inset:0;pointer-events:none;background:
+  radial-gradient(120% 70% at 50% 45%,rgba(0,0,0,0) 55%,rgba(2,4,10,.75) 100%),
+  linear-gradient(180deg,rgba(4,7,16,.85) 0%,rgba(4,7,16,0) 22%,rgba(4,7,16,0) 60%,rgba(4,7,16,.8) 100%)}
+#brand{position:absolute;top:190px;left:70px;font:700 30px Inter;letter-spacing:.18em;color:rgba(255,255,255,.75);display:flex;gap:16px;align-items:center}
+#brand i{width:14px;height:14px;border-radius:50%;background:#ffd54a;box-shadow:0 0 18px #ffd54a}
+.ov,.cap{position:absolute;left:0;width:1080px}
+.ov .in,.cap .in{width:100%;text-align:center}
+.title{top:250px}
+.title .in{font:400 128px/0.95 'League Gothic';letter-spacing:.01em;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.6);padding:0 90px}
+.title b,.glitch b{color:#ffd54a;font-weight:400}
+.stamp{top:610px}
+.stamp .in{display:inline-block;width:auto;margin-left:50%;transform:translateX(-50%) rotate(-6deg);font:400 112px 'League Gothic';color:#ffd54a;border:8px solid #ffd54a;padding:6px 34px 0;border-radius:14px;background:rgba(7,11,22,.55);white-space:nowrap}
+.stat{top:250px}
+.num{font:400 300px/0.9 'League Gothic';color:#ffd54a;text-shadow:0 0 40px rgba(255,213,74,.35)}
+.num.sm{font-size:220px}
+.lab{font:900 46px Inter;letter-spacing:.04em;margin-top:6px}
+.sub{font:500 38px Inter;color:#b9c2d6;margin-top:6px}
+.per{display:inline-block;margin-top:18px;font:900 44px Inter;color:#070b16;background:#ffd54a;padding:6px 20px;border-radius:10px}
+.pair{display:flex;justify-content:center;gap:90px}
+.pair>div{width:400px}
+.rs{font:700 36px/1.35 Inter;color:#b9c2d6;margin-top:26px;padding:0 60px}
+.src{font:600 26px Inter;color:#8792a8;margin-top:16px;letter-spacing:.06em}
+.chip{top:1262px}.chip .in span{display:inline-block;font:800 28px Inter;letter-spacing:.14em;color:#dfe5f2;background:rgba(108,171,221,.22);border:2px solid rgba(108,171,221,.6);padding:8px 22px;border-radius:999px}
+.gs{font:700 48px/1.2 Inter;text-shadow:none;color:#dfe5f2;margin-top:6px}
+.crow{height:64px;margin-top:10px}.crow img{height:58px;margin:0 4px;vertical-align:middle}
+.round{top:0;height:1920px;background:rgba(5,8,18,.82)}
+.round .in{position:absolute;top:720px}
+.rk{font:900 54px Inter;letter-spacing:.4em;color:#ffd54a}
+.rt{font:400 170px/0.95 'League Gothic';text-transform:uppercase;padding:0 80px;margin-top:14px}
+.glitch{top:700px}
+.glitch .in{font:400 220px 'League Gothic';text-shadow:6px 0 #ff2d55,-6px 0 #20e3ff}
+.bars{width:820px;margin:0 auto;text-align:left}
+.bars{position:relative;top:0}
+.bar{margin:26px 0}
+.bar i{display:block;height:64px;width:calc(var(--v)*100%);background:var(--c);border-radius:10px;transform-origin:left}
+.bar span{display:block;font:900 42px Inter;margin-top:10px}
+.ov.bars{top:760px}
+#bars-slow{top:560px}#bars-worse{top:960px}.bars.panel{background:rgba(6,9,20,.72);padding:24px 36px 10px;border-radius:22px}
+.dip{top:0;height:1920px;background:#000}
+.flash{top:0;height:1920px;background:#fff}
+.gs2{font:800 50px Inter;color:#dfe5f2;margin-top:18px;letter-spacing:.06em;text-transform:none}
+.stat .crow img{height:96px}.stat .crow{height:104px;margin:0 0 6px}
+.crow.big{height:110px;margin-top:30px}.crow.big img{height:96px;margin:0 10px}
+.pl{top:300px}
+.plab{display:flex;justify-content:center;gap:40px;font:800 34px/1.1 Inter;color:#dfe5f2}
+.plab span{width:260px}
+.plab b{font:400 110px 'League Gothic';color:#fff}
+.ask{top:330px}
+.q{font:400 170px/0.95 'League Gothic';text-transform:uppercase;color:#5b8cff;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+.q.b{color:#ffd54a}
+.or{font:800 50px Inter;color:#b9c2d6;margin:12px 0}
+.next{margin-top:70px;font:800 50px Inter;display:inline-block;background:#fff;color:#070b16;padding:16px 34px;border-radius:999px}
+.cap{top:1150px}
+.cap .in{font:900 74px/1.08 Inter;padding:0 100px;-webkit-text-stroke:10px rgba(4,6,14,.92);paint-order:stroke fill;text-shadow:0 8px 22px rgba(0,0,0,.55)}
+.cap .w{display:inline-block}
+.cap .ln{white-space:nowrap}
+.cap .w{margin:0 .1em}
+
+.cap .w{color:rgba(255,255,255,.42)}
+#end{position:absolute;inset:0;background:#070b16;display:flex;flex-direction:column;align-items:center;justify-content:center}
+#end .e1{font:400 170px 'League Gothic';color:#ffd54a}
+#end .e2{font:800 46px Inter;letter-spacing:.3em;margin-top:10px}
+#end .e3{font:600 40px Inter;color:#b9c2d6;margin-top:40px}
+.trio{display:flex;justify-content:center;gap:40px}.trio>div{width:280px}
+.num.sil{color:#c9d1e0}.num.red{color:#ff4d5a}
+.rk{font-size:70px}
+#st-rec{top:700px}
+.glitch .in{font-size:170px}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="{{END}}" data-width="1080" data-height="1920">
+  <canvas id="world" class="clip" data-start="0" data-duration="{{END}}" data-track-index="0" width="1080" height="1920"></canvas>
+  <div id="grade" class="clip" data-start="0" data-duration="{{END}}" data-track-index="1"></div>
+  <div id="brand" class="clip" data-start="0" data-duration="{{END}}" data-track-index="1"><i></i>ACTXION · SOUNDS FAKE</div>
+{{OVERLAYS}}
+{{CAPTIONS}}
+  <div id="end" class="clip" data-start="{{ENDCARD}}" data-duration="1.6" data-track-index="4"><div class="e1">SOUNDS FAKE</div><div class="e2">BY ACTXION</div><div class="e3">Comment the next one we should test</div></div>
+{{SFX}}
+</div>
+<script>window.EP = {{EP}};</script>
+<script type="module" src="assets/world.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+const S = el => parseFloat(el.dataset.start), E = el => S(el) + parseFloat(el.dataset.duration);
+document.querySelectorAll('.ov').forEach(el => {
+  const s = S(el), e = E(el), inn = el.querySelector('.in'), k = el.className;
+  if (k.includes('flash')) {
+    tl.fromTo(el, { opacity: 0 }, { opacity: .85, duration: .05, ease: 'none' }, s); tl.to(el, { opacity: 0, duration: .15 }, s + .05);
+  } else if (k.includes('dip')) {
+    tl.fromTo(el, { opacity: 0 }, { opacity: .55, duration: .1, ease: 'none' }, s); tl.to(el, { opacity: 0, duration: .1 }, s + .1);
+  } else if (k.includes('round')) {
+    tl.fromTo(inn, { x: -260, opacity: 0, filter: 'blur(14px)' }, { x: 0, opacity: 1, filter: 'blur(0px)', duration: .32, ease: 'expo.out' }, s + .05);
+    if (el.id === 'r-2') tl.fromTo(el, { clipPath: 'circle(0% at 62% 58%)' }, { clipPath: 'circle(150% at 62% 58%)', duration: .45, ease: 'power3.in' }, s - .1);
+    else tl.fromTo(el, { clipPath: 'inset(0 100% 0 0)', filter: 'blur(10px)' }, { clipPath: 'inset(0 0% 0 0)', filter: 'blur(0px)', duration: .26, ease: 'power3.out' }, s);
+  } else if (k.includes('stamp')) {
+    tl.fromTo(inn, { scale: 2.4, opacity: 0 }, { scale: 1, opacity: 1, duration: .22, ease: 'power4.in' }, s);
+  } else if (k.includes('glitch')) {
+    tl.fromTo(inn, { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: .12, ease: 'steps(3)' }, s);
+    tl.to(inn, { x: 18, duration: .06, yoyo: true, repeat: 5, ease: 'none' }, s + .12);
+  } else if (k.includes('bars')) {
+    tl.fromTo(inn, { opacity: 0 }, { opacity: 1, duration: .2 }, s);
+    el.querySelectorAll('.bar i').forEach((b, i) => tl.fromTo(b, { scaleX: 0 }, { scaleX: 1, duration: .7, ease: 'power3.out' }, s + .1 + i * .25));
+  } else {
+    tl.fromTo(inn, { y: 60, opacity: 0, scale: .96 }, { y: 0, opacity: 1, scale: 1, duration: .32, ease: 'back.out(1.8)' }, s);
+  }
+  el.querySelectorAll('.num[data-to]').forEach(n => { const o = { v: 0 }, d = parseFloat(n.dataset.delay || 0);
+    tl.fromTo(n, { opacity: d ? 0 : 1 }, { opacity: 1, duration: .1 }, s + d);
+    tl.to(o, { v: +n.dataset.to, duration: n.dataset.dec ? .9 : 1.3, ease: 'power2.out', onUpdate: () => n.textContent = n.dataset.dec ? o.v.toFixed(+n.dataset.dec) : Math.round(o.v) }, s + d); });
+  el.querySelectorAll('.crow img').forEach((c, i) => tl.fromTo(c, { scale: 0 }, { scale: 1, duration: .25, ease: 'back.out(3)' }, s + .2 + i * .12));
+  el.querySelectorAll('[data-at]').forEach(p => tl.fromTo(p, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .25, ease: 'back.out(2)' }, s + parseFloat(p.dataset.at)));
+  el.querySelectorAll('.q').forEach((q, i) => tl.fromTo(q, { x: i ? 300 : -300, opacity: 0 }, { x: 0, opacity: 1, duration: .35, ease: 'power3.out' }, s + i * .9));
+  tl.to(inn, { opacity: 0, duration: .15, ease: 'power2.in' }, e - .16);
+});
+document.querySelectorAll('.cap').forEach(el => {
+  const s = S(el), e = E(el), inn = el.querySelector('.in');
+  tl.fromTo(inn, { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: .1 }, s);
+  el.querySelectorAll('.w').forEach(w => tl.fromTo(w, { color: 'rgba(255,255,255,.42)', scale: 1 }, { color: w.classList.contains('k') ? '#ffd54a' : '#ffffff', scale: 1.06, duration: .08, ease: 'power2.out' }, s + Math.max(0, parseFloat(w.dataset.ws))).to(w, { scale: 1, duration: .12, ease: 'power2.out' }, s + Math.max(0, parseFloat(w.dataset.ws)) + .08));
+  tl.to(inn, { opacity: 0, duration: .08 }, e - .09);
+});
+tl.fromTo('#end .e1', { scale: .6, opacity: 0 }, { scale: 1, opacity: 1, duration: .35, ease: 'back.out(2)' }, {{ENDCARD}});
+window.__timelines = window.__timelines || {};
+window.__timelines["main"] = tl; tl.seek(0);
+</script>
+</body></html>

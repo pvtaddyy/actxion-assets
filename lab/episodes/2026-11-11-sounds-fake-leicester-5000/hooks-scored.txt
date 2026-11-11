@@ -1,0 +1,4 @@
+Hooks (scored by hand on ig-reel hookscore's criteria: specificity, big number, named club, curiosity gap, under 2 s to the point; cloning the scorer was blocked in this cloud run)
+78 STRONG [number-first + named club] Five thousand to one. That's the price bookmakers gave Leicester City to win the league.   <- used
+66 OK     [curiosity] This title should never have happened. The bookmakers made it a five thousand to one shot.
+58 OK     ["everyone says" myth] Everyone says money wins the Premier League. In 2016 a five thousand to one shot won it.
