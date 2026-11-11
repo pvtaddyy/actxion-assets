@@ -77,6 +77,19 @@
    }
   ]
  },
+ "alex-scott": {
+  "name": "Alex Scott",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/liverpool-explore-move-bournemouths-alex-185911953.html",
+    "credit": "Photo: Imago via Yahoo Sports",
+    "file": "photos/alex-scott-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/liverpool-explore-move-bournemouths-alex-185911953.html",
+    "used": 1
+   }
+  ]
+ },
  "alexander-isak": {
   "name": "Alexander Isak",
   "variants": [
@@ -1874,6 +1887,19 @@
    }
   ]
  },
+ "marc-cucurella": {
+  "name": "Marc Cucurella",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/sent-photo-marc-cucurella-reveals-175448006.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/marc-cucurella-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/sent-photo-marc-cucurella-reveals-175448006.html",
+    "used": 1
+   }
+  ]
+ },
  "marco-silva": {
   "name": "Marco Silva",
   "variants": [
@@ -2966,6 +2992,14 @@
     "file": "photos/thomas-frank-4.jpg",
     "source": "article",
     "url": "https://www.newsday.com/sports/soccer/thomas-frank-tottenham-f40303",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/thomas-frank-tipped-next-crystal-210919939.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/thomas-frank-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/thomas-frank-tipped-next-crystal-210919939.html",
     "used": 1
    }
   ]
