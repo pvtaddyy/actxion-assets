@@ -328,6 +328,17 @@
    }
   ]
  },
+ "calvin-bassey": {
+  "name": "Calvin Bassey",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/calvin-bassey.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Calvin_Bassey_21032026_%281%29.jpg/1920px-Calvin_Bassey_21032026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "carlo-ancelotti": {
   "name": "Carlo Ancelotti",
   "variants": [
@@ -2929,6 +2940,12 @@
     "file": "photos/virgil-van-dijk-3.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/virgil-van-dijk-ruled-netherlands-000000192.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/virgil-van-dijk-5.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Virgil_van_Dijk_04012026_%282%29.jpg/1920px-Virgil_van_Dijk_04012026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
