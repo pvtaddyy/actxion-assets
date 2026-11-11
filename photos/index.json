@@ -339,6 +339,17 @@
    }
   ]
  },
+ "camp-nou": {
+  "name": "Camp Nou",
+  "variants": [
+   {
+    "credit": "Photo: Oh-Barcelona.com from Barcelona, Spain, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/camp-nou.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Camp_Nou_aerial.jpg",
+    "used": 1
+   }
+  ]
+ },
  "carlo-ancelotti": {
   "name": "Carlo Ancelotti",
   "variants": [
@@ -420,6 +431,17 @@
     "credit": "Photo: NottinghamNinja, Wikimedia Commons, CC BY 4.0",
     "file": "photos/city-ground.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NFFC_City_Ground_Trent_End_2025.jpg/1920px-NFFC_City_Ground_Trent_End_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "city-of-manchester-stadium": {
+  "name": "City of Manchester Stadium",
+  "variants": [
+   {
+    "credit": "Photo: Arne Müseler, cropped by Blackcat, Wikimedia Commons, CC BY-SA 3.0 de",
+    "file": "photos/city-of-manchester-stadium-3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1920px-City_of_Manchester_Stadium_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -849,6 +871,14 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/erling-haaland-7.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Erling_Haaland_Morocco_v_Norway_7_June_2026-103.jpg/1920px-Erling_Haaland_Morocco_v_Norway_7_June_2026-103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/between-real-madrid-and-barcelona-manchester-united-legend-predicts-haaland-s-future/blt9ee0f2b82a997de1",
+    "credit": "Photo: goal.com",
+    "file": "photos/erling-haaland-9.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/between-real-madrid-and-barcelona-manchester-united-legend-predicts-haaland-s-future/blt9ee0f2b82a997de1",
     "used": 1
    }
   ]
@@ -2246,6 +2276,25 @@
    }
   ]
  },
+ "nicky-butt": {
+  "name": "Nicky Butt",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/nicky-butt-blasts-alejandro-garnacho-203508006.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/nicky-butt.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/nicky-butt-blasts-alejandro-garnacho-203508006.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/nicky-butt-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cropped_Butt_by_nyaa_birdies_perch.jpg",
+    "used": 1
+   }
+  ]
+ },
  "niclas-fullkrug": {
   "name": "Niclas Füllkrug",
   "variants": [
@@ -2403,6 +2452,17 @@
     "file": "photos/paul-merson-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/signing-paul-merson-hails-martin-093213905.html",
+    "used": 1
+   }
+  ]
+ },
+ "paul-scholes": {
+  "name": "Paul Scholes",
+  "variants": [
+   {
+    "credit": "Photo: Austin Osuide, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/paul-scholes.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Paul_Scholes.jpg/1920px-Paul_Scholes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -2678,6 +2738,17 @@
     "credit": "Photo: Agencia LUSA, Wikimedia Commons, CC BY 3.0",
     "file": "photos/ruben-amorim-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Ruben_Amorim_focado_em_acabar_a_jornada_em_primeiro_lugar.webm/1920px--Ruben_Amorim_focado_em_acabar_a_jornada_em_primeiro_lugar.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+    "used": 1
+   }
+  ]
+ },
+ "santiago-bernabeu-stadium": {
+  "name": "Santiago Bernabéu Stadium",
+  "variants": [
+   {
+    "credit": "Photo: Little Savage, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/santiago-bernabeu-stadium.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Santiago_Bernab%C3%A9u_Stadium_-_Exterior_03.jpg/1920px-Santiago_Bernab%C3%A9u_Stadium_-_Exterior_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
