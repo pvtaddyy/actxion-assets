@@ -2064,6 +2064,14 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/historic-poor-start-leon-goretzka-s-first-goal-and-another-unbelievable-comeback-manchester-united-slip-into-the-relegation-zone-after-a-turbulent-drama-against-aston-villa/blt426f4b0a7a31cfd4",
     "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/video/13610477/manchester-utd-latest-what-we-know-about-michael-carricks-future",
+    "credit": "Photo: Epa via Sky Sports",
+    "file": "photos/michael-carrick-16.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/video/13610477/manchester-utd-latest-what-we-know-about-michael-carricks-future",
+    "used": 1
    }
   ]
  },
@@ -2195,6 +2203,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/nico-paz-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Nico_Paz_Argentina_v_Egypt_7_July_2026-031_%28cropped%29.jpg/1920px-Nico_Paz_Argentina_v_Egypt_7_July_2026-031_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "nicolo-tresoldi": {
+  "name": "Nicolò Tresoldi",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/nicol-tresoldi-admits-club-brugge-103021744.html",
+    "credit": "Photo: Imago via Yahoo Sports",
+    "file": "photos/nicolo-tresoldi.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/nicol-tresoldi-admits-club-brugge-103021744.html",
     "used": 1
    }
   ]
