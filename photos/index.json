@@ -2837,6 +2837,19 @@
    }
   ]
  },
+ "sepp-blatter": {
+  "name": "Sepp Blatter",
+  "variants": [
+   {
+    "article": "https://www.tribalfootball.com/article/former-fifa-boss-blatter-takes-aim-at-infantino-s-leadership-0b05df97-b96e-45ef-9c2b-4acd0a253d8b",
+    "credit": "Photo: Reuters via tribalfootball.com",
+    "file": "photos/sepp-blatter.jpg",
+    "source": "article",
+    "url": "https://www.tribalfootball.com/article/former-fifa-boss-blatter-takes-aim-at-infantino-s-leadership-0b05df97-b96e-45ef-9c2b-4acd0a253d8b",
+    "used": 1
+   }
+  ]
+ },
  "sonia-bompastor": {
   "name": "Sonia Bompastor",
   "variants": [
@@ -3033,6 +3046,19 @@
     "file": "photos/toni-kroos.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/real-madrid-legend-toni-kroos-094500791.html",
+    "used": 1
+   }
+  ]
+ },
+ "trent-alexander-arnold": {
+  "name": "Trent Alexander-Arnold",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/former-liverpool-star-alexander-arnold-should-move-to-bayern-munich/blt9f2cb61540c26982",
+    "credit": "Photo: goal.com",
+    "file": "photos/trent-alexander-arnold.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/former-liverpool-star-alexander-arnold-should-move-to-bayern-munich/blt9f2cb61540c26982",
     "used": 1
    }
   ]
