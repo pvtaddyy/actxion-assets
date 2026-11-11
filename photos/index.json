@@ -165,6 +165,14 @@
     "file": "photos/antonio-conte.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "https://www.goal.com/en/news/will-he-win-carrick-s-seat-conte-surprises-manchester-united/bltdf1828c49c26067b",
+    "credit": "Photo: goal.com",
+    "file": "photos/antonio-conte-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/will-he-win-carrick-s-seat-conte-surprises-manchester-united/bltdf1828c49c26067b",
+    "used": 1
    }
   ]
  },
@@ -1524,6 +1532,12 @@
     "credit": "Photo: Balkan Photos, Wikimedia Commons, CC BY 2.0",
     "file": "photos/kylian-mbappe-5.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Kylian_Mbapp%C3%A9_%2846369981091%29.jpg/1920px-Kylian_Mbapp%C3%A9_%2846369981091%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Balkan Photos, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/kylian-mbappe-8.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Kylian_Mbapp%C3%A9_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
    }
   ]
