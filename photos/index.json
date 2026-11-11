@@ -1181,6 +1181,14 @@
     "file": "photos/harry-kane-10.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/harry-kane-england-appearance-record-wembley-croatia/blta16aeb22e3b54169",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/harry-kane-11.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/harry-kane-england-appearance-record-wembley-croatia/blta16aeb22e3b54169",
+    "used": 1
    }
   ]
  },
@@ -2696,6 +2704,19 @@
    }
   ]
  },
+ "ronaldinho": {
+  "name": "Ronaldinho",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/article/ronaldinho-praises-precocious-barcelona-youngster-095200513.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/ronaldinho.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/article/ronaldinho-praises-precocious-barcelona-youngster-095200513.html",
+    "used": 1
+   }
+  ]
+ },
  "roy-keane": {
   "name": "Roy Keane",
   "variants": [
@@ -2977,6 +2998,19 @@
     "file": "photos/tom-brady.jpg",
     "source": "article",
     "url": "https://www.skysports.com/football/news/13610387/tom-brady-leaves-birmingham-nfl-legend-and-minority-owner-makes-shock-departure-after-three-years",
+    "used": 1
+   }
+  ]
+ },
+ "toni-kroos": {
+  "name": "Toni Kroos",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/real-madrid-legend-toni-kroos-094500791.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/toni-kroos.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/real-madrid-legend-toni-kroos-094500791.html",
     "used": 1
    }
   ]
