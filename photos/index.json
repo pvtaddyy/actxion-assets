@@ -705,6 +705,17 @@
    }
   ]
  },
+ "eli-junior-kroupi": {
+  "name": "Eli Junior Kroupi",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/eli-junior-kroupi-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Eli_Junior_Kroupi.jpg",
+    "used": 1
+   }
+  ]
+ },
  "elland-road": {
   "name": "Elland Road",
   "variants": [
@@ -1827,6 +1838,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/marcus-rashford.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Marcus_Rashford_England_v_Ghana_23_June_2026-036.jpg/1920px-Marcus_Rashford_England_v_Ghana_23_June_2026-036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "marcus-thuram": {
+  "name": "Marcus Thuram",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en-us/news/inter-player-ratings-vs-como-marcus-thuram-charge-commanding-san-siro-victory-/blta8c886365a34ca66",
+    "credit": "Photo: goal.com",
+    "file": "photos/marcus-thuram-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-us/news/inter-player-ratings-vs-como-marcus-thuram-charge-commanding-san-siro-victory-/blta8c886365a34ca66",
     "used": 1
    }
   ]
@@ -3156,6 +3180,14 @@
     "file": "photos/zinedine-zidane.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/-zinedine-zidane-injury-nightmare-aurelien-tchouameni-france-real-madrid-midfielder-fitness-/bltd497ee1e18135ce6",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/exclusive-84-cap-international-william-123500289.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/zinedine-zidane-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/exclusive-84-cap-international-william-123500289.html",
     "used": 1
    }
   ]

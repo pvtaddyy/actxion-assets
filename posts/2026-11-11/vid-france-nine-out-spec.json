@@ -1,0 +1,23 @@
+{
+ "voice": "voice-tight.wav", "words": "words-tight.json", "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28", "series": "Pick your side", "tail": 1.2,
+ "header": {"text": "France: nine out v Italy", "key": ["nine out"]},
+ "keywords": ["!injured,", "hamstring", "!again", "Nine.", "Kroupi", "top", "ten", "!trouble?"],
+ "sources": ["https://www.espn.com/soccer/story/_/id/50446771/france-thuram-tchouameni-leave-squad-injuries"],
+ "scenes": [
+  {"type": "player", "at": 0, "photo": "zidane-cut.png", "bgPhoto": "zidane.jpg", "word": "9 OUT", "label": "Zidane's France, Italy away", "wordY": -60, "wordSize": 300, "height": 660},
+  {"type": "list", "at": "Thuram", "title": "Out injured", "items": [{"at": "Thuram", "text": "Thuram: hamstring v Como"}]},
+  {"type": "player", "at": "and", "photo": "tchouameni-cut.png", "bgPhoto": "tchouameni.jpg", "word": "AGAIN", "label": "Tchouaméni: same injury as the World Cup", "wordY": -40, "wordSize": 300, "height": 560},
+  {"type": "list", "at": "Then", "title": "Also out", "items": [
+    {"at": "Saliba,", "text": "Saliba"}, {"at": "Koundé,", "text": "Koundé"}, {"at": "Kalulu,", "text": "Kalulu"},
+    {"at": "Koné,", "text": "Koné"}, {"at": "Dembélé,", "text": "Dembélé"}, {"at": "Lacroix", "text": "Lacroix"}, {"at": "Lepaul.", "text": "Lepaul"}]},
+  {"type": "stat", "at": "Nine.", "value": 9, "unit": "players", "label": "out of the France squad", "source": "ESPN"},
+  {"type": "player", "at": "Junior", "photo": "kroupi-cut.png", "bgPhoto": "kroupi.jpg", "word": "KROUPI", "label": "Called up from Bournemouth", "wordY": -40, "wordSize": 260, "height": 700},
+  {"type": "list", "at": "He's", "title": "Junior Kroupi", "items": [{"at": "uncapped,", "text": "Uncapped"}, {"at": "top", "text": "Ligue 2 top scorer, 2025"}]},
+  {"type": "stat", "at": "France", "value": 10, "unit": "points", "label": "from four games, top of the group", "source": "ESPN"},
+  {"type": "player", "at": "Nine", "photo": "zidane-cut.png", "bgPhoto": "zidane.jpg", "word": "THURSDAY", "label": "Italy v France", "wordY": -40, "wordSize": 220, "height": 660},
+  {"type": "versus", "at": "Still", "a": {"photo": "zidane-cut.png", "label": "Still too strong"}, "b": {"photo": "tchouameni-cut.png", "label": "Real trouble"}},
+  {"type": "ask", "at": "Comment", "html": "Too strong or <span class=\"k\">in trouble?</span>", "sub": "A: still too strong. B: real trouble"}
+ ],
+ "cover_t": 1.2
+}
