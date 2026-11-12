@@ -1054,6 +1054,19 @@
    }
   ]
  },
+ "gennaro-gattuso": {
+  "name": "Gennaro Gattuso",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/gennaro-gattuso-named-october-serie-130700369.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/gennaro-gattuso-5.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/gennaro-gattuso-named-october-serie-130700369.html",
+    "used": 1
+   }
+  ]
+ },
  "gian-piero-gasperini": {
   "name": "Gian Piero Gasperini",
   "variants": [
@@ -1870,6 +1883,14 @@
     "file": "photos/marc-andre-ter-stegen.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/jurgen-klopp-marc-andre-ter-stegen-germany-no-1-ajax-barcelona/bltb8ce978da3242185",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/ter-stegen-i-communicate-with-barcelona-s-players-unlike-flick/bltd5800baf149157b8",
+    "credit": "Photo: goal.com",
+    "file": "photos/marc-andre-ter-stegen-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/ter-stegen-i-communicate-with-barcelona-s-players-unlike-flick/bltd5800baf149157b8",
     "used": 1
    }
   ]
