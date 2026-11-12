@@ -634,6 +634,19 @@
    }
   ]
  },
+ "davide-frattesi": {
+  "name": "Davide Frattesi",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/frattesi-gattuso-italy-world-cup-142200568.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/davide-frattesi.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/frattesi-gattuso-italy-world-cup-142200568.html",
+    "used": 1
+   }
+  ]
+ },
  "declan-rice": {
   "name": "Declan Rice",
   "variants": [
