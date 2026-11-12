@@ -1,0 +1,239 @@
+{
+ "slug": "mic-chelsea-xabi",
+ "set": "viewing",
+ "club": {
+  "name": "Chelsea",
+  "primary": "#034694",
+  "secondary": "#ffffff",
+  "third": "#dba111"
+ },
+ "loc": "YABA, LAGOS · VIEWING CENTRE",
+ "question": {
+  "phrase": "Is it Xabi",
+  "kicker": "ONE QUESTION",
+  "line1": "XABI",
+  "line2": "OR THE PLAYERS?"
+ },
+ "meter": {
+  "title": "WHO GETS THE BLAME?",
+  "left": "XABI",
+  "right": "PLAYERS",
+  "third": "THE OWNERS?"
+ },
+ "ask": {
+  "a": "XABI",
+  "b": "THE PLAYERS?",
+  "next": "Who's to blame? Comment 👇"
+ },
+ "end": "Get ACTXION. Make your voice count 👇",
+ "boo": false,
+ "laugh": "what are you doing",
+ "keywords": [
+  "spineless",
+  "sunderland",
+  "bullied",
+  "stood",
+  "xabi",
+  "players",
+  "estêvão",
+  "bench",
+  "brother",
+  "doing",
+  "time",
+  "outmuscled",
+  "ninety",
+  "shape",
+  "jobs",
+  "coach",
+  "neither",
+  "upstairs",
+  "season",
+  "you"
+ ],
+ "fans": [
+  {
+   "who": "ANGRY",
+   "label": "THE ANGRY ONE",
+   "sub": "Blue since the Drogba days",
+   "coat": "#2b2f3a",
+   "shirt": "#034694",
+   "legs": "#1c1f27",
+   "skin": "#4f3020",
+   "hair": "#111111",
+   "acc": [
+    "cap"
+   ],
+   "open": false,
+   "gesture": "jab",
+   "mood": 0.44,
+   "pop": "Spineless",
+   "popHold": 1.4,
+   "meter": 0.62,
+   "color": "#ff5a5f"
+  },
+  {
+   "who": "FUNNY",
+   "label": "THE FUNNY ONE",
+   "sub": "Left his own wedding planning for this",
+   "coat": "#dba111",
+   "shirt": "#034694",
+   "legs": "#3b3f4a",
+   "skin": "#5a3825",
+   "hair": "#111111",
+   "acc": [
+    "bucket"
+   ],
+   "open": false,
+   "gesture": "handsup",
+   "mood": -0.1,
+   "laugh": true,
+   "pop": "what are you doing",
+   "popHold": 2.0,
+   "meter": -0.7,
+   "color": "#7CFFB2"
+  },
+  {
+   "who": "LOYAL",
+   "label": "THE LOYAL ONE",
+   "sub": "Fulham Road, home visiting family",
+   "coat": "#034694",
+   "shirt": "#034694",
+   "legs": "#2c3e66",
+   "skin": "#8a5a3c",
+   "hair": "#2a1a12",
+   "acc": [
+    "ponytail",
+    "scarf"
+   ],
+   "open": false,
+   "gesture": "point",
+   "mood": 0.15,
+   "pop": "Give Xabi time",
+   "popHold": 1.6,
+   "meter": 0.66,
+   "color": "#ffd54a"
+  },
+  {
+   "who": "OLD",
+   "label": "IN FROM NAIROBI",
+   "sub": "Chelsea fan for 30 years",
+   "coat": "#5b4a3a",
+   "shirt": "#034694",
+   "legs": "#23252c",
+   "skin": "#3f271a",
+   "hair": "#9a9a9a",
+   "acc": [
+    "glasses",
+    "beanie"
+   ],
+   "open": false,
+   "gesture": "facepalm",
+   "mood": -0.28,
+   "pop": "That's the coach",
+   "popHold": 1.6,
+   "meter": -0.55,
+   "color": "#7cc7ff"
+  },
+  {
+   "who": "THIRD",
+   "label": "THE ONE AGAINST EVERYONE",
+   "sub": "Peckham, here for a wedding",
+   "coat": "#1d2742",
+   "shirt": "#ffffff",
+   "legs": "#1b2233",
+   "skin": "#6b4430",
+   "hair": "#111111",
+   "acc": [
+    "hood"
+   ],
+   "open": false,
+   "gesture": "crossed",
+   "mood": 0.1,
+   "pop": "Look upstairs",
+   "popHold": 1.6,
+   "meter": "third",
+   "color": "#c9a0ff"
+  }
+ ],
+ "feature": {
+  "type": "starting_11",
+  "club": "Chelsea",
+  "opponent": "Leeds United",
+  "comp": "Premier League",
+  "when": "Sat 21 Nov · 15:00",
+  "colour": "#034694",
+  "oppColour": "#ffffff",
+  "clock": "16:04",
+  "xi": [
+   "Mike Penders",
+   "Valentín Barco",
+   "Wesley Fofana",
+   "Josh Acheampong",
+   "Malo Gusto",
+   "Moisés Caicedo",
+   "Roméo Lavia",
+   "Cole Palmer",
+   "Morgan Rogers",
+   "Pedro Neto",
+   "Estêvão"
+  ],
+  "pos": [
+   "GK",
+   "LB",
+   "CB",
+   "CB",
+   "RB",
+   "CM",
+   "CM",
+   "AM",
+   "LW",
+   "ST",
+   "RW"
+  ],
+  "empty": [
+   10
+  ],
+  "pick": [
+   {
+    "name": "Estêvão",
+    "chosen": true
+   },
+   {
+    "name": "Danny Welbeck"
+   },
+   {
+    "name": "Geovany Quenda"
+   },
+   {
+    "name": "Kendry Páez"
+   }
+  ],
+  "text": "Estêvão starts against Leeds. No more excuses.",
+  "comments": [
+   {
+    "user": "yaba_blue",
+    "tag": "Both",
+    "text": "Spineless. Sunderland bullied us and nobody stood up.",
+    "ago": "1 hour ago"
+   },
+   {
+    "user": "ikeja_cfc",
+    "tag": "Improve",
+    "text": "Estêvão on the bench against Sunderland? 😭",
+    "ago": "2 hours ago"
+   },
+   {
+    "user": "fulhamroad_jo",
+    "tag": "Keep Doing",
+    "text": "Give Xabi time. That's on the players.",
+    "ago": "3 hours ago"
+   },
+   {
+    "user": "nairobi_blues",
+    "tag": "Improve",
+    "text": "New shape every week. That's the coach.",
+    "ago": "5 hours ago"
+   }
+  ]
+ }
+}
