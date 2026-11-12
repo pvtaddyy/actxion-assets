@@ -945,6 +945,19 @@
    }
   ]
  },
+ "ezri-konsa": {
+  "name": "Ezri Konsa",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/everyone-thinking-get-back-alan-shearer-names-arsenal-summer-signing-premier-league-early-player-season/bltfbdd533db5d09920",
+    "credit": "Photo: goal.com",
+    "file": "photos/ezri-konsa-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/everyone-thinking-get-back-alan-shearer-names-arsenal-summer-signing-premier-league-early-player-season/bltfbdd533db5d09920",
+    "used": 1
+   }
+  ]
+ },
  "fabian-bredlow": {
   "name": "Fabian Bredlow",
   "variants": [
