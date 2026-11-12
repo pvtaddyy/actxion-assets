@@ -399,6 +399,19 @@
    }
   ]
  },
+ "cavan-sullivan": {
+  "name": "Cavan Sullivan",
+  "variants": [
+   {
+    "article": "https://www.mcall.com/2026/11/12/cavan-sullivan-named-mls-mvp-finalist/",
+    "credit": "Photo: Associated Press via The Morning Call",
+    "file": "photos/cavan-sullivan.jpg",
+    "source": "article",
+    "url": "https://www.mcall.com/2026/11/12/cavan-sullivan-named-mls-mvp-finalist/",
+    "used": 1
+   }
+  ]
+ },
  "cesc-fabregas": {
   "name": "Cesc Fàbregas",
   "variants": [
@@ -1904,6 +1917,12 @@
     "source": "article",
     "url": "https://www.moneycontrol.com/sports/football/barcelona-is-bigger-than-him-former-club-president-slams-lionel-messi-for-delaying-camp-nou-tribute-article-14050114.html",
     "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/lionel-messi-16.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Lionel_Messi_NYCFC_Miami_24_Sep_2025-007.jpg/1920px-Lionel_Messi_NYCFC_Miami_24_Sep_2025-007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -2270,7 +2289,7 @@
     "file": "photos/mauricio-pochettino-11.jpg",
     "source": "article",
     "url": "https://www.espn.com/soccer/story/_/id/50461316/man-united-mauricio-pochettino-michael-carrick-manager",
-    "used": 1
+    "used": 2
    }
   ]
  },
