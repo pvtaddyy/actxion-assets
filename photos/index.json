@@ -1292,6 +1292,14 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/peter-shilton-tribute-harry-kane-england-appearance-record-croatia/blte417e06bf6e85176",
     "used": 1
+   },
+   {
+    "article": "https://www.nytimes.com/athletic/live-blogs/england-vs-croatia-live-updates-nations-league-score-result/DJP3jwTzPjy0/",
+    "credit": "Photo: Getty via The Athletic",
+    "file": "photos/harry-kane-16.jpg",
+    "source": "article",
+    "url": "https://www.nytimes.com/athletic/live-blogs/england-vs-croatia-live-updates-nations-league-score-result/DJP3jwTzPjy0/",
+    "used": 1
    }
   ]
  },
@@ -1355,7 +1363,7 @@
     "file": "photos/jamie-carragher-4.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/job-jamie-carragher-furious-over-074400244.html",
-    "used": 1
+    "used": 2
    }
   ]
  },
