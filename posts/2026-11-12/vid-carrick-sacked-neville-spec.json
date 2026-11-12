@@ -1,0 +1,146 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Fans say...",
+ "tail": 1.2,
+ "header": {
+  "text": "Carrick sacked: is Neville right?",
+  "key": [
+   "Neville right?"
+  ]
+ },
+ "keywords": [
+  "!Carrick",
+  "Pochettino",
+  "!relegation",
+  "worst",
+  "three",
+  "third.",
+  "eighth",
+  "rinse",
+  "!club?"
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13606106/man-utd-sack-michael-carrick-with-mauricio-pochettino-set-to-be-appointed-after-worst-start-to-premier-league-season",
+  "https://www.skysports.com/football/news/13610949/mauricio-pochettino-man-utd-strike-agreement-with-michael-carricks-potential-successor"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "carrick-cut.png",
+   "bgPhoto": "carrick2.jpg",
+   "word": "SACKED",
+   "label": "Man Utd, 12 November",
+   "wordY": -40,
+   "wordSize": 280,
+   "height": 700
+  },
+  {
+   "type": "card",
+   "at": "Manchester",
+   "colour": "red",
+   "text": "Gone"
+  },
+  {
+   "type": "player",
+   "at": "Mauricio",
+   "photo": "poch-cut.png",
+   "bgPhoto": "poch.jpg",
+   "word": "NEXT",
+   "label": "Set to replace Carrick, says Sky Sports",
+   "wordY": -40,
+   "wordSize": 300,
+   "height": 640
+  },
+  {
+   "type": "list",
+   "at": "First,",
+   "title": "The case against Carrick",
+   "items": [
+    {
+     "at": "Carrick.",
+     "text": "Relegation zone"
+    },
+    {
+     "at": "after",
+     "text": "After 10 league games"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": "It's",
+   "photo": "carrick2-cut.png",
+   "bgPhoto": "carrick2.jpg",
+   "word": "WORST EVER",
+   "label": "United's worst Premier League start",
+   "wordY": -40,
+   "wordSize": 220,
+   "height": 720
+  },
+  {
+   "type": "stat",
+   "at": "Just",
+   "value": 3,
+   "unit": "wins",
+   "label": "in 15 matches this term",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "list",
+   "at": "Now",
+   "title": "Carrick, last season",
+   "items": [
+    {
+     "at": "twelve",
+     "text": "Won 12 of 17"
+    },
+    {
+     "at": "finished",
+     "text": "Finished third"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "Pochettino",
+   "value": 8,
+   "unit": "bosses",
+   "label": "permanent head coaches since 2013, with the next",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "player",
+   "at": "twenty",
+   "photo": "neville-cut.png",
+   "bgPhoto": "neville-crop.jpg",
+   "word": "RINSE, REPEAT",
+   "label": "Gary Neville, Sky Sports",
+   "wordY": -40,
+   "wordSize": 190,
+   "height": 640
+  },
+  {
+   "type": "versus",
+   "at": "who's",
+   "a": {
+    "photo": "carrick-cut.png",
+    "label": "Carrick"
+   },
+   "b": {
+    "photo": "neville-cut.png",
+    "label": "The club"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Carrick or <span class=\"k\">the club?</span>",
+   "sub": "A: Carrick. B: the club"
+  }
+ ],
+ "cover_t": 1.0
+}
