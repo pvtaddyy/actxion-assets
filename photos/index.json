@@ -1215,11 +1215,11 @@
   "name": "-h",
   "variants": [
    {
-    "article": "https://www.healthline.com/health/h-pylori-and-rosacea",
-    "credit": "Photo: Healthline",
+    "article": "https://jalopnik.com/1975592/h-pipe-vs-x-pipe-pros-cons/",
+    "credit": "Photo: Jalopnik",
     "file": "photos/h.jpg",
     "source": "article",
-    "url": "https://www.healthline.com/health/h-pylori-and-rosacea",
+    "url": "https://jalopnik.com/1975592/h-pipe-vs-x-pipe-pros-cons/",
     "used": 1
    }
   ]
@@ -2023,6 +2023,17 @@
     "file": "photos/luis-enrique-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/luis-enrique-reveals-psg-overcame-080000851.html",
+    "used": 1
+   }
+  ]
+ },
+ "malo-gusto": {
+  "name": "Malo Gusto",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/malo-gusto-3.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Malo_Gusto_France_v_Senegal_16_June_2026-399.jpg/1920px-Malo_Gusto_France_v_Senegal_16_June_2026-399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
