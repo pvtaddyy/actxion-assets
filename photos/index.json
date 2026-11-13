@@ -27,6 +27,27 @@
    }
   ]
  },
+ "adrien-rabiot": {
+  "name": "Adrien Rabiot",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/france-star-if-you-leave-the-italians-a-crumb-they-take-it/blt16eae4302ca5825d",
+    "credit": "Photo: goal.com",
+    "file": "photos/adrien-rabiot-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/france-star-if-you-leave-the-italians-a-crumb-they-take-it/blt16eae4302ca5825d",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/adrien-rabiot-france-midfielder-agrees-115403168.html",
+    "credit": "Photo: Ap via Yahoo Sports",
+    "file": "photos/adrien-rabiot-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/adrien-rabiot-france-midfielder-agrees-115403168.html",
+    "used": 1
+   }
+  ]
+ },
  "alan-shearer": {
   "name": "Alan Shearer",
   "variants": [
@@ -530,7 +551,7 @@
     "credit": "Photo: Ollie Noori, Wikimedia Commons, CC0",
     "file": "photos/cole-palmer-9.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cole_Palmer_dribbling_vs_Southampton_crowd_view.jpg/1920px-Cole_Palmer_dribbling_vs_Southampton_crowd_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -3600,6 +3621,14 @@
     "file": "photos/zinedine-zidane-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/exclusive-84-cap-international-william-123500289.html",
+    "used": 1
+   },
+   {
+    "article": "https://football-italia.net/zidane-france-lippi-master-juventus-coach/",
+    "credit": "Photo: Getty via Football Italia",
+    "file": "photos/zinedine-zidane-5.jpg",
+    "source": "article",
+    "url": "https://football-italia.net/zidane-france-lippi-master-juventus-coach/",
     "used": 1
    }
   ]
