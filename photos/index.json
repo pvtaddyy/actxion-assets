@@ -1491,6 +1491,25 @@
    }
   ]
  },
+ "joao-neves": {
+  "name": "João Neves",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/joao-neves.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Joao_Neves_Croatia_v_Portugal_2_July_2026-102.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.getfootballnewsfrance.com/2026/i-dont-have-the-objective-of-going-to-spain-or-england-joao-neves-wants-to-spend-whole-career-at-psg/",
+    "credit": "Photo: Get French Football News",
+    "file": "photos/joao-neves-2.jpg",
+    "source": "article",
+    "url": "https://www.getfootballnewsfrance.com/2026/i-dont-have-the-objective-of-going-to-spain-or-england-joao-neves-wants-to-spend-whole-career-at-psg/",
+    "used": 1
+   }
+  ]
+ },
  "joao-pedro": {
   "name": "João Pedro",
   "variants": [
@@ -2910,6 +2929,17 @@
     "credit": "Photo: فاطمه عموزاد, Wikimedia Commons, CC BY 4.0",
     "file": "photos/pitso-mosimane.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pitso_Mosimane_Introductory_Press_Conferences%2C_25_October_2024_-_24.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "rafael-leao": {
+  "name": "Rafael Leão",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/rafael-leao-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rafael_Leao_Croatia_v_Portugal_2_July_2026-187_%28cropped%29.jpg",
     "used": 1
    }
   ]
