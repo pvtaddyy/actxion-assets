@@ -1725,6 +1725,17 @@
    }
   ]
  },
+ "khadija-shaw": {
+  "name": "Khadija Shaw",
+  "variants": [
+   {
+    "credit": "Photo: Dianaatflourish, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/khadija-shaw.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Khadija_Shaw_%28cropped%29.jpg/1920px-Khadija_Shaw_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "kobbie-mainoo": {
   "name": "Kobbie Mainoo",
   "variants": [
@@ -3388,6 +3399,19 @@
     "file": "photos/uberlandia.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/uberlandia-mamore-53-red-cards-brazil-brawl/bltd997d0e084695946",
+    "used": 1
+   }
+  ]
+ },
+ "uli-hoeness": {
+  "name": "Uli Hoeneß",
+  "variants": [
+   {
+    "article": "https://www.thesun.co.uk/sport/40958292/jamal-musiala-illness-bayern-munich-uli-hoeness/",
+    "credit": "Photo: Getty via The Sun",
+    "file": "photos/uli-hoeness.jpg",
+    "source": "article",
+    "url": "https://www.thesun.co.uk/sport/40958292/jamal-musiala-illness-bayern-munich-uli-hoeness/",
     "used": 1
    }
   ]
