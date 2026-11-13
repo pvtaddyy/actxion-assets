@@ -294,6 +294,17 @@
    }
   ]
  },
+ "ben-gannon-doak": {
+  "name": "Ben Gannon-Doak",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/ben-gannon-doak.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ben_Gannon-Doak_Scotland_v_Bolivia_6_June_2026-68_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "benni-mccarthy": {
   "name": "Benni McCarthy",
   "variants": [
@@ -3224,6 +3235,19 @@
     "credit": "Photo: Jeollo von VfB-exklusiv.de, Wikimedia Commons, CC BY 4.0",
     "file": "photos/sebastian-hoeness.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sebastian_hoeness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
+ "sebastien-pocognoli": {
+  "name": "Sebastien Pocognoli",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/sebastien-pocognoli-reacts-west-brom-183000770.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/sebastien-pocognoli.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/sebastien-pocognoli-reacts-west-brom-183000770.html",
     "used": 1
    }
   ]
