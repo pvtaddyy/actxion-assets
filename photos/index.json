@@ -23,7 +23,7 @@
     "credit": "Photo: Willibald11, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/ademola-lookman-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ademola_Lookman_%282019%29_%28cropped%29.jpg",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -1554,6 +1554,17 @@
    }
   ]
  },
+ "jordan-ayew": {
+  "name": "Jordan Ayew",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/jordan-ayew.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jordan_Ayew_England_v_Ghana_23_June_2026-005.jpg/1920px-Jordan_Ayew_England_v_Ghana_23_June_2026-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "jorge-jesus": {
   "name": "Jorge Jesus",
   "variants": [
@@ -2525,6 +2536,17 @@
    }
   ]
  },
+ "mohammed-salisu": {
+  "name": "Mohammed Salisu",
+  "variants": [
+   {
+    "credit": "Photo: Ardfern, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/mohammed-salisu.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mohammed_Salisu_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
  "morgan-rogers": {
   "name": "Morgan Rogers",
   "variants": [
@@ -3414,7 +3436,7 @@
     "credit": "Photo: Fédération Guinéenne Football, Wikimedia Commons, Public domain",
     "file": "photos/victor-osimhen.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Victor-osimhen-nigeria-2024-3-4.jpg",
-    "used": 1
+    "used": 2
    }
   ]
  },
