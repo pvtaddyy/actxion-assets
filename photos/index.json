@@ -1288,14 +1288,6 @@
     "used": 1
    },
    {
-    "article": "https://sports.yahoo.com/articles/harry-kane-signs-bayern-contract-090749507.html",
-    "credit": "Photo: Yahoo Sports",
-    "file": "photos/harry-kane-4.jpg",
-    "source": "article",
-    "url": "https://sports.yahoo.com/articles/harry-kane-signs-bayern-contract-090749507.html",
-    "used": 2
-   },
-   {
     "article": "https://www.skysports.com/football/news/13608255/harry-kane-england-captain-signs-new-contract-at-bayern-munich-running-until-2029",
     "credit": "Photo: Sky Sports",
     "file": "photos/harry-kane-5.jpg",
@@ -1352,7 +1344,7 @@
     "file": "photos/harry-kane-16.jpg",
     "source": "article",
     "url": "https://www.nytimes.com/athletic/live-blogs/england-vs-croatia-live-updates-nations-league-score-result/DJP3jwTzPjy0/",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -1860,6 +1852,14 @@
     "file": "photos/lamine-yamal-14.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/injury-latest-barcelona-star-lamine-191100210.html",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/spain-boss-issues-lamine-yamal-184900876.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/lamine-yamal-15.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/spain-boss-issues-lamine-yamal-184900876.html",
     "used": 1
    }
   ]
