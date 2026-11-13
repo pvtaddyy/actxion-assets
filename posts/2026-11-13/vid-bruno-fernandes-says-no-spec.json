@@ -1,0 +1,25 @@
+{
+ "voice": "voice-tight.wav", "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28", "series": "Pick your side", "tail": 1.2,
+ "header": {"text": "Bruno says no again", "key": ["no again"]},
+ "keywords": ["!no", "second", "record.", "four", "hat-trick", "Pochettino", "Spurs", "!go?", "!twice."],
+ "sources": [
+  "https://www.skysports.com/transfer/news/13611749/bruno-fernandes-rejects-second-manchester-united-contract-offer",
+  "https://www.skysports.com/football/news/13611745/mauricio-pochettino-manchester-united-agree-two-and-a-half-year-deal-with-usa-manager-to-replace-michael-carrick"
+ ],
+ "scenes": [
+  {"type": "player", "at": 0, "photo": "bruno-cut.png", "bgPhoto": "bruno.jpg", "word": "SAID NO", "label": "Man Utd, 13 November", "wordY": -40, "wordSize": 260, "height": 720},
+  {"type": "card", "at": "According", "colour": "red", "text": "Offer 2: rejected"},
+  {"type": "list", "at": "his", "title": "His contract", "items": [{"at": "runs", "text": "Ends this summer"}, {"at": "season.", "text": "United have a one-year option"}]},
+  {"type": "stat", "at": "That", "value": 21, "unit": "assists", "label": "last season, a Premier League record", "source": "Sky Sports"},
+  {"type": "stat", "at": 12.35, "value": 32, "unit": "years old", "label": "Bruno Fernandes, now", "source": "Sky Sports"},
+  {"type": "stat", "at": "This", "value": 4, "unit": "goals", "label": "this season", "source": "Sky Sports"},
+  {"type": "list", "at": "Three", "title": "Those four goals", "items": [{"at": "hat-trick", "text": "Hat-trick v Ipswich"}, {"at": "United's", "text": "United's only league win"}]},
+  {"type": "player", "at": "today", "photo": "poch-cut.png", "bgPhoto": "poch3.jpg", "word": "TODAY", "label": "Pochettino, Man Utd's next head coach", "wordY": -40, "wordSize": 300, "height": 700},
+  {"type": "list", "at": 21.35, "title": "2019", "items": [{"at": "joined", "text": "Nearly joined Pochettino's Spurs"}, {"at": "nineteen.", "text": "Sporting blocked the move"}]},
+  {"type": "versus", "at": "So,", "a": {"photo": "bruno-cut.png", "label": "Build around him"}, "b": {"photo": "poch-cut.png", "label": "Let him go"}},
+  {"type": "ask", "at": "Comment", "html": "Build around Bruno, or <span class=\"k\">let him go?</span>"}
+ ],
+ "cover_t": 1.0
+}
