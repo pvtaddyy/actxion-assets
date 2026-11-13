@@ -1701,6 +1701,14 @@
     "file": "photos/jude-bellingham-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/real-madrid-superstar-jude-bellingham-074000740.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/jude-bellingham-4.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/real-madrid-superstar-jude-bellingham-074000740.html",
+    "used": 1
    }
   ]
  },
@@ -2627,6 +2635,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/chaos-mohamed-salah-trabzonspor-boss-053606762.html",
     "used": 2
+   },
+   {
+    "article": "https://www.goal.com/en/news/salah-snatches-hossam-hassan-s-african-standing-a-record-unmatched-by-the-pharaohs-for-23-years/blt6162e25ec6a48d9f",
+    "credit": "Photo: goal.com",
+    "file": "photos/mohamed-salah-6.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/salah-snatches-hossam-hassan-s-african-standing-a-record-unmatched-by-the-pharaohs-for-23-years/blt6162e25ec6a48d9f",
+    "used": 1
    }
   ]
  },
