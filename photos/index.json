@@ -356,6 +356,12 @@
     "source": "article",
     "url": "https://www.skysports.com/football/news/13608473/manchester-united-reporter-notebook-shea-lacey-and-old-trafford-young-guns-offer-michael-carrick-hope-of-unlikely-revival",
     "used": 1
+   },
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/bruno-fernandes-8.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },
@@ -1847,6 +1853,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/spain-boss-issues-lamine-yamal-184900876.html",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/injury-latest-barcelona-star-lamine-191100210.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/lamine-yamal-14.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/injury-latest-barcelona-star-lamine-191100210.html",
+    "used": 1
    }
   ]
  },
@@ -2497,6 +2511,14 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/michael-olise-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/is-kylian-mbappe-angering-bayern-munich-again-michael-olise-is-apparently-being-worked-on-intensively/bltce7d24dc492901d3",
+    "credit": "Photo: goal.com",
+    "file": "photos/michael-olise-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/is-kylian-mbappe-angering-bayern-munich-again-michael-olise-is-apparently-being-worked-on-intensively/bltce7d24dc492901d3",
     "used": 1
    }
   ]
