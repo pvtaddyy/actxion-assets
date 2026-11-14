@@ -1,0 +1,16 @@
+Head to Head: Kane v Yamal (league games, 2026/27, checked 14 Nov 2026). Every number on screen and its source:
+- Kane: 9 Bundesliga games, 712 minutes, 4 goals, 8 assists (StatMuse, last game 7 Nov 2026 at Mainz):
+  https://www.statmuse.com/fc/ask/harry-kane-stats-this-season
+- Yamal: 12 LaLiga games, 991 minutes, 10 goals, 8 assists (StatMuse, last game 8 Nov 2026 at Atletico Madrid):
+  https://www.statmuse.com/fc/ask/lamine-yamal-stats-this-season
+- Kane won the 2026 men's Ballon d'Or (26 Oct 2026, London), Mbappe second, Yamal third:
+  https://www.soccernews.com/kane-scoops-first-ballon-dor-after-pipping-yamal-mbappe/407033/
+- England 2-3 Spain, Nations League, Wembley, 26 Sep 2026; Yamal scored in the 2nd minute; Kane's penalty came back off the crossbar:
+  https://www.aljazeera.com/sports/liveblog/2026/9/26/live-england-vs-spain-uefa-nations-league
+  https://www.flashscore.com/news/soccer-uefa-nations-league-spain-surge-back-to-down-england-in-thriller-and-extend-incredible-unbeaten-run/2w89wDDG/
+- Spain v England, Riyadh Air Metropolitano, Madrid, 15 Nov 2026, 7:45pm UK:
+  https://en.atleticodemadrid.com/noticias/world-champions-spain-set-to-face-england-at-the-riyadh-air-metropolitano-on-15-november
+- Topic switch: Saka (planned) is out with a quad injury and misses Spain v England (Arteta, 6 Nov 2026):
+  https://www.thestar.com.my/sport/football/2026/11/06/soccer-injured-saka-will-be-out-for-weeks-says-arteta
+Computed (facts.tsv): goal involvements Kane 4+8=12, Yamal 10+8=18; minutes per goal involvement Kane 712/12=59.3 -> 59, Yamal 991/18=55.1 -> 55; gap 4 minutes.
+Crests: FC Bayern Munich and FC Barcelona crests via Wikipedia (belong to the clubs).

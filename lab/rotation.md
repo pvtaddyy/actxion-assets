@@ -26,3 +26,5 @@ smallest step within +-30 min; never touch X.
 ## Results log (one line per episode)
 date | segment | topic | IG views / avg watch | YT views | TikTok views | FB views | note
 2026-11-07 | Myth or Fact? | Haaland v the Big Six (74 s, slot A) | 1,772 / 27.0 s | no data in Metricool | 525 | 422 | 20 h snapshot, not judged; 2.3x desk median on IG; middle slow (36 % watched)
+2026-11-09 | Race Day | fastest PL players 2025/26 (56 s, slot B) | 1,624 / 16.5 s (29 %) | 6 | 661 / 9 s | 1,196 / 10 s | ~4.5 days, logged late on 14 Nov; IG 3 s rate 70.1 %, 4 shares, 4 comments; FB best LAB reel so far
+2026-11-11 | Sounds Fake | Leicester at 5000-1 (56 s, slot C, posted 01:30 IST 12 Nov) | 1,680 / 18.1 s (32 %) | no row in Metricool | 673 / 10 s | 260 / 5 s | ~58 h; IG 3 s rate 67.2 %, 4 shares, 3 comments; 56 s cut did not lift % watched (EP 01 36 %), views level with EP 01

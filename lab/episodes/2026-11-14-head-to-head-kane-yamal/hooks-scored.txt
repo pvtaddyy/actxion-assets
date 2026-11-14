@@ -1,0 +1,6 @@
+Hooks (scored by hand on ig-reel hookscore's criteria, as in the 11 Nov run: specificity, big name, curiosity gap, under 2 s to the point;
+the repo has no hookscore.py any more, only hooks.json)
+80 STRONG [curiosity + big names] Harry Kane won the Ballon d'Or. This season, Lamine Yamal has the edge on him.   <- used
+72 STRONG [number-first] Ten goals to four. Kane and Yamal are closer than that.
+64 OK     ["everyone says" myth] Everyone says Kane is the best in the world. Yamal has more goals and the same assists.
+
