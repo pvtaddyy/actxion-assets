@@ -336,6 +336,19 @@
    }
   ]
  },
+ "brajan-gruda": {
+  "name": "Brajan Gruda",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/bayern-munich-bayer-leverkusen-circle-brighton-starlet-brajan-gruda/blt4869cef65c02537a",
+    "credit": "Photo: goal.com",
+    "file": "photos/brajan-gruda.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/bayern-munich-bayer-leverkusen-circle-brighton-starlet-brajan-gruda/blt4869cef65c02537a",
+    "used": 1
+   }
+  ]
+ },
  "brian-brobbey": {
   "name": "Brian Brobbey",
   "variants": [
@@ -3623,6 +3636,19 @@
    }
   ]
  },
+ "tijjani-reijnders": {
+  "name": "Tijjani Reijnders",
+  "variants": [
+   {
+    "article": "https://www.fotmob.com/news/va6ru93dfmd31wxafiz0ld1cl-netherlands-7-0-greece-reijnders-hits-hat-trick-nations-league-rout",
+    "credit": "Photo: FotMob",
+    "file": "photos/tijjani-reijnders-2.jpg",
+    "source": "article",
+    "url": "https://www.fotmob.com/news/va6ru93dfmd31wxafiz0ld1cl-netherlands-7-0-greece-reijnders-hits-hat-trick-nations-league-rout",
+    "used": 1
+   }
+  ]
+ },
  "tim-sherwood": {
   "name": "Tim Sherwood",
   "variants": [
@@ -4033,19 +4059,6 @@
     "file": "photos/zion-suzuki-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/zion-suzuki-potentially-achilles-heel-185443830.html",
-    "used": 1
-   }
-  ]
- },
- "tijjani-reijnders": {
-  "name": "Tijjani Reijnders",
-  "variants": [
-   {
-    "article": "https://www.fotmob.com/news/va6ru93dfmd31wxafiz0ld1cl-netherlands-7-0-greece-reijnders-hits-hat-trick-nations-league-rout",
-    "credit": "Photo: FotMob",
-    "file": "photos/tijjani-reijnders-2.jpg",
-    "source": "article",
-    "url": "https://www.fotmob.com/news/va6ru93dfmd31wxafiz0ld1cl-netherlands-7-0-greece-reijnders-hits-hat-trick-nations-league-rout",
     "used": 1
    }
   ]
