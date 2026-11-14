@@ -1454,6 +1454,19 @@
    }
   ]
  },
+ "heimir-hallgrimsson": {
+  "name": "Heimir Hallgrímsson",
+  "variants": [
+   {
+    "article": "https://www.thesun.ie/sport/17913372/heimir-hallgrimsson-pete-shuttleworth-ireland-staff-austria/",
+    "credit": "Photo: Sportsfile via The Irish Sun",
+    "file": "photos/heimir-hallgrimsson.jpg",
+    "source": "article",
+    "url": "https://www.thesun.ie/sport/17913372/heimir-hallgrimsson-pete-shuttleworth-ireland-staff-austria/",
+    "used": 1
+   }
+  ]
+ },
  "hossam-hassan": {
   "name": "Hossam Hassan",
   "variants": [
@@ -3760,6 +3773,19 @@
     "file": "photos/trent-alexander-arnold.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/former-liverpool-star-alexander-arnold-should-move-to-bayern-munich/blt9f2cb61540c26982",
+    "used": 1
+   }
+  ]
+ },
+ "troy-parrott": {
+  "name": "Troy Parrott",
+  "variants": [
+   {
+    "article": "https://www.irishnews.com/sport/soccer/troy-parrott-hits-brace-for-ireland-but-austria-fight-back-to-claim-draw-S547ZNA3KRKFBKMTE5BGYZJF5Q/",
+    "credit": "Photo: Pa via The Irish News",
+    "file": "photos/troy-parrott.jpg",
+    "source": "article",
+    "url": "https://www.irishnews.com/sport/soccer/troy-parrott-hits-brace-for-ireland-but-austria-fight-back-to-claim-draw-S547ZNA3KRKFBKMTE5BGYZJF5Q/",
     "used": 1
    }
   ]
