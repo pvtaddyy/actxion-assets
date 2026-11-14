@@ -3505,6 +3505,30 @@
    }
   ]
  },
+ "takefusa-kubo": {
+  "name": "Takefusa Kubo",
+  "variants": [
+   {
+    "credit": "Photo: Real Madrid, Wikimedia Commons, CC BY 3.0",
+    "file": "photos/takefusa-kubo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Takefusa_Kubo_2019.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
+ "tatsuhiro-sakamoto": {
+  "name": "Tatsuhiro Sakamoto",
+  "variants": [
+   {
+    "article": "https://newswav.com/article/japan-v-brazil-live-kubo-and-nakamura-goals-stun-selecao-in-rematch-of-worl-A2611_z1xBCh",
+    "credit": "Photo: Newswav",
+    "file": "photos/tatsuhiro-sakamoto.jpg",
+    "source": "article",
+    "url": "https://newswav.com/article/japan-v-brazil-live-kubo-and-nakamura-goals-stun-selecao-in-rematch-of-worl-A2611_z1xBCh",
+    "used": 1
+   }
+  ]
+ },
  "teddy-sheringham": {
   "name": "Teddy Sheringham",
   "variants": [
