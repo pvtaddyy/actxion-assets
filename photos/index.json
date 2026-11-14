@@ -235,6 +235,17 @@
    }
   ]
  },
+ "antonio-nusa": {
+  "name": "Antonio Nusa",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/antonio-nusa-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Antonio_Nusa_Morocco_v_Norway_7_June_2026-110_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "arda-guler": {
   "name": "Arda Güler",
   "variants": [
@@ -624,6 +635,17 @@
     "file": "photos/cole-palmer-9.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cole_Palmer_dribbling_vs_Southampton_crowd_view.jpg/1920px-Cole_Palmer_dribbling_vs_Southampton_crowd_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 2
+   }
+  ]
+ },
+ "craig-bellamy": {
+  "name": "Craig Bellamy",
+  "variants": [
+   {
+    "credit": "Photo: Jon Candy from Cardiff, Wales, Wikimedia Commons, CC BY-SA 2.0",
+    "file": "photos/craig-bellamy.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Craig_Bellamy_2014.jpg/1920px-Craig_Bellamy_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },

@@ -218,3 +218,5 @@ photos/lionel-messi-3.jpg  # composite Ronaldo+Messi split, not a single-person 
 photos/thomas-tuchel-6.jpg  # shows Cole Palmer and Caicedo, not Tuchel
 carlos-forbs.jpg
 https://www.goal.com/en/news/in-leao-s-absence-portugal-name-heir-to-cristiano-ronaldo-s-shirt/blt87fe7e529e9b953d
+craig-bellamy.jpg
+https://www.skysports.com/football/news/13612155/norway-3-1-wales-craig-bellamys-side-suffer-defeat-in-oslo-with-threat-of-nations-league-relegation-now-looming
