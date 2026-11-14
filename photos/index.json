@@ -1861,6 +1861,17 @@
    }
   ]
  },
+ "la-bombonera": {
+  "name": "La Bombonera",
+  "variants": [
+   {
+    "credit": "Photo: ProtoplasmaKid, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/la-bombonera-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vista_a%C3%A9rea_del_Estadio_Alberto_J._Armando_%22La_Bombonera%22_01.jpg",
+    "used": 1
+   }
+  ]
+ },
  "lamine-yamal": {
   "name": "Lamine Yamal",
   "variants": [
@@ -2763,6 +2774,12 @@
     "file": "photos/nico-paz-5.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/nico-paz-como-director-spills-080000422.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/nico-paz-6.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Nico_Paz_Argentina_v_Spain_19_July_2026-026.jpg/1920px-Nico_Paz_Argentina_v_Spain_19_July_2026-026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
