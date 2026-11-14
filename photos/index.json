@@ -1806,6 +1806,17 @@
    }
   ]
  },
+ "jurrien-timber": {
+  "name": "Jurrien Timber",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/jurrien-timber-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/JURRIEN_TIMBER.jpg",
+    "used": 1
+   }
+  ]
+ },
  "kai-havertz": {
   "name": "Kai Havertz",
   "variants": [
@@ -4022,6 +4033,19 @@
     "file": "photos/zion-suzuki-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/zion-suzuki-potentially-achilles-heel-185443830.html",
+    "used": 1
+   }
+  ]
+ },
+ "tijjani-reijnders": {
+  "name": "Tijjani Reijnders",
+  "variants": [
+   {
+    "article": "https://www.fotmob.com/news/va6ru93dfmd31wxafiz0ld1cl-netherlands-7-0-greece-reijnders-hits-hat-trick-nations-league-rout",
+    "credit": "Photo: FotMob",
+    "file": "photos/tijjani-reijnders-2.jpg",
+    "source": "article",
+    "url": "https://www.fotmob.com/news/va6ru93dfmd31wxafiz0ld1cl-netherlands-7-0-greece-reijnders-hits-hat-trick-nations-league-rout",
     "used": 1
    }
   ]

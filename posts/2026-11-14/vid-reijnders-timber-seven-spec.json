@@ -1,0 +1,30 @@
+{
+ "voice": "voice-tight.wav", "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28", "series": "Pick your side", "tail": 1.2,
+ "header": {"text": "Netherlands 7-0 Greece", "key": ["7-0"]},
+ "keywords": ["!Seven", "!twice.", "hammered", "twenty-one", "five", "hour.", "ten.", "Berlin", "!match?", "B."],
+ "sources": [
+  "https://nltimes.nl/2026/11/13/oranje-run-riot-greece-7-0-victory-amsterdam",
+  "https://www.vavel.com/en-us/soccer/2026/11/13/1279068-netherlands-vs-greece-live-latest-score-goals-and-uefa-nations-league-updates.html",
+  "https://www.livescore.com/en/news/football/more/netherlands-player-ratings-vs-greece-tijjani-reijnders-hits-hat-trick-in-seven-goal-nations-league-rout-goal/",
+  "https://www.fotmob.com/news/va6ru93dfmd31wxafiz0ld1cl-netherlands-7-0-greece-reijnders-hits-hat-trick-nations-league-rout",
+  "https://www.skysports.com/football/news"
+ ],
+ "scenes": [
+  {"type": "score", "at": 0, "label": "Nations League", "home": "Netherlands", "away": "Greece", "homeCrest": "/home/user/actxion-assets/photos/crests/netherlands-national-football-team.png", "awayCrest": "/home/user/actxion-assets/photos/crests/greece-national-football-team.png",
+   "states": [{"at": 0, "h": 7, "a": 0, "foot": "Full time, Amsterdam"}]},
+  {"type": "player", "at": "Nobody", "photo": "timber-cut.png", "bgPhoto": "timber.jpg", "word": "TWICE", "label": "Jurrien Timber, left-back", "wordY": -40, "wordSize": 300, "height": 720},
+  {"type": "list", "at": "The", "title": "Friday night", "items": [{"at": "Greece", "text": "Netherlands 7, Greece 0"}, {"at": "Amsterdam", "text": "Johan Cruijff ArenA"}]},
+  {"type": "player", "at": "Tijjani", "photo": "reijnders-cut.png", "bgPhoto": "reijnders.jpg", "word": "21 MINS", "label": "Tijjani Reijnders, hat-trick", "wordY": -40, "wordSize": 260, "height": 720},
+  {"type": "list", "at": "Twelve,", "title": "Reijnders' goals", "items": [{"at": "Twelve,", "text": "12 minutes"}, {"at": "eighteen,", "text": "18 minutes"}, {"at": "thirty-three.", "text": "33 minutes"}]},
+  {"type": "score", "at": "Then", "label": "Nations League", "home": "Netherlands", "away": "Greece", "homeCrest": "/home/user/actxion-assets/photos/crests/netherlands-national-football-team.png", "awayCrest": "/home/user/actxion-assets/photos/crests/greece-national-football-team.png",
+   "states": [{"at": "Then", "h": 4, "a": 0, "foot": "Reijnders 33'"}, {"at": "five", "h": 5, "a": 0, "foot": "Timber 40'"}, {"at": "Another", "h": 6, "a": 0, "foot": "Timber 59'"}]},
+  {"type": "compare", "at": "GOAL", "aName": "Reijnders", "bName": "Timber", "aPhoto": "reijnders-cut.png", "bPhoto": "timber-cut.png",
+   "rows": [{"label": "Goals", "a": "3", "b": "2", "at": "GOAL"}, {"label": "GOAL rating", "a": "10", "b": "9", "at": "ten"}]},
+  {"type": "list", "at": "They've", "title": "Next", "items": [{"at": "Germany", "text": "Germany in Berlin"}, {"at": "Monday.", "text": "Monday"}]},
+  {"type": "versus", "at": "So", "a": {"photo": "reijnders-cut.png", "label": "The hat-trick"}, "b": {"photo": "timber-cut.png", "label": "The left-back"}},
+  {"type": "ask", "at": "Comment", "html": "The hat-trick, or the <span class=\"k\">left-back?</span>", "sub": "A Reijnders, B Timber"}
+ ],
+ "cover_t": 2.6
+}
