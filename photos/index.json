@@ -479,6 +479,19 @@
    }
   ]
  },
+ "carlos-forbs": {
+  "name": "Carlos Forbs",
+  "variants": [
+   {
+    "article": "https://onefootball.com/en/news/portugals-carlos-forbs-justifying-roma-tottenham-liverpool-links-in-belgium-43738729",
+    "credit": "Photo: OneFootball",
+    "file": "photos/carlos-forbs.jpg",
+    "source": "article",
+    "url": "https://onefootball.com/en/news/portugals-carlos-forbs-justifying-roma-tottenham-liverpool-links-in-belgium-43738729",
+    "used": 1
+   }
+  ]
+ },
  "cavan-sullivan": {
   "name": "Cavan Sullivan",
   "variants": [
@@ -3157,7 +3170,7 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/rafael-leao-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rafael_Leao_Croatia_v_Portugal_2_July_2026-187_%28cropped%29.jpg",
-    "used": 1
+    "used": 3
    }
   ]
  },
