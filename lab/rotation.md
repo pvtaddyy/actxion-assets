@@ -16,7 +16,7 @@ smallest step within +-30 min; never touch X.
 | Sat 7 Nov | A | Myth or Fact? | EP 01 Haaland v the Big Six (v3, slug myth-or-fact-ep01-haaland) | posted: IG 417599893, YT 417599950, TikTok 417600011, FB 417600059 |
 | Mon 9 Nov | B | Race Day | fastest Premier League players of 2025/26 (official top speeds; no official 2026/27 table yet), 56 s, twist at 27 s (slug race-day-fastest-2526) | posted: IG 421402644, YT 421402676, TikTok 421402695, FB 421402724 |
 | Wed 11 Nov | C | Sounds Fake | Leicester at 5000-1 (2015/16 title), 56 s, twist at 30.6 s, posts 01:30 IST Thu 12 Nov (slug sounds-fake-leicester-5000) | posted: IG 424038822, YT 424038856, TikTok 424038882, FB 424038910 |
-| Sat 14 Nov | B | Head to Head | Saka v Yamal this season (England v Spain is Sun 15 Nov); 50-55 s cut | todo |
+| Sat 14 Nov | B | Head to Head | Kane v Yamal, league 2026/27 (switched from Saka v Yamal: Saka out injured for Spain v England), 54 s, twist at 28 s (slug head-to-head-kane-yamal) | posted: IG 427761931, YT 427761964, TikTok 427761990, FB 427762016 |
 | Mon 16 Nov | C | The Table | this Premier League season, matchday by matchday | todo |
 | Wed 18 Nov | A | What If? | no penalties: who wins the league? (recomputed from real results) | todo |
 | Sat 21 Nov | C | Replay | the weekend's most argued-about moment, re-drawn on a 3D tactics board | todo |
