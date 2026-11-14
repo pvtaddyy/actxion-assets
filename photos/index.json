@@ -373,6 +373,14 @@
     "file": "photos/bruno-fernandes-8.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://www.soccernews.com/prediction-portugal-vs-denmark/408002/",
+    "credit": "Photo: SoccerNews",
+    "file": "photos/bruno-fernandes-10.jpg",
+    "source": "article",
+    "url": "https://www.soccernews.com/prediction-portugal-vs-denmark/408002/",
+    "used": 1
    }
   ]
  },
@@ -1017,6 +1025,19 @@
    }
   ]
  },
+ "estadio-municipal-de-braga": {
+  "name": "Estádio Municipal de Braga",
+  "variants": [
+   {
+    "article": "https://theportugalpost.com/posts/portugal-vs-denmark-in-braga-nations-league-tickets-and-travel-info-for-november-clash",
+    "credit": "Photo: The Portugal Post",
+    "file": "photos/estadio-municipal-de-braga-2.jpg",
+    "source": "article",
+    "url": "https://theportugalpost.com/posts/portugal-vs-denmark-in-braga-nations-league-tickets-and-travel-info-for-november-clash",
+    "used": 1
+   }
+  ]
+ },
  "estevao": {
   "name": "Estêvão",
   "variants": [
@@ -1239,6 +1260,19 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/giorgi-mamardashvili-reveals-mistake-liverpool-155000829.html",
     "used": 2
+   }
+  ]
+ },
+ "goncalo-ramos": {
+  "name": "Gonçalo Ramos",
+  "variants": [
+   {
+    "article": "https://www.flashscore.com/news/portugal-put-on-a-show-without-ronaldo-to-punish-danes-in-copenhagen/x0KHR1lK/",
+    "credit": "Photo: Ap via flashscore.com",
+    "file": "photos/goncalo-ramos.jpg",
+    "source": "article",
+    "url": "https://www.flashscore.com/news/portugal-put-on-a-show-without-ronaldo-to-punish-danes-in-copenhagen/x0KHR1lK/",
+    "used": 1
    }
   ]
  },
@@ -1533,6 +1567,19 @@
     "file": "photos/jj-gabriel-3.jpg",
     "source": "article",
     "url": "https://www.skysports.com/transfer/news/13607845/jj-gabriel-real-madrid-reach-verbal-agreement-with-man-utd-teenager-who-requested-to-leave-old-trafford",
+    "used": 1
+   }
+  ]
+ },
+ "joachim-andersen": {
+  "name": "Joachim Andersen",
+  "variants": [
+   {
+    "article": "https://www.nytimes.com/athletic/5698243/2024/08/20/joachim-andersen-fulham-deal/",
+    "credit": "Photo: The Athletic",
+    "file": "photos/joachim-andersen.jpg",
+    "source": "article",
+    "url": "https://www.nytimes.com/athletic/5698243/2024/08/20/joachim-andersen-fulham-deal/",
     "used": 1
    }
   ]
@@ -2667,6 +2714,19 @@
    }
   ]
  },
+ "mikkel-damsgaard": {
+  "name": "Mikkel Damsgaard",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/denmark-boss-discusses-mikkel-damsgaards-125932389.html",
+    "credit": "Photo: Reuters via Yahoo Sports",
+    "file": "photos/mikkel-damsgaard.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/denmark-boss-discusses-mikkel-damsgaards-125932389.html",
+    "used": 1
+   }
+  ]
+ },
  "mohamed-salah": {
   "name": "Mohamed Salah",
   "variants": [
@@ -3096,6 +3156,27 @@
    }
   ]
  },
+ "rasmus-hojlund": {
+  "name": "Rasmus Højlund",
+  "variants": [
+   {
+    "article": "https://www.flashscore.com/news/portugal-put-on-a-show-without-ronaldo-to-punish-danes-in-copenhagen/x0KHR1lK/",
+    "credit": "Photo: Ap via flashscore.com",
+    "file": "photos/rasmus-hojlund-3.jpg",
+    "source": "article",
+    "url": "https://www.flashscore.com/news/portugal-put-on-a-show-without-ronaldo-to-punish-danes-in-copenhagen/x0KHR1lK/",
+    "used": 1
+   },
+   {
+    "article": "https://www.si.com/soccer/man-utd-new-rasmus-hojlund-approach-price-tag-set",
+    "credit": "Photo: Imago via SI",
+    "file": "photos/rasmus-hojlund-4.jpg",
+    "source": "article",
+    "url": "https://www.si.com/soccer/man-utd-new-rasmus-hojlund-approach-price-tag-set",
+    "used": 1
+   }
+  ]
+ },
  "raul-gonzalez": {
   "name": "Raúl González",
   "variants": [
@@ -3272,6 +3353,19 @@
     "credit": "Photo: Agencia LUSA, Wikimedia Commons, CC BY 3.0",
     "file": "photos/ruben-amorim-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Ruben_Amorim_focado_em_acabar_a_jornada_em_primeiro_lugar.webm/1920px--Ruben_Amorim_focado_em_acabar_a_jornada_em_primeiro_lugar.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+    "used": 1
+   }
+  ]
+ },
+ "ruben-neves": {
+  "name": "Rúben Neves",
+  "variants": [
+   {
+    "article": "https://www.espn.com/soccer/story/_/id/45897117/portugal-want-win-world-cup-diogo-jota-ruben-neves",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/ruben-neves.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/soccer/story/_/id/45897117/portugal-want-win-world-cup-diogo-jota-ruben-neves",
     "used": 1
    }
   ]
@@ -3754,6 +3848,17 @@
     "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
     "file": "photos/virgil-van-dijk-5.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Virgil_van_Dijk_04012026_%282%29.jpg/1920px-Virgil_van_Dijk_04012026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "vitinha": {
+  "name": "Vitinha",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/vitinha.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Vitinha_USMNT_v_Portugal_Mar_31_2026-50_%28cropped%29.jpg",
     "used": 1
    }
   ]
