@@ -434,6 +434,14 @@
     "file": "photos/carlo-ancelotti.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/carlo-ancelotti-hands-brazil-captaincy-085924497.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/carlo-ancelotti-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/carlo-ancelotti-hands-brazil-captaincy-085924497.html",
+    "used": 1
    }
   ]
  },
@@ -2050,7 +2058,7 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/lionel-scaloni.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lionel_Scaloni_Argentina_v_Spain_19_July_2026-239.jpg/1920px-Lionel_Scaloni_Argentina_v_Spain_19_July_2026-239.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -2748,6 +2756,14 @@
     "file": "photos/nico-paz-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Nico_Paz_Argentina_v_Egypt_7_July_2026-031_%28cropped%29.jpg/1920px-Nico_Paz_Argentina_v_Egypt_7_July_2026-031_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/nico-paz-como-director-spills-080000422.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/nico-paz-5.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/nico-paz-como-director-spills-080000422.html",
+    "used": 1
    }
   ]
  },
@@ -2814,6 +2830,17 @@
     "file": "photos/oliver-glasner-4.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/oliver-glasner-expensive-release-clause-143956815.html",
+    "used": 1
+   }
+  ]
+ },
+ "ousmane-dembele": {
+  "name": "Ousmane Dembélé",
+  "variants": [
+   {
+    "credit": "Photo: S. Plaine, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/ousmane-dembele.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Saint-L%C3%B4_-_Rennes_CFA2_20150523_-_Ousmane_Demb%C3%A9l%C3%A9_2.JPG/1920px-Saint-L%C3%B4_-_Rennes_CFA2_20150523_-_Ousmane_Demb%C3%A9l%C3%A9_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
