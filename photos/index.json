@@ -1381,6 +1381,19 @@
    }
   ]
  },
+ "hossam-hassan": {
+  "name": "Hossam Hassan",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en-za/news/from-morocco-crisis-to-accusing-messi-and-fifa-the-egyptian-football-association-puts-an-end-to-hossam-hassan-s-wars/bltd5d3caff54e4c936",
+    "credit": "Photo: goal.com",
+    "file": "photos/hossam-hassan.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-za/news/from-morocco-crisis-to-accusing-messi-and-fifa-the-egyptian-football-association-puts-an-end-to-hossam-hassan-s-wars/bltd5d3caff54e4c936",
+    "used": 1
+   }
+  ]
+ },
  "igor-thiago": {
   "name": "Igor Thiago",
   "variants": [
@@ -3503,7 +3516,7 @@
     "file": "photos/tolu-arokodare.jpg",
     "source": "article",
     "url": "https://www.espn.com/espn/story/_/id/49667285/nigeria-tolu-arokodare-puts-struggles-wolves-targets-goals-glory-ajax",
-    "used": 1
+    "used": 2
    }
   ]
  },
