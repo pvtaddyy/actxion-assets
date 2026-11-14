@@ -895,6 +895,19 @@
    }
   ]
  },
+ "elisabeth-terland": {
+  "name": "Elisabeth Terland",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/always-want-more-man-united-080500476.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/elisabeth-terland.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/always-want-more-man-united-080500476.html",
+    "used": 1
+   }
+  ]
+ },
  "elland-road": {
   "name": "Elland Road",
   "variants": [
