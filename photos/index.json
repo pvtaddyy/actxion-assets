@@ -2519,6 +2519,12 @@
     "source": "article",
     "url": "https://football-italia.net/allegri-napoli-limitations-mistakes-cost-you/",
     "used": 1
+   },
+   {
+    "credit": "Photo: Original:  Quirinale / Derivative work: , Wikimedia Commons, Attribution",
+    "file": "photos/massimiliano-allegri-8.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Incontro_con_le_squadre_finaliste_della_Coppa_Italia_di_calcio_Frecciarossa_Atalanta_-_Juventus_01_-_Massimiliano_Allegri_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },
@@ -3281,6 +3287,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/laporta-talks-julian-alvarez-raphinha-143000325.html",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/traitor-to-the-nation-brazil-cannot-afford-the-luxury-of-doubting-raphinha/blt99480adfb9a4a90a",
+    "credit": "Photo: goal.com",
+    "file": "photos/raphinha-5.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/traitor-to-the-nation-brazil-cannot-afford-the-luxury-of-doubting-raphinha/blt99480adfb9a4a90a",
+    "used": 1
    }
   ]
  },
@@ -3760,6 +3774,14 @@
     "file": "photos/thomas-tuchel-10.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/tuchel-warns-england-against-repeating-argentina-s-mistake-against-spain/bltb283ea71db1e14b5",
+    "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13612301/thomas-tuchel-england-boss-unhappy-as-anti-racism-protocol-questions-overshadow-nations-league-test-in-spain",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/thomas-tuchel-11.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13612301/thomas-tuchel-england-boss-unhappy-as-anti-racism-protocol-questions-overshadow-nations-league-test-in-spain",
     "used": 1
    }
   ]
