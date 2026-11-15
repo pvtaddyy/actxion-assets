@@ -792,6 +792,19 @@
    }
   ]
  },
+ "dejan-kulusevski": {
+  "name": "Dejan Kulusevski",
+  "variants": [
+   {
+    "article": "https://www.mirror.co.uk/sport/football/news/dejan-kulusevski-tottenham-injury-criticism-37866007",
+    "credit": "Photo: Getty via Daily Mirror",
+    "file": "photos/dejan-kulusevski-2.jpg",
+    "source": "article",
+    "url": "https://www.mirror.co.uk/sport/football/news/dejan-kulusevski-tottenham-injury-criticism-37866007",
+    "used": 1
+   }
+  ]
+ },
  "deniz-undav": {
   "name": "Deniz Undav",
   "variants": [
@@ -2652,6 +2665,14 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/mauricio-pochettino-13.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-2.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/a-historic-event-a-woman-joins-manchester-united-s-coaching-staff/bltc8c200156c7d8c48",
+    "credit": "Photo: goal.com",
+    "file": "photos/mauricio-pochettino-15.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/a-historic-event-a-woman-joins-manchester-united-s-coaching-staff/bltc8c200156c7d8c48",
     "used": 1
    }
   ]
