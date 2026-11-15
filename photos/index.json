@@ -2236,11 +2236,19 @@
     "used": 1
    },
    {
-    "article": "https://sports.yahoo.com/articles/andres-iniesta-heaps-praise-lamine-124800050.html",
-    "credit": "Photo: Yahoo Sports",
+    "article": "https://www.goal.com/en/news/in-a-celebratory-video-yamal-sets-the-mood-ahead-of-england-clash/blt1dc2bdb2ae0cd71e",
+    "credit": "Photo: goal.com",
     "file": "photos/lamine-yamal-18.jpg",
     "source": "article",
-    "url": "https://sports.yahoo.com/articles/andres-iniesta-heaps-praise-lamine-124800050.html",
+    "url": "https://www.goal.com/en/news/in-a-celebratory-video-yamal-sets-the-mood-ahead-of-england-clash/blt1dc2bdb2ae0cd71e",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/yamal-s-situation-de-la-fuente-announces-spain-s-line-up-against-england/bltc32702ba6298a3b3",
+    "credit": "Photo: goal.com",
+    "file": "photos/lamine-yamal-19.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/yamal-s-situation-de-la-fuente-announces-spain-s-line-up-against-england/bltc32702ba6298a3b3",
     "used": 1
    }
   ]
@@ -2690,6 +2698,17 @@
     "file": "photos/matheus-cunha-4.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/matheus-cunha-admits-relegation-zone-not-normal-manchester-united-aston-villa/blt9bcb0ffc4f47080f",
+    "used": 1
+   }
+  ]
+ },
+ "matheus-nunes": {
+  "name": "Matheus Nunes",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/matheus-nunes.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Matheus_Nunes_USMNT_v_Portugal_Mar_31_2026-21_%28cropped%29.jpg/1920px-Matheus_Nunes_USMNT_v_Portugal_Mar_31_2026-21_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
