@@ -1595,6 +1595,17 @@
    }
   ]
  },
+ "harry-redknapp": {
+  "name": "Harry Redknapp",
+  "variants": [
+   {
+    "credit": "Photo: James Boyes from UK, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/harry-redknapp.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Harry_Redknapp_2011_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "heimir-hallgrimsson": {
   "name": "Heimir Hallgrímsson",
   "variants": [
@@ -1995,6 +2006,19 @@
     "file": "photos/julian-nagelsmann.jpg",
     "source": "article",
     "url": "https://www.yardbarker.com/soccer/articles/julian_nagelsmann_as_shadow_man_former_germany_coach_apparently_waiting_in_the_wings_at_rb_leipzig/s1_17790_44514037",
+    "used": 1
+   }
+  ]
+ },
+ "jurgen-klopp": {
+  "name": "Jürgen Klopp",
+  "variants": [
+   {
+    "article": "https://www.bundesliga.com/en/bundesliga/news/what-will-niclas-fullkrug-give-jurgen-klopp-and-germany-werder-bremen-39902",
+    "credit": "Photo: bundesliga.com - the official Bundesliga website",
+    "file": "photos/jurgen-klopp-5.jpg",
+    "source": "article",
+    "url": "https://www.bundesliga.com/en/bundesliga/news/what-will-niclas-fullkrug-give-jurgen-klopp-and-germany-werder-bremen-39902",
     "used": 1
    }
   ]
