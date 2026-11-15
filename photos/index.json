@@ -339,6 +339,14 @@
     "source": "article",
     "url": "https://en.as.com/soccer/bernardo-silva-opens-up-on-cristiano-ronaldos-portugal-exit-and-his-real-madrid-struggles-a-lot-of-sadness-f202611-n/",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/portugal-player-ratings-denmark-defensive-disaster-jorge-jesus-crumble-defeat/blt184c427872064d99",
+    "credit": "Photo: goal.com",
+    "file": "photos/bernardo-silva-4.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/portugal-player-ratings-denmark-defensive-disaster-jorge-jesus-crumble-defeat/blt184c427872064d99",
+    "used": 1
    }
   ]
  },
@@ -717,6 +725,14 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/cristiano-ronaldo-13.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg",
+    "used": 1
+   },
+   {
+    "article": "https://www.nytimes.com/athletic/7782115/2026/11/14/portugal-denmark-result-cristiano-ronaldo/",
+    "credit": "Photo: The Athletic",
+    "file": "photos/cristiano-ronaldo-15.jpg",
+    "source": "article",
+    "url": "https://www.nytimes.com/athletic/7782115/2026/11/14/portugal-denmark-result-cristiano-ronaldo/",
     "used": 1
    }
   ]
@@ -3234,6 +3250,19 @@
     "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
     "file": "photos/phil-parkinson.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Phil_Parkinson_30082025_%284%29.jpg/1920px-Phil_Parkinson_30082025_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "pierre-emile-hojbjerg": {
+  "name": "Pierre-Emile Højbjerg",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/portugal-endure-a-total-nightmare-at-cristiano-ronaldo-s-farewell/bltfc819706dbdefc99",
+    "credit": "Photo: Imago via goal.com",
+    "file": "photos/pierre-emile-hojbjerg-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/portugal-endure-a-total-nightmare-at-cristiano-ronaldo-s-farewell/bltfc819706dbdefc99",
     "used": 1
    }
   ]
