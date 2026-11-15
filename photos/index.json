@@ -148,6 +148,19 @@
    }
   ]
  },
+ "alexander-sorloth": {
+  "name": "Alexander Sorloth",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en-in/lists/new-no-9-atletico-madrid-s-alexander-sorloth-attracts-juventus-interest/bltc196e088537a945a",
+    "credit": "Photo: goal.com",
+    "file": "photos/alexander-sorloth.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-in/lists/new-no-9-atletico-madrid-s-alexander-sorloth-attracts-juventus-interest/bltc196e088537a945a",
+    "used": 1
+   }
+  ]
+ },
  "alexis-mac-allister": {
   "name": "Alexis Mac Allister",
   "variants": [
@@ -1006,6 +1019,22 @@
     "file": "photos/endrick.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Team_Brazil_at_2026_FIFA_World_Cup_by_YantsImages_%28Endrick%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://football-italia.net/ronaldinho-endrick-can-play-in-any-league/",
+    "credit": "Photo: Getty via Football Italia",
+    "file": "photos/endrick-4.jpg",
+    "source": "article",
+    "url": "https://football-italia.net/ronaldinho-endrick-can-play-in-any-league/",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/everton-eye-endrick-transfer-real-150000692.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/endrick-5.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/everton-eye-endrick-transfer-real-150000692.html",
+    "used": 1
    }
   ]
  },
@@ -1272,6 +1301,19 @@
     "file": "photos/francesco-farioli.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/psv-one-matches-francesco-farioli-070005480.html",
+    "used": 1
+   }
+  ]
+ },
+ "francesco-pio-esposito": {
+  "name": "Francesco Pio Esposito",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/inter-star-francesco-pio-esposito-104715227.html",
+    "credit": "Photo: Afp via Yahoo Sports",
+    "file": "photos/francesco-pio-esposito-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/inter-star-francesco-pio-esposito-104715227.html",
     "used": 1
    }
   ]
