@@ -342,6 +342,17 @@
    }
   ]
  },
+ "ben-white": {
+  "name": "Ben White",
+  "variants": [
+   {
+    "credit": "Photo: Ben White benwhitephotography, Wikimedia Commons, CC0",
+    "file": "photos/ben-white-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Ben_White_2017-01-12_%28Unsplash%29.jpg/1920px-Ben_White_2017-01-12_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "benni-mccarthy": {
   "name": "Benni McCarthy",
   "variants": [
@@ -1592,6 +1603,14 @@
     "file": "photos/harry-kane-23.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13611877/spain-2-3-england-three-lions-hold-on-for-famous-win-after-elliot-anderson-red-card-to-top-nations-league-group-a3",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/harry-kane-25.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13611877/spain-2-3-england-three-lions-hold-on-for-famous-win-after-elliot-anderson-red-card-to-top-nations-league-group-a3",
+    "used": 1
    }
   ]
  },
@@ -1673,6 +1692,12 @@
     "file": "photos/james-trafford.jpg",
     "source": "article",
     "url": "https://uk.sports.yahoo.com/news/jordan-pickford-said-leeds-united-160000459.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/james-trafford-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/James_Trafford_England_v_Ghana_23_June_2026-027.jpg/1920px-James_Trafford_England_v_Ghana_23_June_2026-027.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
