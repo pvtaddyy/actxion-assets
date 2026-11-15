@@ -1,0 +1,170 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Then and now",
+ "tail": 1.2,
+ "header": {
+  "text": "Then and now: 66 in 60",
+  "key": [
+   "66 in 60"
+  ]
+ },
+ "keywords": [
+  "nineteen",
+  "penalty",
+  "Müller.",
+  "!eight",
+  "fifty",
+  "level",
+  "deadlier",
+  "!counting."
+ ],
+ "sources": [
+  "https://africasoccer.com/erling-haaland-reaches-rare-scoring-landmark-as-norway-beat-wales/",
+  "https://www.foxsports.com/stories/soccer/haaland-back-on-target-to-seal-norways-31-win-over-wales-in-nations-league",
+  "https://www.skysports.com/football/news/13612155/norway-3-1-wales-craig-bellamys-side-suffer-defeat-in-oslo-with-threat-of-nations-league-relegation-now-looming",
+  "https://worldsoccertalk.com/world-cup/video-erling-haaland-reaches-60-goals-for-norway-in-just-53-games-with-strike-against-ivory-coast/",
+  "https://commons.wikimedia.org/wiki/File:Finale_wereldkampioenschap_voetbal_1974_in_Munchen,_West_Duitsland_tegen_Nederla,_Bestanddeelnr_927-3080.jpg"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "haaland-cut.png",
+   "bgPhoto": "haaland.jpg",
+   "word": "66",
+   "label": "Erling Haaland, Norway",
+   "wordY": -115,
+   "wordSize": 360,
+   "height": 720
+  },
+  {
+   "type": "list",
+   "at": 1.95,
+   "title": "66 goals in first 60 caps",
+   "items": [
+    {
+     "at": 1.95,
+     "text": "Gerd Müller, 1974"
+    },
+    {
+     "at": 3.1,
+     "text": "Nobody else in Europe since"
+    }
+   ]
+  },
+  {
+   "type": "score",
+   "at": 4.45,
+   "label": "Nations League, last night",
+   "home": "Norway",
+   "away": "Wales",
+   "states": [
+    {
+     "at": 4.45,
+     "h": 2,
+     "a": 1,
+     "foot": "Oslo"
+    },
+    {
+     "at": 6.5,
+     "h": 3,
+     "a": 1,
+     "foot": "Haaland penalty"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": 9.0,
+   "photo": "muller-frame.png",
+   "bgPhoto": "muller74-crop.jpg",
+   "word": "THEN",
+   "label": "Gerd Müller, West Germany, 1974",
+   "wordY": -40,
+   "wordSize": 340,
+   "height": 760
+  },
+  {
+   "type": "stat",
+   "at": 10.9,
+   "value": 68,
+   "unit": "goals",
+   "label": "in 62 games for West Germany",
+   "source": "Fox Sports"
+  },
+  {
+   "type": "player",
+   "at": 13.0,
+   "photo": "haaland-cut.png",
+   "bgPhoto": "haaland.jpg",
+   "word": "NOW",
+   "label": "Erling Haaland, Norway",
+   "wordY": -40,
+   "wordSize": 360,
+   "height": 720
+  },
+  {
+   "type": "stat",
+   "at": 13.95,
+   "value": 60,
+   "unit": "goals",
+   "label": "in 53 games, World Cup 2026",
+   "source": "World Soccer Talk"
+  },
+  {
+   "type": "compare",
+   "at": 16.75,
+   "aName": "Müller",
+   "bName": "Haaland",
+   "aPhoto": "muller-frame.png",
+   "bPhoto": "haaland-cut.png",
+   "rows": [
+    {
+     "label": "Goals",
+     "a": "68",
+     "b": "66",
+     "at": 16.8
+    },
+    {
+     "label": "Games",
+     "a": "62",
+     "b": "60",
+     "at": 17.9
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": 19.5,
+   "photo": "haaland-cut.png",
+   "bgPhoto": "haaland.jpg",
+   "word": "NEXT 2",
+   "label": "Two goals from level",
+   "wordY": -40,
+   "wordSize": 280,
+   "height": 720
+  },
+  {
+   "type": "versus",
+   "at": "So",
+   "a": {
+    "photo": "muller-frame.png",
+    "label": "Müller, then"
+   },
+   "b": {
+    "photo": "haaland-cut.png",
+    "label": "Haaland, now"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Müller or <span class=\"k\">Haaland?</span>",
+   "sub": "66 and counting"
+  }
+ ],
+ "cover_t": 1.0
+}
