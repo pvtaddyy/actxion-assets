@@ -2410,6 +2410,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/why-lionel-messi-not-playing-221500404.html",
     "used": 1
+   },
+   {
+    "article": "https://www.nytimes.com/athletic/7779113/2026/11/13/lionel-messi-inter-miami-river-plate/",
+    "credit": "Photo: The Athletic",
+    "file": "photos/lionel-messi-20.jpg",
+    "source": "article",
+    "url": "https://www.nytimes.com/athletic/7779113/2026/11/13/lionel-messi-inter-miami-river-plate/",
+    "used": 1
    }
   ]
  },
@@ -3717,6 +3725,17 @@
     "file": "photos/ruben-neves.jpg",
     "source": "article",
     "url": "https://www.espn.com/soccer/story/_/id/45897117/portugal-want-win-world-cup-diogo-jota-ruben-neves",
+    "used": 1
+   }
+  ]
+ },
+ "sadio-mane": {
+  "name": "Sadio Mané",
+  "variants": [
+   {
+    "credit": "Photo: Steindy (talk) 18:26, 7 October 2013 (UT, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/sadio-mane.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sadio_Man%C3%A9.jpg/1920px-Sadio_Man%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
