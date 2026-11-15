@@ -1,0 +1,5 @@
+Twenty-three years he gave us. First night without him, and look at this.
+Four-one at home to Denmark! In Braga! I have never been so embarrassed.
+Eleven number sevens on the pitch, and still not one Ronaldo. Karma, my brother.
+
+Scores: hooks.txt (hookscore): funny 78.7, angry 58.8, sad 56.8; trimmed funny version used as l1: 83.0. ig-human detect dialogue 81.2 PASS (burstiness only), IG caption 79.1 PASS.

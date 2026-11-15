@@ -1,0 +1,38 @@
+{
+ "slug": "mic-portugal-ronaldo",
+ "set": "pub",
+ "club": {"name": "Portugal", "primary": "#c8102e", "secondary": "#046a38", "third": "#ffd100"},
+ "loc": "STOCKWELL, LONDON · PORTUGAL WATCH PARTY",
+ "question": {"phrase": "Is it Jesus", "kicker": "ONE QUESTION", "line1": "JESUS", "line2": "OR NO RONALDO?"},
+ "meter": {"title": "WHY DID PORTUGAL FALL?", "left": "JESUS", "right": "NO RONALDO", "third": "THE PLAYERS?"},
+ "ask": {"a": "JESUS", "b": "NO RONALDO?", "next": "Who's to blame? Comment 👇"},
+ "end": "Get ACTXION. Make your voice count 👇",
+ "boo": false,
+ "laugh": "Karma, my brother",
+ "keywords": ["eleven", "sevens", "ronaldo", "karma", "brother", "jesus", "plan", "denmark", "night", "twenty-three", "years", "crying", "top", "group", "time", "neither", "højlund", "twice", "players", "you"],
+ "fans": [
+  {"who": "FUNNY", "label": "IN FROM LAGOS", "sub": "Ronaldo fan since the Sporting days", "coat": "#046a38", "shirt": "#c8102e", "legs": "#2a2d36", "skin": "#5a3825", "hair": "#111111", "acc": ["bucket"], "open": true, "gesture": "handsup", "mood": -0.12, "laugh": true, "pop": "Karma", "popHold": 2.0, "meter": 0.5, "color": "#7CFFB2"},
+  {"who": "ANGRY", "label": "THE ANGRY ONE", "sub": "Madeira mum, Manchester dad", "coat": "#3a3f4b", "shirt": "#c8102e", "legs": "#1b2233", "skin": "#e8c3a6", "hair": "#2a1a12", "acc": ["ponytail", "scarf"], "open": true, "gesture": "jab", "mood": 0.44, "pop": "It's Jesus", "popHold": 1.4, "meter": -0.75, "color": "#ff5a5f"},
+  {"who": "OLD", "label": "THE OLD HEAD", "sub": "Left Porto for London in '89", "coat": "#5b4a3a", "shirt": "#046a38", "legs": "#23252c", "skin": "#d9a984", "hair": "#a8a8a8", "acc": ["cap", "glasses"], "open": false, "gesture": "facepalm", "mood": -0.3, "pop": "look at this", "popHold": 1.6, "meter": 0.62, "color": "#ffd54a"},
+  {"who": "LOYAL", "label": "IN FROM GOA", "sub": "Portugal fan for 25 years", "coat": "#c8102e", "shirt": "#c8102e", "legs": "#2c3e66", "skin": "#9a6a48", "hair": "#111111", "acc": ["ponytail"], "open": false, "gesture": "point", "mood": 0.18, "pop": "Give Jesus time", "popHold": 1.6, "meter": 0.4, "color": "#ffd54a"},
+  {"who": "THIRD", "label": "THE ONE AGAINST EVERYONE", "sub": "Nairobi, studying in London", "coat": "#1d2742", "shirt": "#046a38", "legs": "#23252c", "skin": "#4a2e1f", "hair": "#111111", "acc": ["beanie"], "open": false, "gesture": "crossed", "mood": 0.08, "pop": "That's on the players", "popHold": 1.6, "meter": "third", "color": "#c9a0ff"}
+ ],
+ "feature": {
+  "type": "fan_voice",
+  "club": "Portugal",
+  "opponent": "Wales",
+  "comp": "Nations League",
+  "when": "Tue 17 Nov · Cardiff",
+  "colour": "#c8102e",
+  "oppColour": "#d30731",
+  "clock": "21:14",
+  "tag": "Improve",
+  "text": "One bad night without Cristiano. Press from the front, track the runners and show us the plan in Cardiff.",
+  "comments": [
+   {"user": "lagos_cr7_boy", "tag": "Both", "text": "Eleven number sevens and still not one Ronaldo 😂", "ago": "1 hour ago"},
+   {"user": "madeira_mancunian", "tag": "Improve", "text": "His team, his plan. Denmark ran in behind us all night.", "ago": "2 hours ago"},
+   {"user": "porto_to_stockwell", "tag": "Improve", "text": "Twenty-three years he gave us. One night without him and look at this.", "ago": "3 hours ago"},
+   {"user": "goa_seleccao", "tag": "Keep Doing", "text": "One bad night. Still top of the group. Give Jesus time.", "ago": "5 hours ago"}
+  ]
+ }
+}
