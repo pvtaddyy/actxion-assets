@@ -3271,6 +3271,19 @@
    }
   ]
  },
+ "moses-usor": {
+  "name": "Moses Usor",
+  "variants": [
+   {
+    "article": "https://www.afrik-foot.com/en-ng/moses-usor-winger-2-super-eagles-goals",
+    "credit": "Photo: Imago via Afrik-Foot",
+    "file": "photos/moses-usor.jpg",
+    "source": "article",
+    "url": "https://www.afrik-foot.com/en-ng/moses-usor-winger-2-super-eagles-goals",
+    "used": 1
+   }
+  ]
+ },
  "nahuel-molina": {
   "name": "Nahuel Molina",
   "variants": [
