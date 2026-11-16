@@ -1611,6 +1611,14 @@
     "source": "article",
     "url": "https://www.skysports.com/football/news/13611877/spain-2-3-england-three-lions-hold-on-for-famous-win-after-elliot-anderson-red-card-to-top-nations-league-group-a3",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/after-968-days-england-halt-spain-s-run-and-achieve-a-historic-feat/blt2c61b79af67d1c8c",
+    "credit": "Photo: goal.com",
+    "file": "photos/harry-kane-26.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/after-968-days-england-halt-spain-s-run-and-achieve-a-historic-feat/blt2c61b79af67d1c8c",
+    "used": 1
    }
   ]
  },
@@ -1698,6 +1706,14 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/james-trafford-2.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/James_Trafford_England_v_Ghana_23_June_2026-027.jpg/1920px-James_Trafford_England_v_Ghana_23_June_2026-027.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/spain-vs-england-the-tactics-board-tuchel-s-high-press-and-trafford-s-saves-take-england-top-in-madrid/bltd9c00a35a5cd5b15",
+    "credit": "Photo: goal.com",
+    "file": "photos/james-trafford-5.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/spain-vs-england-the-tactics-board-tuchel-s-high-press-and-trafford-s-saves-take-england-top-in-madrid/bltd9c00a35a5cd5b15",
     "used": 1
    }
   ]
@@ -2884,6 +2900,12 @@
     "file": "photos/metropolitano-stadium.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Wanda_Metropolitano_Stadium_Dec_2017_%2839ea73b8c7_o%29.jpg/1920px-Wanda_Metropolitano_Stadium_Dec_2017_%2839ea73b8c7_o%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 2
+   },
+   {
+    "credit": "Photo: Elwin594, Wikimedia Commons, CC0",
+    "file": "photos/metropolitano-stadium-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Atleti_vs_Villarreal_-_September_2025.jpg",
+    "used": 1
    }
   ]
  },
