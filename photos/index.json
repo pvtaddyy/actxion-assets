@@ -1904,6 +1904,17 @@
    }
   ]
  },
+ "jordan-pickford": {
+  "name": "Jordan Pickford",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/jordan-pickford-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Jordan_Pickford_England_v_Ghana_23_June_2026-316_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
  "jorge-jesus": {
   "name": "Jorge Jesus",
   "variants": [
@@ -2625,6 +2636,14 @@
     "file": "photos/mark-van-bommel.jpg",
     "source": "article",
     "url": "https://www.goal.com/en-in/news/mark-van-bommel-is-completely-fed-up-with-a-belgium-international-and-will-never-call-him-up-again/blt54265b6cadac5a65",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/van-bommel-belgium-score-six-230400620.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/mark-van-bommel-4.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/van-bommel-belgium-score-six-230400620.html",
     "used": 1
    }
   ]
