@@ -1,6 +1,6 @@
 # THE MIC learnings (read before every episode; the Monday review rewrites this)
 
-Last updated: 9 Nov 2026 (Monday review 1: 2 episodes posted, both too early for firm conclusions).
+Last updated: 16 Nov 2026 (Monday review 2: 5 episodes posted, 4 with mature numbers; still too early on every variant).
 
 ## Baselines to beat (Instagram, early Nov 2026)
 - Daily desk news reel ~330 views, ~8 s average watch. Team combined XI reels 1.4-1.8K views, 18-22 s watch.
@@ -9,14 +9,19 @@ Last updated: 9 Nov 2026 (Monday review 1: 2 episodes posted, both too early for
 - Approved style = EP 01 (street set, 5 fans, blame meter, mic in frame, ElevenLabs voices, rain + crowd bed).
 - Cold open is the most emotional line, not context. The question card lands by ~10 s.
 - One fan is funny (a crowd laugh after the joke). One fan picks a third option (meter jumps up).
-- 40-50 s. Never sell the app in the episode.
-- NEW 9 Nov (change of the week): HARD CAP 50 s, aim for 45 s. Cut fan lines before going over; the mic sign-off stays.
-  Why: EP 1 (47 s) holds IG average watch at 14.0 s (~30 % of the video) on 1,632 views; EP 2 (57.6 s) is at 2.5 s
-  average watch on 114 views after 12.5 h. Only 2 episodes and EP 2 also changed slot, set, club, cold open and added an
-  app line, so this is a guard-rail back to the approved length, not a proven effect. Re-check Mon 16 Nov.
-- Budget (9 Nov): THE MIC used 2,847 ElevenLabs credits by 9 Nov (about 760 per episode incl. tests) and is on course
-  to pass 8,000 in November. For the rest of November use eleven_flash_v2_5 for the fans (keep the MIC host on the
-  usual model only if it fits; no test renders on eleven_v4). Back to normal on 1 Dec.
+- 45-55 s (see 16 Nov). Never sell the app in the episode beyond the owner-approved feature beat (skill).
+- NEW 16 Nov (change of the week, replaces the 9 Nov 50 s hard cap): length cap 55 s, aim 48-52 s, and NEVER speed
+  voice lines up past 1.05x or cut natural pauses to fit. If the script runs long, drop a fan line instead.
+  Why: the 9 Nov cap rested on EP 2's 12.5 h pull (114 views / 2.5 s). Mature, EP 2 (57.6 s) is IG 1,435 / 14.4 s,
+  the best average watch of the series (25 % of the video). EP 4 (49.9 s, lines sped 1.06-1.15x to fit the cap) has the
+  worst: 7.0 s (14 %). EP 3 (48.5 s, natural pace) 10.2 s; EP 1 (47 s, natural pace) 14.0 s. TikTok average watch agrees
+  (EP 1 9 s, EP 2 7 s, EP 4 7 s, EP 3 5 s). Only 4 episodes and pace is confounded with set, club and cold open, so this
+  is a correction, not a proof. Re-check after 3 episodes at natural pace (Mon 30 Nov).
+- Never judge an episode on a pull under 48 h: EP 2 went from 114 IG views at 12.5 h to 1,435 a week later.
+- Budget (16 Nov): THE MIC has used 4,942 ElevenLabs credits in November (all desks 8,215 of 30,000). On flash fans an
+  episode costs ~700 (EP 3 653, EP 4 645, EP 5 797); 6 more November episodes put THE MIC at ~9,100, past 8,000.
+  For the rest of November keep the fans on eleven_flash_v2_5, no test renders on eleven_v4, one render per line unless
+  a line is broken. Back to normal on 1 Dec.
 
 ## Posting time (E4-time, owner-approved 5 Nov 2026; shared with ACTXION LAB)
 - Current best slot: A = 16:00 IST (default until the decision on Mon 30 Nov).
@@ -31,19 +36,27 @@ Last updated: 9 Nov 2026 (Monday review 1: 2 episodes posted, both too early for
   norm_views; within 10 % -> better IG average watch; a network gets its own slot only if its gap is over 20 %). THE MIC's
   Monday review on 30 Nov follows it unless MIC's own data clearly disagrees (another slot >20 % better on 3+ episodes each),
   writes the winner here and into mic/rotation.md, then re-tests once a month against one challenger slot.
-- Table 9 Nov (median norm_views; MIC series median = EP 1 only so far):
-  | slot | MIC episodes with 48 h data | IG | TikTok | FB | IG avg watch |
-  | A 16:00 | 0 | too early | too early | too early | too early |
-  | B 23:30 | 0 (EP 2 is 12.5 h old) | too early | too early | too early | too early |
-  | C 01:30 | 0 | too early | too early | too early | too early |
-  | 0030 extra (EP 1) | 1 | 1.00 (1,629) | 1.00 (602) | 1.00 (218) | 14.1 s |
+- Table 16 Nov (median norm_views; MIC series median over EP 1-4 = IG 1,331, TikTok 556, FB 233, YouTube 133 (EP 1-3)).
+  Views are the lifetime count at the pull (3-10 days old; no 48 h snapshot exists), same method as the LAB rows.
+  | slot | MIC episodes mature | IG | TikTok | FB | YouTube | IG avg watch |
+  | A 16:00 | 1 (EP 4) | 0.92 | 0.86 | 1.06 | n/a (no YT rows after 10 Nov) | 7.0 s |
+  | B 23:30 | 1 (EP 2) | 1.08 | 0.92 | 1.15 | 1.00 | 14.4 s |
+  | C 01:30 | 1 (EP 3; EP 5 is 10 h old) | 0.58 | 1.13 | 0.90 | 0.47 | 10.2 s |
+  | 0030 extra (EP 1) | 1 | 1.23 | 1.08 | 0.94 | 6.38 | 14.0 s |
+  Too early for every slot (1 MIC episode each). Next read Mon 23 Nov; decision Mon 30 Nov from posts/e4-decision.md.
 
 ## Open tests (one at a time)
 1. Set: street v pub v viewing centre.
 2. Club: United / Arsenal / Chelsea v Real / Barca.
 3. Cold open: sad line v angry line v funny line.
-Scoreboard 9 Nov (too early everywhere, under 3 episodes per variant):
-  | variant | episodes | IG views / avg watch | TikTok | FB |
-  | viewing (Lagos) / Liverpool / angry / 47 s / 00:30 | 1 | 1,632 / 14.0 s (84 h) | 602 | 219 |
-  | pub (Manchester) / Man City / sad / 57.6 s / B 23:30 | 1 | 114 / 2.5 s (12.5 h) | 14 | 1 |
-  YouTube: Metricool has no YouTube rows after 3 Nov, so no MIC YouTube numbers yet.
+Scoreboard 16 Nov (lifetime numbers at the pull; too early everywhere, at most 2 episodes per variant):
+  | episode / set / club / cold open / length / slot | IG views / avg watch | IG comments / shares | TikTok (avg watch) | FB | YouTube |
+  | EP 1 viewing (Lagos) / Liverpool / angry / 47 s / 0030, no feature beat | 1,639 / 14.0 s | 2 / 5 | 602 (9 s) | 219 | 848 |
+  | EP 2 pub (Manchester) / Man City / sad / 57.6 s / B | 1,435 / 14.4 s | 2 / 0 | 509 (7 s) | 268 | 133 |
+  | EP 3 street / Man Utd / funny / 48.5 s / C | 766 / 10.2 s | 1 / 0 | 628 (5 s) | 209 | 63 |
+  | EP 4 viewing (Lagos) / Chelsea / angry / 49.9 s sped / A | 1,227 / 7.0 s | 2 / 0 | 480 (7 s) | 247 | n/a |
+  | EP 5 pub (London) / Portugal / funny / 49.3 s sped / C | posted 01:30 IST 16 Nov, too young | | | | |
+  By variant: set viewing 2 eps (IG 1,433 avg views / 10.5 s), pub 1 (1,435 / 14.4 s), street 1 (766 / 10.2 s);
+  cold open angry 2 eps (1,433 / 10.5 s), sad 1 (1,435 / 14.4 s), funny 1 (766 / 10.2 s). Club: one episode each.
+  Every MIC episode beats the desk news reel (~330 / 8 s) on IG views; only EP 1 and EP 2 match its watch time x2.
+  Only EP 1 (the one without the feature beat) got shares (5) and real YouTube reach (848); n = 1, noted, not acted on.
