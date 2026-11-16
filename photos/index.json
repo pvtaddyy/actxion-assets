@@ -1619,6 +1619,14 @@
     "file": "photos/harry-kane-31.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped_2%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://www.espn.com/soccer/story/_/id/50479862/harry-kane-bobby-moore-england",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/harry-kane-32.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/soccer/story/_/id/50479862/harry-kane-bobby-moore-england",
+    "used": 1
    }
   ]
  },
@@ -1769,6 +1777,25 @@
    }
   ]
  },
+ "jeremy-doku": {
+  "name": "Jeremy Doku",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en-za/news/jeremy-doku-belgium-italy-nations-league-solo-goal/blt5a241a162b7cc3bf",
+    "credit": "Photo: goal.com",
+    "file": "photos/jeremy-doku.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-za/news/jeremy-doku-belgium-italy-nations-league-solo-goal/blt5a241a162b7cc3bf",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/jeremy-doku-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-169_%28cropped%29.jpg/1920px-J%C3%A9r%C3%A9my_Doku_USMNT_v_Belgium_Mar_28_2026-169_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "jesus-gil-manzano": {
   "name": "Jesús Gil Manzano",
   "variants": [
@@ -1881,19 +1908,6 @@
     "credit": "Photo: Samuel William Reynolds II, Wikimedia Commons, Public domain",
     "file": "photos/john-brooks.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/John_Brooks_-_Reynolds_mezzotint.png/1920px-John_Brooks_-_Reynolds_mezzotint.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
-   }
-  ]
- },
- "jeremy-doku": {
-  "name": "Jeremy Doku",
-  "variants": [
-   {
-    "article": "https://www.goal.com/en-za/news/jeremy-doku-belgium-italy-nations-league-solo-goal/blt5a241a162b7cc3bf",
-    "credit": "Photo: goal.com",
-    "file": "photos/jeremy-doku.jpg",
-    "source": "article",
-    "url": "https://www.goal.com/en-za/news/jeremy-doku-belgium-italy-nations-league-solo-goal/blt5a241a162b7cc3bf",
     "used": 1
    }
   ]
@@ -2314,6 +2328,14 @@
     "file": "photos/lamine-yamal-19.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/yamal-s-situation-de-la-fuente-announces-spain-s-line-up-against-england/bltc32702ba6298a3b3",
+    "used": 1
+   },
+   {
+    "article": "https://www.yardbarker.com/soccer/articles/spain_2_3_england_lamine_yamals_comment_about_harry_kane_resurfaces/s1_17898_44566727",
+    "credit": "Photo: Yardbarker",
+    "file": "photos/lamine-yamal-21.jpg",
+    "source": "article",
+    "url": "https://www.yardbarker.com/soccer/articles/spain_2_3_england_lamine_yamals_comment_about_harry_kane_resurfaces/s1_17898_44566727",
     "used": 1
    }
   ]
@@ -3427,25 +3449,11 @@
   "name": "Pep Guardiola",
   "variants": [
    {
-    "credit": "Photo: Steffen Prößdorf, Wikimedia Commons, CC BY-SA 4.0",
-    "file": "photos/pep-guardiola.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
-    "used": 1
-   },
-   {
-    "article": "https://sports.yahoo.com/articles/pep-guardiola-targeted-international-manager-202300311.html",
+    "article": "https://sports.yahoo.com/articles/rico-lewis-reveals-most-important-143000056.html",
     "credit": "Photo: Yahoo Sports",
-    "file": "photos/pep-guardiola-2.jpg",
+    "file": "photos/pep-guardiola.jpg",
     "source": "article",
-    "url": "https://sports.yahoo.com/articles/pep-guardiola-targeted-international-manager-202300311.html",
-    "used": 1
-   },
-   {
-    "article": "https://www.goal.com/en/news/guardiola-settles-his-stance-on-succeeding-pochettino-in-america/blt9f0ab9e231d1ff7b",
-    "credit": "Photo: goal.com",
-    "file": "photos/pep-guardiola-4.jpg",
-    "source": "article",
-    "url": "https://www.goal.com/en/news/guardiola-settles-his-stance-on-succeeding-pochettino-in-america/blt9f0ab9e231d1ff7b",
+    "url": "https://sports.yahoo.com/articles/rico-lewis-reveals-most-important-143000056.html",
     "used": 1
    }
   ]
@@ -3596,19 +3604,6 @@
     "file": "photos/raul-gonzalez.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/a-formal-step-before-the-anticipated-announcement-raul-closes-in-on-a-new-coaching-destination/bltc3ce311e43349645",
-    "used": 1
-   }
-  ]
- },
- "pep-guardiola": {
-  "name": "Pep Guardiola",
-  "variants": [
-   {
-    "article": "https://sports.yahoo.com/articles/rico-lewis-reveals-most-important-143000056.html",
-    "credit": "Photo: Yahoo Sports",
-    "file": "photos/pep-guardiola.jpg",
-    "source": "article",
-    "url": "https://sports.yahoo.com/articles/rico-lewis-reveals-most-important-143000056.html",
     "used": 1
    }
   ]
