@@ -1313,6 +1313,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/why-isnt-florian-wirtz-starting-164657769.html",
     "used": 2
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/liverpool-playmaker-florian-wirtz-sensational-000000956.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/florian-wirtz-4.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/liverpool-playmaker-florian-wirtz-sensational-000000956.html",
+    "used": 1
    }
   ]
  },
@@ -1463,11 +1471,9 @@
   "name": "-h",
   "variants": [
    {
-    "article": "https://jalopnik.com/1975592/h-pipe-vs-x-pipe-pros-cons/",
-    "credit": "Photo: Jalopnik",
+    "credit": "Photo: Gordon Leggett, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/h.jpg",
-    "source": "article",
-    "url": "https://jalopnik.com/1975592/h-pipe-vs-x-pipe-pros-cons/",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/2018-10-07_WILLIAM_H._LATHAM_-_MMSI_366844950_18-10-06.jpg/1920px-2018-10-07_WILLIAM_H._LATHAM_-_MMSI_366844950_18-10-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -2098,6 +2104,12 @@
     "file": "photos/jurgen-klopp-5.jpg",
     "source": "article",
     "url": "https://www.bundesliga.com/en/bundesliga/news/what-will-niclas-fullkrug-give-jurgen-klopp-and-germany-werder-bremen-39902",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Derivative work:  EndzoneEnthusiast, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/jurgen-klopp-11.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2243_by_Stepro_%28cropped%29_%28cropped%29.jpg",
     "used": 1
    }
   ]
@@ -3343,6 +3355,32 @@
    }
   ]
  },
+ "olympiastadion": {
+  "name": "Olympiastadion",
+  "variants": [
+   {
+    "article": "https://www.espn.com/soccer/story/_/id/37501911/hertha-berlin-making-plans-leave-olympiastadion",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/olympiastadion.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/soccer/story/_/id/37501911/hertha-berlin-making-plans-leave-olympiastadion",
+    "used": 1
+   }
+  ]
+ },
+ "olympiastadion-berlin": {
+  "name": "Olympiastadion Berlin",
+  "variants": [
+   {
+    "article": "https://www.nfl.com/news/how-to-travel-to-olympiastadion-berlin",
+    "credit": "Photo: nfl.com",
+    "file": "photos/olympiastadion-berlin.jpg",
+    "source": "article",
+    "url": "https://www.nfl.com/news/how-to-travel-to-olympiastadion-berlin",
+    "used": 1
+   }
+  ]
+ },
  "ousmane-dembele": {
   "name": "Ousmane Dembélé",
   "variants": [
@@ -4418,6 +4456,12 @@
     "file": "photos/xavi-hernandez.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/xavi-impressed-by-flick-s-innovation-reveals-the-truth-about-de-jong-s-new-position/bltcbad3f9ffc639f44",
+    "used": 1
+   },
+   {
+    "credit": "Photo: A.perezfa, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/xavi-hernandez-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Piqu%C3%A9_hablando_con_Xavi_Hern%C3%A1ndez_al_hacer_la_sustituci%C3%B3n.jpg/1920px-Piqu%C3%A9_hablando_con_Xavi_Hern%C3%A1ndez_al_hacer_la_sustituci%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
