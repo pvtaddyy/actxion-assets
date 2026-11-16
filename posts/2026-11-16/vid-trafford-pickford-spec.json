@@ -1,0 +1,212 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Head to head",
+ "tail": 1.2,
+ "header": {
+  "text": "Who's England's No 1?",
+  "key": [
+   "No 1?"
+  ]
+ },
+ "keywords": [
+  "ninety",
+  "!no",
+  "Madrid,",
+  "double",
+  "thirty",
+  "prevented",
+  "over",
+  "Shilton",
+  "Friday.",
+  "March?"
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13612624/james-trafford-has-leeds-goalkeeper-overtaken-jordan-pickford-as-englands-no-1-after-starring-display-against-spain",
+  "https://www.skysports.com/football/news/13611877/spain-2-3-england-three-lions-hold-on-for-famous-win-after-elliot-anderson-red-card-to-top-nations-league-group-a3",
+  "https://www.thesun.co.uk/sport/41033151/james-trafford-jordan-pickford-england-spain/",
+  "https://commons.wikimedia.org/wiki/File:Jordan_Pickford_England_v_Ghana_23_June_2026-316_(cropped).jpg"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "trafford2-cut.png",
+   "bgPhoto": "trafford2.jpg",
+   "word": "5 v 94",
+   "label": "England caps",
+   "wordY": -20,
+   "wordSize": 300,
+   "height": 620
+  },
+  {
+   "type": "player",
+   "at": "And",
+   "photo": "pickford-cut.png",
+   "bgPhoto": "pickford.jpg",
+   "word": "NO 1?",
+   "label": "Tuchel: \"There's no No 1\"",
+   "wordY": -40,
+   "wordSize": 300,
+   "height": 600
+  },
+  {
+   "type": "list",
+   "at": "James",
+   "title": "Madrid, last night",
+   "items": [
+    {
+     "at": "Trafford",
+     "text": "In goal: James Trafford"
+    },
+    {
+     "at": "Jordan",
+     "text": "Not starting: Jordan Pickford"
+    }
+   ]
+  },
+  {
+   "type": "score",
+   "at": "won",
+   "label": "Nations League",
+   "home": "Spain",
+   "away": "England",
+   "states": [
+    {
+     "at": "won",
+     "h": 2,
+     "a": 3,
+     "foot": "Madrid"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "stoppage",
+   "title": "90+1, double save",
+   "items": [
+    {
+     "at": "Fermín",
+     "text": "Saved: Fermín López"
+    },
+    {
+     "at": "Oyarzabal",
+     "text": "Saved: Mikel Oyarzabal"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "at": "way.",
+   "aName": "Trafford",
+   "bName": "Pickford",
+   "aPhoto": "trafford2-cut.png",
+   "bPhoto": "pickford-cut.png",
+   "rows": [
+    {
+     "label": "Age",
+     "a": "24",
+     "b": "32",
+     "at": "twenty"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "According",
+   "value": 4.4,
+   "decimals": 1,
+   "unit": "prevented",
+   "label": "goals, Trafford this season",
+   "source": "Opta via Sky Sports"
+  },
+  {
+   "type": "list",
+   "at": "That's",
+   "title": "Goals prevented, Premier League keepers",
+   "items": [
+    {
+     "at": "top",
+     "text": "1. James Trafford, 4.40"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "at": "Pickford",
+   "aName": "Trafford",
+   "bName": "Pickford",
+   "aPhoto": "trafford2-cut.png",
+   "bPhoto": "pickford-cut.png",
+   "rows": [
+    {
+     "label": "Goals prevented",
+     "a": "4.40",
+     "b": "1.05",
+     "at": "Pickford"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": "But",
+   "photo": "pickford-cut.png",
+   "bgPhoto": "pickford.jpg",
+   "word": "94",
+   "label": "England caps",
+   "wordY": -40,
+   "wordSize": 300,
+   "height": 600
+  },
+  {
+   "type": "list",
+   "at": "Only",
+   "title": "Most-capped England keepers",
+   "items": [
+    {
+     "at": "Peter",
+     "text": "1. Peter Shilton"
+    },
+    {
+     "at": "more",
+     "text": "2. Jordan Pickford"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "quarter-final",
+   "title": "Quarter-final draw",
+   "items": [
+    {
+     "at": "draw",
+     "text": "Friday 20 November, 11am UK"
+    },
+    {
+     "at": "Friday",
+     "text": "Ties in March"
+    }
+   ]
+  },
+  {
+   "type": "versus",
+   "at": "So",
+   "a": {
+    "photo": "trafford2-cut.png",
+    "label": "Trafford"
+   },
+   "b": {
+    "photo": "pickford-cut.png",
+    "label": "Pickford"
+   }
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Trafford or <span class=\"k\">Pickford?</span>",
+   "sub": "England's number one in March"
+  }
+ ]
+}
