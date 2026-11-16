@@ -378,11 +378,11 @@
     "used": 1
    },
    {
-    "article": "https://www.goal.com/en/news/portugal-player-ratings-denmark-defensive-disaster-jorge-jesus-crumble-defeat/blt184c427872064d99",
-    "credit": "Photo: goal.com",
+    "article": "https://en.as.com/soccer/bernardo-silva-opens-up-on-cristiano-ronaldos-portugal-exit-and-his-real-madrid-struggles-a-lot-of-sadness-f202611-n/",
+    "credit": "Photo: AS USA",
     "file": "photos/bernardo-silva-4.jpg",
     "source": "article",
-    "url": "https://www.goal.com/en/news/portugal-player-ratings-denmark-defensive-disaster-jorge-jesus-crumble-defeat/blt184c427872064d99",
+    "url": "https://en.as.com/soccer/bernardo-silva-opens-up-on-cristiano-ronaldos-portugal-exit-and-his-real-madrid-struggles-a-lot-of-sadness-f202611-n/",
     "used": 1
    }
   ]
@@ -1243,6 +1243,19 @@
     "file": "photos/fabian-bredlow.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/something-s-not-right-here-vfb-stuttgart-s-fabian-bredlow-makes-explosive-allegations-against-galatasaray-after-online-backlash/bltd871a0c557cee58e",
+    "used": 1
+   }
+  ]
+ },
+ "fabian-ruiz": {
+  "name": "Fabián Ruiz",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/fabi-n-ruiz-suffers-first-111800596.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/fabian-ruiz-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/fabi-n-ruiz-suffers-first-111800596.html",
     "used": 1
    }
   ]
