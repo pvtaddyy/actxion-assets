@@ -1413,6 +1413,17 @@
    }
   ]
  },
+ "germany-fans": {
+  "name": "Germany fans",
+  "variants": [
+   {
+    "credit": "Photo: Viktor Ugrin, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/germany-fans.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/UEFA_Euro_2012_Denmark_Germany_Fans_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   }
+  ]
+ },
  "gian-piero-gasperini": {
   "name": "Gian Piero Gasperini",
   "variants": [
@@ -2215,6 +2226,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/koni-de-winter.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Koni_De_Winter_USMNT_v_Belgium_Mar_28_2026-36_%28cropped%29.jpg/1920px-Koni_De_Winter_USMNT_v_Belgium_Mar_28_2026-36_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "kozo-tashima": {
+  "name": "Kozo Tashima",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13608441/gianni-infantino-fifa-president-faces-challenge-from-japan-fa-chief-kohzo-tashima-in-2027-election",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/kozo-tashima-2.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13608441/gianni-infantino-fifa-president-faces-challenge-from-japan-fa-chief-kohzo-tashima-in-2027-election",
     "used": 1
    }
   ]
