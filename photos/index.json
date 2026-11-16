@@ -169,6 +169,14 @@
     "file": "photos/alexis-mac-allister.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Alexis_Mac_Allister_04012026_%283%29.jpg/1920px-Alexis_Mac_Allister_04012026_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/hope-happen-week-alexis-mac-163706329.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/alexis-mac-allister-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/hope-happen-week-alexis-mac-163706329.html",
+    "used": 1
    }
   ]
  },
@@ -216,7 +224,7 @@
     "file": "photos/andy-robertson.jpg",
     "source": "article",
     "url": "https://www.skysports.com/football/news/13611544/andy-robertson-scotland-captain-on-reaching-sir-kenny-dalglishs-caps-record-hell-always-be-the-greatest",
-    "used": 1
+    "used": 2
    }
   ]
  },
