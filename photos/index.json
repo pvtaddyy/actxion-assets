@@ -2500,6 +2500,14 @@
     "source": "article",
     "url": "https://www.nytimes.com/athletic/7779113/2026/11/13/lionel-messi-inter-miami-river-plate/",
     "used": 2
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/argentina-first-match-without-lionel-141048384.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/lionel-messi-21.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/argentina-first-match-without-lionel-141048384.html",
+    "used": 1
    }
   ]
  },
@@ -2576,6 +2584,17 @@
     "file": "photos/luis-enrique-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/luis-enrique-reveals-psg-overcame-080000851.html",
+    "used": 1
+   }
+  ]
+ },
+ "luka-modric": {
+  "name": "Luka Modric",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/luka-modric.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
     "used": 1
    }
   ]
