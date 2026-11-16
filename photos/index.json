@@ -1885,6 +1885,19 @@
    }
   ]
  },
+ "jeremy-doku": {
+  "name": "Jeremy Doku",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en-za/news/jeremy-doku-belgium-italy-nations-league-solo-goal/blt5a241a162b7cc3bf",
+    "credit": "Photo: goal.com",
+    "file": "photos/jeremy-doku.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-za/news/jeremy-doku-belgium-italy-nations-league-solo-goal/blt5a241a162b7cc3bf",
+    "used": 1
+   }
+  ]
+ },
  "john-eustace": {
   "name": "John Eustace",
   "variants": [
@@ -3583,6 +3596,19 @@
     "file": "photos/raul-gonzalez.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/a-formal-step-before-the-anticipated-announcement-raul-closes-in-on-a-new-coaching-destination/bltc3ce311e43349645",
+    "used": 1
+   }
+  ]
+ },
+ "pep-guardiola": {
+  "name": "Pep Guardiola",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/rico-lewis-reveals-most-important-143000056.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/pep-guardiola.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/rico-lewis-reveals-most-important-143000056.html",
     "used": 1
    }
   ]
