@@ -1532,12 +1532,6 @@
     "used": 1
    },
    {
-    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
-    "file": "photos/harry-kane-6.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg",
-    "used": 2
-   },
-   {
     "article": "https://www.skysports.com/football/news/13607213/harry-kane-is-bayern-munichs-assist-king-barcelona-win-at-atletico-madrid-and-inter-close-gap-on-lazio-all-in-the-euro-debrief",
     "credit": "Photo: Sky Sports",
     "file": "photos/harry-kane-8.jpg",
@@ -1618,6 +1612,12 @@
     "file": "photos/harry-kane-26.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/after-968-days-england-halt-spain-s-run-and-achieve-a-historic-feat/blt2c61b79af67d1c8c",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/harry-kane-31.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped_2%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -2359,14 +2359,6 @@
   "name": "Lionel Messi",
   "variants": [
    {
-    "article": "https://worldsoccertalk.com/news/cristiano-ronaldo-and-lionel-messi-both-bring-an-end-to-their-legendary-international-careers-but-their-simultaneous-fifa-break-absence-is-not-a-first/",
-    "credit": "Photo: Getty via World Soccer Talk",
-    "file": "photos/lionel-messi-3.jpg",
-    "source": "article",
-    "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-and-lionel-messi-both-bring-an-end-to-their-legendary-international-careers-but-their-simultaneous-fifa-break-absence-is-not-a-first/",
-    "used": 1
-   },
-   {
     "article": "https://worldsoccertalk.com/news/cristiano-ronaldo-with-portugal-or-lionel-messi-with-argentina-who-had-the-better-international-career-the-numbers-tell-the-story/",
     "credit": "Photo: Getty via World Soccer Talk",
     "file": "photos/lionel-messi-6.jpg",
@@ -2444,7 +2436,7 @@
     "file": "photos/lionel-messi-20.jpg",
     "source": "article",
     "url": "https://www.nytimes.com/athletic/7779113/2026/11/13/lionel-messi-inter-miami-river-plate/",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -3115,6 +3107,17 @@
     "file": "photos/mohamed-salah-6.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/salah-snatches-hossam-hassan-s-african-standing-a-record-unmatched-by-the-pharaohs-for-23-years/blt6162e25ec6a48d9f",
+    "used": 1
+   }
+  ]
+ },
+ "mohammed-kudus": {
+  "name": "Mohammed Kudus",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/mohammed-kudus.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Mohammed_Kudus_of_West_Ham_United.jpeg",
     "used": 1
    }
   ]
