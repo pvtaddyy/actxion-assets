@@ -879,6 +879,19 @@
    }
   ]
  },
+ "denzel-dumfries": {
+  "name": "Denzel Dumfries",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/como-3-4-inter-milan-094500233.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/denzel-dumfries.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/como-3-4-inter-milan-094500233.html",
+    "used": 1
+   }
+  ]
+ },
  "didier-deschamps": {
   "name": "Didier Deschamps",
   "variants": [
@@ -1495,6 +1508,19 @@
     "file": "photos/goncalo-ramos.jpg",
     "source": "article",
     "url": "https://www.flashscore.com/news/portugal-put-on-a-show-without-ronaldo-to-punish-danes-in-copenhagen/x0KHR1lK/",
+    "used": 1
+   }
+  ]
+ },
+ "graham-taylor": {
+  "name": "Graham Taylor",
+  "variants": [
+   {
+    "article": "https://www.foxsports.com/stories/soccer/former-england-manager-graham-taylor-dies-at-72",
+    "credit": "Photo: FOX Sports",
+    "file": "photos/graham-taylor.jpg",
+    "source": "article",
+    "url": "https://www.foxsports.com/stories/soccer/former-england-manager-graham-taylor-dies-at-72",
     "used": 1
    }
   ]
@@ -2561,6 +2587,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/articles/argentina-first-match-without-lionel-141048384.html",
     "used": 1
+   },
+   {
+    "article": "https://www.espn.com/soccer/story/_/id/50472990/messi-play-argentina-jan-19-inter-miami-river-friendly",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/lionel-messi-23.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/soccer/story/_/id/50472990/messi-play-argentina-jan-19-inter-miami-river-friendly",
+    "used": 1
    }
   ]
  },
@@ -2811,7 +2845,7 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/martin-odegaard.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg/1920px-Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 2
+    "used": 3
    }
   ]
  },
