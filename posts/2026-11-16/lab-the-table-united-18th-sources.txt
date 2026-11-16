@@ -1,0 +1,15 @@
+The Table: Manchester United, Premier League 2026/27 (checked 16 Nov 2026). Every number on screen and its source:
+- All 100 Premier League results 2026/27 to 8 Nov 2026 (10 games each), with the table after each round computed from them
+  (united_by_matchday.tsv / facts.tsv): football-data.co.uk
+  https://www.football-data.co.uk/mmz4281/2627/E0.csv
+  United by game: Hull 2-0 Man Utd (22 Aug, 17th), Man Utd 5-2 Ipswich (30 Aug, 10th), Everton 2-2 (11th), Man City 0-1 (13th),
+  Fulham 1-1 (12th), Spurs 1-1 (13th), Leeds 1-1 (13th), Bournemouth 0-3 (16th), Chelsea 0-2 (17th), Aston Villa 4-4 (8 Nov, 18th).
+  After 10 games: Man Utd 18th on 8 pts (W1 D5 L4), Arsenal 1st on 27, Liverpool 4th on 18 (gap 10).
+- The same table checked against Sky Sports (last updated 8 Nov): https://www.skysports.com/premier-league-table
+- Man Utd 3rd in 2025/26 (71 pts), computed from all 380 results: https://www.football-data.co.uk/mmz4281/2526/E0.csv
+- Hull newly promoted for 2026/27 (won the Championship play-off final 1-0 v Middlesbrough, 23 May 2026): https://www.thescore.com/epl/news/3544777/hull-promoted-to-epl-after-mc-burnies-95-th-minute-winner-in-playoff-final
+- Carrick sacked Thu 12 Nov 2026, Pochettino confirmed 13 Nov as head coach from 18 Nov, first game away at Liverpool on 22 Nov:
+  https://www.cnn.com/2026/11/13/sport/mauricio-pochettino-manchester-united-head-coach
+  https://www.goal.com/en/news/mauricio-pochettino-manchester-united-manager-usmnt-liverpool/bltce123719a1128621
+  https://sports.yahoo.com/articles/manchester-united-confirm-mauricio-pochettino-121500717.html
+Crests: Manchester United, Arsenal, Liverpool crests belong to their clubs.
