@@ -1,0 +1,11 @@
+matchday	date	opponent	venue	united_goals	opp_goals	result	united_points	united_gd	united_position	leader	leader_points
+1	22/08/2026	Hull	A	0	2	L	0	-2	17	Brighton	3
+2	30/08/2026	Ipswich	H	5	2	W	3	1	10	Man City	6
+3	06/09/2026	Everton	A	2	2	D	4	1	11	Man City	9
+4	13/09/2026	Man City	H	0	1	L	4	0	13	Arsenal	12
+5	20/09/2026	Fulham	A	1	1	D	5	0	12	Man City	15
+6	10/10/2026	Tottenham	H	1	1	D	6	0	13	Man City	18
+7	18/10/2026	Leeds	A	1	1	D	7	0	13	Man City	21
+8	25/10/2026	Bournemouth	H	0	3	L	7	-3	16	Man City	21
+9	31/10/2026	Chelsea	A	0	2	L	7	-5	17	Arsenal	24
+10	08/11/2026	Aston Villa	H	4	4	D	8	-5	18	Arsenal	27

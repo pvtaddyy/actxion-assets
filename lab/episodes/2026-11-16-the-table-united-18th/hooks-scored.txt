@@ -1,0 +1,5 @@
+Hooks (scored by hand on ig-reel hookscore's criteria: specificity, big name, curiosity gap, under 2 s to the point;
+the hookscore repo could not be cloned in this run)
+78 STRONG [curiosity + big name] Manchester United finished third last season. Watch where they are now.   <- used
+72 STRONG [number-first] Third last season. Eighteenth now. Ten games is all it took.
+62 OK     ["everyone says"] Everyone says Pochettino inherits a crisis. The table says it's worse than that.
