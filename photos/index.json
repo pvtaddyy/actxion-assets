@@ -1293,6 +1293,19 @@
    }
   ]
  },
+ "estevao-willian": {
+  "name": "Estêvão Willian",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/chelsea-confirm-signing-est-v-151000582.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/estevao-willian.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/chelsea-confirm-signing-est-v-151000582.html",
+    "used": 1
+   }
+  ]
+ },
  "ezri-konsa": {
   "name": "Ezri Konsa",
   "variants": [
@@ -1583,6 +1596,17 @@
     "credit": "Photo: Gordon Leggett, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/h.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/2018-10-07_WILLIAM_H._LATHAM_-_MMSI_366844950_18-10-06.jpg/1920px-2018-10-07_WILLIAM_H._LATHAM_-_MMSI_366844950_18-10-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "hajime-moriyasu": {
+  "name": "Hajime Moriyasu",
+  "variants": [
+   {
+    "credit": "Photo: Keiteay, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/hajime-moriyasu.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Hajime_Moriyasu_in_Columbus.jpg/1920px-Hajime_Moriyasu_in_Columbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -4595,6 +4619,14 @@
     "file": "photos/vinicius-junior-6.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/why-vinicius-junior-doesn-t-214435168.html",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en-gb/lists/brazil-player-ratings-vs-singapore-vinicius-junior-first-half-hat-trick-seven-goal-rout/blt31eae8bd371fb153",
+    "credit": "Photo: goal.com",
+    "file": "photos/vinicius-junior-8.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en-gb/lists/brazil-player-ratings-vs-singapore-vinicius-junior-first-half-hat-trick-seven-goal-rout/blt31eae8bd371fb153",
     "used": 1
    }
   ]
