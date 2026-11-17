@@ -517,7 +517,7 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/bukayo-saka-2.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg/1920px-Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -880,6 +880,14 @@
     "file": "photos/declan-rice.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Declan_Rice_England_v_Ghana_23_June_2026-150_%28cropped%29.jpg/1920px-Declan_Rice_England_v_Ghana_23_June_2026-150_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 2
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13612986/declan-rice-contract-arsenal-midfielder-verbally-agrees-new-lb320-000-a-week-deal-with-the-premier-league-champions",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/declan-rice-7.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13612986/declan-rice-contract-arsenal-midfielder-verbally-agrees-new-lb320-000-a-week-deal-with-the-premier-league-champions",
+    "used": 1
    }
   ]
  },
@@ -2902,7 +2910,7 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/martin-odegaard.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg/1920px-Martin_Odegaard_Morocco_v_Norway_7_June_2026-56_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 3
+    "used": 4
    }
   ]
  },

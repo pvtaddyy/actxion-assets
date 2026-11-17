@@ -1,0 +1,143 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "/home/user/actxion-assets/logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Pick your side",
+ "tail": 1.2,
+ "header": {
+  "text": "Rice signed. Ødegaard next?",
+  "key": [
+   "Ødegaard next?"
+  ]
+ },
+ "keywords": [
+  "Five",
+  "!captain",
+  "verbally",
+  "Saka.",
+  "record",
+  "nineteen",
+  "!problem.",
+  "started",
+  "go?",
+  "deal."
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13612986/declan-rice-contract-arsenal-midfielder-verbally-agrees-new-lb320-000-a-week-deal-with-the-premier-league-champions",
+  "https://www.skysports.com/football/news/13596475/declan-rice-arsenals-total-player-and-lb105m-bargain-can-unlock-more-levels-after-agreeing-new-contract"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "rice-cut.png",
+   "bgPhoto": "rice.jpg",
+   "word": "FIVE",
+   "label": "PL assists, the most of anyone",
+   "wordY": -20,
+   "wordSize": 400,
+   "height": 540
+  },
+  {
+   "type": "player",
+   "at": "But",
+   "photo": "odegaard-cut.png",
+   "bgPhoto": "odegaard.jpg",
+   "word": "WAITING",
+   "label": "Arsenal captain Martin Ødegaard",
+   "wordY": -20,
+   "wordSize": 250,
+   "height": 640
+  },
+  {
+   "type": "player",
+   "at": "Declan",
+   "photo": "rice-cut.png",
+   "bgPhoto": "rice.jpg",
+   "word": "DEAL",
+   "label": "Verbally agreed, per Sky Sports",
+   "wordY": -20,
+   "wordSize": 340,
+   "height": 600
+  },
+  {
+   "type": "player",
+   "at": "matches",
+   "photo": "saka-cut.png",
+   "bgPhoto": "saka.jpg",
+   "word": "SAKA",
+   "label": "Rice's deal matches the top earner",
+   "wordY": -20,
+   "wordSize": 340,
+   "height": 640
+  },
+  {
+   "type": "stat",
+   "at": "Rice",
+   "value": 105,
+   "unit": "£m",
+   "suffix": "",
+   "label": "Club record fee, 2023",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "stat",
+   "at": "he's",
+   "value": 5,
+   "unit": "of 119",
+   "label": "PL games missed since joining",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "player",
+   "at": "Now",
+   "photo": "odegaard-cut.png",
+   "bgPhoto": "odegaard.jpg",
+   "word": "SAME END",
+   "label": "His deal ends when Rice's does",
+   "wordY": -20,
+   "wordSize": 220,
+   "height": 640
+  },
+  {
+   "type": "list",
+   "at": "His",
+   "title": "Ødegaard on a new deal",
+   "items": [
+    {
+     "at": "So",
+     "text": "\"So far, we haven't started on that\""
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": "New",
+   "photo": "odegaard-cut.png",
+   "bgPhoto": "odegaard.jpg",
+   "word": "A OR B?",
+   "label": "A: new deal. B: let him go",
+   "wordY": -20,
+   "wordSize": 230,
+   "height": 640
+  },
+  {
+   "type": "player",
+   "at": "Five",
+   "photo": "rice-cut.png",
+   "bgPhoto": "rice.jpg",
+   "word": "DONE",
+   "label": "Rice: deal agreed",
+   "wordY": -20,
+   "wordSize": 340,
+   "height": 600
+  },
+  {
+   "type": "ask",
+   "at": "Ødegaard's",
+   "html": "New deal or <span class=\"k\">let him go?</span>",
+   "sub": "Send this to an Arsenal fan"
+  }
+ ]
+}
