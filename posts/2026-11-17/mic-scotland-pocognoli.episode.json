@@ -1,0 +1,41 @@
+{
+ "slug": "mic-scotland-pocognoli",
+ "set": "pub",
+ "club": {"name": "Scotland", "primary": "#1c2c5b", "secondary": "#ffffff", "third": "#0065bd"},
+ "loc": "GLASGOW · SCOTLAND WATCH PARTY",
+ "question": {"phrase": "give him time", "kicker": "ONE QUESTION", "line1": "GIVE HIM TIME", "line2": "OR CHANGE NOW?"},
+ "meter": {"title": "WHAT NOW FOR POCOGNOLI?", "left": "CHANGE NOW", "right": "GIVE HIM TIME", "third": "THE PLAYERS?"},
+ "ask": {"a": "GIVE HIM TIME", "b": "CHANGE NOW?", "next": "Your call? Comment 👇"},
+ "end": "Get ACTXION. Make your voice count 👇",
+ "boo": false,
+ "laugh": "better record",
+ "keywords": ["reflection", "one", "target", "six", "games", "time", "first", "half", "two", "wins", "macedonia", "granny's", "record", "clarke's", "fought", "fall", "apart", "behind", "neither", "four", "minutes", "players", "you"],
+ "fans": [
+  {"who": "ANGRY", "label": "THE ANGRY ONE", "sub": "Paisley, Tartan Army since '98", "coat": "#1c2c5b", "shirt": "#1c2c5b", "legs": "#23252c", "skin": "#efc9ad", "hair": "#6b4a2e", "acc": ["beanie", "scarf"], "open": true, "gesture": "jab", "mood": 0.45, "pop": "One#2", "popHold": 1.4, "meter": -0.8, "color": "#ff5a5f"},
+  {"who": "LOYAL", "label": "THE LOYAL ONE", "sub": "Govan, never misses Hampden", "coat": "#6a2c3e", "shirt": "#1c2c5b", "legs": "#2c3e66", "skin": "#f2d2bd", "hair": "#b5462a", "acc": ["ponytail", "scarf"], "open": true, "gesture": "point", "mood": 0.2, "pop": "Give the man time", "popHold": 1.6, "meter": 0.7, "color": "#7CFFB2"},
+  {"who": "FUNNY", "label": "THE FUNNY ONE", "sub": "Dundee, studying in Glasgow", "coat": "#2f6f4f", "shirt": "#ffffff", "legs": "#1b2233", "skin": "#e9bf9f", "hair": "#2a1a12", "acc": ["bucket"], "open": true, "gesture": "handsup", "mood": -0.1, "laugh": true, "pop": "better record", "popHold": 2.0, "meter": -0.45, "color": "#ffd54a"},
+  {"who": "OLD", "label": "THE OLD HEAD", "sub": "Tartan Army since the 70s", "coat": "#5b4a3a", "shirt": "#0065bd", "legs": "#23252c", "skin": "#dcae8c", "hair": "#c8c8c8", "acc": ["cap", "glasses"], "open": false, "gesture": "facepalm", "mood": -0.3, "pop": "fall apart", "popHold": 1.6, "meter": -0.65, "color": "#ffd54a"},
+  {"who": "THIRD", "label": "IN FROM LAGOS", "sub": "Studying in Glasgow, Scotland fan now", "coat": "#2a2f3a", "shirt": "#1c2c5b", "legs": "#23252c", "skin": "#4a2e1f", "hair": "#111111", "acc": ["hood"], "open": false, "gesture": "crossed", "mood": 0.08, "pop": "That's on the players", "popHold": 1.6, "meter": "third", "color": "#c9a0ff"}
+ ],
+ "feature": {
+  "type": "starting_11",
+  "club": "Scotland",
+  "opponent": "TBC",
+  "comp": "Euro 2028 qualifier",
+  "when": "March 2027 · draw in Dec",
+  "colour": "#1c2c5b",
+  "oppColour": "#888888",
+  "clock": "16:02",
+  "xi": ["Angus Gunn", "Andy Robertson", "Kieran Tierney", "Luke Graham", "Nathan Patterson", "John McGinn", "Lewis Ferguson", "Scott McTominay", "Ben Gannon-Doak", "Che Adams", "Findlay Curtis"],
+  "pos": ["GK", "LB", "CB", "CB", "RB", "CM", "CM", "AM", "LW", "ST", "RW"],
+  "empty": [9],
+  "pick": [{"name": "Che Adams", "chosen": true}, {"name": "Oli McBurnie"}, {"name": "Kieron Bowie"}, {"name": "Robbie Ure"}],
+  "text": "McTominay at ten, Adams up top. Fight for ninety minutes.",
+  "comments": [
+   {"user": "paisley_tartan", "tag": "Improve", "text": "Not a true reflection? One shot on target. One!", "ago": "1 hour ago"},
+   {"user": "govan_hampden_girl", "tag": "Keep Doing", "text": "Six games. Give the man time.", "ago": "2 hours ago"},
+   {"user": "dundee_bucket_hat", "tag": "Both", "text": "Two wins, both against North Macedonia 😂", "ago": "3 hours ago"},
+   {"user": "lagos_to_glasgow", "tag": "Improve", "text": "Two goals in four minutes after the break. That's on the players.", "ago": "5 hours ago"}
+  ]
+ }
+}
