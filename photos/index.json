@@ -250,6 +250,19 @@
    }
   ]
  },
+ "antoine-griezmann": {
+  "name": "Antoine Griezmann",
+  "variants": [
+   {
+    "article": "https://www.orlandosentinel.com/2026/07/17/orlando-city-antoine-griezmann-lionel-messi-mls-world-cup-mike-bianchi-commentary/",
+    "credit": "Photo: Orlando Sentinel",
+    "file": "photos/antoine-griezmann-2.jpg",
+    "source": "article",
+    "url": "https://www.orlandosentinel.com/2026/07/17/orlando-city-antoine-griezmann-lionel-messi-mls-world-cup-mike-bianchi-commentary/",
+    "used": 1
+   }
+  ]
+ },
  "antonee-robinson": {
   "name": "Antonee Robinson",
   "variants": [
@@ -2683,14 +2696,6 @@
     "used": 1
    },
    {
-    "article": "https://www.nytimes.com/athletic/7779113/2026/11/13/lionel-messi-inter-miami-river-plate/",
-    "credit": "Photo: The Athletic",
-    "file": "photos/lionel-messi-20.jpg",
-    "source": "article",
-    "url": "https://www.nytimes.com/athletic/7779113/2026/11/13/lionel-messi-inter-miami-river-plate/",
-    "used": 2
-   },
-   {
     "article": "https://sports.yahoo.com/articles/argentina-first-match-without-lionel-141048384.html",
     "credit": "Photo: Getty via Yahoo Sports",
     "file": "photos/lionel-messi-21.jpg",
@@ -2704,6 +2709,12 @@
     "file": "photos/lionel-messi-23.jpg",
     "source": "article",
     "url": "https://www.espn.com/soccer/story/_/id/50472990/messi-play-argentina-jan-19-inter-miami-river-friendly",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/lionel-messi-24.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Lionel_Messi_NYCFC_Miami_24_Sep_2025-079.jpg/1920px-Lionel_Messi_NYCFC_Miami_24_Sep_2025-079.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
