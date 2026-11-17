@@ -250,6 +250,25 @@
    }
   ]
  },
+ "antonee-robinson": {
+  "name": "Antonee Robinson",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/antonee-robinson.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Antonee_Robinson_04032026_%281%29.jpg/1920px-Antonee_Robinson_04032026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://www.espn.com/soccer/story/_/id/50443428/usmnt-not-distracted-pochettino-man-united-robinson",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/antonee-robinson-2.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/soccer/story/_/id/50443428/usmnt-not-distracted-pochettino-man-united-robinson",
+    "used": 1
+   }
+  ]
+ },
  "antonio-conte": {
   "name": "Antonio Conte",
   "variants": [
@@ -3093,6 +3112,14 @@
     "source": "article",
     "url": "https://www.nytimes.com/athletic/7783497/2026/11/15/pochettino-usmnt-man-united/",
     "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/video/13612902/mauricio-pochettino-confirms-coaching-team-has-already-arrived-in-manchester",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/mauricio-pochettino-19.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/video/13612902/mauricio-pochettino-confirms-coaching-team-has-already-arrived-in-manchester",
+    "used": 1
    }
   ]
  },
@@ -4393,6 +4420,17 @@
     "file": "photos/troy-parrott.jpg",
     "source": "article",
     "url": "https://www.irishnews.com/sport/soccer/troy-parrott-hits-brace-for-ireland-but-austria-fight-back-to-claim-draw-S547ZNA3KRKFBKMTE5BGYZJF5Q/",
+    "used": 1
+   }
+  ]
+ },
+ "tyler-adams": {
+  "name": "Tyler Adams",
+  "variants": [
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/tyler-adams.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Tyler_Adams_Australia_v_USA_19_June_2026-271_%28cropped%29.jpg/1920px-Tyler_Adams_Australia_v_USA_19_June_2026-271_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
