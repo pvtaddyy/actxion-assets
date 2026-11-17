@@ -2341,6 +2341,19 @@
    }
   ]
  },
+ "kevin-denkey": {
+  "name": "Kevin Denkey",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/kevin-denkey-togo-unlikely-afcon-200600942.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/kevin-denkey.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/kevin-denkey-togo-unlikely-afcon-200600942.html",
+    "used": 1
+   }
+  ]
+ },
  "khadija-shaw": {
   "name": "Khadija Shaw",
   "variants": [
@@ -2726,6 +2739,17 @@
     "file": "photos/lorenzo-lucca.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/lists/napoli-deeney-launches-scathing-attack-lucca-is-lucky-to-be-a-footballer-he-s-one-of-the-worst-strikers-i-ve-ever-seen/blt60722600f240ae13",
+    "used": 1
+   }
+  ]
+ },
+ "luciano-spalletti": {
+  "name": "Luciano Spalletti",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/luciano-spalletti-4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Norway_Italy_-_June_2025_A_44_%28Luciano_Spalletti%29.jpg",
     "used": 1
    }
   ]
@@ -4120,6 +4144,19 @@
     "credit": "Photo: Little Savage, Wikimedia Commons, CC BY-SA 3.0",
     "file": "photos/santiago-bernabeu-stadium.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Santiago_Bernab%C3%A9u_Stadium_-_Exterior_03.jpg/1920px-Santiago_Bernab%C3%A9u_Stadium_-_Exterior_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "sarina-wiegman": {
+  "name": "Sarina Wiegman",
+  "variants": [
+   {
+    "article": "https://www.nytimes.com/athletic/5931601/2024/11/19/england-women-squad-uswnt-switzerland/",
+    "credit": "Photo: The Athletic",
+    "file": "photos/sarina-wiegman.jpg",
+    "source": "article",
+    "url": "https://www.nytimes.com/athletic/5931601/2024/11/19/england-women-squad-uswnt-switzerland/",
     "used": 1
    }
   ]
