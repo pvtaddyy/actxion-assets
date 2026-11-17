@@ -77,7 +77,7 @@ def finish(img):
 def t_verdict(spec):
     img, d, acc, shade = E.base(spec, W, H, focus=0.16)
     CW, CH = img.size
-    E.scrim(img, (0, int(CH * 0.36), CW, CH), shade, 250, 1.15)
+    E.scrim(img, (0, int(CH * 0.36), CW, CH), shade, 250, 0.6)
     header(img, d, spec, acc, shade, "Fan verdict")
     yb = s(BOTTOM)
     yb = ask_pill(d, yb, spec.get("ask") or "Reply A or B", acc) - s(44)
