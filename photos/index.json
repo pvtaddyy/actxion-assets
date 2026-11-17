@@ -1778,7 +1778,7 @@
     "file": "photos/hossam-hassan.jpg",
     "source": "article",
     "url": "https://www.goal.com/en-za/news/from-morocco-crisis-to-accusing-messi-and-fifa-the-egyptian-football-association-puts-an-end-to-hossam-hassan-s-wars/bltd5d3caff54e4c936",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -3365,6 +3365,14 @@
     "file": "photos/mohamed-salah-6.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/salah-snatches-hossam-hassan-s-african-standing-a-record-unmatched-by-the-pharaohs-for-23-years/blt6162e25ec6a48d9f",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/where-does-mohamed-salah-stand-ali-maher-surprises-malawi-with-two-changes/blt5ca6b86857a529e9",
+    "credit": "Photo: goal.com",
+    "file": "photos/mohamed-salah-9.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/where-does-mohamed-salah-stand-ali-maher-surprises-malawi-with-two-changes/blt5ca6b86857a529e9",
     "used": 1
    }
   ]
