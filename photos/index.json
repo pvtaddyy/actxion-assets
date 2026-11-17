@@ -524,6 +524,17 @@
    }
   ]
  },
+ "cardiff-city-stadium": {
+  "name": "Cardiff City Stadium",
+  "variants": [
+   {
+    "credit": "Photo: Jon Candy from Cardiff, Wales, Wikimedia Commons, CC BY-SA 2.0",
+    "file": "photos/cardiff-city-stadium.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Cardiff_City_Stadium_Pitch_%28cropped%29.jpg/1920px-Cardiff_City_Stadium_Pitch_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "carlo-ancelotti": {
   "name": "Carlo Ancelotti",
   "variants": [
@@ -984,6 +995,19 @@
     "file": "photos/dirk-kuyt-3.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/dirk-kuyt-prepares-emotional-liverpool-174404434.html",
+    "used": 1
+   }
+  ]
+ },
+ "dolores-aveiro": {
+  "name": "Dolores Aveiro",
+  "variants": [
+   {
+    "article": "https://worldsoccertalk.com/news/cristiano-ronaldos-portugal-exit-sparks-fresh-reaction-as-ruben-neves-responds-after-maria-dolores-aveiro-accused-sons-teammates-of-disrespect/",
+    "credit": "Photo: Getty via World Soccer Talk",
+    "file": "photos/dolores-aveiro-2.jpg",
+    "source": "article",
+    "url": "https://worldsoccertalk.com/news/cristiano-ronaldos-portugal-exit-sparks-fresh-reaction-as-ruben-neves-responds-after-maria-dolores-aveiro-accused-sons-teammates-of-disrespect/",
     "used": 1
    }
   ]
