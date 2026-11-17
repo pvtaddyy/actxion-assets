@@ -1253,6 +1253,14 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/norway-are-back-they-beat-wales-3-1-and-still-hope-to-qualify/bltca63434ee6e79f1a",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/own-goal-machine-brian-riemer-080626968.html",
+    "credit": "Photo: Afp via Yahoo Sports",
+    "file": "photos/erling-haaland-18.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/own-goal-machine-brian-riemer-080626968.html",
+    "used": 1
    }
   ]
  },
@@ -3398,6 +3406,12 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/where-does-mohamed-salah-stand-ali-maher-surprises-malawi-with-two-changes/blt5ca6b86857a529e9",
     "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/mohamed-salah-10.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-159.jpg/1920px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
@@ -3885,7 +3899,7 @@
     "file": "photos/rasmus-hojlund-4.jpg",
     "source": "article",
     "url": "https://www.si.com/soccer/man-utd-new-rasmus-hojlund-approach-price-tag-set",
-    "used": 1
+    "used": 2
    }
   ]
  },
