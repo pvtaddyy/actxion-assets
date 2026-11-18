@@ -1,0 +1,2 @@
+Results and half-time scores, Premier League 2026/27, 100 games 21 Aug - 8 Nov 2026: football-data.co.uk https://www.football-data.co.uk/mmz4281/2627/E0.csv (columns FTHG/FTAG/HTHG/HTAG; saved as E0.csv; both tables computed in facts.tsv)
+Real table check (Arsenal 27, Brighton 22, Bournemouth 7th on 15, Man City 3rd): Sky Sports https://www.skysports.com/premier-league-table (updated 8 Nov 2026)
