@@ -1,0 +1,44 @@
+table	pos	club	P	W	D	L	GF	GA	Pts
+full-time	1	Arsenal	10	9	0	1	15	5	27
+full-time	2	Brighton	10	7	1	2	26	7	22
+full-time	3	Man City	10	7	0	3	21	13	21
+full-time	4	Liverpool	10	5	3	2	14	10	18
+full-time	5	Chelsea	10	5	1	4	19	16	16
+full-time	6	Everton	10	4	4	2	12	10	16
+full-time	7	Bournemouth	10	4	3	3	16	14	15
+full-time	8	Brentford	10	3	5	2	16	11	14
+full-time	9	Leeds	10	3	5	2	10	8	14
+full-time	10	Aston Villa	10	3	4	3	14	17	13
+full-time	11	Tottenham	10	3	3	4	10	11	12
+full-time	12	Newcastle	10	3	3	4	13	16	12
+full-time	13	Hull	10	2	5	3	11	11	11
+full-time	14	Ipswich	10	3	2	5	15	20	11
+full-time	15	Fulham	10	2	4	4	10	12	10
+full-time	16	Nott'm Forest	10	2	3	5	9	13	9
+full-time	17	Coventry	10	3	0	7	10	19	9
+full-time	18	Man United	10	1	5	4	14	19	8
+full-time	19	Sunderland	10	2	2	6	8	17	8
+full-time	20	Crystal Palace	10	2	1	7	10	24	7
+half-time	1	Bournemouth	10	7	2	1	10	4	23
+half-time	2	Brighton	10	6	1	3	14	6	19
+half-time	3	Aston Villa	10	4	5	1	7	7	17
+half-time	4	Brentford	10	4	4	2	7	5	16
+half-time	5	Arsenal	10	3	6	1	5	3	15
+half-time	6	Chelsea	10	3	5	2	9	6	14
+half-time	7	Man City	10	4	2	4	7	8	14
+half-time	8	Hull	10	3	4	3	5	5	13
+half-time	9	Nott'm Forest	10	2	6	2	5	4	12
+half-time	10	Liverpool	10	3	3	4	5	4	12
+half-time	11	Fulham	10	2	6	2	4	4	12
+half-time	12	Everton	10	2	6	2	2	2	12
+half-time	13	Tottenham	10	2	6	2	2	3	12
+half-time	14	Leeds	10	2	5	3	4	3	11
+half-time	15	Coventry	10	2	4	4	3	5	10
+half-time	16	Ipswich	10	2	4	4	7	10	10
+half-time	17	Man United	10	1	7	2	4	7	10
+half-time	18	Newcastle	10	2	4	4	4	7	10
+half-time	19	Sunderland	10	1	6	3	4	7	9
+half-time	20	Crystal Palace	10	1	2	7	4	12	5
+
+# Arsenal: FT GF15 GA5, HT GF5 GA3 -> second half scored 10, conceded 2. Arsenal HT draws 6, all six won at FT. Bournemouth HT wins 7 of 10. 100 matches 21/08/2026-08/11/2026.
+# Ties on pts/GD/GF at HT (Forest-Liverpool 12, Man Utd-Newcastle 10) left unnamed in the video.

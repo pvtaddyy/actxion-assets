@@ -1,0 +1,12 @@
+
+HOOK RANKING
+==============================================================================
+->  88.0 STRONG  Stop every Premier League game at half-time and you won't g...
+        weakest: LENGTH (77)
+    58.5 OK      Arsenal have twenty seven points. Stop every game at half-t...
+        weakest: ADDRESS (35)
+    54.9 OK      Everyone says Arsenal are running away with the league. Not...
+        weakest: ADDRESS (35)
+
+Shoot the top one. If the top one is under 50, none of these are the hook.
+
