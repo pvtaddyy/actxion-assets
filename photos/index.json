@@ -197,6 +197,12 @@
     "file": "photos/erling-haaland-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Erling_Haaland_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/erling-haaland-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
+    "used": 1
    }
   ]
  },
@@ -295,6 +301,14 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/kylian-mbappe.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Kylian_Mbappe_France_v_Paraguay_4_July_2026-201_%28cropped%29.jpg/1920px-Kylian_Mbappe_France_v_Paraguay_4_July_2026-201_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/real-madrid-superstar-kylian-mbappe-155800759.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/kylian-mbappe-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/real-madrid-superstar-kylian-mbappe-155800759.html",
     "used": 1
    }
   ]

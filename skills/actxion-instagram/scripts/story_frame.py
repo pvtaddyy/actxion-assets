@@ -123,7 +123,7 @@ def t_thisorthat(spec):
         d.text((s(M + 48), y), E.line_text(fl[0]), font=ff, fill=E.WHITE)
     ask_pill(d, s(BOTTOM), spec.get("ask") or "Reply A or B", acc)
     if spec.get("credit_a"):
-        E.credit(d, CW - s(M), half - s(40), spec.get("credit_a"))
+        E.credit(d, CW - s(M), qy - s(150), spec.get("credit_a"))  # above A, never on the question
     if spec.get("credit_b"):
         E.credit(d, CW - s(M), s(BOTTOM) + s(30), spec.get("credit_b"))
     return finish(img)

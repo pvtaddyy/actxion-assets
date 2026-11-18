@@ -9,3 +9,5 @@ Emery_Valentine
 Fiola_and_Kenan_Y
 # 4 Nov 2026: Rodri (footballer, born 1990), not the Barcelona/Spain Rodri
 BCFC_sign_Rodri
+# 18 Nov 2026: Yahoo article photo is Piero Hincapie, not Declan Rice
+https://sports.yahoo.com/articles/declan-rice-arsenal-advanced-talks-212000987.html
