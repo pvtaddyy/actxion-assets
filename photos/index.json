@@ -1,4 +1,23 @@
 {
+ "ademola-lookman": {
+  "name": "Ademola Lookman",
+  "variants": [
+   {
+    "credit": "Photo: Charltonkyle, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/ademola-lookman.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Ademola_Lookman_against_Derby.jpg/1920px-Ademola_Lookman_against_Derby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/ademola-lookman-injury-atletico-madrid-knee-sprain/blt545e04d79cc5ebf7",
+    "credit": "Photo: goal.com",
+    "file": "photos/ademola-lookman-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/ademola-lookman-injury-atletico-madrid-knee-sprain/blt545e04d79cc5ebf7",
+    "used": 1
+   }
+  ]
+ },
  "alexander-isak": {
   "name": "Alexander Isak",
   "variants": [
