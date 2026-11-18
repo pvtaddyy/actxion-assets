@@ -550,6 +550,14 @@
     "file": "photos/calvin-bassey.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Calvin_Bassey_21032026_%281%29.jpg/1920px-Calvin_Bassey_21032026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/former-fulham-player-explains-why-133500954.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/calvin-bassey-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/former-fulham-player-explains-why-133500954.html",
+    "used": 1
    }
   ]
  },
@@ -1301,6 +1309,14 @@
     "file": "photos/erling-haaland-21.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/haaland-fires-norway-into-nations-league-quarter-finals-in-96th-minute/blt077d15d05f635357",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/madness-norway-boss-stale-solbakken-220000019.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/erling-haaland-22.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/madness-norway-boss-stale-solbakken-220000019.html",
     "used": 1
    }
   ]
