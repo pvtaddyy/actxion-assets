@@ -2821,6 +2821,14 @@
     "source": "article",
     "url": "https://sports.yahoo.com/videos/lionel-messi-extends-inter-miami-172927743.html",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/columbus-crew-upset-inter-miami-175900710.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/lionel-messi-26.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/columbus-crew-upset-inter-miami-175900710.html",
+    "used": 1
    }
   ]
  },
@@ -3897,6 +3905,17 @@
     "credit": "Photo: President Of Ukraine from Україна, Wikimedia Commons, CC0",
     "file": "photos/pedro-sanchez.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/President_of_Ukraine_Volodymyr_Zelenskyy_met_with_Prime_Minister_of_the_Kingdom_of_Spain_Pedro_S%C3%A1nchez%2C_who_arrived_in_our_country_on_a_visit._%2852709683573%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "pele": {
+  "name": "Pelé",
+  "variants": [
+   {
+    "credit": "Photo: Brasil Correio, Wikimedia Commons, Public domain",
+    "file": "photos/pele.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Selo_Pel%C3%A9_1000_gols_10_cts.jpg/1920px-Selo_Pel%C3%A9_1000_gols_10_cts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
