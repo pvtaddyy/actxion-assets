@@ -1,0 +1,157 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "../../logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Pick your side",
+ "tail": 1.2,
+ "header": {
+  "text": "Pochettino: red again or still blue?",
+  "key": [
+   "red again"
+  ]
+ },
+ "keywords": [
+  "!eight",
+  "today",
+  "eighteenth",
+  "!sacked",
+  "City",
+  "blue#2",
+  "see",
+  "half",
+  "Anfield",
+  "red",
+  "pressure#2"
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13613499/mauricio-pochettino-incoming-manchester-united-head-coach-calls-for-time-to-topple-manchester-city-ahead-of-old-trafford-arrival",
+  "https://www.sportsmole.co.uk/football/man-utd/news/pochettinos-official-start-date-revealed-as-man-united-confirm-argentines-arrival_609049.html",
+  "https://www.timeslive.co.za/sport/soccer/2026-11-09-pressure-still-on-man-united-boss-carrick-despite-dramatic-villa-draw/"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "poch-cutf.png",
+   "bgPhoto": "poch.jpg",
+   "word": "8 POINTS",
+   "label": "Man Utd, 10 games",
+   "wordY": -20,
+   "wordSize": 240,
+   "height": 560
+  },
+  {
+   "type": "stat",
+   "at": "today",
+   "value": 18,
+   "unit": "November",
+   "label": "Pochettino's first day",
+   "source": "Sport Mole"
+  },
+  {
+   "type": "stat",
+   "at": "United",
+   "value": 18,
+   "suffix": "th",
+   "unit": "place",
+   "label": "Premier League, 8 pts from 10",
+   "source": "AFP via TimesLIVE"
+  },
+  {
+   "type": "card",
+   "at": "they",
+   "colour": "red",
+   "text": "Carrick sacked"
+  },
+  {
+   "type": "list",
+   "at": "Then",
+   "title": "Who said it",
+   "items": [
+    {
+     "at": "DaMarcus",
+     "text": "DaMarcus Beasley"
+    },
+    {
+     "at": "played",
+     "text": "Played for Man City"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": "told",
+   "photo": "poch-cutf.png",
+   "word": "ALWAYS BLUE",
+   "label": "Beasley to Pochettino",
+   "wordY": -20,
+   "wordSize": 240,
+   "height": 560
+  },
+  {
+   "type": "list",
+   "at": "Pochettino",
+   "title": "Pochettino's reply",
+   "items": [
+    {
+     "at": "came",
+     "text": "Straight back, per Sky Sports"
+    },
+    {
+     "at": "You",
+     "text": "\"You will see.\""
+    },
+    {
+     "at": "Give",
+     "text": "\"Give me time.\""
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "He's",
+   "value": 2.5,
+   "decimals": 1,
+   "unit": "years",
+   "label": "his contract",
+   "source": "Sport Mole"
+  },
+  {
+   "type": "list",
+   "at": "His",
+   "title": "First game",
+   "items": [
+    {
+     "at": "Liverpool",
+     "text": "Liverpool v Man Utd"
+    },
+    {
+     "at": "Anfield",
+     "text": "Anfield, Sun 22 Nov"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "Pick",
+   "title": "Pick your side",
+   "items": [
+    {
+     "at": "A,",
+     "text": "A: Red again"
+    },
+    {
+     "at": "B,",
+     "text": "B: Stays blue"
+    }
+   ]
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Red again or still <span class=\"k\">blue?</span>",
+   "sub": "Send this to a United fan"
+  }
+ ]
+}
