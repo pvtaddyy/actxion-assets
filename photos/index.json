@@ -298,6 +298,14 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/will-he-win-carrick-s-seat-conte-surprises-manchester-united/bltdf1828c49c26067b",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/conte-opens-door-to-juventus-return-sooner-or-later-the-circle-will-close/blt2b654f323c30d4fb",
+    "credit": "Photo: goal.com",
+    "file": "photos/antonio-conte-4.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/conte-opens-door-to-juventus-return-sooner-or-later-the-circle-will-close/blt2b654f323c30d4fb",
+    "used": 1
    }
   ]
  },
@@ -1581,6 +1589,19 @@
     "credit": "Photo: Wikimedia Commons",
     "file": "photos/gian-piero-gasperini.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Gian_Piero_Gasperini%2C_2024.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "gianluigi-donnarumma": {
+  "name": "Gianluigi Donnarumma",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/eating-marc-guehi-gianluigi-donnarumma-132735209.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/gianluigi-donnarumma-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/eating-marc-guehi-gianluigi-donnarumma-132735209.html",
     "used": 1
    }
   ]
