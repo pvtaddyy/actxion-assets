@@ -1483,6 +1483,19 @@
    }
   ]
  },
+ "franco-mastantuono": {
+  "name": "Franco Mastantuono",
+  "variants": [
+   {
+    "article": "https://worldsoccertalk.com/news/messi-effect-scaloni-shares-honest-admission-on-mastantuono-and-nico-pazs-argentina-status/",
+    "credit": "Photo: Getty via World Soccer Talk",
+    "file": "photos/franco-mastantuono-3.jpg",
+    "source": "article",
+    "url": "https://worldsoccertalk.com/news/messi-effect-scaloni-shares-honest-admission-on-mastantuono-and-nico-pazs-argentina-status/",
+    "used": 1
+   }
+  ]
+ },
  "frank-lampard": {
   "name": "Frank Lampard",
   "variants": [
@@ -2309,6 +2322,14 @@
     "source": "article",
     "url": "https://www.goal.com/en-za/news/high-praise-for-the-germany-coach-juergen-klopp-gives-a-million-interviews-and-a-million-of-them-are-good/blt2b576dc74363c164",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/made-an-enormous-leap-germany-s-progress-under-klopp-astonishes-former-international/blt05c49931c13188fb",
+    "credit": "Photo: goal.com",
+    "file": "photos/jurgen-klopp-14.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/made-an-enormous-leap-germany-s-progress-under-klopp-astonishes-former-international/blt05c49931c13188fb",
+    "used": 1
    }
   ]
  },
@@ -2364,6 +2385,19 @@
     "file": "photos/kenny-dalglish.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/liverpool-legend-sir-kenny-dalglish-225913230.html",
+    "used": 1
+   }
+  ]
+ },
+ "kevin-de-bruyne": {
+  "name": "Kevin De Bruyne",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/dutch-giants-submit-offer-sign-140000158.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/kevin-de-bruyne-10.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/dutch-giants-submit-offer-sign-140000158.html",
     "used": 1
    }
   ]
