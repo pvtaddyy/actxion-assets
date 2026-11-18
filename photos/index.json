@@ -2471,7 +2471,7 @@
     "credit": "Photo: Dianaatflourish, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/khadija-shaw.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Khadija_Shaw_%28cropped%29.jpg/1920px-Khadija_Shaw_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -4733,6 +4733,17 @@
     "file": "photos/vedat-muriqi.jpg",
     "source": "article",
     "url": "https://www.beinsports.com/en-us/soccer/sper-lig/articles-video/vedat-muriqi-explains-what-makes-galatasaray-vs-fenerbah%C3%A7e-so-intense-2026-10-26",
+    "used": 1
+   }
+  ]
+ },
+ "veerle-buurman": {
+  "name": "Veerle Buurman",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/veerle-buurman.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/20250905-Veerle_Buurman.jpg",
     "used": 1
    }
   ]
