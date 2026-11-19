@@ -741,6 +741,19 @@
    }
   ]
  },
+ "claudia-pina": {
+  "name": "Clàudia Pina",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/article/could-cl-udia-pina-bar-170600639.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/claudia-pina.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/article/could-cl-udia-pina-bar-170600639.html",
+    "used": 1
+   }
+  ]
+ },
  "cole-palmer": {
   "name": "Cole Palmer",
   "variants": [
@@ -3437,6 +3450,19 @@
     "file": "photos/maurizio-sarri.jpg",
     "url": "",
     "used": 0
+   }
+  ]
+ },
+ "melchie-dumornay": {
+  "name": "Melchie Dumornay",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/arsenal-women-vs-olympiques-lyon-women/report/578272",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/melchie-dumornay.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/arsenal-women-vs-olympiques-lyon-women/report/578272",
+    "used": 1
    }
   ]
  },
