@@ -1211,6 +1211,19 @@
    }
   ]
  },
+ "enzo-fernandez": {
+  "name": "Enzo Fernández",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13613559/man-city-vs-fulham-has-enzo-fernandez-given-enzo-maresca-a-problem-in-midfield-and-how-does-he-fix-the-imbalance",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/enzo-fernandez.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13613559/man-city-vs-fulham-has-enzo-fernandez-given-enzo-maresca-a-problem-in-midfield-and-how-does-he-fix-the-imbalance",
+    "used": 1
+   }
+  ]
+ },
  "enzo-le-fee": {
   "name": "Enzo Le Fée",
   "variants": [
@@ -5030,6 +5043,19 @@
     "file": "photos/xabi-alonso-3.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/xabi-alonsos-honeymoon-period-over-081500696.html",
+    "used": 1
+   }
+  ]
+ },
+ "xaver-schlager": {
+  "name": "Xaver Schlager",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13610154/xaver-schlager-at-nottingham-forest-tough-tackling-replacement-for-elliot-anderson-proves-his-worth-to-new-club",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/xaver-schlager.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13610154/xaver-schlager-at-nottingham-forest-tough-tackling-replacement-for-elliot-anderson-proves-his-worth-to-new-club",
     "used": 1
    }
   ]
