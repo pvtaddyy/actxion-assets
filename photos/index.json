@@ -274,6 +274,12 @@
     "source": "article",
     "url": "https://www.orlandosentinel.com/2026/07/17/orlando-city-antoine-griezmann-lionel-messi-mls-world-cup-mike-bianchi-commentary/",
     "used": 1
+   },
+   {
+    "credit": "Photo: Антон Зайцев, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/antoine-griezmann-3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/FRA-ARG_%2810%29_%28cropped%29.jpg",
+    "used": 1
    }
   ]
  },
@@ -2944,6 +2950,14 @@
     "source": "article",
     "url": "https://www.seneweb.com/en/news/Sport/argentine-lionel-messi-prend-ses-distances-avec-la-federation-et-menace-de-saisir-la-justice_n_999004012.html",
     "used": 1
+   },
+   {
+    "article": "https://www.cbssports.com/soccer/news/mls-cup-bracket-predictions-lionel-messi-inter-miami/",
+    "credit": "Photo: Getty via CBS Sports",
+    "file": "photos/lionel-messi-29.jpg",
+    "source": "article",
+    "url": "https://www.cbssports.com/soccer/news/mls-cup-bracket-predictions-lionel-messi-inter-miami/",
+    "used": 1
    }
   ]
  },
@@ -4401,6 +4415,25 @@
     "file": "photos/rio-ngumoha.jpg",
     "source": "article",
     "url": "https://www.teamtalk.com/liverpool/trey-nyoni-rio-ngumoha-form-massive-iraola-headache-217m-trio",
+    "used": 1
+   }
+  ]
+ },
+ "robert-lewandowski": {
+  "name": "Robert Lewandowski",
+  "variants": [
+   {
+    "article": "https://www.chicagotribune.com/2026/11/15/robert-lewandowksi-chicago-fire/",
+    "credit": "Photo: Getty via Chicago Tribune",
+    "file": "photos/robert-lewandowski.jpg",
+    "source": "article",
+    "url": "https://www.chicagotribune.com/2026/11/15/robert-lewandowksi-chicago-fire/",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/robert-lewandowski-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-337.jpg/1920px-Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-337.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
