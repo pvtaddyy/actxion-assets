@@ -120,6 +120,14 @@
     "file": "photos/alex-scott-3.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Alex_Scott_09052026_%281%29.jpg/1920px-Alex_Scott_09052026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://www.sportskeeda.com/football/news-hasselbaink-explains-chelsea-must-sign-alex-scott-names-another-premier-league-midfielder-choice",
+    "credit": "Photo: Getty via sportskeeda.com",
+    "file": "photos/alex-scott-4.jpg",
+    "source": "article",
+    "url": "https://www.sportskeeda.com/football/news-hasselbaink-explains-chelsea-must-sign-alex-scott-names-another-premier-league-midfielder-choice",
+    "used": 1
    }
   ]
  },
@@ -2094,6 +2102,19 @@
     "file": "photos/jim-ratcliffe.jpg",
     "source": "article",
     "url": "https://www.the-sun.com/sport/17283367/man-utd-ratcliffe-sack-michael-carrick-pochettino/",
+    "used": 1
+   }
+  ]
+ },
+ "jimmy-floyd-hasselbaink": {
+  "name": "Jimmy Floyd Hasselbaink",
+  "variants": [
+   {
+    "article": "https://www.sportskeeda.com/football/news-hasselbaink-explains-chelsea-must-sign-alex-scott-names-another-premier-league-midfielder-choice",
+    "credit": "Photo: Getty via sportskeeda.com",
+    "file": "photos/jimmy-floyd-hasselbaink.jpg",
+    "source": "article",
+    "url": "https://www.sportskeeda.com/football/news-hasselbaink-explains-chelsea-must-sign-alex-scott-names-another-premier-league-midfielder-choice",
     "used": 1
    }
   ]
