@@ -855,6 +855,19 @@
    }
   ]
  },
+ "curtis-jones": {
+  "name": "Curtis Jones",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/curtis-jones-leaving-liverpool-inter-211450420.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/curtis-jones-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/curtis-jones-leaving-liverpool-inter-211450420.html",
+    "used": 1
+   }
+  ]
+ },
  "daichi-kamada": {
   "name": "Daichi Kamada",
   "variants": [
@@ -1065,6 +1078,19 @@
     "file": "photos/dirk-kuyt-3.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/dirk-kuyt-prepares-emotional-liverpool-174404434.html",
+    "used": 1
+   }
+  ]
+ },
+ "djed-spence": {
+  "name": "Djed Spence",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/video-curtis-jones-tells-djed-205100765.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/djed-spence.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/video-curtis-jones-tells-djed-205100765.html",
     "used": 1
    }
   ]
