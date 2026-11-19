@@ -1,0 +1,206 @@
+{
+ "slug": "mic-bruno-sell",
+ "set": "viewing",
+ "club": {
+  "name": "Man Utd",
+  "primary": "#c4121d",
+  "secondary": "#ffffff",
+  "third": "#15161c"
+ },
+ "loc": "NAIROBI · UNITED VIEWING CENTRE",
+ "question": {
+  "phrase": "sell him",
+  "kicker": "ONE QUESTION",
+  "line1": "SELL BRUNO",
+  "line2": "OR BUILD ROUND HIM?"
+ },
+ "meter": {
+  "title": "WHAT NOW FOR BRUNO?",
+  "left": "SELL",
+  "right": "KEEP",
+  "third": "WAIT?"
+ },
+ "ask": {
+  "a": "SELL HIM",
+  "b": "BUILD ROUND HIM?",
+  "next": "Your call? Comment 👇"
+ },
+ "end": "Get ACTXION. Make your voice count 👇",
+ "boo": false,
+ "laugh": "that fast",
+ "keywords": [
+  "can't",
+  "won't",
+  "sell",
+  "bruno",
+  "one",
+  "ten",
+  "anfield",
+  "build",
+  "twenty-one",
+  "assists",
+  "ball",
+  "number",
+  "march",
+  "eleventh",
+  "wi-fi",
+  "summer",
+  "nothing",
+  "neither",
+  "poch",
+  "decide",
+  "you"
+ ],
+ "fans": [
+  {
+   "who": "ANGRY",
+   "label": "THE ANGRY ONE",
+   "sub": "Kibera, United since 2008",
+   "coat": "#2a2f3a",
+   "shirt": "#c4121d",
+   "legs": "#23252c",
+   "skin": "#4a2e1f",
+   "hair": "#111111",
+   "acc": [
+    "cap"
+   ],
+   "open": true,
+   "gesture": "jab",
+   "mood": 0.45,
+   "pop": "Sell Bruno",
+   "popHold": 1.4,
+   "meter": -0.8,
+   "color": "#ff5a5f"
+  },
+  {
+   "who": "LOYAL",
+   "label": "THE LOYAL ONE",
+   "sub": "From Salford, teaching in Nairobi",
+   "coat": "#8a1c24",
+   "shirt": "#c4121d",
+   "legs": "#2c3e66",
+   "skin": "#f0cdb4",
+   "hair": "#b5462a",
+   "acc": [
+    "ponytail",
+    "scarf"
+   ],
+   "open": true,
+   "gesture": "point",
+   "mood": 0.2,
+   "pop": "only one",
+   "popHold": 1.6,
+   "meter": 0.75,
+   "color": "#7CFFB2"
+  },
+  {
+   "who": "FUNNY",
+   "label": "THE FUNNY ONE",
+   "sub": "In from Lagos for work",
+   "coat": "#e3b23c",
+   "shirt": "#15161c",
+   "legs": "#3b3f4a",
+   "skin": "#5a3825",
+   "hair": "#111111",
+   "acc": [
+    "bucket"
+   ],
+   "open": true,
+   "gesture": "handsup",
+   "mood": -0.1,
+   "laugh": true,
+   "pop": "Even my",
+   "popHold": 2.0,
+   "meter": -0.4,
+   "color": "#ffd54a"
+  },
+  {
+   "who": "OLD",
+   "label": "THE OLD HEAD",
+   "sub": "Manchester-born, retired to Nairobi",
+   "coat": "#5b4a3a",
+   "shirt": "#ffffff",
+   "legs": "#23252c",
+   "skin": "#e2b996",
+   "hair": "#c8c8c8",
+   "acc": [
+    "beanie",
+    "glasses"
+   ],
+   "open": false,
+   "gesture": "facepalm",
+   "mood": -0.3,
+   "pop": "nothing back",
+   "popHold": 1.6,
+   "meter": -0.6,
+   "color": "#ffd54a"
+  },
+  {
+   "who": "THIRD",
+   "label": "THE ONE AGAINST EVERYONE",
+   "sub": "Londoner, working in Nairobi",
+   "coat": "#1d2742",
+   "shirt": "#1d2742",
+   "legs": "#23252c",
+   "skin": "#6b4430",
+   "hair": "#111111",
+   "acc": [
+    "hood"
+   ],
+   "open": false,
+   "gesture": "crossed",
+   "mood": 0.08,
+   "pop": "So should we",
+   "popHold": 1.6,
+   "meter": "third",
+   "color": "#c9a0ff"
+  }
+ ],
+ "feature": {
+  "type": "transfer_window",
+  "club": "Man Utd",
+  "opponent": "Liverpool",
+  "comp": "Premier League",
+  "when": "Sun 22 Nov · 16:30 UK",
+  "colour": "#c4121d",
+  "oppColour": "#c8102e",
+  "clock": "18:02",
+  "banner": "Pochettino's first game: Liverpool away, Sun 22 Nov. Make your calls.",
+  "players": [
+   {
+    "name": "Bruno Fernandes",
+    "choice": "sell"
+   },
+   {
+    "name": "Kobbie Mainoo",
+    "choice": "keep"
+   }
+  ],
+  "comments": [
+   {
+    "user": "kibera_red",
+    "tag": "Improve",
+    "text": "Can't build round a man who won't sign. Sell Bruno!",
+    "ago": "1 hour ago"
+   },
+   {
+    "user": "salford_in_nairobi",
+    "tag": "Keep Doing",
+    "text": "Twenty-one assists last season. He's the only one who wants the ball.",
+    "ago": "2 hours ago"
+   },
+   {
+    "user": "lagos_bucket_hat",
+    "tag": "Both",
+    "text": "Number one in March, eleventh now 😂",
+    "ago": "3 hours ago"
+   },
+   {
+    "user": "ldn_to_nbo",
+    "tag": "Both",
+    "text": "He's waiting to see if Poch is any good. So should we.",
+    "ago": "5 hours ago"
+   }
+  ]
+ }
+}
