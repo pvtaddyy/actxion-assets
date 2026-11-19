@@ -1376,6 +1376,17 @@
    }
   ]
  },
+ "estadio-couto-pereira": {
+  "name": "Estádio Couto Pereira",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/estadio-couto-pereira.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Est%C3%A1dio_Major_Ant%C3%B4nio_Couto_Pereira.jpg",
+    "used": 1
+   }
+  ]
+ },
  "estadio-da-luz": {
   "name": "Estádio da Luz",
   "variants": [
@@ -1607,6 +1618,17 @@
     "file": "photos/frenkie-de-jong-3.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/everyone-knows-i-m-a-midfielder-de-jong-sends-a-decisive-message-to-flick/blt1184e180d184f136",
+    "used": 1
+   }
+  ]
+ },
+ "gabriel-barbosa": {
+  "name": "Gabriel Barbosa",
+  "variants": [
+   {
+    "credit": "Photo: Arthur Miranda, Wikimedia Commons, CC0",
+    "file": "photos/gabriel-barbosa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Gabriel_Barbosa_2022.jpg",
     "used": 1
    }
   ]
@@ -3712,6 +3734,57 @@
    }
   ]
  },
+ "neymar": {
+  "name": "Neymar",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/santos-want-reunite-real-madrid-204000286.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/neymar.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/santos-want-reunite-real-madrid-204000286.html",
+    "used": 1
+   }
+  ]
+ },
+ "neymar-da-silva-santos": {
+  "name": "Neymar da Silva Santos",
+  "variants": [
+   {
+    "credit": "Photo: Neymar da Silva Santos Júnior, Wikimedia Commons, Public domain",
+    "file": "photos/neymar-da-silva-santos-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Signature_of_Brazilian_footballer_Neymar_da_Silva_Santos_J%C3%BAnior.svg/1920px-Signature_of_Brazilian_footballer_Neymar_da_Silva_Santos_J%C3%BAnior.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "neymar-jr": {
+  "name": "Neymar Jr",
+  "variants": [
+   {
+    "credit": "Photo: Antoine Dellenbach, Wikimedia Commons, CC BY-SA 2.0",
+    "file": "photos/neymar-jr.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Neymar_Jr_Presentation.jpg/1920px-Neymar_Jr_Presentation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/neymar-jr-playing-tonight-santos-213000071.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/neymar-jr-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/neymar-jr-playing-tonight-santos-213000071.html",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/neymar-jr-playing-tonight-santos-213000071.html",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/neymar-jr-3.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/neymar-jr-playing-tonight-santos-213000071.html",
+    "used": 1
+   }
+  ]
+ },
  "nick-woltemade": {
   "name": "Nick Woltemade",
   "variants": [
@@ -4893,6 +4966,17 @@
     "file": "photos/viktor-gyokeres.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/1_Viktor_Gy%C3%B6keres_2026.jpg/1920px-1_Viktor_Gy%C3%B6keres_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 2
+   }
+  ]
+ },
+ "vila-belmiro": {
+  "name": "Vila Belmiro",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/vila-belmiro.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vila_Belmiro_pre-match_Santos_vs_Gr%C3%AAmio_2021.jpg",
+    "used": 1
    }
   ]
  },
