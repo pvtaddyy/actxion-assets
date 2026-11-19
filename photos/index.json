@@ -17,7 +17,7 @@
     "credit": "Photo: Charltonkyle, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/ademola-lookman.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Ademola_Lookman_against_Derby.jpg/1920px-Ademola_Lookman_against_Derby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    },
    {
     "credit": "Photo: Willibald11, Wikimedia Commons, CC BY-SA 4.0",
@@ -3316,6 +3316,14 @@
     "source": "article",
     "url": "https://www.skysports.com/football/video/13612902/mauricio-pochettino-confirms-coaching-team-has-already-arrived-in-manchester",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/want-prove-myself-again-why-193253193.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/mauricio-pochettino-23.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/want-prove-myself-again-why-193253193.html",
+    "used": 1
    }
   ]
  },
@@ -4200,6 +4208,19 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/rodri.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg",
+    "used": 1
+   }
+  ]
+ },
+ "ronald-araujo": {
+  "name": "Ronald Araújo",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/deco-araujo-s-departure-would-not-be-a-bad-thing-and-balde-has-not-told-us-he-is-unhappy/blt07e98eb8a580d5c9",
+    "credit": "Photo: goal.com",
+    "file": "photos/ronald-araujo.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/deco-araujo-s-departure-would-not-be-a-bad-thing-and-balde-has-not-told-us-he-is-unhappy/blt07e98eb8a580d5c9",
     "used": 1
    }
   ]
