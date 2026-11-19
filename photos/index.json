@@ -3974,6 +3974,19 @@
    }
   ]
  },
+ "omar-berrada": {
+  "name": "Omar Berrada",
+  "variants": [
+   {
+    "article": "https://www.mirror.co.uk/sport/football/news/man-utd-financial-results-pochettino-37894637?int_source=nba",
+    "credit": "Photo: Getty via Daily Mirror",
+    "file": "photos/omar-berrada-2.jpg",
+    "source": "article",
+    "url": "https://www.mirror.co.uk/sport/football/news/man-utd-financial-results-pochettino-37894637?int_source=nba",
+    "used": 1
+   }
+  ]
+ },
  "ousmane-dembele": {
   "name": "Ousmane Dembélé",
   "variants": [
@@ -4325,6 +4338,19 @@
     "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/riccardo-calafiori.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/1_Riccardo_Calafiori_2026.jpg/1920px-1_Riccardo_Calafiori_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "richard-masters": {
+  "name": "Richard Masters",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13614031/premier-league-clubs-vote-to-cover-legal-costs-if-man-city-sponsors-sue-competitions-board-members",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/richard-masters.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13614031/premier-league-clubs-vote-to-cover-legal-costs-if-man-city-sponsors-sue-competitions-board-members",
     "used": 1
    }
   ]
