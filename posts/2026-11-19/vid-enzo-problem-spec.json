@@ -1,0 +1,221 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "../../logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Fans say...",
+ "tail": 1.2,
+ "header": {
+  "text": "Is Enzo City's problem?",
+  "key": [
+   "problem?"
+  ]
+ },
+ "keywords": [
+  "!Four.",
+  "fourteen",
+  "!row.",
+  "problem.",
+  "seventeen,",
+  "!eight,",
+  "Chelsea.",
+  "box",
+  "pounds",
+  "Fulham",
+  "system?"
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13613559/man-city-vs-fulham-has-enzo-fernandez-given-enzo-maresca-a-problem-in-midfield-and-how-does-he-fix-the-imbalance"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "enzo-cut.png",
+   "bgPhoto": "enzo-crop.jpg",
+   "word": "4",
+   "label": "Enzo Fernández at Forest",
+   "wordY": -60,
+   "wordSize": 420,
+   "height": 520
+  },
+  {
+   "type": "list",
+   "at": "Add",
+   "title": "What counts",
+   "items": [
+    {
+     "at": "tackles,",
+     "text": "Tackles"
+    },
+    {
+     "at": "blocks,",
+     "text": "Blocks"
+    },
+    {
+     "at": "clearances",
+     "text": "Clearances"
+    },
+    {
+     "at": "interceptions",
+     "text": "Interceptions"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "at": "while",
+   "aName": "Enzo",
+   "bName": "Schlager",
+   "aPhoto": "enzo-cut.png",
+   "bPhoto": "schlager-cut.png",
+   "rows": [
+    {
+     "label": "Defensive actions v Forest",
+     "a": "4",
+     "b": "14",
+     "at": "fourteen"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "Three",
+   "value": 3,
+   "unit": "defeats",
+   "label": "in a row in the league",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "card",
+   "at": "Sky",
+   "colour": "yellow",
+   "text": "Biggest problem?"
+  },
+  {
+   "type": "list",
+   "at": "We",
+   "title": "The test",
+   "items": [
+    {
+     "at": "We",
+     "text": "Fast breaks"
+    },
+    {
+     "at": "Newcastle",
+     "text": "Shots faced from them"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "at": "season",
+   "aName": "Newcastle",
+   "bName": "Man City",
+   "rows": [
+    {
+     "label": "Fast-break shots faced",
+     "a": "20",
+     "b": "17",
+     "at": "twenty"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "Forest",
+   "value": 8,
+   "unit": "fast breaks",
+   "label": "conceded at Forest, most in a game",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "list",
+   "at": "Sky",
+   "title": "Sky's view",
+   "items": [
+    {
+     "at": "tackling",
+     "text": "Tackling less per 90"
+    },
+    {
+     "at": "Chelsea.",
+     "text": "than at Chelsea"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": "But",
+   "photo": "enzo-cut.png",
+   "word": "ON THE BALL",
+   "label": "Enzo Fernández",
+   "wordY": -20,
+   "wordSize": 220,
+   "height": 600
+  },
+  {
+   "type": "list",
+   "at": "holds",
+   "title": "On the ball",
+   "items": [
+    {
+     "at": "holds",
+     "text": "Holds it up"
+    },
+    {
+     "at": "wins",
+     "text": "Wins fouls"
+    },
+    {
+     "at": "gets",
+     "text": "Gets into the box"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "at": "spent",
+   "value": 320,
+   "unit": "£m+",
+   "label": "City's summer midfield rebuild",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "list",
+   "at": "Fulham",
+   "title": "Next up",
+   "items": [
+    {
+     "at": "Fulham",
+     "text": "Man City v Fulham"
+    },
+    {
+     "at": "next.",
+     "text": "This weekend"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "So",
+   "title": "Pick your side",
+   "items": [
+    {
+     "at": "Enzo,",
+     "text": "A: Enzo"
+    },
+    {
+     "at": "system",
+     "text": "B: The system"
+    }
+   ]
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Enzo or the <span class=\"k\">system?</span>",
+   "sub": "Send this to a City fan"
+  }
+ ]
+}
