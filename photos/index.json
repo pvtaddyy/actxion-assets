@@ -210,6 +210,19 @@
    }
   ]
  },
+ "alphonso-davies": {
+  "name": "Alphonso Davies",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/bayern-munich-set-timeframe-for-alphonso-davies-s-absence/blt7fa33113bf563069",
+    "credit": "Photo: goal.com",
+    "file": "photos/alphonso-davies-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/bayern-munich-set-timeframe-for-alphonso-davies-s-absence/blt7fa33113bf563069",
+    "used": 1
+   }
+  ]
+ },
  "andoni-iraola": {
   "name": "Andoni Iraola",
   "variants": [
@@ -1171,6 +1184,14 @@
     "file": "photos/eddie-howe.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "https://www.express.co.uk/sport/football/2264900/Eddie-Howe-Man-Utd-Newcastle",
+    "credit": "Photo: Express.co.uk",
+    "file": "photos/eddie-howe-4.jpg",
+    "source": "article",
+    "url": "https://www.express.co.uk/sport/football/2264900/Eddie-Howe-Man-Utd-Newcastle",
+    "used": 1
    }
   ]
  },
@@ -2862,6 +2883,17 @@
    }
   ]
  },
+ "lewis-hall": {
+  "name": "Lewis Hall",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/lewis-hall-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lewis_Hall_24052026_%283%29.jpg/1920px-Lewis_Hall_24052026_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "lewis-smith": {
   "name": "Lewis Smith",
   "variants": [
@@ -3337,6 +3369,14 @@
     "file": "photos/massimiliano-allegri-8.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Incontro_con_le_squadre_finaliste_della_Coppa_Italia_di_calcio_Frecciarossa_Atalanta_-_Juventus_01_-_Massimiliano_Allegri_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/ex-napoli-striker-takes-aim-112600393.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/massimiliano-allegri-10.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/ex-napoli-striker-takes-aim-112600393.html",
+    "used": 1
    }
   ]
  },
@@ -3726,6 +3766,14 @@
     "file": "photos/mikel-arteta-5.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/arsenal-star-close-bombshell-january-170141623.html",
+    "used": 1
+   },
+   {
+    "article": "https://www.thesun.ie/sport/17930969/david-raya-arsenal-mikel-arteta-transfer-declan-rice/",
+    "credit": "Photo: Afp via The Irish Sun",
+    "file": "photos/mikel-arteta-6.jpg",
+    "source": "article",
+    "url": "https://www.thesun.ie/sport/17930969/david-raya-arsenal-mikel-arteta-transfer-declan-rice/",
     "used": 1
    }
   ]
@@ -4701,6 +4749,17 @@
     "file": "photos/sebastien-pocognoli.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/sebastien-pocognoli-reacts-west-brom-183000770.html",
+    "used": 1
+   }
+  ]
+ },
+ "son-heung-min": {
+  "name": "Son Heung-min",
+  "variants": [
+   {
+    "credit": "Photo: Wikimedia Commons",
+    "file": "photos/son-heung-min.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/BFA_2023_-2_Heung-Min_Son_%28cropped%29.jpg",
     "used": 1
    }
   ]
