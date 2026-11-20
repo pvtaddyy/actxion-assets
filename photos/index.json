@@ -1019,11 +1019,9 @@
     "used": 2
    },
    {
-    "article": "https://www.skysports.com/football/news/13612986/declan-rice-contract-arsenal-midfielder-verbally-agrees-new-lb320-000-a-week-deal-with-the-premier-league-champions",
-    "credit": "Photo: Sky Sports",
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/declan-rice-7.jpg",
-    "source": "article",
-    "url": "https://www.skysports.com/football/news/13612986/declan-rice-contract-arsenal-midfielder-verbally-agrees-new-lb320-000-a-week-deal-with-the-premier-league-champions",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Declan_Rice_England_v_Ghana_23_June_2026-143.jpg/1920px-Declan_Rice_England_v_Ghana_23_June_2026-143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -1955,12 +1953,6 @@
     "used": 1
    },
    {
-    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
-    "file": "photos/harry-kane-10.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/1920px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 2
-   },
-   {
     "article": "https://www.goal.com/en/news/harry-kane-england-appearance-record-wembley-croatia/blta16aeb22e3b54169",
     "credit": "Photo: Imago via goal.com",
     "file": "photos/harry-kane-11.jpg",
@@ -2041,7 +2033,7 @@
     "file": "photos/harry-kane-32.jpg",
     "source": "article",
     "url": "https://www.espn.com/soccer/story/_/id/50479862/harry-kane-bobby-moore-england",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -3362,6 +3354,12 @@
     "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/martin-zubimendi-2.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/1_Mart%C3%ADn_Zubimendi_arsenal_2025_%28cropped%29.jpg/1920px-1_Mart%C3%ADn_Zubimendi_arsenal_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/martin-zubimendi-7.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/1_Mart%C3%ADn_Zubimendi_arsenal_2025.jpg/1920px-1_Mart%C3%ADn_Zubimendi_arsenal_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
