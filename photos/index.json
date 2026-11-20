@@ -1022,7 +1022,7 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/declan-rice-7.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Declan_Rice_England_v_Ghana_23_June_2026-143.jpg/1920px-Declan_Rice_England_v_Ghana_23_June_2026-143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -4581,6 +4581,14 @@
     "file": "photos/rodri.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/barcelona-explored-24-old-man-122800987.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/rodri-4.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/barcelona-explored-24-old-man-122800987.html",
+    "used": 1
    }
   ]
  },
@@ -5297,6 +5305,14 @@
     "file": "photos/vinicius-junior-11.jpg",
     "source": "article",
     "url": "https://okdiario.com/diariomadridista/real-madrid/mourinho-avisa-vinicius-aqui-no-hay-jugadores-privilegios-ni-que-jueguen-decreto-678312",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/jude-bellingham-lays-down-two-075311528.html?src_src=partner&src_cmp=whatfinger",
+    "credit": "Photo: Getty via Yahoo Sports",
+    "file": "photos/vinicius-junior-12.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/jude-bellingham-lays-down-two-075311528.html?src_src=partner&src_cmp=whatfinger",
     "used": 1
    }
   ]
