@@ -1,0 +1,191 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "../../logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Pick your side",
+ "tail": 1.2,
+ "header": {
+  "text": "Bruno: worth £75m yet?",
+  "key": [
+   "£75m"
+  ]
+ },
+ "keywords": [
+  "!pounds.",
+  "Newcastle,",
+  "first",
+  "edge",
+  "Lavia",
+  "Hull?",
+  "come.",
+  "thirty,",
+  "yet?"
+ ],
+ "sources": [
+  "https://www.skysports.com/football/news/13612946/bruno-guimaraes-arsenal-midfielder-is-growing-in-stature-but-mikel-arteta-still-wants-more-from-brazilian-ahead-of-newcastle-return"
+ ],
+ "scenes": [
+  {
+   "type": "player",
+   "at": 0,
+   "photo": "bruno-cut.png",
+   "word": "£75M",
+   "label": "Bruno Guimarães, Arsenal",
+   "wordY": -40,
+   "wordSize": 340,
+   "height": 560
+  },
+  {
+   "type": "card",
+   "at": "Arteta",
+   "colour": "yellow",
+   "text": "Arteta's verdict"
+  },
+  {
+   "type": "list",
+   "at": "Tomorrow,",
+   "title": "Tomorrow",
+   "items": [
+    {
+     "at": "Tomorrow,",
+     "text": "Newcastle v Arsenal"
+    },
+    {
+     "at": "Newcastle,",
+     "text": "Bruno's old club"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "captained",
+   "title": "At Newcastle",
+   "items": [
+    {
+     "at": "captained",
+     "text": "Captain"
+    },
+    {
+     "at": "cup,",
+     "text": "Cup winner"
+    },
+    {
+     "at": "other",
+     "text": "Now Arsenal"
+    }
+   ]
+  },
+  {
+   "type": "player",
+   "at": "first",
+   "photo": "bruno-cut.png",
+   "word": "FIRST CHOICE",
+   "label": "Arsenal midfield",
+   "wordY": -20,
+   "wordSize": 190,
+   "height": 600
+  },
+  {
+   "type": "stat",
+   "at": "Two",
+   "value": 2,
+   "unit": "goals",
+   "label": "from the edge of the box",
+   "source": "Sky Sports"
+  },
+  {
+   "type": "list",
+   "at": "Sunderland",
+   "title": "Edge of the box",
+   "items": [
+    {
+     "at": "Sunderland",
+     "text": "v Sunderland"
+    },
+    {
+     "at": "Leeds.",
+     "text": "v Leeds"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "Among",
+   "title": "Premier League midfielders",
+   "items": [
+    {
+     "at": "Among",
+     "text": "Ground duels won"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "only",
+   "title": "Ground-duel success",
+   "items": [
+    {
+     "at": "Lavia",
+     "text": "1. Romeo Lavia"
+    },
+    {
+     "at": "duels,",
+     "text": "2. Bruno Guimarães"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "at": "But",
+   "colour": "yellow",
+   "text": "Arteta, after Hull"
+  },
+  {
+   "type": "player",
+   "at": "He's",
+   "photo": "bruno-cut.png",
+   "word": "NOT THERE",
+   "label": "Mikel Arteta on Bruno",
+   "wordY": -20,
+   "wordSize": 220,
+   "height": 600
+  },
+  {
+   "type": "list",
+   "at": "Kick",
+   "title": "Newcastle v Arsenal",
+   "items": [
+    {
+     "at": "James'",
+     "text": "St James' Park"
+    },
+    {
+     "at": "thirty,",
+     "text": "Saturday, 5.30pm UK"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "So",
+   "title": "Worth £75m yet?",
+   "items": [
+    {
+     "at": "worth",
+     "text": "A: Yes"
+    },
+    {
+     "at": "yet?",
+     "text": "B: Not yet"
+    }
+   ]
+  },
+  {
+   "type": "ask",
+   "at": "Comment",
+   "html": "Worth <span class=\"k\">£75m</span> yet?",
+   "sub": "Send this to a Newcastle fan"
+  }
+ ]
+}
