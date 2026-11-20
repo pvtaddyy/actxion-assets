@@ -1236,6 +1236,19 @@
    }
   ]
  },
+ "england-fans": {
+  "name": "England fans",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/over-the-pope-uefa-punish-england-after-win-over-spain/bltbd561ce82dd4c22d",
+    "credit": "Photo: goal.com",
+    "file": "photos/england-fans.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/over-the-pope-uefa-punish-england-after-win-over-spain/bltbd561ce82dd4c22d",
+    "used": 1
+   }
+  ]
+ },
  "enzo-fernandez": {
   "name": "Enzo Fernández",
   "variants": [
@@ -1744,6 +1757,14 @@
     "file": "photos/gianni-infantino-2.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ambassador_Kagan_meets_FIFA_President_Gianni_Infantino_%2855143361570%29.jpg/1920px-Ambassador_Kagan_meets_FIFA_President_Gianni_Infantino_%2855143361570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/new-details-trump-s-son-in-law-hosted-world-cup-sale-talks/bltade47bcf24a278e2",
+    "credit": "Photo: goal.com",
+    "file": "photos/gianni-infantino-6.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/new-details-trump-s-son-in-law-hosted-world-cup-sale-talks/bltade47bcf24a278e2",
+    "used": 1
    }
   ]
  },
@@ -2018,6 +2039,19 @@
     "file": "photos/igor-thiago-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/brentford-learn-igor-thiago-red-192559346.html",
+    "used": 1
+   }
+  ]
+ },
+ "jamal-musiala": {
+  "name": "Jamal Musiala",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/we-are-not-ruling-anything-out-bayern-munich-bosses-send-warning-to-musiala/blt1f87cf6d1e16c69d",
+    "credit": "Photo: goal.com",
+    "file": "photos/jamal-musiala-3.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/we-are-not-ruling-anything-out-bayern-munich-bosses-send-warning-to-musiala/blt1f87cf6d1e16c69d",
     "used": 1
    }
   ]
@@ -2443,7 +2477,7 @@
     "file": "photos/julian-alvarez-2.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/laporta-talks-julian-alvarez-raphinha-143000325.html",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -3174,6 +3208,19 @@
     "file": "photos/marcus-thuram-3.jpg",
     "source": "article",
     "url": "https://www.goal.com/en-us/news/inter-player-ratings-vs-como-marcus-thuram-charge-commanding-san-siro-victory-/blta8c886365a34ca66",
+    "used": 1
+   }
+  ]
+ },
+ "mario-frick": {
+  "name": "Mario Frick",
+  "variants": [
+   {
+    "article": "https://www.skysports.com/football/news/13613844/mario-frick-aberdeens-new-head-coach-targets-scottish-premiership-top-six-with-heavy-metal-football",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/mario-frick.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13613844/mario-frick-aberdeens-new-head-coach-targets-scottish-premiership-top-six-with-heavy-metal-football",
     "used": 1
    }
   ]
@@ -4688,6 +4735,19 @@
    }
   ]
  },
+ "strahinja-pavlovic": {
+  "name": "Strahinja Pavlović",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/ac-milan-defender-strahinja-pavlovic-makes-bizarre-claim-hitler-like-methods/bltfbea17c292a40469",
+    "credit": "Photo: goal.com",
+    "file": "photos/strahinja-pavlovic.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/ac-milan-defender-strahinja-pavlovic-makes-bizarre-claim-hitler-like-methods/bltfbea17c292a40469",
+    "used": 1
+   }
+  ]
+ },
  "takefusa-kubo": {
   "name": "Takefusa Kubo",
   "variants": [
@@ -4847,6 +4907,14 @@
     "file": "photos/thomas-tuchel-11.jpg",
     "source": "article",
     "url": "https://www.skysports.com/football/news/13612301/thomas-tuchel-england-boss-unhappy-as-anti-racism-protocol-questions-overshadow-nations-league-test-in-spain",
+    "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13614117/england-handed-suspended-away-ticket-ban-and-fine-by-uefa-for-fans-racist-and-or-discriminatory-behaviour-in-spain",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/thomas-tuchel-16.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13614117/england-handed-suspended-away-ticket-ban-and-fine-by-uefa-for-fans-racist-and-or-discriminatory-behaviour-in-spain",
     "used": 1
    }
   ]
