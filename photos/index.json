@@ -199,6 +199,17 @@
    }
   ]
  },
+ "allianz-arena": {
+  "name": "Allianz Arena",
+  "variants": [
+   {
+    "credit": "Photo: Flocci Nivis, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/allianz-arena.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/20201229_Allianz_Arena_03.jpg/1920px-20201229_Allianz_Arena_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "andoni-iraola": {
   "name": "Andoni Iraola",
   "variants": [
@@ -1811,9 +1822,11 @@
   "name": "-h",
   "variants": [
    {
-    "credit": "Photo: Gordon Leggett, Wikimedia Commons, CC BY-SA 4.0",
+    "article": "https://jalopnik.com/1975592/h-pipe-vs-x-pipe-pros-cons/",
+    "credit": "Photo: Jalopnik",
     "file": "photos/h.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/2018-10-07_WILLIAM_H._LATHAM_-_MMSI_366844950_18-10-06.jpg/1920px-2018-10-07_WILLIAM_H._LATHAM_-_MMSI_366844950_18-10-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "article",
+    "url": "https://jalopnik.com/1975592/h-pipe-vs-x-pipe-pros-cons/",
     "used": 1
    }
   ]
@@ -2717,12 +2730,6 @@
   "name": "Lamine Yamal",
   "variants": [
    {
-    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
-    "file": "photos/lamine-yamal.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Lamine_Yamal_Argentina_v_Spain_19_July_2026-214_%28cropped_2%29.jpg/1920px-Lamine_Yamal_Argentina_v_Spain_19_July_2026-214_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 2
-   },
-   {
     "credit": "Photo: Biso, Wikimedia Commons, CC BY 4.0",
     "file": "photos/lamine-yamal-4.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Lamine_Yamal_in_2025_%28cropped2%29.jpg/1920px-Lamine_Yamal_in_2025_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2810,6 +2817,12 @@
     "file": "photos/lamine-yamal-21.jpg",
     "source": "article",
     "url": "https://www.yardbarker.com/soccer/articles/spain_2_3_england_lamine_yamals_comment_about_harry_kane_resurfaces/s1_17898_44566727",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/lamine-yamal-22.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Lamine_Yamal_Argentina_v_Spain_19_July_2026-144_%28cropped%29.jpg/1920px-Lamine_Yamal_Argentina_v_Spain_19_July_2026-144_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
