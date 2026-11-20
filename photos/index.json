@@ -2034,6 +2034,14 @@
     "source": "article",
     "url": "https://www.espn.com/soccer/story/_/id/50479862/harry-kane-bobby-moore-england",
     "used": 2
+   },
+   {
+    "article": "https://www.espn.com/soccer/story/_/id/50540283/harry-kane-champions-league-bayern-munich-england",
+    "credit": "Photo: Getty via ESPN.com",
+    "file": "photos/harry-kane-35.jpg",
+    "source": "article",
+    "url": "https://www.espn.com/soccer/story/_/id/50540283/harry-kane-champions-league-bayern-munich-england",
+    "used": 1
    }
   ]
  },
@@ -2460,6 +2468,12 @@
     "file": "photos/jose-mourinho-6.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/no-one-plays-divine-mou-091200395.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Zafer, Wikimedia Commons, CC BY 4.0",
+    "file": "photos/jose-mourinho-7.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jos%C3%A9_Mourinho_20250206_%281%29.jpg/1920px-Jos%C3%A9_Mourinho_20250206_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
