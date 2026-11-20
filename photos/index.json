@@ -4158,6 +4158,14 @@
     "source": "article",
     "url": "https://www.mirror.co.uk/sport/football/news/man-utd-financial-results-pochettino-37894637?int_source=nba",
     "used": 1
+   },
+   {
+    "article": "https://www.skysports.com/football/news/13614312/omar-berrada-interview-manchester-united-chief-executive-on-michael-carrick-mauricio-pochettino-recent-transfer-activity-and-the-club-hierarchy",
+    "credit": "Photo: Sky Sports",
+    "file": "photos/omar-berrada-3.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13614312/omar-berrada-interview-manchester-united-chief-executive-on-michael-carrick-mauricio-pochettino-recent-transfer-activity-and-the-club-hierarchy",
+    "used": 1
    }
   ]
  },
@@ -4248,6 +4256,19 @@
     "file": "photos/pedri.jpg",
     "source": "article",
     "url": "https://www.yardbarker.com/soccer/articles/raphinha_answers_barcelona_fans_call_special_motivation_for_yamal_and_pedri/s1_17790_44532871",
+    "used": 1
+   }
+  ]
+ },
+ "pedro-neto": {
+  "name": "Pedro Neto",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/xabi-alonso-warns-chelsea-squad-as-joao-pedro-remains-injured/blte47e95d7f40804c1",
+    "credit": "Photo: goal.com",
+    "file": "photos/xabi-alonso-goal-pedro.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/xabi-alonso-warns-chelsea-squad-as-joao-pedro-remains-injured/blte47e95d7f40804c1",
     "used": 1
    }
   ]
