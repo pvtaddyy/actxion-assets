@@ -1022,6 +1022,19 @@
    }
   ]
  },
+ "dayot-upamecano": {
+  "name": "Dayot Upamecano",
+  "variants": [
+   {
+    "article": "https://www.goal.com/en/news/threw-his-jacket-and-kicked-a-bottle-upamecano-erupts-in-anger-on-the-bayern-bench/blt6583a77934b78636",
+    "credit": "Photo: goal.com",
+    "file": "photos/dayot-upamecano-2.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/threw-his-jacket-and-kicked-a-bottle-upamecano-erupts-in-anger-on-the-bayern-bench/blt6583a77934b78636",
+    "used": 1
+   }
+  ]
+ },
  "declan-rice": {
   "name": "Declan Rice",
   "variants": [
@@ -2648,6 +2661,19 @@
     "credit": "Photo: Chensiyuan, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/kai-havertz.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/1_kai_havertz_2026.jpg/1920px-1_kai_havertz_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
+ "karl-heinz-rummenigge": {
+  "name": "Karl-Heinz Rummenigge",
+  "variants": [
+   {
+    "article": "https://www.bundesliga.com/en/bundesliga/news/rummenigge-bayern-munich-harry-kane-guardiola-neuer-interview-39998",
+    "credit": "Photo: bundesliga.com - the official Bundesliga website",
+    "file": "photos/karl-heinz-rummenigge.jpg",
+    "source": "article",
+    "url": "https://www.bundesliga.com/en/bundesliga/news/rummenigge-bayern-munich-harry-kane-guardiola-neuer-interview-39998",
     "used": 1
    }
   ]
@@ -5275,6 +5301,14 @@
     "file": "photos/victor-osimhen.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Victor-osimhen-nigeria-2024-3-4.jpg",
     "used": 2
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/victor-osimhen-ready-listen-man-230000703.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/victor-osimhen-2.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/victor-osimhen-ready-listen-man-230000703.html",
+    "used": 1
    }
   ]
  },
@@ -5432,6 +5466,19 @@
     "source": "article",
     "url": "https://footballgroundguide.com/news/biggest-football-attendances-in-europe-this-week-78864-at-wembley-for-england-win-over-czechia.html",
     "used": 2
+   }
+  ]
+ },
+ "wenderson-galeno": {
+  "name": "Wenderson Galeno",
+  "variants": [
+   {
+    "article": "https://worldsoccertalk.com/news/al-ahli-star-galeno-hits-out-at-cristiano-ronaldo-claiming-the-spl-wants-to-give-the-trophy-to-al-nassr/",
+    "credit": "Photo: Getty via World Soccer Talk",
+    "file": "photos/wenderson-galeno.jpg",
+    "source": "article",
+    "url": "https://worldsoccertalk.com/news/al-ahli-star-galeno-hits-out-at-cristiano-ronaldo-claiming-the-spl-wants-to-give-the-trophy-to-al-nassr/",
+    "used": 1
    }
   ]
  },
