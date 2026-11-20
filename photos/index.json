@@ -2448,6 +2448,14 @@
     "file": "photos/jose-mourinho.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/no-one-plays-divine-mou-091200395.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/jose-mourinho-6.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/no-one-plays-divine-mou-091200395.html",
+    "used": 1
    }
   ]
  },
@@ -5271,6 +5279,22 @@
     "source": "article",
     "url": "https://www.goal.com/en-gb/lists/brazil-player-ratings-vs-singapore-vinicius-junior-first-half-hat-trick-seven-goal-rout/blt31eae8bd371fb153",
     "used": 1
+   },
+   {
+    "article": "https://www.goal.com/en/news/mourinho-warns-vinicius-i-do-not-grant-privileges-and-no-one-will-play-by-prior-decision/blt2c8976224ef17363",
+    "credit": "Photo: goal.com",
+    "file": "photos/vinicius-junior-10.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/mourinho-warns-vinicius-i-do-not-grant-privileges-and-no-one-will-play-by-prior-decision/blt2c8976224ef17363",
+    "used": 1
+   },
+   {
+    "article": "https://okdiario.com/diariomadridista/real-madrid/mourinho-avisa-vinicius-aqui-no-hay-jugadores-privilegios-ni-que-jueguen-decreto-678312",
+    "credit": "Photo: DiarioMadridista.com",
+    "file": "photos/vinicius-junior-11.jpg",
+    "source": "article",
+    "url": "https://okdiario.com/diariomadridista/real-madrid/mourinho-avisa-vinicius-aqui-no-hay-jugadores-privilegios-ni-que-jueguen-decreto-678312",
+    "used": 1
    }
   ]
  },
@@ -5437,6 +5461,22 @@
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/yan-diomande-3.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/real-madrid-star-yan-diomande-072000706.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/yan-diomande-4.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/real-madrid-star-yan-diomande-072000706.html",
+    "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/real-madrid-star-yan-diomande-072000706.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/yan-diomande-5.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/real-madrid-star-yan-diomande-072000706.html",
     "used": 1
    }
   ]
