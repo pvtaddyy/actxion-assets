@@ -77,7 +77,7 @@ def finish(img):
 def t_verdict(spec):
     img, d, acc, shade = E.base(spec, W, H, focus=0.16)
     CW, CH = img.size
-    E.scrim(img, (0, int(CH * 0.36), CW, CH), shade, 250, 0.6)
+    E.scrim(img, (0, int(CH * 0.36), CW, CH), shade, 250, 1.15)
     header(img, d, spec, acc, shade, "Fan verdict")
     yb = s(BOTTOM)
     yb = ask_pill(d, yb, spec.get("ask") or "Reply A or B", acc) - s(44)
@@ -100,7 +100,6 @@ def t_thisorthat(spec):
     CW, CH = s(W), s(H)
     pa, pb = R.load_photo(spec.get("photo_a")), R.load_photo(spec.get("photo_b"))
     acc, shade = E.palette(pa or pb)
-    acc = E.spec_accent(spec, acc)
     img = Image.new("RGB", (CW, CH), shade)
     half = CH // 2
     for raw, y in ((pa, 0), (pb, half)):
@@ -115,9 +114,7 @@ def t_thisorthat(spec):
     qf, ql = E.fit_rich(d, R.clean(spec.get("question", ""), headline=True), "sans-bold", CW - s(2 * M), 2, 76, 40)
     qh = E.rich_h(ql, qf)
     qy = half - qh // 2
-    mid = qy + qh // 2  # fade in towards the question and out again, no hard edge across a face
-    E.scrim(img, (0, qy - s(260), CW, mid), shade, 210, 1.0)
-    E.scrim(img, (0, mid, CW, qy + qh + s(260)), shade, 210, 1.0, up=True)
+    E.scrim(img, (0, qy - s(260), CW, qy + qh + s(260)), shade, 210, 1.0)
     E.draw_rich(d, (s(M), qy), ql, qf, E.WHITE, acc)
     lf = E.f("mono", 22)
     for letter, text, y in (("A", spec.get("option_a", ""), qy - s(120)), ("B", spec.get("option_b", ""), qy + qh + s(70))):
@@ -126,7 +123,7 @@ def t_thisorthat(spec):
         d.text((s(M + 48), y), E.line_text(fl[0]), font=ff, fill=E.WHITE)
     ask_pill(d, s(BOTTOM), spec.get("ask") or "Reply A or B", acc)
     if spec.get("credit_a"):
-        E.credit(d, CW - s(M), qy - s(170), spec.get("credit_a"))
+        E.credit(d, CW - s(M), half - s(40), spec.get("credit_a"))
     if spec.get("credit_b"):
         E.credit(d, CW - s(M), s(BOTTOM) + s(30), spec.get("credit_b"))
     return finish(img)

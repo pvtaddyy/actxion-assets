@@ -2055,6 +2055,14 @@
     "source": "article",
     "url": "https://www.espn.com/soccer/story/_/id/50540283/harry-kane-champions-league-bayern-munich-england",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/harry-kane-forced-off-ankle-195800066.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/harry-kane-36.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/harry-kane-forced-off-ankle-195800066.html",
+    "used": 1
    }
   ]
  },
@@ -3810,6 +3818,19 @@
     "file": "photos/mikel-arteta-5.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/arsenal-star-close-bombshell-january-170141623.html",
+    "used": 1
+   }
+  ]
+ },
+ "mikey-moore": {
+  "name": "Mikey Moore",
+  "variants": [
+   {
+    "article": "https://www.beinsports.com/en-us/soccer/bundesliga/articles/all-goals-bayern-munich-vs-k-ln-bundesliga-2026-11-20",
+    "credit": "Photo: beIN SPORTS",
+    "file": "photos/mikey-moore.jpg",
+    "source": "article",
+    "url": "https://www.beinsports.com/en-us/soccer/bundesliga/articles/all-goals-bayern-munich-vs-k-ln-bundesliga-2026-11-20",
     "used": 1
    }
   ]
