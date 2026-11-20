@@ -237,6 +237,14 @@
     "file": "photos/andoni-iraola-6.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Andoni_Iraola_Liverpool_FC_20261103_%281%29.JPG/1920px-Andoni_Iraola_Liverpool_FC_20261103_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/andoni-iraola-no-bigger-games-140100510.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/andoni-iraola-7.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/andoni-iraola-no-bigger-games-140100510.html",
+    "used": 1
    }
   ]
  },
@@ -554,14 +562,6 @@
     "file": "photos/bruno-fernandes-10.jpg",
     "source": "article",
     "url": "https://www.soccernews.com/prediction-portugal-vs-denmark/408002/",
-    "used": 1
-   },
-   {
-    "article": "https://www.skysports.com/football/video/13613691/should-man-utd-sell-bruno-fernandes-jimmy-floyd-hasselbaink-thinks-it-might-be-tim",
-    "credit": "Photo: Sky Sports",
-    "file": "photos/bruno-fernandes-13.jpg",
-    "source": "article",
-    "url": "https://www.skysports.com/football/video/13613691/should-man-utd-sell-bruno-fernandes-jimmy-floyd-hasselbaink-thinks-it-might-be-tim",
     "used": 1
    }
   ]
@@ -3509,14 +3509,6 @@
     "used": 1
    },
    {
-    "article": "https://www.foxsports.com/stories/soccer/manchester-united-reportedly-nearing-deal-hire-usa-coach-mauricio-pochettino",
-    "credit": "Photo: FOX Sports",
-    "file": "photos/mauricio-pochettino-7.jpg",
-    "source": "article",
-    "url": "https://www.foxsports.com/stories/soccer/manchester-united-reportedly-nearing-deal-hire-usa-coach-mauricio-pochettino",
-    "used": 2
-   },
-   {
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/mauricio-pochettino-9.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg/1920px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3574,6 +3566,12 @@
     "file": "photos/mauricio-pochettino-23.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/want-prove-myself-again-why-193253193.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/mauricio-pochettino-28.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-55.jpg/1920px-Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-55.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
