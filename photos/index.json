@@ -553,6 +553,17 @@
    }
   ]
  },
+ "bruno-guimaraes": {
+  "name": "Bruno Guimarães",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/bruno-guimaraes-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bruno_Guimar%C3%A3es_24052026_%282%29.jpg/1920px-Bruno_Guimar%C3%A3es_24052026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "bryan-cristante": {
   "name": "Bryan Cristante",
   "variants": [
@@ -2881,14 +2892,6 @@
   "name": "Lionel Messi",
   "variants": [
    {
-    "article": "https://worldsoccertalk.com/news/cristiano-ronaldo-with-portugal-or-lionel-messi-with-argentina-who-had-the-better-international-career-the-numbers-tell-the-story/",
-    "credit": "Photo: Getty via World Soccer Talk",
-    "file": "photos/lionel-messi-6.jpg",
-    "source": "article",
-    "url": "https://worldsoccertalk.com/news/cristiano-ronaldo-with-portugal-or-lionel-messi-with-argentina-who-had-the-better-international-career-the-numbers-tell-the-story/",
-    "used": 1
-   },
-   {
     "credit": "Photo: Bryan Berlin, Wikimedia Commons, CC BY-SA 4.0",
     "file": "photos/lionel-messi-7.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Lionel_Messi_Argentina_v_Egypt_7_July_2026-112%28cropped%29.jpg/1920px-Lionel_Messi_Argentina_v_Egypt_7_July_2026-112%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3004,7 +3007,7 @@
     "file": "photos/lionel-messi-29.jpg",
     "source": "article",
     "url": "https://www.cbssports.com/soccer/news/mls-cup-bracket-predictions-lionel-messi-inter-miami/",
-    "used": 1
+    "used": 2
    }
   ]
  },
