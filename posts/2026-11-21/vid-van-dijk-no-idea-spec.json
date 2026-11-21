@@ -1,0 +1,26 @@
+{
+ "voice": "voice-tight.wav",
+ "words": "words-tight.json",
+ "mark": "../../logo/mark-white.png",
+ "accent": "#E61E28",
+ "series": "Pick your side",
+ "tail": 1.4,
+ "header": {"text": "Van Dijk: stay or go?", "key": ["stay or go?"]},
+ "keywords": ["contract", "!idea", "captain", "either", "!goodbyes", "ten", "titles", "him", "Sunday", "goodbye"],
+ "sources": ["https://www.skysports.com/football/news/13614508/liverpool-virgil-van-dijk-uncertain-on-anfield-future-beyond-the-summer-but-believes-he-can-play-for-many-more-years"],
+ "scenes": [
+  {"type": "player", "at": 0, "photo": "vvd1-cut.png", "bgPhoto": "vvd1.jpg", "word": "35", "label": "Out of contract in the summer", "wordY": -40, "wordSize": 420, "height": 600},
+  {"type": "list", "at": "says", "title": "Van Dijk on his future", "items": [{"at": "says", "text": "Stay or go?"}, {"at": "idea", "text": "No idea"}]},
+  {"type": "list", "at": "That's", "title": "Talking to Sky Sports", "items": [{"at": "captain", "text": "Liverpool captain"}, {"at": "Sky", "text": "Asked about next season"}]},
+  {"type": "player", "at": "whether", "photo": "vvd1-cut.png", "word": "NEXT SEASON?", "label": "Virgil van Dijk, Liverpool", "wordY": -20, "wordSize": 200, "height": 600},
+  {"type": "player", "at": 8.0, "photo": "vvd1-cut.png", "word": "NO IDEA", "label": "Van Dijk to Sky Sports", "wordY": -20, "wordSize": 250, "height": 600},
+  {"type": "list", "at": "And", "title": "And if not?", "items": [{"at": "And", "text": "No new deal"}]},
+  {"type": "player", "at": 10.9, "photo": "vvd1-cut.png", "word": "GOODBYES", "label": "Van Dijk to Sky Sports", "wordY": -20, "wordSize": 240, "height": 600},
+  {"type": "stat", "at": "Almost", "value": 10, "unit": "years", "label": "at Liverpool by the summer (almost)", "source": "Sky Sports"},
+  {"type": "list", "at": "two", "title": "Won at Liverpool", "items": [{"at": "titles", "text": "2 Premier League titles"}, {"at": "Champions", "text": "Champions League"}]},
+  {"type": "player", "at": "reckons", "photo": "vvd1-cut.png", "word": "MANY MORE YEARS", "label": "Van Dijk, 35", "wordY": -20, "wordSize": 170, "height": 600},
+  {"type": "list", "at": "United", "title": "Sunday, 4.30pm UK", "items": [{"at": "United", "text": "Liverpool v Man United"}, {"at": "Anfield", "text": "At Anfield"}]},
+  {"type": "versus", "at": "So", "a": {"photo": "vvd1-cut.png", "label": "New deal"}, "b": {"photo": "vvd1-cut.png", "label": "Goodbye"}},
+  {"type": "ask", "at": "Comment", "html": "New deal or <span class=\"k\">goodbye?</span>", "sub": "Send this to a Liverpool fan"}
+ ]
+}
