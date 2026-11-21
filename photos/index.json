@@ -495,6 +495,17 @@
    }
   ]
  },
+ "bernd-leno": {
+  "name": "Bernd Leno",
+  "variants": [
+   {
+    "credit": "Photo: Timmy96, Wikimedia Commons, CC0",
+    "file": "photos/bernd-leno-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Bernd_Leno_21032026_%281%29.jpg/1920px-Bernd_Leno_21032026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   }
+  ]
+ },
  "bradley-barcola": {
   "name": "Bradley Barcola",
   "variants": [
@@ -799,6 +810,12 @@
     "credit": "Photo: Arne Müseler, cropped by Blackcat, Wikimedia Commons, CC BY-SA 3.0 de",
     "file": "photos/city-of-manchester-stadium-3.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1920px-City_of_Manchester_Stadium_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Coradia1000 profile at Flickr website, Wikimedia Commons, CC BY-SA 2.0",
+    "file": "photos/city-of-manchester-stadium-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/The_City_of_Manchester_Stadium.jpg/1920px-The_City_of_Manchester_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -1289,6 +1306,14 @@
     "file": "photos/elliot-anderson-2.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Elliot_Anderson_England_v_Ghana_23_June_2026-059_%28cropped%29.jpg",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/elliot-anderson-scores-man-city-144830168.html",
+    "credit": "Photo: Pa via Yahoo Sports",
+    "file": "photos/elliot-anderson-6.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/elliot-anderson-scores-man-city-144830168.html",
+    "used": 1
    }
   ]
  },
@@ -1565,6 +1590,17 @@
     "file": "photos/estevao-willian.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/chelsea-confirm-signing-est-v-151000582.html",
+    "used": 1
+   }
+  ]
+ },
+ "etihad-stadium": {
+  "name": "Etihad Stadium",
+  "variants": [
+   {
+    "credit": "Photo: Invincible, Wikimedia Commons, CC BY-SA 3.0",
+    "file": "photos/etihad-stadium.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Etihad_Stadium_crop.jpg/1920px-Etihad_Stadium_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
