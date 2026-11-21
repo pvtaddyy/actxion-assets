@@ -3577,6 +3577,27 @@
    }
   ]
  },
+ "matthias-jaissle": {
+  "name": "Matthias Jaissle",
+  "variants": [
+   {
+    "article": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-faces-premier-league-34940357",
+    "credit": "Photo: Getty via Chronicle Live",
+    "file": "photos/matthias-jaissle-2.jpg",
+    "source": "article",
+    "url": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-faces-premier-league-34940357",
+    "used": 1
+   },
+   {
+    "article": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-faces-premier-league-34940357",
+    "credit": "Photo: Getty via Chronicle Live",
+    "file": "photos/matthias-jaissle-3.jpg",
+    "source": "article",
+    "url": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-faces-premier-league-34940357",
+    "used": 1
+   }
+  ]
+ },
  "mauricio-pochettino": {
   "name": "Mauricio Pochettino",
   "variants": [
@@ -4021,6 +4042,17 @@
     "file": "photos/nahuel-molina.jpg",
     "source": "article",
     "url": "https://www.ilmessaggero.it/en/nahuel_molina_joins_roma_four_year_deal_sealed-9702498.html",
+    "used": 1
+   }
+  ]
+ },
+ "newcastle-united-fans": {
+  "name": "Newcastle United fans",
+  "variants": [
+   {
+    "credit": "Photo: Newcastle Fans TV, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/newcastle-united-fans.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Newcastle_United_fans_gather_celebrating_new_ownership.jpg/1920px-Newcastle_United_fans_gather_celebrating_new_ownership.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
@@ -4936,6 +4968,17 @@
     "file": "photos/sonia-bompastor.jpg",
     "source": "article",
     "url": "https://www.skysports.com/football/news/13610414/hacken-0-0-chelsea-blues-frustrated-but-stay-unbeaten-in-wcl",
+    "used": 1
+   }
+  ]
+ },
+ "st-james-park": {
+  "name": "St James' Park",
+  "variants": [
+   {
+    "credit": "Photo: Steven Lek, Wikimedia Commons, CC BY-SA 4.0",
+    "file": "photos/st-james-park.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/St_James%27_Park_Newcastle_United.jpg/1920px-St_James%27_Park_Newcastle_United.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "used": 1
    }
   ]
