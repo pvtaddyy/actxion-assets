@@ -1244,6 +1244,19 @@
    }
   ]
  },
+ "dominic-calvert-lewin": {
+  "name": "Dominic Calvert-Lewin",
+  "variants": [
+   {
+    "article": "https://sports.yahoo.com/articles/steve-sidwell-reacts-dominic-calvert-155253508.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/dominic-calvert-lewin.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/steve-sidwell-reacts-dominic-calvert-155253508.html",
+    "used": 1
+   }
+  ]
+ },
  "eddie-howe": {
   "name": "Eddie Howe",
   "variants": [
@@ -5061,6 +5074,19 @@
     "file": "photos/strahinja-pavlovic.jpg",
     "source": "article",
     "url": "https://www.goal.com/en/news/ac-milan-defender-strahinja-pavlovic-makes-bizarre-claim-hitler-like-methods/bltfbea17c292a40469",
+    "used": 1
+   }
+  ]
+ },
+ "taiwo-awoniyi": {
+  "name": "Taiwo Awoniyi",
+  "variants": [
+   {
+    "article": "https://soccernet.ng/2026/11/coventry-vs-crystal-palace-preview-team-news-h2h.html",
+    "credit": "Photo: Soccernet.ng",
+    "file": "photos/taiwo-awoniyi.jpg",
+    "source": "article",
+    "url": "https://soccernet.ng/2026/11/coventry-vs-crystal-palace-preview-team-news-h2h.html",
     "used": 1
    }
   ]
