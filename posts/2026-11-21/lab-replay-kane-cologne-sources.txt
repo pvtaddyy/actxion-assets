@@ -1,0 +1,13 @@
+ACTXION LAB Replay: Kane v Cologne (read 21 Nov 2026, 05:45 UK)
+1. Sky Sports, "Harry Kane set to miss three months with ankle injury" (Fri 20 Nov 2026, 22:32 UK)
+   https://www.skysports.com/football/news/13614559/harry-kane-england-and-bayern-munich-striker-set-to-miss-three-months-with-ankle-injury
+   Kane off after 20 minutes of Bayern's 1-1 Bundesliga draw with Cologne, replaced by Tom Bischof; Cologne full-back Joel Schmied
+   reached the ball first and collided with Kane's left leg as he followed through; Max Eberl: syndesmosis ligament tear (high ankle
+   sprain); out about three months = 11 Bundesliga games, DFB-Pokal last-16 tie v Hertha Berlin, Bayern's remaining four Champions
+   League league-phase games; England v Norway in Oslo 27 March 2027, Wembley 30 March 2027 (Nations League quarter-final); Henry Winter:
+   "hugely alarming"; Ballon d'Or 26 October, first English winner in 25 years; 126th cap v Spain on 15 November (most-capped);
+   Bayern lead the Bundesliga.
+2. Sky Sports football news index (headline "Kane injured as Bayern held by Koln", 1-1): https://www.skysports.com/football/news
+Computed (kane_games.tsv): 11 + 1 + 4 = 16 games; 20 Nov + 3 months = ~20 Feb; 20 Feb to 27 Mar = 35 days = ~5 weeks;
+15 Nov to 20 Nov = 5 days; 27 Mar + 3 days = 30 Mar.
+Replay board is a stylised re-drawing from the written report (no footage).
