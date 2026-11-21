@@ -1,0 +1,9 @@
+Twenty minutes. That's all Harry Kane lasted. And England should be worried.
+Sixteen games. That's what one tackle just cost Harry Kane.
+Everyone says Kane will be back for March. I replayed the tackle and counted the games.
+
+Hook scores (hand-scored against hookscore.py rubric: length, concrete marker, stakes, payload first, viewer; the script itself was blocked in this run):
+1. curiosity, 76, KEPT: Twenty minutes. That's all Harry Kane lasted. And England should be worried.
+2. number-first, 80: Sixteen games. That's what one tackle just cost Harry Kane.
+3. everyone-says, 62: Everyone says Kane will be back for March. I replayed the tackle and counted the games.
+Kept 1 over 2 per learnings (curiosity beats number-first on FB 4.6x).
