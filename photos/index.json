@@ -206,7 +206,7 @@
     "credit": "Photo: Flocci Nivis, Wikimedia Commons, CC BY 4.0",
     "file": "photos/allianz-arena.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/20201229_Allianz_Arena_03.jpg/1920px-20201229_Allianz_Arena_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "used": 1
+    "used": 2
    }
   ]
  },
@@ -2075,7 +2075,7 @@
     "file": "photos/harry-kane-35.jpg",
     "source": "article",
     "url": "https://www.espn.com/soccer/story/_/id/50540283/harry-kane-champions-league-bayern-munich-england",
-    "used": 1
+    "used": 2
    },
    {
     "article": "https://sports.yahoo.com/articles/harry-kane-forced-off-ankle-195800066.html",
@@ -2083,6 +2083,27 @@
     "file": "photos/harry-kane-36.jpg",
     "source": "article",
     "url": "https://sports.yahoo.com/articles/harry-kane-forced-off-ankle-195800066.html",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Getty via goal.com",
+    "file": "photos/harry-kane-sitting-goal-2611.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/huge-shock-bayern-munich-announce-harry-kane-will-be-out-for-three-months/blt009472878c34e418",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Getty via goal.com",
+    "file": "photos/harry-kane-medics-goal-2611.jpg",
+    "source": "article",
+    "url": "https://www.goal.com/en/news/concern-at-bayern-munich-injuries-to-kane-and-olise-raise-kompany-s-fears/blt49a27e286e7a30bd",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Sky Sports",
+    "file": "photos/harry-kane-38.jpg",
+    "source": "article",
+    "url": "https://www.skysports.com/football/news/13614559/harry-kane-england-and-bayern-munich-striker-set-to-miss-three-months-with-ankle-injury",
     "used": 1
    }
   ]
@@ -3815,6 +3836,14 @@
     "source": "article",
     "url": "https://www.goal.com/en/news/is-kylian-mbappe-angering-bayern-munich-again-michael-olise-is-apparently-being-worked-on-intensively/bltce7d24dc492901d3",
     "used": 1
+   },
+   {
+    "article": "https://sports.yahoo.com/articles/olise-reportedly-left-allianz-arena-211200060.html",
+    "credit": "Photo: Yahoo Sports",
+    "file": "photos/michael-olise-5.jpg",
+    "source": "article",
+    "url": "https://sports.yahoo.com/articles/olise-reportedly-left-allianz-arena-211200060.html",
+    "used": 1
    }
   ]
  },
@@ -5358,6 +5387,20 @@
     "file": "photos/vincent-kompany.jpg",
     "url": "",
     "used": 0
+   },
+   {
+    "article": "",
+    "credit": "Photo: AFP via Yahoo Sports",
+    "file": "photos/vincent-kompany-4.jpg",
+    "source": "article",
+    "url": "",
+    "used": 1
+   },
+   {
+    "credit": "Photo: Erik Drost, Wikimedia Commons, CC BY 2.0",
+    "file": "photos/vincent-kompany-5.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Vincent_Kompany_vs_USA.jpg/1920px-Vincent_Kompany_vs_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "used": 1
    }
   ]
  },
